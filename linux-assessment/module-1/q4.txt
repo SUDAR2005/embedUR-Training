@@ -1,0 +1,20 @@
+Name: Sudar Manikandan 
+College: Thiagarajar College of Engineering
+
+
+4.	Use ps command with options to display all active process running on the system
+
+cmd: ps -ef
+
+Output: 
+mysterychap@MysteryChap:~/embedUR-linux-practical/practise$ ps -ef | head -10
+UID          PID    PPID  C STIME TTY          TIME CMD
+root           1       0  0 04:07 ?        00:00:09 /sbin/init
+root           2       1  0 04:07 ?        00:00:00 /init
+root           8       2  0 04:07 ?        00:00:00 plan9 --control-socket 7 --log-level 4 --server-fd 8 --pipe-fd 10 --log-truncate
+root          63       1  0 04:07 ?        00:00:03 /usr/lib/systemd/systemd-journald
+root         113       1  0 04:07 ?        00:00:04 /usr/lib/systemd/systemd-udevd
+root         125       1  0 04:07 ?        00:00:00 snapfuse /var/lib/snapd/snaps/core18_2976.snap /snap/core18/2976 -o ro,nodev,allow_other,suid
+root         128       1  0 04:07 ?        00:00:00 snapfuse /var/lib/snapd/snaps/core18_2979.snap /snap/core18/2979 -o ro,nodev,allow_other,suid
+root         131       1  0 04:07 ?        00:00:00 snapfuse /var/lib/snapd/snaps/lolcat_1.snap /snap/lolcat/1 -o ro,nodev,allow_other,suid
+root         140       1  0 04:07 ?        00:00:00 snapfuse /var/lib/snapd/snaps/snapd_25577.snap /snap/snapd/25577 -o ro,nodev,allow_other,suid

@@ -1,0 +1,15 @@
+Name: Sudar Manikandan S
+College: Thiagarajar College of Engineering
+
+Q1. Create a file and add executable permission to all users (user, group and others)
+
+cmd: touch dir1/file5.txt && chmod a+x dir1/file5.txt
+
+Output: 
+mysterychap@MysteryChap:~/embedUR-linux-practical/practise$ touch dir1/file5.txt && chmod a+x dir1/file5.txt
+mysterychap@MysteryChap:~/embedUR-linux-practical/practise$ ls -la
+total 16
+drwxr-xr-x 4 mysterychap mysterychap 4096 Jan 29 04:27 .
+drwxr-xr-x 6 mysterychap mysterychap 4096 Jan 29 04:16 ..
+drwxr-xr-x 3 mysterychap mysterychap 4096 Jan 29 04:42 dir1
+drwxr-xr-x 2 mysterychap mysterychap 4096 Jan 29 03:52 textfile

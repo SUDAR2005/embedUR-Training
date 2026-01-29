@@ -1,0 +1,30 @@
+Name: Sudar Manikandan S
+College: Thiagarajar College of Engineering
+
+3. Create a file and add a softlink to the file in different directory (Eg: Create a file in dir1/dir2/file and create a softlink for file inside dir1)
+
+cmd: ln -s $PWD/dir1/dir2/file1.txt ./dir1/symlink2.txt
+Output: 
+
+mysterychap@MysteryChap:~/embedUR-linux-practical/practise$ mkdir dir1/dir2 && cat > dir1/dir2/file1.txt
+Sample file for symbolic link creation     
+mysterychap@MysteryChap:~/embedUR-linux-practical/practise$ ln -s $PWD/dir1/dir2/file1.txt ./dir1/symlink2.txt
+
+mysterychap@MysteryChap:~/embedUR-linux-practical/practise$ ls -iRla ./dir1/
+./dir1/:
+total 24
+ 11650 drwxr-xr-x 3 mysterychap mysterychap 4096 Jan 29 04:35 .
+ 37736 drwxr-xr-x 4 mysterychap mysterychap 4096 Jan 29 04:27 ..
+201363 drwxr-xr-x 2 mysterychap mysterychap 4096 Jan 29 04:35 dir2
+208447 -rw-r--r-- 1 mysterychap mysterychap    0 Jan 29 04:27 file1.txt
+208457 -rw-r--r-- 1 mysterychap mysterychap    0 Jan 29 04:27 file2.txt
+208461 -rw-r--r-- 1 mysterychap mysterychap    0 Jan 29 04:27 file3.txt
+208462 -rw-r--r-- 1 mysterychap mysterychap  386 Jan 29 04:27 fileinfo.log
+ 12794 -rw-r--r-- 1 mysterychap mysterychap  456 Jan 29 04:29 fileinfo2.log
+201430 lrwxrwxrwx 1 mysterychap mysterychap   70 Jan 29 04:35 symlink2.txt -> /home/mysterychap/embedUR-linux-practical/practise/dir1/dir2/file1.txt
+
+./dir1/dir2:
+total 12
+201363 drwxr-xr-x 2 mysterychap mysterychap 4096 Jan 29 04:35 .
+ 11650 drwxr-xr-x 3 mysterychap mysterychap 4096 Jan 29 04:35 ..
+208544 -rw-r--r-- 1 mysterychap mysterychap   39 Jan 29 04:35 file1.txt

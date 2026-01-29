@@ -1,0 +1,16 @@
+Name: Sudar Manikandan S
+College: Thiagarajar College of Engineering
+
+Q2. Create a file and remove write permission for group user alone.
+
+cmd: touch dir1/file4.txt && chmod g-w dir1/file4.txt
+
+Output: 
+
+mysterychap@MysteryChap:~/embedUR-linux-practical/practise$ touch dir1/file4.txt && chmod g-w dir1/file4.txt
+mysterychap@MysteryChap:~/embedUR-linux-practical/practise$ ls -la
+total 16
+drwxr-xr-x 4 mysterychap mysterychap 4096 Jan 29 04:27 .
+drwxr-xr-x 6 mysterychap mysterychap 4096 Jan 29 04:16 ..
+drwxr-xr-x 3 mysterychap mysterychap 4096 Jan 29 04:41 dir1
+drwxr-xr-x 2 mysterychap mysterychap 4096 Jan 29 03:52 textfile

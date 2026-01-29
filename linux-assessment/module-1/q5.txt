@@ -1,0 +1,37 @@
+Name: Sudar Manikandan S
+College: Thiagarajar College of Engineering
+
+Q5. Create 3 files in a dir1 and re-direct the output of list command with sorted by timestamp of the files to a file
+
+Method 1: using ls with -t flag
+
+cmd: touch dir1/file1.txt dir1/file2.txt dir1/file3.txt
+     ls -lat dir1/ > dir1/fileinfo.log
+Output: 
+mysterychap@MysteryChap:~/embedUR-linux-practical/practise$ mkdir dir1
+mysterychap@MysteryChap:~/embedUR-linux-practical/practise$ touch dir1/file1.txt dir1/file2.txt dir1/file3.txt
+mysterychap@MysteryChap:~/embedUR-linux-practical/practise$ ls -lat dir1/ > dir1/fileinfo.log
+mysterychap@MysteryChap:~/embedUR-linux-practical/practise$ cat dir1/fileinfo.log 
+total 8
+drwxr-xr-x 2 mysterychap mysterychap 4096 Jan 29 04:27 .
+-rw-r--r-- 1 mysterychap mysterychap    0 Jan 29 04:27 fileinfo.log
+-rw-r--r-- 1 mysterychap mysterychap    0 Jan 29 04:27 file1.txt
+-rw-r--r-- 1 mysterychap mysterychap    0 Jan 29 04:27 file2.txt
+-rw-r--r-- 1 mysterychap mysterychap    0 Jan 29 04:27 file3.txt
+drwxr-xr-x 4 mysterychap mysterychap 4096 Jan 29 04:27 ..
+
+Method 2: using sort command with -k flag
+cmd: ls -la dir1/ | sort -k7 > ./dir1/fileinfo2.log
+
+Output: 
+mysterychap@MysteryChap:~/embedUR-linux-practical/practise$ ls -la dir1/ | sort -k7 > ./dir1/fileinfo2.log
+mysterychap@MysteryChap:~/embedUR-linux-practical/practise$ cat dir1/fileinfo2.log 
+total 12
+drwxr-xr-x 4 mysterychap mysterychap 4096 Jan 29 04:27 ..
+-rw-r--r-- 1 mysterychap mysterychap    0 Jan 29 04:27 file1.txt
+-rw-r--r-- 1 mysterychap mysterychap    0 Jan 29 04:27 file2.txt
+-rw-r--r-- 1 mysterychap mysterychap    0 Jan 29 04:27 file3.txt
+-rw-r--r-- 1 mysterychap mysterychap  386 Jan 29 04:27 fileinfo.log
+drwxr-xr-x 2 mysterychap mysterychap 4096 Jan 29 04:29 .
+-rw-r--r-- 1 mysterychap mysterychap    0 Jan 29 04:29 fileinfo2.log
+
