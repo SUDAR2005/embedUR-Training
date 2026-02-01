@@ -5,6 +5,8 @@ Q5) Use the networking tool command and print all the gateway available in a s
 
 cmd: netstat -r | awk '{print $2}' | sed -n '3,$p' | sort
 
+Output: 
+
 mysterychap@MysteryChap:~$ netstat -r
 Kernel IP routing table
 Destination     Gateway         Genmask         Flags   MSS Window  irtt Iface

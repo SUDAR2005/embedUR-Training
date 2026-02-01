@@ -29,7 +29,7 @@ The Filesgreater than 1 MB has been printed
 
 Method 2: Using find command with exec flag
 
-cmd: find . -type f -exce ls -l {} +
+cmd: find . -type f -size +1M -exec ls -l {} +
 
 Output:
 mysterychap@MysteryChap:/proc$ sudo find . -type f -size +1M -exec ls -l {} +
