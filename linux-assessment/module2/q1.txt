@@ -1,0 +1,39 @@
+Name: Sudar Manikandan S
+College: Thiagarajar College of Engineering
+
+Q1)  Use the appropriate command to list all files larger than 1 MB in the current directory and save the output to a file.
+
+Method 1: Using ls with -S flag and print with AWK
+
+cmd: ls -l | awk -v dir=$PWD 'BEGIN {print "Printing the files greater than 1 MB in" dir } $5 > 1048000 {print $NF} END {print "The Filesgreater than 1 MB has been printed"}'
+
+Output:
+
+mysterychap@MysteryChap:/proc$ ls -lS | head
+total 0
+-r--------  1 root             root             140737471594496 Jan 31 23:42 kcore
+-r--r--r--  1 root             root                       47620 Feb  1 00:05 config.gz
+-r--r--r--  1 root             root                         146 Jan 31 23:42 cmdline
+lrwxrwxrwx  1 root             root                          11 Jan 31 23:42 mounts -> self/mounts
+lrwxrwxrwx  1 root             root                           8 Jan 31 23:42 net -> self/net
+dr-xr-xr-x  9 root             root                           0 Jan 31 23:42 1
+dr-xr-xr-x  9 root             root                           0 Jan 31 23:42 112
+dr-xr-xr-x  9 root             root                           0 Jan 31 23:42 127
+dr-xr-xr-x  9 root             root                           0 Jan 31 23:42 128
+
+mysterychap@MysteryChap:/proc$ ls -l | awk -v dir=$PWD 'BEGIN {print "Printing the files greater than 1 MB in" dir } $5 > 1048000 {print $NF} END {print "The Filesgreater than 1 MB has been printed"}'
+Printing the files greater than 1 MB in/proc
+kcore
+The Filesgreater than 1 MB has been printed
+
+
+Method 2: Using find command with exec flag
+
+cmd: find . -type f -exce ls -l {} +
+
+Output:
+mysterychap@MysteryChap:/proc$ sudo find . -type f -size +1M -exec ls -l {} +
+[sudo] password for mysterychap:
+find: ‘./9479/task/9479/fdinfo/6’: No such file or directory
+find: ‘./9479/fdinfo/5’: No such file or directory
+-r-------- 1 root root 140737471594496 Jan 31 23:42 ./kcore

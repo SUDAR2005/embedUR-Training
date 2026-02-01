@@ -1,0 +1,2 @@
+This is the file with text localhost.
+I need to change all the localhost to 127.0.0.1

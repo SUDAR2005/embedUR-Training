@@ -1,0 +1,23 @@
+Name: Sudar Manikandan S
+College: Thiagarajar College of Engineering
+
+Q5) Use the networking tool command and print all the gateway available in a sorted manner
+
+cmd: netstat -r | awk '{print $2}' | sed -n '3,$p' | sort
+
+mysterychap@MysteryChap:~$ netstat -r
+Kernel IP routing table
+Destination     Gateway         Genmask         Flags   MSS Window  irtt Iface
+default         MysteryChap.msh 0.0.0.0         UG        0 0          0 eth0
+172.18.176.0    0.0.0.0         255.255.240.0   U         0 0          0 eth0
+192.168.122.0   0.0.0.0         255.255.255.0   U         0 0          0 virbr0
+mysterychap@MysteryChap:~$ netstat -rn | awk '{print $2}'
+IP
+Gateway
+172.18.176.1
+0.0.0.0
+0.0.0.0
+mysterychap@MysteryChap:~$ netstat -r| awk '{print $2}' | sed -n '3,$p' | sort
+0.0.0.0
+0.0.0.0
+MysteryChap.msh

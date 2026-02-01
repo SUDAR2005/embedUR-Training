@@ -1,0 +1,49 @@
+Name: Sudar Manikandan S
+College: Thiagarajar College of Engineering
+
+Q4) Write a code to identify the process with the highest memory usage and then terminate it.
+
+cmd: sudo kill -SIGTERM $(ps -eo pid --sort=-rss|sed -n '2p')
+
+Observation: The process that consumed more memory was snapd which is actually a daemon. So it restarted again as soon as i terminated it.
+Inital pid 260 -> After Kill command pid -> 22440
+
+Output: 
+mysterychap@MysteryChap:~/embedUR-linux-practical/linux-assessment$ ps -aux --sort=-rss | head
+USER         PID %CPU %MEM    VSZ   RSS TTY      STAT START   TIME COMMAND
+root         260  0.3  0.5 2514912 42676 ?       Ssl  Jan31   0:12 /usr/lib/snapd/snapd
+root          63  0.2  0.4  75004 36352 ?        S<s  Jan31   0:08 /usr/lib/systemd/systemd-journald
+root         305  0.0  0.2 112796 23808 ?        Ssl  Jan31   0:00 /usr/bin/python3 /usr/share/unattended-upgrades/unattended-upgrade-shutdown --wait-for-signal
+root         267  0.0  0.1  68720 14976 ?        Ss   Jan31   0:00 /usr/sbin/virtlogd
+root         266  0.0  0.1  68716 13696 ?        Ss   Jan31   0:00 /usr/sbin/virtlockd
+root           1  0.5  0.1  22112 12896 ?        Ss   Jan31   0:22 /sbin/init
+systemd+     221  0.0  0.1  21456 12672 ?        Ss   Jan31   0:00 /usr/lib/systemd/systemd-resolved
+mystery+     586  0.0  0.1  20192 10880 ?        Ss   Jan31   0:00 /usr/lib/systemd/systemd --user
+root         142  0.1  0.1 526756 10856 ?        Ssl  Jan31   0:05 snapfuse /var/lib/snapd/snaps/snapd_25935.snap /snap/snapd/25935 -o ro,nodev,allow_other,suid
+mysterychap@MysteryChap:~/embedUR-linux-practical/linux-assessment$ ps -eo pid --sort=-rss| head
+    PID
+    260
+     63
+    305
+    267
+    266
+      1
+    221
+  21784
+    586
+mysterychap@MysteryChap:~/embedUR-linux-practical/linux-assessment$ ps -eo pid --sort=-rss | sed -n '2p'
+    260
+
+mysterychap@MysteryChap:~/embedUR-linux-practical/linux-assessment$ sudo kill -SIGTERM $(ps -eo pid --sor
+t=-rss|sed -n '2p')
+mysterychap@MysteryChap:~/embedUR-linux-practical/linux-assessment$ ps -aux --sort=-rss | head
+USER         PID %CPU %MEM    VSZ   RSS TTY      STAT START   TIME COMMAND
+root       22440  8.4  0.4 2146124 39424 ?       Ssl  00:48   0:00 /usr/lib/snapd/snapd
+root          63  0.2  0.4  75004 36864 ?        S<s  Jan31   0:08 /usr/lib/systemd/systemd-journald
+root         305  0.0  0.2 112796 23808 ?        Ssl  Jan31   0:00 /usr/bin/python3 /usr/share/unattended-upgrades/unattended-upgrade-shutdown --wait-for-signal
+root         267  0.0  0.1  68720 14976 ?        Ss   Jan31   0:00 /usr/sbin/virtlogd
+root         266  0.0  0.1  68716 13696 ?        Ss   Jan31   0:00 /usr/sbin/virtlockd
+root           1  0.6  0.1  22112 12768 ?        Ss   Jan31   0:23 /sbin/init
+systemd+     221  0.0  0.1  21456 12672 ?        Ss   Jan31   0:00 /usr/lib/systemd/systemd-resolved
+root       22528 41.6  0.1 1755584 11648 ?       Ssl  00:48   0:00 /usr/libexec/wsl-pro-service -vv
+root         142  0.1  0.1 526756 11420 ?        Ssl  Jan31   0:05 snapfuse /var/lib/snapd/snaps/snapd_25935.snap /snap/snapd/25935 -o ro,nodev,allow_other,suid
