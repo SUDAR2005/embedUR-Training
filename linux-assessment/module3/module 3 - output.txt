@@ -1,0 +1,241 @@
+Scenario: Automating file backup and Reporting to the system. Create a shell script called "backup_manager.sh" that performs the following tasks incorporating the concepts suggested.
+
+Requirement 1: Command-line Arguments and Quoting
+
+Question:
+The script must accept three arguments: Source directory: A directory containing files to back up. Backup directory: The destination where files will be backed up. File extension: A specific file extension to filter (e.g., .txt).
+
+Output: 
+mysterychap@MysteryChap:~/embedUR-linux-practical/linux-assessment/module3$ ./backup_manager.sh sample/ sample_backup .txt
+dst Folder sample_backup doesn't exist, creating one
+Files found:
+sample/textfile/contacts.txt
+sample/textfile/col.txt
+sample/textfile/file system commands.txt
+sample/textfile/searching and miscellaneous.txt
+sample/textfile/process management.txt
+sample/textfile/user management.txt
+sample/textfile/communication.txt
+sample/textfile/text processing.txt
+sample/textfile/contact.txt
+*************************--*****************************
+Stats of files to be backed-up
+sample/textfile/contacts.txt 81
+sample/textfile/col.txt 47
+sample/textfile/file system commands.txt 52520
+sample/textfile/searching and miscellaneous.txt 12918
+sample/textfile/process management.txt 38973
+sample/textfile/user management.txt 63114
+sample/textfile/communication.txt 21508
+sample/textfile/text processing.txt 48783
+sample/textfile/contact.txt 59
+*************************--*****************************
+Backup Summary Report
+total files processed: 9
+total files backed up: 9
+total backup size: 238003 bytes
+backup directory: sample_backup
+date: Mon Feb  2 13:19:55 UTC 2026
+*************************--*****************************
+Completed!!! report saved at sample_backup/backup_report.log
+*************************--*****************************
+
+Requirement 2: Globbing
+
+Question: 
+The script should use globbing to find all files in the source directory matching the provided file extension.
+
+Script Snippet (line: (in backup_manager.sh) 24):
+
+mapfile -t files < <(find "$src" -type f -name "*$ext")
+
+if [ "${#files[@]}" -eq 0 ]; then
+    echo "no .$ext files found in source directory"
+    exit 1
+fi
+echo "Files found:"
+printf '%s\n' "${files[@]}"
+
+Output:
+mysterychap@MysteryChap:~/embedUR-linux-practical/linux-assessment/module3$ ./backup_manager.sh sample/ sample_backup .txt
+Files found:
+sample/textfile/contacts.txt
+sample/textfile/col.txt
+sample/textfile/file system commands.txt
+sample/textfile/searching and miscellaneous.txt
+sample/textfile/process management.txt
+sample/textfile/user management.txt
+sample/textfile/communication.txt
+sample/textfile/text processing.txt
+sample/textfile/contact.txt
+    
+
+Requirement 3: Export Statements 
+
+Use export to set an environment variable BACKUP_COUNT, which tracks the total number of files backed up during the script execution.
+
+Script Snippet (line: (in backup_manager.sh) 44): 
+export BACKUP_COUNT=0
+
+Requirement 4: Array Operations
+
+Question: 
+Store the list of files to be backed up in an array.
+Print the names of these files along with their sizes before performing the backup.
+
+Script Snippet (line: (in backup_manager.sh) 24):
+mapfile -t files < <(find "$src" -type f -name "*$ext")
+
+if [ "${#files[@]}" -eq 0 ]; then
+    echo "no .$ext files found in source directory"
+    exit 1
+fi
+
+echo "Files found:"
+printf '%s\n' "${files[@]}"
+
+echo "*************************--*****************************"
+# 4. print file size and stats related to it
+echo "Stats of files to be backed-up"
+for file in "${files[@]}"; do
+    stat -c "%n %s" "$file"
+done
+
+Requirement 5: Conditional Execution:
+
+Question:
+If the backup directory does not exist, create it. If creation fails, exit with an error.
+If the source directory is empty or contains no files matching the extension, exit with a message.
+If a file already exists in the backup directory with the same name, only overwrite it if it is older than the source file (compare timestamps).
+
+Script Snippet (line: (in backup_manager.sh) 48): 
+for file in "${files[@]}"; do
+    # Get just the filename without path for destination
+    filename=$(basename "$file")
+    dest_file="$dst/$filename"
+    
+    # check if the file exists already
+    if [ -f "$dest_file" ]; then
+        if [ "$file" -nt "$dest_file" ]; then
+            cp "$file" "$dest_file"
+            ((BACKUP_COUNT++))
+            file_size=$(stat -c %s "$file")
+            ((total_size+=file_size))
+        else
+            echo "$dest_file already exists and is up-to-date, skipping"
+        fi
+    else
+        cp "$file" "$dest_file"
+        ((BACKUP_COUNT++))
+        file_size=$(stat -c %s "$file")
+        ((total_size+=file_size))
+    fi
+done
+
+Output: 
+1.  Backup directory creation:
+
+    mysterychap@MysteryChap:/embedUR-linux-practical/linux-assessment/module3$ ./backupmanager.sh sample/ samplebackup .txt
+    dst Folder samplebackup doesn't exist, creating one
+    
+
+2.  File overwrite only if older:
+    Check the stats in the source directory
+
+    mysterychap@MysteryChap:~/embedUR-linux-practical/linux-assessment/module3$ date && stat -c "%n %y" sample/textfile/*.txt
+    Mon Feb  2 13:26:15 UTC 2026
+    sample/textfile/col.txt 2026-02-02 13:04:47.341975703 +0000
+    -> sample/textfile/communication.txt 2026-02-02 13:04:47.341975703 +0000 -> Going to change the content of this file now
+    sample/textfile/contact.txt 2026-02-02 13:04:47.341975703 +0000
+    sample/textfile/contacts.txt 2026-02-02 13:04:47.341975703 +0000
+    sample/textfile/file system commands.txt 2026-02-02 13:04:47.341975703 +0000
+    sample/textfile/process management.txt 2026-02-02 13:04:47.345975703 +0000
+    sample/textfile/searching and miscellaneous.txt 2026-02-02 13:04:47.345975703 +0000
+    sample/textfile/text processing.txt 2026-02-02 13:04:47.345975703 +0000
+    sample/textfile/user management.txt 2026-02-02 13:04:47.345975703 +0000
+
+    After change
+
+    mysterychap@MysteryChap:~/embedUR-linux-practical/linux-assessment/module3$ date && stat -c "%n %y" sample/textfile/*.txt
+    Mon Feb  2 13:27:55 UTC 2026
+    sample/textfile/col.txt 2026-02-02 13:04:47.341975703 +0000
+    -> sample/textfile/communication.txt 2026-02-02 13:27:52.021787685 +0000 -> After changing the content the modification time changed
+    sample/textfile/contact.txt 2026-02-02 13:04:47.341975703 +0000
+    sample/textfile/contacts.txt 2026-02-02 13:04:47.341975703 +0000
+    sample/textfile/file system commands.txt 2026-02-02 13:04:47.341975703 +0000
+    sample/textfile/process management.txt 2026-02-02 13:04:47.345975703 +0000
+    sample/textfile/searching and miscellaneous.txt 2026-02-02 13:04:47.345975703 +0000
+    sample/textfile/text processing.txt 2026-02-02 13:04:47.345975703 +0000
+    sample/textfile/user management.txt 2026-02-02 13:04:47.345975703 +0000
+
+    Performing backup again after file modification
+
+    mysterychap@MysteryChap:~/embedUR-linux-practical/linux-assessment/module3$ ./backup_manager.sh sample/ sample_backup .txt
+    Files found:
+    sample/textfile/contacts.txt
+    sample/textfile/col.txt
+    sample/textfile/file system commands.txt
+    sample/textfile/searching and miscellaneous.txt
+    sample/textfile/process management.txt
+    sample/textfile/user management.txt
+    sample/textfile/communication.txt
+    sample/textfile/text processing.txt
+    sample/textfile/contact.txt
+    *************************--*****************************
+    Stats of files to be backed-up
+    sample/textfile/contacts.txt 81
+    sample/textfile/col.txt 47
+    sample/textfile/file system commands.txt 52520
+    sample/textfile/searching and miscellaneous.txt 12918
+    sample/textfile/process management.txt 38973
+    sample/textfile/user management.txt 63114
+    sample/textfile/communication.txt 21507
+    sample/textfile/text processing.txt 48783
+    sample/textfile/contact.txt 59
+    *************************--*****************************
+    sample_backup/contacts.txt already exists and is up-to-date, skipping
+    sample_backup/col.txt already exists and is up-to-date, skipping
+    sample_backup/file system commands.txt already exists and is up-to-date, skipping
+    sample_backup/searching and miscellaneous.txt already exists and is up-to-date, skipping
+    sample_backup/process management.txt already exists and is up-to-date, skipping
+    sample_backup/user management.txt already exists and is up-to-date, skipping
+    sample_backup/text processing.txt already exists and is up-to-date, skipping
+    sample_backup/contact.txt already exists and is up-to-date, skipping
+    Backup Summary Report
+    total files processed: 9
+    total files backed up: 1
+    total backup size: 21507 bytes
+    backup directory: sample_backup
+    date: Mon Feb  2 13:29:11 UTC 2026
+    *************************--*****************************
+    Completed!!! report saved at sample_backup/backup_report.log
+    *************************--*****************************
+
+3.  No matching files exit:
+
+    mysterychap@MysteryChap:/embedUR-linux-practical/linux-assessment/module3$ ./backupmanager.sh ./sample ./samplebackupnew ".tx"
+    no ..tx files found in source directory
+    
+
+Requirement 6: Output Report
+
+Question:6.
+After the backup, generate a summary report displaying: 
+Total files processed. 
+Total size of files backed up. The path to the backup directory. 
+The report should be saved in the backup directory as backup_report.log.
+
+Script Snippet (line: (in backup_manager.sh) ):
+
+
+Matches with:
+
+    Backup Summary Report
+    total files processed: 9
+    total files backed up: 9
+    total backup size: 238003 bytes
+    backup directory: sample_backup
+    date: Mon Feb  2 13:19:55 UTC 2026
+    *************************--*****************************
+    Completed!!! report saved at sample_backup/backup_report.log
+    *************************--*****************************    
