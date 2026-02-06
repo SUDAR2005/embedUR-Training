@@ -1,0 +1,18 @@
+mysterychap@MysteryChap:~/embedUR-linux-practical/linux-assessment/module5$ touch file_analyzer.sh
+mysterychap@MysteryChap:~/embedUR-linux-practical/linux-assessment/module5$ chmod 744 file_analyzer.sh
+mysterychap@MysteryChap:~/embedUR-linux-practical/linux-assessment/module5$ ./file_analyzer.sh
+ERROR: Keyword cannot be empty
+mysterychap@MysteryChap:~/embedUR-linux-practical/linux-assessment/module5$ ./file_analyzer.sh -d /etc/dpkg -k cfg
+Searching directory '/etc/dpkg' for keyword 'cfg'
+Match found: /etc/dpkg/dpkg.cfg
+Script: ./file_analyzer.sh
+Total arguments: 4
+Arguments: -d /etc/dpkg -k cfg
+mysterychap@MysteryChap:~/embedUR-linux-practical/linux-assessment/module5$ ./file_analyzer.sh -d /etc/dpkg -k
+ERROR: Option -k requires argument
+mysterychap@MysteryChap:~/embedUR-linux-practical/linux-assessment/module5$ ./file_analyzer.sh -f ./error.log -k Option
+Searching file './error.log' for keyword 'Option'
+Keyword 'Option' found in file ./error.log
+Script: ./file_analyzer.sh
+Total arguments: 4
+Arguments: -f ./error.log -k Option
