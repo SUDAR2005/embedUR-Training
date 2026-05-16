@@ -18,12 +18,11 @@ int main() {
     pthread_t thread1, thread2, thread3; 
     
     pthread_create(&thread1, NULL, findNPrimeNumbers, &n1);
-
-    pthread_create(&thread2, NULL, threadRunFor100Seconds, &n2);
-
-    pthread_create(&thread3, NULL, threadRunFor100Seconds, &n3);
-
     pthread_join(thread1, NULL);
+
+    //fixed: initially was in sequential exection along with thread1
+    pthread_create(&thread2, NULL, threadRunFor100Seconds, &n2);
+    pthread_create(&thread3, NULL, threadRunFor100Seconds, &n3);
     pthread_join(thread2, NULL);
     pthread_join(thread3, NULL);
 }
