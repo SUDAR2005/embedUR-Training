@@ -1,0 +1,5 @@
+Level,Source,Count,Total Count (by Level),Percentage
+Error,VSS,4,6,66.66666666666666
+Error,Microsoft-Windows-RestartManager,1,6,16.666666666666664
+Error,SDSSnapshotProcess,1,6,16.666666666666664
+Warning,VBScriptDeprecationAlert,1,1,100.0

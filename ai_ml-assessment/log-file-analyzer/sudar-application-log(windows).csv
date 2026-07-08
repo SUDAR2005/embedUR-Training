@@ -1,0 +1,1771 @@
+﻿Level,Date and Time,Source,Event ID,Task Category
+Information,07-07-2026 23:13:30,Microsoft-Windows-Security-SPP,16384,Successfully scheduled Software Protection service for re-start at 2126-06-13T17:43:30Z. Reason: RulesEngine.
+Information,07-07-2026 23:12:59,Microsoft-Windows-Security-SPP,16394,Offline downlevel migration succeeded.
+Information,07-07-2026 23:05:03,Microsoft-Windows-Security-SPP,16384,Successfully scheduled Software Protection service for re-start at 2126-06-13T17:35:03Z. Reason: RulesEngine.
+Information,07-07-2026 23:04:33,Microsoft-Windows-Security-SPP,16394,Offline downlevel migration succeeded.
+Information,07-07-2026 22:13:16,Microsoft-Windows-Security-SPP,16384,Successfully scheduled Software Protection service for re-start at 2126-06-13T16:43:16Z. Reason: RulesEngine.
+Information,07-07-2026 22:12:45,Microsoft-Windows-Security-SPP,16394,Offline downlevel migration succeeded.
+Information,07-07-2026 22:07:50,SalomanDock.exe,2,The system cannot find the file specified. 
+Information,07-07-2026 22:07:50,SalomanDock.exe,2,The system cannot find the file specified. 
+Information,07-07-2026 22:00:30,Microsoft-Windows-Security-SPP,16384,Successfully scheduled Software Protection service for re-start at 2126-06-13T16:30:30Z. Reason: RulesEngine.
+Information,07-07-2026 22:00:01,DellTechHub,0,PowerEvent handled successfully by the service.
+Information,07-07-2026 22:00:01,Dell SupportAssist Remediation,0,PowerEvent handled successfully by the service.
+Information,07-07-2026 22:00:00,Microsoft-Windows-Security-SPP,16394,Offline downlevel migration succeeded.
+Information,07-07-2026 21:37:25,Microsoft-Windows-Security-SPP,16384,Successfully scheduled Software Protection service for re-start at 2126-06-13T16:07:25Z. Reason: RulesEngine.
+Information,07-07-2026 21:36:55,Microsoft-Windows-Security-SPP,16394,Offline downlevel migration succeeded.
+Warning,07-07-2026 21:27:08,VBScriptDeprecationAlert,4096,"The description for Event ID 4096 from source VBScriptDeprecationAlert cannot be found. Either the component that raises this event is not installed on your local computer or the installation is corrupted. You can install or repair the component on the local computer.
+
+If the event originated on another computer, the display information had to be saved with the event.
+
+The following information was included with the event: 
+
+VBScript is scheduled for deprecation. Our telemetry indicates that your system is currently utilizing VBScript.
+We strongly recommend identifying and migrating away from any VBScript dependencies at the earliest.
+
+The following process has been detected as using VBScript. The associated process tree and call stack are provided below to assist in identifying the scenario in which VBScript was invoked.
+
+ProcessName = ""wmic.exe""
+ProcessTree = ""WMIC.exe;Code.exe;Code.exe""
+CallStack = ""vbscript.dll+0x68806;vbscript.dll+0x5541F;vbscript.dll+0x4004A;msxml6.dll+0x112476;msxml6.dll+0x10F532;msxml6.dll+0x20DDC;msxml6.dll+0x45F3A;msxml6.dll+0xCB607;msxml6.dll+0xCCE95;msxml6.dll+0xCCD5D;wmic.exe+0x276BD;wmic.exe+0x2173E;wmic.exe+0x25D45;wmic.exe+0x3BCD0;wmic.exe+0x3909F;wmic.exe+0x18F4;KERNEL32.DLL+0x2E957;ntdll.dll+0xAAD6C""
+ProcessTreeEnhanced = ""WMIC.exe(""wmic os get locale"");Code.exe(""<path>\Mystery <path>\Microsoft VS <path>\Code.exe"" --type=utility --utility-sub-type=node.mojom.NodeService --lang=en-US --service-sandbox-type=none --dns-result-order=ipv4first --experimental-network-inspection --inspect-port=0 --video-capture-use-gpu-memory-buffer <path>\Mystery <path>\Code"" --standard-schemes=vscode-webview,vscode-file --enable-sandbox --secure-schemes=vscode-webview,vscode-file,vscode-remote-resource,vscode-managed-remote-resource WMIC.exe(""wmic os get locale"")"");Code.exe(""<path>\Mystery <path>\Microsoft VS <path>\Code.exe"""")""
+
+The message resource is present but the message was not found in the message table
+"
+Information,07-07-2026 21:26:26,VSS,8224,The VSS service is shutting down due to idle timeout. 
+Information,07-07-2026 21:18:06,Windows Error Reporting,1001,"Fault bucket 2247644428102348792, type 5
+Event Name: WindowsWcpOtherFailure3
+Response: Not available
+Cab Id: 0
+
+Problem signature:
+P1: 10.0.26100.8733:1
+P2: wcp\componentstore\scavenge.cpp
+P3: ComponentStore::CRawStoreLayout::RetainFileAsVersion
+P4: 1834
+P5: c015001b
+P6: 0xe8d35e54
+P7: 
+P8: 
+P9: 
+P10: 
+
+Attached files:
+\\?\C:\Windows\Logs\CBS\CBS.log
+\\?\C:\Windows\Logs\CBS\CbsPersist_20260707154321.cab
+\\?\C:\Windows\Logs\CBS\CbsPersist_20260703174020.cab
+\\?\C:\Windows\Logs\CBS\container.etl
+\\?\C:\WINDOWS\servicing\Sessions\Sessions.xml
+\\?\C:\WINDOWS\WinSxs\poqexec.log
+\\?\C:\WINDOWS\Logs\Cbs\FilterList.log
+\\?\C:\ProgramData\Microsoft\Windows\WER\Temp\WER.f2a00499-06d3-41c9-9bfb-51fcffd804d6.tmp.WERInternalMetadata.xml
+\\?\C:\ProgramData\Microsoft\Windows\WER\ReportQueue\Critical_10.0.26100.8733__d29a81619ce686a8163c747995a61d650ff7f_00000000_cab_01493d3b-b661-439f-a02c-f2be24956cf6\WPR_initiated_DiagTrackMiniLogger_OneTrace_User_Logger_20260706_1_EC_0_inject.etl
+\\?\C:\ProgramData\Microsoft\Windows\WER\Temp\WER.acba96d9-8b61-4117-876e-2d461b4a3dc0.tmp.etl
+\\?\C:\ProgramData\Microsoft\Windows\WER\ReportQueue\Critical_10.0.26100.8733__d29a81619ce686a8163c747995a61d650ff7f_00000000_cab_01493d3b-b661-439f-a02c-f2be24956cf6\WPR_initiated_DiagTrackMiniLogger_WPR System Collector_inject.etl
+\\?\C:\ProgramData\Microsoft\Windows\WER\Temp\WER.d6a19916-4ab1-4fb4-8245-6c6395b3bbed.tmp.etl
+\\?\C:\ProgramData\Microsoft\Windows\WER\Temp\WER.64fed99c-957c-4643-988c-c6145a766c60.tmp.csv
+\\?\C:\ProgramData\Microsoft\Windows\WER\Temp\WER.e4d95919-26d0-4e60-bb95-c33afb4b7441.tmp.txt
+\\?\C:\ProgramData\Microsoft\Windows\WER\Temp\WER.7e28af5c-f81b-4a1b-bf39-8843e26699cc.tmp.xml
+\\?\C:\ProgramData\Microsoft\Windows\WER\Temp\WER.79bebaf3-5b62-4e44-9e17-8f18465e41b0.tmp.mdmp
+\\?\C:\ProgramData\Microsoft\Windows\WER\ReportQueue\Critical_10.0.26100.8733__d29a81619ce686a8163c747995a61d650ff7f_00000000_cab_01493d3b-b661-439f-a02c-f2be24956cf6\memory.hdmp
+\\?\C:\Windows\SystemTemp\WER.33f475c3-90da-4aec-865f-0bf0dab63713.tmp.WERDataCollectionStatus.txt
+
+These files may be available here:
+\\?\C:\ProgramData\Microsoft\Windows\WER\ReportArchive\Critical_10.0.26100.8733__d29a81619ce686a8163c747995a61d650ff7f_00000000_01493d3b-b661-439f-a02c-f2be24956cf6
+
+Analysis symbol: 
+Rechecking for solution: 0
+Report Id: 01493d3b-b661-439f-a02c-f2be24956cf6
+Report Status: 268435456
+Hashed bucket: cf49af30bc17d084bf313cb2e66d2ff8
+Cab Guid: 0"
+Information,07-07-2026 21:18:01,Windows Error Reporting,1001,"Fault bucket , type 0
+Event Name: WindowsWcpOtherFailure3
+Response: Not available
+Cab Id: 0
+
+Problem signature:
+P1: 10.0.26100.8733:1
+P2: wcp\componentstore\scavenge.cpp
+P3: ComponentStore::CRawStoreLayout::RetainFileAsVersion
+P4: 1834
+P5: c015001b
+P6: 0xe8d35e54
+P7: 
+P8: 
+P9: 
+P10: 
+
+Attached files:
+\\?\C:\Windows\Logs\CBS\CBS.log
+\\?\C:\Windows\Logs\CBS\CbsPersist_20260707154321.cab
+\\?\C:\Windows\Logs\CBS\CbsPersist_20260703174020.cab
+\\?\C:\Windows\Logs\CBS\container.etl
+\\?\C:\WINDOWS\servicing\Sessions\Sessions.xml
+\\?\C:\WINDOWS\WinSxs\poqexec.log
+\\?\C:\WINDOWS\Logs\Cbs\FilterList.log
+
+These files may be available here:
+NULL
+
+Analysis symbol: 
+Rechecking for solution: 0
+Report Id: 01493d3b-b661-439f-a02c-f2be24956cf6
+Report Status: 262148
+Hashed bucket: 
+Cab Guid: 0"
+Information,07-07-2026 21:18:01,Windows Error Reporting,1001,"Fault bucket , type 0
+Event Name: WindowsWcpOtherFailure3
+Response: Not available
+Cab Id: 0
+
+Problem signature:
+P1: 10.0.26100.8733:1
+P2: wcp\componentstore\scavenge.cpp
+P3: ComponentStore::CRawStoreLayout::RetainFileAsVersion
+P4: 1834
+P5: c015001b
+P6: 0xe8d35e54
+P7: 
+P8: 
+P9: 
+P10: 
+
+Attached files:
+\\?\C:\Windows\Logs\CBS\CBS.log
+\\?\C:\Windows\Logs\CBS\CbsPersist_20260707154321.cab
+\\?\C:\Windows\Logs\CBS\CbsPersist_20260703174020.cab
+\\?\C:\Windows\Logs\CBS\container.etl
+\\?\C:\WINDOWS\servicing\Sessions\Sessions.xml
+\\?\C:\WINDOWS\WinSxs\poqexec.log
+\\?\C:\WINDOWS\Logs\Cbs\FilterList.log
+\\?\C:\ProgramData\Microsoft\Windows\WER\Temp\WER.f2a00499-06d3-41c9-9bfb-51fcffd804d6.tmp.WERInternalMetadata.xml
+\\?\C:\ProgramData\Microsoft\Windows\WER\ReportQueue\Critical_10.0.26100.8733__d29a81619ce686a8163c747995a61d650ff7f_00000000_cab_01493d3b-b661-439f-a02c-f2be24956cf6\WPR_initiated_DiagTrackMiniLogger_OneTrace_User_Logger_20260706_1_EC_0_inject.etl
+\\?\C:\ProgramData\Microsoft\Windows\WER\Temp\WER.acba96d9-8b61-4117-876e-2d461b4a3dc0.tmp.etl
+\\?\C:\ProgramData\Microsoft\Windows\WER\ReportQueue\Critical_10.0.26100.8733__d29a81619ce686a8163c747995a61d650ff7f_00000000_cab_01493d3b-b661-439f-a02c-f2be24956cf6\WPR_initiated_DiagTrackMiniLogger_WPR System Collector_inject.etl
+\\?\C:\ProgramData\Microsoft\Windows\WER\Temp\WER.d6a19916-4ab1-4fb4-8245-6c6395b3bbed.tmp.etl
+\\?\C:\ProgramData\Microsoft\Windows\WER\Temp\WER.64fed99c-957c-4643-988c-c6145a766c60.tmp.csv
+\\?\C:\ProgramData\Microsoft\Windows\WER\Temp\WER.e4d95919-26d0-4e60-bb95-c33afb4b7441.tmp.txt
+\\?\C:\ProgramData\Microsoft\Windows\WER\Temp\WER.7e28af5c-f81b-4a1b-bf39-8843e26699cc.tmp.xml
+\\?\C:\ProgramData\Microsoft\Windows\WER\Temp\WER.79bebaf3-5b62-4e44-9e17-8f18465e41b0.tmp.mdmp
+\\?\C:\ProgramData\Microsoft\Windows\WER\ReportQueue\Critical_10.0.26100.8733__d29a81619ce686a8163c747995a61d650ff7f_00000000_cab_01493d3b-b661-439f-a02c-f2be24956cf6\memory.hdmp
+\\?\C:\Windows\SystemTemp\WER.33f475c3-90da-4aec-865f-0bf0dab63713.tmp.WERDataCollectionStatus.txt
+
+These files may be available here:
+\\?\C:\ProgramData\Microsoft\Windows\WER\ReportQueue\Critical_10.0.26100.8733__d29a81619ce686a8163c747995a61d650ff7f_00000000_cab_01493d3b-b661-439f-a02c-f2be24956cf6
+
+Analysis symbol: 
+Rechecking for solution: 0
+Report Id: 01493d3b-b661-439f-a02c-f2be24956cf6
+Report Status: 4
+Hashed bucket: 
+Cab Guid: 0"
+Information,07-07-2026 21:15:47,Microsoft-Windows-Security-SPP,16384,Successfully scheduled Software Protection service for re-start at 2126-06-13T15:45:47Z. Reason: RulesEngine.
+Information,07-07-2026 21:15:17,Microsoft-Windows-Security-SPP,16394,Offline downlevel migration succeeded.
+Information,07-07-2026 21:14:30,Microsoft-Windows-Security-SPP,16384,Successfully scheduled Software Protection service for re-start at 2126-06-13T15:44:30Z. Reason: RulesEngine.
+Information,07-07-2026 21:13:59,Microsoft-Windows-Security-SPP,1033,"These policies are being excluded since they are only defined with override-only attribute.
+Policy Names=(Security-SPP-Reserved-EnableNotificationMode) 
+App Id=55c92734-d682-4d71-983e-d6ec3f16059f
+Sku Id=8a292df8-d653-4057-8133-a0701792f912"
+Information,07-07-2026 21:13:59,Microsoft-Windows-Security-SPP,1034,Duplicate definition of policy found. Policy name=Security-SPP-WriteWauMarker  Priority=500
+Information,07-07-2026 21:13:59,Microsoft-Windows-Security-SPP,1034,Duplicate definition of policy found. Policy name=AAD-AddDeviceJoinUserToAdminGroup-Policy  Priority=100
+Information,07-07-2026 21:13:58,Microsoft-Windows-Security-SPP,16394,Offline downlevel migration succeeded.
+Information,07-07-2026 21:10:23,DellTechHub,0,PowerEvent handled successfully by the service.
+Information,07-07-2026 21:10:23,Dell SupportAssist Remediation,0,PowerEvent handled successfully by the service.
+Information,07-07-2026 21:10:20,DellTechHub,0,PowerEvent handled successfully by the service.
+Information,07-07-2026 21:10:20,Dell SupportAssist Remediation,0,PowerEvent handled successfully by the service.
+Information,07-07-2026 21:07:53,DellTechHub,0,PowerEvent handled successfully by the service.
+Information,07-07-2026 21:07:53,Dell SupportAssist Remediation,0,PowerEvent handled successfully by the service.
+Information,07-07-2026 21:06:09,Windows Error Reporting,1001,"Fault bucket 1599248754078846234, type 5
+Event Name: StoreAgentInstallFailure1
+Response: Not available
+Cab Id: 0
+
+Problem signature:
+P1: Update;MoUpdateOrchestratorUserScan-MoUsoCoreWorker-SearchForAllUpdatesWithUpdateOptionsAsync
+P2: 80073d02
+P3: 26200
+P4: 8737
+P5: Windows.Desktop
+P6: 0
+P7: 
+P8: 
+P9: 
+P10: 
+
+Attached files:
+\\?\C:\Windows\Temp\FailureReportMetadata_4979.txt
+\\?\C:\ProgramData\Microsoft\Windows\WER\Temp\WER.be090b9d-1027-4849-9cca-96c98f1bf13a.tmp.WERInternalMetadata.xml
+\\?\C:\ProgramData\Microsoft\Windows\WER\ReportQueue\NonCritical_Update;MoUpdateO_3c409b9c27f168319569e228c28ec311189d90_00000000_cab_3b392212-2ab3-4e9c-898d-d4cddd4cab3b\WPR_initiated_DiagTrackMiniLogger_OneTrace_User_Logger_20260706_1_EC_0_inject.etl
+\\?\C:\ProgramData\Microsoft\Windows\WER\Temp\WER.187d2925-6794-498b-9daa-8418f78ab172.tmp.etl
+\\?\C:\ProgramData\Microsoft\Windows\WER\ReportQueue\NonCritical_Update;MoUpdateO_3c409b9c27f168319569e228c28ec311189d90_00000000_cab_3b392212-2ab3-4e9c-898d-d4cddd4cab3b\WPR_initiated_DiagTrackMiniLogger_WPR System Collector_inject.etl
+\\?\C:\ProgramData\Microsoft\Windows\WER\Temp\WER.1febc5a6-1c24-487e-94dc-4a6744eed265.tmp.etl
+\\?\C:\ProgramData\Microsoft\Windows\WER\Temp\WER.5eedb2ef-c463-485b-9e5c-7c963678432c.tmp.csv
+\\?\C:\ProgramData\Microsoft\Windows\WER\Temp\WER.410a19c5-c328-40a7-ab74-95e85bf7182c.tmp.txt
+\\?\C:\ProgramData\Microsoft\Windows\WER\Temp\WER.1cdcd61d-cf95-4bbd-8a39-6ad7bbda9f06.tmp.xml
+
+These files may be available here:
+\\?\C:\ProgramData\Microsoft\Windows\WER\ReportArchive\NonCritical_Update;MoUpdateO_3c409b9c27f168319569e228c28ec311189d90_00000000_3b392212-2ab3-4e9c-898d-d4cddd4cab3b
+
+Analysis symbol: 
+Rechecking for solution: 0
+Report Id: 3b392212-2ab3-4e9c-898d-d4cddd4cab3b
+Report Status: 268435456
+Hashed bucket: a3b2bba5d800b4044631ac44c65b0d1a
+Cab Guid: 0"
+Information,07-07-2026 21:05:57,Windows Error Reporting,1001,"Fault bucket , type 0
+Event Name: StoreAgentInstallFailure1
+Response: Not available
+Cab Id: 0
+
+Problem signature:
+P1: Update;MoUpdateOrchestratorUserScan-MoUsoCoreWorker-SearchForAllUpdatesWithUpdateOptionsAsync
+P2: 80073d02
+P3: 26200
+P4: 8737
+P5: Windows.Desktop
+P6: 0
+P7: 
+P8: 
+P9: 
+P10: 
+
+Attached files:
+\\?\C:\Windows\Temp\FailureReportMetadata_4979.txt
+\\?\C:\ProgramData\Microsoft\Windows\WER\Temp\WER.be090b9d-1027-4849-9cca-96c98f1bf13a.tmp.WERInternalMetadata.xml
+\\?\C:\ProgramData\Microsoft\Windows\WER\ReportQueue\NonCritical_Update;MoUpdateO_3c409b9c27f168319569e228c28ec311189d90_00000000_cab_3b392212-2ab3-4e9c-898d-d4cddd4cab3b\WPR_initiated_DiagTrackMiniLogger_OneTrace_User_Logger_20260706_1_EC_0_inject.etl
+\\?\C:\ProgramData\Microsoft\Windows\WER\Temp\WER.187d2925-6794-498b-9daa-8418f78ab172.tmp.etl
+\\?\C:\ProgramData\Microsoft\Windows\WER\ReportQueue\NonCritical_Update;MoUpdateO_3c409b9c27f168319569e228c28ec311189d90_00000000_cab_3b392212-2ab3-4e9c-898d-d4cddd4cab3b\WPR_initiated_DiagTrackMiniLogger_WPR System Collector_inject.etl
+\\?\C:\ProgramData\Microsoft\Windows\WER\Temp\WER.1febc5a6-1c24-487e-94dc-4a6744eed265.tmp.etl
+\\?\C:\ProgramData\Microsoft\Windows\WER\Temp\WER.5eedb2ef-c463-485b-9e5c-7c963678432c.tmp.csv
+\\?\C:\ProgramData\Microsoft\Windows\WER\Temp\WER.410a19c5-c328-40a7-ab74-95e85bf7182c.tmp.txt
+\\?\C:\ProgramData\Microsoft\Windows\WER\Temp\WER.1cdcd61d-cf95-4bbd-8a39-6ad7bbda9f06.tmp.xml
+
+These files may be available here:
+\\?\C:\ProgramData\Microsoft\Windows\WER\ReportQueue\NonCritical_Update;MoUpdateO_3c409b9c27f168319569e228c28ec311189d90_00000000_cab_3b392212-2ab3-4e9c-898d-d4cddd4cab3b
+
+Analysis symbol: 
+Rechecking for solution: 0
+Report Id: 3b392212-2ab3-4e9c-898d-d4cddd4cab3b
+Report Status: 4
+Hashed bucket: 
+Cab Guid: 0"
+Information,07-07-2026 21:05:51,Microsoft-Windows-AppXDeploymentServer/Operational,2562,"The description for Event ID 2562 from source Microsoft-Windows-AppXDeploymentServer/Operational cannot be found. Either the component that raises this event is not installed on your local computer or the installation is corrupted. You can install or repair the component on the local computer.
+
+If the event originated on another computer, the display information had to be saved with the event.
+
+The following information was included with the event: 
+
+MSIXDeployment
+windows.applicationData
+DeleteMachineFolder
+Package Microsoft.GetHelp_10.2409.41392.0_x64__8wekyb3d8bbwe removed machine folder C:\ProgramData\Microsoft\Windows\AppRepository\Families\ApplicationData\Microsoft.GetHelp_8wekyb3d8bbwe: The system cannot find the path specified.
+
+The message resource is present but the message was not found in the message table
+"
+Information,07-07-2026 21:04:21,SecurityCenter,15,Updated Windows Defender status successfully to SECURITY_PRODUCT_STATE_ON.
+Information,07-07-2026 21:04:19,SecurityCenter,15,Updated Windows Defender status successfully to SECURITY_PRODUCT_STATE_ON.
+Information,07-07-2026 20:46:19,Microsoft-Windows-Security-SPP,16384,Successfully scheduled Software Protection service for re-start at 2126-06-13T15:16:19Z. Reason: RulesEngine.
+Information,07-07-2026 20:45:49,Microsoft-Windows-Security-SPP,16394,Offline downlevel migration succeeded.
+Information,07-07-2026 20:37:29,Windows Error Reporting,1001,"Fault bucket 1654034275144897964, type 5
+Event Name: RADAR_PRE_LEAK_64
+Response: Not available
+Cab Id: 0
+
+Problem signature:
+P1: Code.exe
+P2: 1.127.0.0
+P3: 10.0.26200.2.0.0
+P4: 
+P5: 
+P6: 
+P7: 
+P8: 
+P9: 
+P10: 
+
+Attached files:
+\\?\E:\temp\RDR7CB1.tmp\empty.txt
+\\?\C:\ProgramData\Microsoft\Windows\WER\Temp\WER.033b0df4-5356-4acf-b789-95864c4b853a.tmp.WERInternalMetadata.xml
+WPR_initiated_DiagTrackMiniLogger_OneTrace_User_Logger_20260706_1_EC_0_inject.etl
+\\?\C:\ProgramData\Microsoft\Windows\WER\Temp\WER.3d6574b7-c7e1-4594-b594-e3e9a87140fd.tmp.etl
+WPR_initiated_DiagTrackMiniLogger_WPR System Collector_inject.etl
+\\?\C:\ProgramData\Microsoft\Windows\WER\Temp\WER.cb92fc56-0a3a-4dce-a153-7291926f5793.tmp.etl
+\\?\C:\ProgramData\Microsoft\Windows\WER\Temp\WER.b9862ba6-6aae-44ad-a45e-acd82d1170a1.tmp.csv
+\\?\C:\ProgramData\Microsoft\Windows\WER\Temp\WER.d4a9a789-bc8b-472f-bb65-85d7b328ebf3.tmp.txt
+\\?\C:\ProgramData\Microsoft\Windows\WER\Temp\WER.58de761f-283e-4791-9815-46b5fe18800a.tmp.xml
+
+These files may be available here:
+NULL
+
+Analysis symbol: 
+Rechecking for solution: 0
+Report Id: 9aa83f7e-30f6-4727-8e3d-65d318ddd523
+Report Status: 268435456
+Hashed bucket: 03c6f04dc0df144d46f44f68e85515ac
+Cab Guid: 0"
+Information,07-07-2026 20:22:54,Microsoft-Windows-Security-SPP,16384,Successfully scheduled Software Protection service for re-start at 2126-06-13T14:52:54Z. Reason: RulesEngine.
+Information,07-07-2026 20:22:20,Microsoft-Windows-Security-SPP,16394,Offline downlevel migration succeeded.
+Information,07-07-2026 20:18:26,Microsoft-Windows-AppXDeploymentServer/Operational,2562,"The description for Event ID 2562 from source Microsoft-Windows-AppXDeploymentServer/Operational cannot be found. Either the component that raises this event is not installed on your local computer or the installation is corrupted. You can install or repair the component on the local computer.
+
+If the event originated on another computer, the display information had to be saved with the event.
+
+The following information was included with the event: 
+
+MSIXDeployment
+windows.applicationData
+DeleteMachineFolder
+Package Microsoft.VisualStudioCode_1.0.124.2_neutral__8wekyb3d8bbwe removed machine folder C:\ProgramData\Microsoft\Windows\AppRepository\Families\ApplicationData\Microsoft.VisualStudioCode_8wekyb3d8bbwe: The system cannot find the path specified.
+
+The message resource is present but the message was not found in the message table
+"
+Information,07-07-2026 20:18:17,Microsoft-Windows-RestartManager,10001,Ending session 6 started ‎2026‎-‎07‎-‎07T14:48:17.593184900Z.
+Information,07-07-2026 20:18:17,Microsoft-Windows-RestartManager,10000,Starting session 6 - ‎2026‎-‎07‎-‎07T14:48:17.593184900Z.
+Information,07-07-2026 20:18:15,Microsoft-Windows-RestartManager,10001,Ending session 6 started ‎2026‎-‎07‎-‎07T14:48:15.811745100Z.
+Information,07-07-2026 20:18:15,Microsoft-Windows-RestartManager,10000,Starting session 6 - ‎2026‎-‎07‎-‎07T14:48:15.811745100Z.
+Information,07-07-2026 20:17:34,Microsoft-Windows-Security-SPP,16384,Successfully scheduled Software Protection service for re-start at 2126-06-13T14:47:34Z. Reason: RulesEngine.
+Information,07-07-2026 20:17:04,Microsoft-Windows-Security-SPP,1033,"These policies are being excluded since they are only defined with override-only attribute.
+Policy Names=(Security-SPP-Reserved-EnableNotificationMode) 
+App Id=55c92734-d682-4d71-983e-d6ec3f16059f
+Sku Id=8a292df8-d653-4057-8133-a0701792f912"
+Information,07-07-2026 20:17:04,Microsoft-Windows-Security-SPP,1034,Duplicate definition of policy found. Policy name=Security-SPP-WriteWauMarker  Priority=500
+Information,07-07-2026 20:17:04,Microsoft-Windows-Security-SPP,1034,Duplicate definition of policy found. Policy name=AAD-AddDeviceJoinUserToAdminGroup-Policy  Priority=100
+Information,07-07-2026 20:17:04,Microsoft-Windows-Security-SPP,16394,Offline downlevel migration succeeded.
+Information,07-07-2026 20:11:04,MsiInstaller,1042,Ending a Windows Installer transaction: c:\program files\microsoft office\root\integration\c2rint.16.msi. Client Process Id: 11924.
+Information,07-07-2026 20:11:04,MsiInstaller,1035,Windows Installer reconfigured the product. Product Name: Office 16 Click-to-Run Extensibility Component. Product Version: 16.0.20131.20112. Product Language: 0. Manufacturer: Microsoft Corporation. Reconfiguration success or error status: 0.
+Information,07-07-2026 20:11:04,MsiInstaller,11728,Product: Office 16 Click-to-Run Extensibility Component -- Configuration completed successfully.
+Information,07-07-2026 20:11:01,Microsoft-Windows-Search,1003,Search service,The Windows Search Service started.
+
+Information,07-07-2026 20:11:00,MsiInstaller,1040,Beginning a Windows Installer transaction: c:\program files\microsoft office\root\integration\c2rint.16.msi. Client Process Id: 11924.
+Information,07-07-2026 20:10:57,Microsoft-Windows-Search,1013,Search service,Windows Search Service stopped normally.
+
+Information,07-07-2026 20:10:56,MsiInstaller,1042,Ending a Windows Installer transaction: c:\program files\microsoft office\root\integration\c2rint.16.msi. Client Process Id: 11924.
+Information,07-07-2026 20:10:54,MsiInstaller,1035,Windows Installer reconfigured the product. Product Name: Office 16 Click-to-Run Extensibility Component. Product Version: 16.0.20131.20112. Product Language: 0. Manufacturer: Microsoft Corporation. Reconfiguration success or error status: 0.
+Information,07-07-2026 20:10:54,MsiInstaller,11728,Product: Office 16 Click-to-Run Extensibility Component -- Configuration completed successfully.
+Information,07-07-2026 20:10:37,MsiInstaller,1040,Beginning a Windows Installer transaction: c:\program files\microsoft office\root\integration\c2rint.16.msi. Client Process Id: 11924.
+Information,07-07-2026 20:10:09,Microsoft-Windows-Security-SPP,16384,Successfully scheduled Software Protection service for re-start at 2126-06-13T14:40:09Z. Reason: RulesEngine.
+Information,07-07-2026 20:09:58,Microsoft-Windows-Search,1003,Search service,The Windows Search Service started.
+
+Information,07-07-2026 20:09:58,Microsoft-Windows-Search,1013,Search service,Windows Search Service stopped normally.
+
+Information,07-07-2026 20:09:50,Microsoft-Windows-RestartManager,10000,Starting session 6 - ‎2026‎-‎07‎-‎07T14:39:50.928697200Z.
+Information,07-07-2026 20:09:39,Microsoft-Windows-Security-SPP,1004,"The Software Protection service has successfully installed the license.
+License Title=Office436366DE-5579-4F24-96DB-3893E4400030 PPD License
+License Id=24458741-e83d-5f5c-b43a-465eba244525"
+Information,07-07-2026 20:09:39,Microsoft-Windows-Security-SPP,1004,"The Software Protection service has successfully installed the license.
+License Title=Office 16 UL oob License (Private)
+License Id=b0630698-7987-48ad-922b-83fe4992be73"
+Information,07-07-2026 20:09:39,Microsoft-Windows-Security-SPP,1004,"The Software Protection service has successfully installed the license.
+License Title=Office 16 UL oob License (Public)
+License Id=84161302-57f7-40fd-8b32-06b42e2aec91"
+Information,07-07-2026 20:09:39,Microsoft-Windows-Security-SPP,1004,"The Software Protection service has successfully installed the license.
+License Title=Office112B0ED2-CF1A-42CE-A0C2-4EE20B59D267 PPD License
+License Id=4bbf45f4-365b-0e65-6f8c-a06d9e66f052"
+Information,07-07-2026 20:09:39,Microsoft-Windows-Security-SPP,1004,"The Software Protection service has successfully installed the license.
+License Title=Office 21 UL oob License (Private)
+License Id=f10776f4-9026-4824-9b6f-ed6d051267c8"
+Information,07-07-2026 20:09:39,Microsoft-Windows-Security-SPP,1004,"The Software Protection service has successfully installed the license.
+License Title=Office 21 UL oob License (Public)
+License Id=0d131c48-c7b0-44c6-b5d6-67d3d16d30bc"
+Information,07-07-2026 20:09:39,Microsoft-Windows-Security-SPP,1004,"The Software Protection service has successfully installed the license.
+License Title=Office 21 Publishing License (Private)
+License Id=3d32cafb-c20f-4283-b312-2d025536cc00"
+Information,07-07-2026 20:09:39,Microsoft-Windows-Security-SPP,1004,"The Software Protection service has successfully installed the license.
+License Title=Office 21 Publishing License (Public)
+License Id=12d06648-a383-4dc6-bbfc-dc18abe3ff2a"
+Information,07-07-2026 20:09:38,Microsoft-Windows-Security-SPP,1004,"The Software Protection service has successfully installed the license.
+License Title=Office0CF5C9C4-62D8-42E7-8443-B2715DDAE7BA PPD License
+License Id=1f924606-fe78-adae-025a-9e2d313c526b"
+Information,07-07-2026 20:09:38,Microsoft-Windows-Security-SPP,1004,"The Software Protection service has successfully installed the license.
+License Title=Office 21 UL oob License (Private)
+License Id=db1ed652-ece8-4a54-b9e6-3138b80c5588"
+Information,07-07-2026 20:09:38,Microsoft-Windows-Security-SPP,1004,"The Software Protection service has successfully installed the license.
+License Title=Office 21 UL oob License (Public)
+License Id=bb113ecc-aa18-4154-a46d-aed4ae1fc0e9"
+Information,07-07-2026 20:09:38,Microsoft-Windows-Security-SPP,1004,"The Software Protection service has successfully installed the license.
+License Title=Office 21 Publishing License (Private)
+License Id=1cae146f-0983-4e15-b5d6-34d6e7c42b1b"
+Information,07-07-2026 20:09:38,Microsoft-Windows-Security-SPP,1004,"The Software Protection service has successfully installed the license.
+License Title=Office 21 Publishing License (Public)
+License Id=8c734265-0132-400e-a7b4-cd374fee3831"
+Information,07-07-2026 20:09:38,Microsoft-Windows-Security-SPP,1004,"The Software Protection service has successfully installed the license.
+License Title=Office44F73EE6-D2F7-4502-97D5-046E8820662E PPD License
+License Id=9687427f-277d-46a5-12aa-46a2b3fd7a2b"
+Information,07-07-2026 20:09:38,Microsoft-Windows-Security-SPP,1004,"The Software Protection service has successfully installed the license.
+License Title=Office 21 UL oob License (Private)
+License Id=ab10e2dc-4a0e-48a9-ac08-3d286015c493"
+Information,07-07-2026 20:09:38,Microsoft-Windows-Security-SPP,1004,"The Software Protection service has successfully installed the license.
+License Title=Office 21 UL oob License (Public)
+License Id=0347aa9c-df27-4a73-9204-78151e2e1f29"
+Information,07-07-2026 20:09:38,Microsoft-Windows-Security-SPP,1004,"The Software Protection service has successfully installed the license.
+License Title=Office 21 Publishing License (Private)
+License Id=828a3dc3-548a-4ddf-b914-e499021b2564"
+Information,07-07-2026 20:09:38,Microsoft-Windows-Security-SPP,1004,"The Software Protection service has successfully installed the license.
+License Title=Office 21 Publishing License (Public)
+License Id=5b2b2daa-7b11-4807-b0d6-fad96dba2eff"
+Information,07-07-2026 20:09:38,Microsoft-Windows-Security-SPP,1004,"The Software Protection service has successfully installed the license.
+License Title=Office649FB593-1AEA-4F3D-9EDE-6D756561A2E5 PPD License
+License Id=d629fa80-e641-4906-968b-24aa333424bb"
+Information,07-07-2026 20:09:38,Microsoft-Windows-Security-SPP,1004,"The Software Protection service has successfully installed the license.
+License Title=Office 21 UL oob License (Private)
+License Id=28fa29b3-8d28-465f-8148-73b9e7d28816"
+Information,07-07-2026 20:09:38,Microsoft-Windows-Security-SPP,1004,"The Software Protection service has successfully installed the license.
+License Title=Office 21 UL oob License (Public)
+License Id=dfa81fcc-5799-4343-a8fc-5f61fbed3511"
+Information,07-07-2026 20:09:38,Microsoft-Windows-Security-SPP,1004,"The Software Protection service has successfully installed the license.
+License Title=Office 21 Publishing License (Private)
+License Id=594edf7b-d973-4d51-accd-881b4e500a28"
+Information,07-07-2026 20:09:38,Microsoft-Windows-Security-SPP,1004,"The Software Protection service has successfully installed the license.
+License Title=Office 21 Publishing License (Public)
+License Id=8dcbb85c-0120-494d-b37e-d7888d7eb6f4"
+Information,07-07-2026 20:09:38,Microsoft-Windows-Security-SPP,1004,"The Software Protection service has successfully installed the license.
+License Title=Office2F258377-738F-48DD-9397-287E43079958 PPD License
+License Id=d069fb65-37f6-e5a9-bb0f-9d67ba0fe482"
+Information,07-07-2026 20:09:38,Microsoft-Windows-Security-SPP,1004,"The Software Protection service has successfully installed the license.
+License Title=Office 21 UL oob License (Private)
+License Id=08187bce-e626-4975-8eb7-52f1f5ce0881"
+Information,07-07-2026 20:09:38,Microsoft-Windows-Security-SPP,1004,"The Software Protection service has successfully installed the license.
+License Title=Office 21 UL oob License (Public)
+License Id=ee143c21-8694-4018-8413-a67489cbf8ee"
+Information,07-07-2026 20:09:38,Microsoft-Windows-Security-SPP,1004,"The Software Protection service has successfully installed the license.
+License Title=Office 21 Publishing License (Private)
+License Id=671d792f-7115-4faf-8bd8-f98b764d6d4a"
+Information,07-07-2026 20:09:38,Microsoft-Windows-Security-SPP,1004,"The Software Protection service has successfully installed the license.
+License Title=Office 21 Publishing License (Public)
+License Id=6202de3e-4dbd-40c6-bb3a-04e216d3b84f"
+Information,07-07-2026 20:09:38,Microsoft-Windows-Security-SPP,1004,"The Software Protection service has successfully installed the license.
+License Title=Office9E7D5312-95FC-4443-A551-69C20624EC6B PPD License
+License Id=e7ed6d88-5e32-8116-7b31-c2bd6ab383d5"
+Information,07-07-2026 20:09:38,Microsoft-Windows-Security-SPP,1004,"The Software Protection service has successfully installed the license.
+License Title=Office 21 UL oob License (Private)
+License Id=a33d0f4f-22a2-4aa4-a4c4-443d0f9ab91d"
+Information,07-07-2026 20:09:38,Microsoft-Windows-Security-SPP,1004,"The Software Protection service has successfully installed the license.
+License Title=Office 21 UL oob License (Public)
+License Id=b521ef08-70d9-44d3-acc4-23af4ff07d88"
+Information,07-07-2026 20:09:38,Microsoft-Windows-Security-SPP,1004,"The Software Protection service has successfully installed the license.
+License Title=Office 21 UL phone License (Private)
+License Id=0e29481a-71a1-4339-a162-808a03c1acbd"
+Information,07-07-2026 20:09:38,Microsoft-Windows-Security-SPP,1004,"The Software Protection service has successfully installed the license.
+License Title=Office 21 UL phone License (Public)
+License Id=18c4f942-1e3d-47fa-a6ab-11d06384fa33"
+Information,07-07-2026 20:09:38,Microsoft-Windows-Security-SPP,1004,"The Software Protection service has successfully installed the license.
+License Title=Office 21 Publishing License (Private)
+License Id=6a35ca37-6ce3-417f-9a3a-adc1dd573f1e"
+Information,07-07-2026 20:09:38,Microsoft-Windows-Security-SPP,1004,"The Software Protection service has successfully installed the license.
+License Title=Office 21 Publishing License (Public)
+License Id=0012cc65-8230-4721-9dc9-a5453527ad62"
+Information,07-07-2026 20:09:37,Microsoft-Windows-Security-SPP,1004,"The Software Protection service has successfully installed the license.
+License Title=Office2FC0111C-BF0B-4BDD-900C-E3C713034746 PPD License
+License Id=4bdb30ce-db02-c0e7-d5f9-1eda6fa38f34"
+Information,07-07-2026 20:09:37,Microsoft-Windows-Security-SPP,1004,"The Software Protection service has successfully installed the license.
+License Title=Office 21 UL oob License (Private)
+License Id=8ce5f2b5-7be6-4664-9746-f2e301b65a2e"
+Information,07-07-2026 20:09:37,Microsoft-Windows-Security-SPP,1004,"The Software Protection service has successfully installed the license.
+License Title=Office 21 UL oob License (Public)
+License Id=371362d5-c811-4f63-bd6f-cf4a7b9a61fa"
+Information,07-07-2026 20:09:37,Microsoft-Windows-Security-SPP,1004,"The Software Protection service has successfully installed the license.
+License Title=Office 21 UL phone License (Private)
+License Id=d14eaecf-5a19-44f2-9a4c-b81a6b8f7975"
+Information,07-07-2026 20:09:37,Microsoft-Windows-Security-SPP,1004,"The Software Protection service has successfully installed the license.
+License Title=Office 21 UL phone License (Public)
+License Id=0ff4006a-8eca-4d46-8602-b7ca81107c9a"
+Information,07-07-2026 20:09:37,Microsoft-Windows-Security-SPP,1004,"The Software Protection service has successfully installed the license.
+License Title=Office 21 Publishing License (Private)
+License Id=78b36c6f-7587-4c85-a388-51ad72e6636a"
+Information,07-07-2026 20:09:37,Microsoft-Windows-Security-SPP,1004,"The Software Protection service has successfully installed the license.
+License Title=Office 21 Publishing License (Public)
+License Id=ad8d05d2-78a5-4a90-ad4b-a1568e624786"
+Information,07-07-2026 20:09:37,Microsoft-Windows-Security-SPP,1004,"The Software Protection service has successfully installed the license.
+License Title=OfficeA570C5DF-B1A3-485C-A8CD-B47E90787BA8 PPD License
+License Id=8e9db236-d4fe-5b79-7970-404d6c215915"
+Information,07-07-2026 20:09:37,Microsoft-Windows-Security-SPP,1004,"The Software Protection service has successfully installed the license.
+License Title=Office 21 UL oob License (Private)
+License Id=4897d814-8220-4d1f-8233-f80c4e3fa637"
+Information,07-07-2026 20:09:37,Microsoft-Windows-Security-SPP,1004,"The Software Protection service has successfully installed the license.
+License Title=Office 21 UL oob License (Public)
+License Id=bd87d5a8-f9a6-4dfd-b74b-a3c4ca9a5e8d"
+Information,07-07-2026 20:09:37,Microsoft-Windows-Security-SPP,1004,"The Software Protection service has successfully installed the license.
+License Title=Office1CAC786A-7F16-4EDE-B7FC-CFBCE8FE24C7 PPD License
+License Id=78f8bd92-3cec-3ed0-5b57-a7cdab2a1d85"
+Information,07-07-2026 20:09:37,Microsoft-Windows-Security-SPP,1004,"The Software Protection service has successfully installed the license.
+License Title=Office 21 UL oob License (Private)
+License Id=fbea25af-b724-46b7-87fb-89a3fe1d83b3"
+Information,07-07-2026 20:09:37,Microsoft-Windows-Security-SPP,1004,"The Software Protection service has successfully installed the license.
+License Title=Office 21 UL oob License (Public)
+License Id=130e2619-5316-4f15-a2bc-b443217b9c0c"
+Information,07-07-2026 20:09:37,Microsoft-Windows-Security-SPP,1004,"The Software Protection service has successfully installed the license.
+License Title=client-issuance-bridge-office Issuance License
+License Id=4d4a5396-01a7-4ae5-9973-b53bb1af5c30"
+Information,07-07-2026 20:09:37,Microsoft-Windows-Security-SPP,1004,"The Software Protection service has successfully installed the license.
+License Title=client-issuance-root-bridge-test Issuance License
+License Id=7256a55f-e989-4e06-b2c2-c527f49e4527"
+Information,07-07-2026 20:09:37,Microsoft-Windows-Security-SPP,1004,"The Software Protection service has successfully installed the license.
+License Title=client-issuance-ul-oob Issuance License
+License Id=7209e8e3-cce2-49dd-8f6e-2cc8a611f202"
+Information,07-07-2026 20:09:37,Microsoft-Windows-Security-SPP,1004,"The Software Protection service has successfully installed the license.
+License Title=client-issuance-ul Issuance License
+License Id=ce939c0e-53f7-4011-a286-78b6975fa5f0"
+Information,07-07-2026 20:09:37,Microsoft-Windows-Security-SPP,1004,"The Software Protection service has successfully installed the license.
+License Title=client-issuance-stil Issuance License
+License Id=285583cd-fc43-4806-ace6-d247b7edd434"
+Information,07-07-2026 20:09:37,Microsoft-Windows-Security-SPP,1004,"The Software Protection service has successfully installed the license.
+License Title=client-issuance-root Issuance License
+License Id=7cbeb41c-1778-47f2-aa36-51a5a618f716"
+Information,07-07-2026 20:09:37,Microsoft-Windows-Security-SPP,1004,"The Software Protection service has successfully installed the license.
+License Title=XrML 2.1 License - Product Key Configuration
+License Id=dc6454b3-ceba-4e40-b6cc-26afb8fe8fa6"
+Information,07-07-2026 20:09:37,Microsoft-Windows-Security-SPP,1004,"The Software Protection service has successfully installed the license.
+License Title=XrML 2.1 License - Product Key Configuration
+License Id=6040a6e7-445d-4609-b6c4-8a66b709cb54"
+Information,07-07-2026 20:09:36,Microsoft-Windows-Security-SPP,16394,Offline downlevel migration succeeded.
+Information,07-07-2026 20:09:34,Microsoft-Windows-RestartManager,10005,Machine restart is required.
+Information,07-07-2026 20:08:19,Microsoft-Windows-RestartManager,10002,Shutting down application or service 'Microsoft Office SDX Helper'.
+Error,07-07-2026 20:08:19,Microsoft-Windows-RestartManager,10006,Application or service 'Microsoft Office SDX Helper' could not be shut down.
+Information,07-07-2026 20:08:13,Microsoft-Windows-Security-SPP,16384,Successfully scheduled Software Protection service for re-start at 2126-06-13T14:38:13Z. Reason: RulesEngine.
+Information,07-07-2026 20:07:42,DellTechHub,0,PowerEvent handled successfully by the service.
+Information,07-07-2026 20:07:42,Dell SupportAssist Remediation,0,PowerEvent handled successfully by the service.
+Information,07-07-2026 20:07:40,Microsoft-Windows-RestartManager,10000,Starting session 6 - ‎2026‎-‎07‎-‎07T14:37:40.995124000Z.
+Information,07-07-2026 20:07:38,DellTechHub,0,PowerEvent handled successfully by the service.
+Information,07-07-2026 20:07:38,Dell SupportAssist Remediation,0,PowerEvent handled successfully by the service.
+Information,07-07-2026 20:07:21,Microsoft-Windows-RestartManager,10001,Ending session 0 started ‎2026‎-‎07‎-‎07T11:34:17.559044300Z.
+Information,07-07-2026 19:37:54,Microsoft-Windows-Security-SPP,16394,Offline downlevel migration succeeded.
+Information,07-07-2026 18:13:10,Microsoft-Windows-Security-SPP,16384,Successfully scheduled Software Protection service for re-start at 2126-06-13T12:42:09Z. Reason: RulesEngine.
+Information,07-07-2026 18:12:39,Microsoft-Windows-Security-SPP,16394,Offline downlevel migration succeeded.
+Information,07-07-2026 17:52:03,Microsoft-Windows-Security-SPP,16384,Successfully scheduled Software Protection service for re-start at 2126-06-13T12:22:03Z. Reason: RulesEngine.
+Information,07-07-2026 17:51:33,Microsoft-Windows-Security-SPP,16394,Offline downlevel migration succeeded.
+Information,07-07-2026 17:34:43,Microsoft-Windows-Security-SPP,16384,Successfully scheduled Software Protection service for re-start at 2126-06-13T12:04:43Z. Reason: RulesEngine.
+Information,07-07-2026 17:34:13,Microsoft-Windows-Security-SPP,16394,Offline downlevel migration succeeded.
+Information,07-07-2026 17:04:17,Microsoft-Windows-RestartManager,10000,Starting session 0 - ‎2026‎-‎07‎-‎07T11:34:17.559044300Z.
+Information,07-07-2026 17:04:17,Microsoft-Windows-RestartManager,10001,Ending session 0 started ‎2026‎-‎07‎-‎07T11:30:15.477988600Z.
+Information,07-07-2026 17:00:15,Microsoft-Windows-RestartManager,10000,Starting session 0 - ‎2026‎-‎07‎-‎07T11:30:15.477988600Z.
+Information,07-07-2026 16:49:37,Microsoft-Windows-Security-SPP,16384,Successfully scheduled Software Protection service for re-start at 2126-06-13T11:19:37Z. Reason: RulesEngine.
+Information,07-07-2026 16:49:06,Microsoft-Windows-Security-SPP,16394,Offline downlevel migration succeeded.
+Information,07-07-2026 16:38:27,Microsoft-Windows-Security-SPP,16384,Successfully scheduled Software Protection service for re-start at 2126-06-13T11:08:27Z. Reason: RulesEngine.
+Information,07-07-2026 16:37:57,Microsoft-Windows-Security-SPP,16394,Offline downlevel migration succeeded.
+Information,07-07-2026 16:25:45,Microsoft-Windows-Security-SPP,16384,Successfully scheduled Software Protection service for re-start at 2126-06-13T10:55:45Z. Reason: RulesEngine.
+Information,07-07-2026 16:25:14,Microsoft-Windows-Security-SPP,16394,Offline downlevel migration succeeded.
+Information,07-07-2026 15:53:58,edgeupdate,0,Service stopped.
+Information,07-07-2026 15:53:11,VSS,8224,The VSS service is shutting down due to idle timeout. 
+Information,07-07-2026 15:49:57,VSS,8224,The VSS service is shutting down due to idle timeout. 
+Information,07-07-2026 15:48:55,Microsoft-Windows-Security-SPP,16384,Successfully scheduled Software Protection service for re-start at 2126-06-13T10:18:55Z. Reason: RulesEngine.
+Information,07-07-2026 15:48:31,SecurityCenter,15,Updated Windows Defender status successfully to SECURITY_PRODUCT_STATE_ON.
+Information,07-07-2026 15:47:16,Microsoft-Windows-Security-SPP,16394,Offline downlevel migration succeeded.
+Information,07-07-2026 15:32:08,Microsoft-Windows-Security-SPP,16384,Successfully scheduled Software Protection service for re-start at 2126-06-13T10:02:08Z. Reason: RulesEngine.
+Information,07-07-2026 15:32:06,Chrome,256,Browser Events,[14200:21828:0707/153206.811:INFO:chrome\browser\extensions\extension_garbage_collector.cc:188] Garbage collection for extensions on file thread is complete.
+Information,07-07-2026 15:31:38,Microsoft-Windows-Security-SPP,16394,Offline downlevel migration succeeded.
+Information,07-07-2026 15:31:01,Microsoft-Windows-Security-SPP,16384,Successfully scheduled Software Protection service for re-start at 2126-06-13T10:01:01Z. Reason: RulesEngine.
+Information,07-07-2026 15:30:51,edgeupdate,0,Service stopped.
+Information,07-07-2026 15:30:38,IPF,19,ESIF(2.3.20303.5058) TYPE: INFO MODULE: IPF TIME 405263064 ms
+
+    DPTF Build Version:  9.1.10009.1745    DPTF Build Date:  Mar 11 2026 16:58:52    Message:  EPO Modes Status:DC Endurance Gaming(Status: Enabled);DC Better Battery(Status: Disabled);DC Balanced(Status: Enabled);AC Balanced(Status: Enabled);AC Quiet(Status: Disabled);AC Collaboration(Status: Enabled    Policy:  Energy Performance Optimizer Policy [2]        
+Information,07-07-2026 15:30:37,DellTechHub,0,PowerEvent handled successfully by the service.
+Information,07-07-2026 15:30:37,Dell SupportAssist Remediation,0,PowerEvent handled successfully by the service.
+Information,07-07-2026 15:30:36,DellTechHub,0,PowerEvent handled successfully by the service.
+Information,07-07-2026 15:30:36,Dell SupportAssist Remediation,0,PowerEvent handled successfully by the service.
+Information,07-07-2026 05:24:02,DellTechHub,0,PowerEvent handled successfully by the service.
+Information,07-07-2026 05:24:02,Dell SupportAssist Remediation,0,PowerEvent handled successfully by the service.
+Information,06-07-2026 18:51:02,Microsoft-Windows-Security-SPP,16394,Offline downlevel migration succeeded.
+Information,06-07-2026 17:27:44,Microsoft-Windows-Security-SPP,16384,Successfully scheduled Software Protection service for re-start at 2126-06-12T11:57:44Z. Reason: RulesEngine.
+Information,06-07-2026 17:27:10,Microsoft-Windows-Security-SPP,16394,Offline downlevel migration succeeded.
+Information,06-07-2026 17:16:22,edgeupdate,0,Service stopped.
+Information,06-07-2026 16:59:31,Microsoft-Windows-Security-SPP,16384,Successfully scheduled Software Protection service for re-start at 2126-06-12T11:29:30Z. Reason: RulesEngine.
+Information,06-07-2026 16:58:56,Microsoft-Windows-Security-SPP,16394,Offline downlevel migration succeeded.
+Information,06-07-2026 16:57:17,Microsoft-Windows-Security-SPP,16384,Successfully scheduled Software Protection service for re-start at 2126-06-12T11:27:17Z. Reason: RulesEngine.
+Information,06-07-2026 16:56:42,Microsoft-Windows-Security-SPP,16394,Offline downlevel migration succeeded.
+Information,06-07-2026 16:55:30,VSS,8224,The VSS service is shutting down due to idle timeout. 
+Information,06-07-2026 16:54:09,edgeupdate,0,Service stopped.
+Error,06-07-2026 16:52:28,VSS,8194,"Volume Shadow Copy Service error: Unexpected error querying for the IVssWriterCallback interface.  hr = 0x80070005, Access is denied.
+. This is often caused by incorrect security settings in either the writer or requestor process. 
+
+Operation:
+   Gathering Writer Data
+
+Context:
+   Writer Class Id: {e8132975-6f93-4464-a53e-1050253ae220}
+   Writer Name: System Writer
+   Writer Instance ID: {cc859194-dee9-49da-928a-dcc55a9cbbd4}"
+Information,06-07-2026 16:52:28,SDSSnapshotProcess,278,(6),"The description for Event ID 278 from source SDSSnapshotProcess cannot be found. Either the component that raises this event is not installed on your local computer or the installation is corrupted. You can install or repair the component on the local computer.
+
+If the event originated on another computer, the display information had to be saved with the event.
+
+The following information was included with the event: 
+
+
+The system cannot find the file specified
+"
+Information,06-07-2026 16:26:43,Microsoft-Windows-Security-SPP,16384,Successfully scheduled Software Protection service for re-start at 2126-06-12T10:56:43Z. Reason: RulesEngine.
+Information,06-07-2026 16:26:09,Microsoft-Windows-Security-SPP,16394,Offline downlevel migration succeeded.
+Information,06-07-2026 16:16:27,edgeupdate,0,Service stopped.
+Information,06-07-2026 15:58:38,SDSSnapshotProcess,276,(4),"The description for Event ID 276 from source SDSSnapshotProcess cannot be found. Either the component that raises this event is not installed on your local computer or the installation is corrupted. You can install or repair the component on the local computer.
+
+If the event originated on another computer, the display information had to be saved with the event.
+
+The following information was included with the event: 
+
+
+The system cannot find the file specified
+"
+Information,06-07-2026 15:58:05,SDSSnapshotProcess,272,(3),"The description for Event ID 272 from source SDSSnapshotProcess cannot be found. Either the component that raises this event is not installed on your local computer or the installation is corrupted. You can install or repair the component on the local computer.
+
+If the event originated on another computer, the display information had to be saved with the event.
+
+The following information was included with the event: 
+
+
+The system cannot find the file specified
+"
+Information,06-07-2026 15:31:07,Microsoft-Windows-Security-SPP,16384,Successfully scheduled Software Protection service for re-start at 2126-06-12T10:01:07Z. Reason: RulesEngine.
+Information,06-07-2026 15:30:35,Microsoft-Windows-Security-SPP,16394,Offline downlevel migration succeeded.
+Information,06-07-2026 15:30:34,Dell SupportAssist Remediation,0,PowerEvent handled successfully by the service.
+Information,06-07-2026 15:30:34,DellTechHub,0,PowerEvent handled successfully by the service.
+Information,06-07-2026 13:55:48,DellTechHub,0,PowerEvent handled successfully by the service.
+Information,06-07-2026 13:55:48,Dell SupportAssist Remediation,0,PowerEvent handled successfully by the service.
+Information,06-07-2026 13:23:57,DellTechHub,0,PowerEvent handled successfully by the service.
+Information,06-07-2026 13:23:57,Dell SupportAssist Remediation,0,PowerEvent handled successfully by the service.
+Information,06-07-2026 13:23:54,DellTechHub,0,PowerEvent handled successfully by the service.
+Information,06-07-2026 13:23:54,Dell SupportAssist Remediation,0,PowerEvent handled successfully by the service.
+Information,06-07-2026 13:20:20,DellTechHub,0,PowerEvent handled successfully by the service.
+Information,06-07-2026 13:20:20,Dell SupportAssist Remediation,0,PowerEvent handled successfully by the service.
+Information,06-07-2026 13:16:32,Microsoft-Windows-Security-SPP,16384,Successfully scheduled Software Protection service for re-start at 2126-06-12T07:46:32Z. Reason: RulesEngine.
+Information,06-07-2026 13:16:01,Microsoft-Windows-Security-SPP,16394,Offline downlevel migration succeeded.
+Information,06-07-2026 12:57:01,Microsoft-Windows-Security-SPP,16384,Successfully scheduled Software Protection service for re-start at 2126-06-12T07:27:01Z. Reason: RulesEngine.
+Information,06-07-2026 12:56:26,Microsoft-Windows-Security-SPP,16394,Offline downlevel migration succeeded.
+Information,06-07-2026 12:48:01,Microsoft-Windows-Security-SPP,16384,Successfully scheduled Software Protection service for re-start at 2126-06-12T07:18:01Z. Reason: RulesEngine.
+Information,06-07-2026 12:47:31,Microsoft-Windows-Security-SPP,16394,Offline downlevel migration succeeded.
+Information,06-07-2026 11:59:58,SDSSnapshotProcess,264,(2),"The description for Event ID 264 from source SDSSnapshotProcess cannot be found. Either the component that raises this event is not installed on your local computer or the installation is corrupted. You can install or repair the component on the local computer.
+
+If the event originated on another computer, the display information had to be saved with the event.
+
+The following information was included with the event: 
+
+
+The system cannot find the file specified
+"
+Information,06-07-2026 11:59:14,Microsoft-Windows-Security-SPP,16384,Successfully scheduled Software Protection service for re-start at 2126-06-12T06:29:14Z. Reason: RulesEngine.
+Information,06-07-2026 11:58:44,Microsoft-Windows-Security-SPP,16394,Offline downlevel migration succeeded.
+Information,06-07-2026 11:58:40,SDSSnapshotProcess,274,(4),"The description for Event ID 274 from source SDSSnapshotProcess cannot be found. Either the component that raises this event is not installed on your local computer or the installation is corrupted. You can install or repair the component on the local computer.
+
+If the event originated on another computer, the display information had to be saved with the event.
+
+The following information was included with the event: 
+
+
+The system cannot find the file specified
+"
+Information,06-07-2026 11:58:38,VSS,8231,"Volume Shadow Copy Service information: Snapshot creation initiated for Snapshot Set {dee12a2b-fb3a-4e45-9644-03e24a6c4e80}.
+ Process command line: ""C:\Program Files\Dell\SARemediation\agent\DellSupportAssistRemedationService.exe""
+ Process Caller Stack:
+ Process[0]: DellSupportAssistRemedationService.exe
+ Process[1]: services.exe
+ Process[2]: wininit.exe
+"
+Error,06-07-2026 11:58:37,VSS,8194,"Volume Shadow Copy Service error: Unexpected error querying for the IVssWriterCallback interface.  hr = 0x80070005, Access is denied.
+. This is often caused by incorrect security settings in either the writer or requestor process. 
+
+Operation:
+   Gathering Writer Data
+
+Context:
+   Writer Class Id: {e8132975-6f93-4464-a53e-1050253ae220}
+   Writer Name: System Writer
+   Writer Instance ID: {cc859194-dee9-49da-928a-dcc55a9cbbd4}"
+Information,06-07-2026 11:58:37,SDSSnapshotProcess,256,(1),"The description for Event ID 256 from source SDSSnapshotProcess cannot be found. Either the component that raises this event is not installed on your local computer or the installation is corrupted. You can install or repair the component on the local computer.
+
+If the event originated on another computer, the display information had to be saved with the event.
+
+The following information was included with the event: 
+
+
+The system cannot find the file specified
+"
+Information,06-07-2026 11:54:57,Windows Error Reporting,1001,"Fault bucket 1969447681508172363, type 5
+Event Name: StoreAgentScanForUpdatesFailure0
+Response: Not available
+Cab Id: 0
+
+Problem signature:
+P1: Update;
+P2: 80240438
+P3: 26200
+P4: 8737
+P5: Windows.Desktop
+P6: 
+P7: 
+P8: 
+P9: 
+P10: 
+
+Attached files:
+\\?\C:\ProgramData\Microsoft\Windows\WER\Temp\WER.c7a89ad3-b7df-40c1-a545-fc27cd3b15e9.tmp.WERInternalMetadata.xml
+\\?\C:\ProgramData\Microsoft\Windows\WER\ReportQueue\NonCritical_Update;_97e2b3fb223035ec95c380a58b30badf1f65f02c_00000000_cab_16b8e408-e414-4098-8672-1bf157707436\WPR_initiated_DiagTrackMiniLogger_OneTrace_User_Logger_20260703_1_EC_0_inject.etl
+\\?\C:\ProgramData\Microsoft\Windows\WER\Temp\WER.04a21d8c-bc81-40ac-84e1-6da314b450cb.tmp.etl
+\\?\C:\ProgramData\Microsoft\Windows\WER\ReportQueue\NonCritical_Update;_97e2b3fb223035ec95c380a58b30badf1f65f02c_00000000_cab_16b8e408-e414-4098-8672-1bf157707436\WPR_initiated_DiagTrackMiniLogger_WPR System Collector_inject.etl
+\\?\C:\ProgramData\Microsoft\Windows\WER\Temp\WER.832c06b2-1a96-4366-ae0e-178ac72e2094.tmp.etl
+\\?\C:\ProgramData\Microsoft\Windows\WER\Temp\WER.19e69bff-ce76-4caf-8f8b-e295d9d867d0.tmp.csv
+\\?\C:\ProgramData\Microsoft\Windows\WER\Temp\WER.a8b002bc-a24a-4f42-a6d8-6211f72d14bb.tmp.txt
+\\?\C:\ProgramData\Microsoft\Windows\WER\Temp\WER.93f8b41e-2f55-4397-a43c-be0f44eabb68.tmp.xml
+
+These files may be available here:
+\\?\C:\ProgramData\Microsoft\Windows\WER\ReportArchive\NonCritical_Update;_97e2b3fb223035ec95c380a58b30badf1f65f02c_00000000_16b8e408-e414-4098-8672-1bf157707436
+
+Analysis symbol: 
+Rechecking for solution: 0
+Report Id: 16b8e408-e414-4098-8672-1bf157707436
+Report Status: 268435462
+Hashed bucket: 95287d93c1dfdce56b54e23b5402e24b
+Cab Guid: 0"
+Information,06-07-2026 11:53:55,Chrome,256,Browser Events,[16104:25880:0706/115355.218:INFO:chrome\browser\extensions\extension_garbage_collector.cc:188] Garbage collection for extensions on file thread is complete.
+Information,06-07-2026 11:53:39,Windows Error Reporting,1001,"Fault bucket , type 0
+Event Name: StoreAgentScanForUpdatesFailure0
+Response: Not available
+Cab Id: 0
+
+Problem signature:
+P1: Update;
+P2: 80240438
+P3: 26200
+P4: 8737
+P5: Windows.Desktop
+P6: 
+P7: 
+P8: 
+P9: 
+P10: 
+
+Attached files:
+\\?\C:\ProgramData\Microsoft\Windows\WER\Temp\WER.c7a89ad3-b7df-40c1-a545-fc27cd3b15e9.tmp.WERInternalMetadata.xml
+\\?\C:\ProgramData\Microsoft\Windows\WER\ReportQueue\NonCritical_Update;_97e2b3fb223035ec95c380a58b30badf1f65f02c_00000000_cab_16b8e408-e414-4098-8672-1bf157707436\WPR_initiated_DiagTrackMiniLogger_OneTrace_User_Logger_20260703_1_EC_0_inject.etl
+\\?\C:\ProgramData\Microsoft\Windows\WER\Temp\WER.04a21d8c-bc81-40ac-84e1-6da314b450cb.tmp.etl
+\\?\C:\ProgramData\Microsoft\Windows\WER\ReportQueue\NonCritical_Update;_97e2b3fb223035ec95c380a58b30badf1f65f02c_00000000_cab_16b8e408-e414-4098-8672-1bf157707436\WPR_initiated_DiagTrackMiniLogger_WPR System Collector_inject.etl
+\\?\C:\ProgramData\Microsoft\Windows\WER\Temp\WER.832c06b2-1a96-4366-ae0e-178ac72e2094.tmp.etl
+\\?\C:\ProgramData\Microsoft\Windows\WER\Temp\WER.19e69bff-ce76-4caf-8f8b-e295d9d867d0.tmp.csv
+\\?\C:\ProgramData\Microsoft\Windows\WER\Temp\WER.a8b002bc-a24a-4f42-a6d8-6211f72d14bb.tmp.txt
+\\?\C:\ProgramData\Microsoft\Windows\WER\Temp\WER.93f8b41e-2f55-4397-a43c-be0f44eabb68.tmp.xml
+
+These files may be available here:
+\\?\C:\ProgramData\Microsoft\Windows\WER\ReportQueue\NonCritical_Update;_97e2b3fb223035ec95c380a58b30badf1f65f02c_00000000_cab_16b8e408-e414-4098-8672-1bf157707436
+
+Analysis symbol: 
+Rechecking for solution: 0
+Report Id: 16b8e408-e414-4098-8672-1bf157707436
+Report Status: 6
+Hashed bucket: 
+Cab Guid: 0"
+Information,06-07-2026 11:53:39,Windows Error Reporting,1001,"Fault bucket , type 0
+Event Name: StoreAgentScanForUpdatesFailure0
+Response: Not available
+Cab Id: 0
+
+Problem signature:
+P1: Update;
+P2: 80240438
+P3: 26200
+P4: 8737
+P5: Windows.Desktop
+P6: 
+P7: 
+P8: 
+P9: 
+P10: 
+
+Attached files:
+\\?\C:\ProgramData\Microsoft\Windows\WER\Temp\WER.c7a89ad3-b7df-40c1-a545-fc27cd3b15e9.tmp.WERInternalMetadata.xml
+\\?\C:\ProgramData\Microsoft\Windows\WER\ReportQueue\NonCritical_Update;_97e2b3fb223035ec95c380a58b30badf1f65f02c_00000000_cab_16b8e408-e414-4098-8672-1bf157707436\WPR_initiated_DiagTrackMiniLogger_OneTrace_User_Logger_20260703_1_EC_0_inject.etl
+\\?\C:\ProgramData\Microsoft\Windows\WER\Temp\WER.04a21d8c-bc81-40ac-84e1-6da314b450cb.tmp.etl
+\\?\C:\ProgramData\Microsoft\Windows\WER\ReportQueue\NonCritical_Update;_97e2b3fb223035ec95c380a58b30badf1f65f02c_00000000_cab_16b8e408-e414-4098-8672-1bf157707436\WPR_initiated_DiagTrackMiniLogger_WPR System Collector_inject.etl
+\\?\C:\ProgramData\Microsoft\Windows\WER\Temp\WER.832c06b2-1a96-4366-ae0e-178ac72e2094.tmp.etl
+\\?\C:\ProgramData\Microsoft\Windows\WER\Temp\WER.19e69bff-ce76-4caf-8f8b-e295d9d867d0.tmp.csv
+\\?\C:\ProgramData\Microsoft\Windows\WER\Temp\WER.a8b002bc-a24a-4f42-a6d8-6211f72d14bb.tmp.txt
+\\?\C:\ProgramData\Microsoft\Windows\WER\Temp\WER.93f8b41e-2f55-4397-a43c-be0f44eabb68.tmp.xml
+
+These files may be available here:
+\\?\C:\ProgramData\Microsoft\Windows\WER\ReportQueue\NonCritical_Update;_97e2b3fb223035ec95c380a58b30badf1f65f02c_00000000_cab_16b8e408-e414-4098-8672-1bf157707436
+
+Analysis symbol: 
+Rechecking for solution: 0
+Report Id: 16b8e408-e414-4098-8672-1bf157707436
+Report Status: 4
+Hashed bucket: 
+Cab Guid: 0"
+Information,06-07-2026 11:53:36,DellTechHub,0,PowerEvent handled successfully by the service.
+Information,06-07-2026 11:53:36,Dell SupportAssist Remediation,0,PowerEvent handled successfully by the service.
+Information,06-07-2026 11:53:32,DellTechHub,0,PowerEvent handled successfully by the service.
+Information,06-07-2026 11:53:32,Dell SupportAssist Remediation,0,PowerEvent handled successfully by the service.
+Information,06-07-2026 11:53:22,SpotifySessionConnectedTask,1,Incorrect function. 
+Information,06-07-2026 11:53:22,SpotifySessionConnectedTask,1,Incorrect function. 
+Information,06-07-2026 11:53:22,SpotifySessionConnectedTask,1,Incorrect function. 
+Information,06-07-2026 11:53:22,SpotifySessionConnectedTask,1,Incorrect function. 
+Information,06-07-2026 11:53:22,SpotifySessionConnectedTask,1,Incorrect function. 
+Information,06-07-2026 11:53:22,SpotifySessionConnectedTask,1,Incorrect function. 
+Information,06-07-2026 11:53:22,SpotifySessionConnectedTask,1,Incorrect function. 
+Information,06-07-2026 11:53:22,SpotifySessionConnectedTask,1,Incorrect function. 
+Information,06-07-2026 11:53:22,SpotifySessionConnectedTask,1,Incorrect function. 
+Information,06-07-2026 11:53:22,SpotifySessionConnectedTask,1,Incorrect function. 
+Information,06-07-2026 11:53:22,SpotifySessionConnectedTask,1,Incorrect function. 
+Information,06-07-2026 11:53:22,SpotifySessionConnectedTask,1,Incorrect function. 
+Information,06-07-2026 11:53:22,SpotifySessionConnectedTask,1,Incorrect function. 
+Information,06-07-2026 11:53:22,SpotifySessionConnectedTask,1,Incorrect function. 
+Information,06-07-2026 11:53:22,SpotifySessionConnectedTask,1,Incorrect function. 
+Information,06-07-2026 11:53:22,SpotifySessionConnectedTask,1,Incorrect function. 
+Information,06-07-2026 11:53:18,Microsoft-Windows-Winlogon,6000,The winlogon notification subscriber <SessionEnv> was unavailable to handle a notification event.
+Information,06-07-2026 11:53:17,Microsoft-Windows-Winlogon,6003,The winlogon notification subscriber <SessionEnv> was unavailable to handle a critical notification event.
+Information,06-07-2026 11:53:02,Microsoft-Windows-Security-SPP,16384,Successfully scheduled Software Protection service for re-start at 2126-06-12T06:23:02Z. Reason: RulesEngine.
+Information,06-07-2026 11:52:41,IPF,19,ESIF(2.3.20303.5058) TYPE: INFO MODULE: IPF TIME 305783148 ms
+
+    DPTF Build Version:  9.1.10009.1745    DPTF Build Date:  Mar 11 2026 16:58:52    Message:  EPO Modes Status:DC Endurance Gaming(Status: Enabled);DC Better Battery(Status: Disabled);DC Balanced(Status: Enabled);AC Balanced(Status: Enabled);AC Quiet(Status: Disabled);AC Collaboration(Status: Enabled    Policy:  Energy Performance Optimizer Policy [2]        
+Information,06-07-2026 11:52:40,DellTechHub,0,PowerEvent handled successfully by the service.
+Information,06-07-2026 11:52:40,Dell SupportAssist Remediation,0,PowerEvent handled successfully by the service.
+Information,06-07-2026 11:52:40,DellTechHub,0,PowerEvent handled successfully by the service.
+Information,06-07-2026 11:52:39,Dell SupportAssist Remediation,0,PowerEvent handled successfully by the service.
+Information,06-07-2026 08:12:44,DellTechHub,0,PowerEvent handled successfully by the service.
+Information,06-07-2026 08:12:44,Dell SupportAssist Remediation,0,PowerEvent handled successfully by the service.
+Information,06-07-2026 08:12:43,Microsoft-Windows-Winlogon,6000,The winlogon notification subscriber <SessionEnv> was unavailable to handle a notification event.
+Information,06-07-2026 08:12:43,Microsoft-Windows-Winlogon,6000,The winlogon notification subscriber <WSearch> was unavailable to handle a notification event.
+Information,06-07-2026 08:12:40,Microsoft-Windows-Security-SPP,16394,Offline downlevel migration succeeded.
+Information,06-07-2026 07:22:57,Microsoft-Windows-Security-SPP,16384,Successfully scheduled Software Protection service for re-start at 2126-06-12T01:52:57Z. Reason: RulesEngine.
+Information,06-07-2026 07:22:27,Microsoft-Windows-Security-SPP,16394,Offline downlevel migration succeeded.
+Information,06-07-2026 07:22:19,Microsoft-Windows-Security-SPP,16384,Successfully scheduled Software Protection service for re-start at 2126-06-12T01:52:19Z. Reason: RulesEngine.
+Information,06-07-2026 07:21:49,Microsoft-Windows-Security-SPP,16394,Offline downlevel migration succeeded.
+Information,06-07-2026 07:20:14,Microsoft-Windows-Security-SPP,16384,Successfully scheduled Software Protection service for re-start at 2126-06-12T01:50:14Z. Reason: RulesEngine.
+Information,06-07-2026 07:19:44,Microsoft-Windows-Security-SPP,16394,Offline downlevel migration succeeded.
+Information,06-07-2026 07:16:28,Microsoft-Windows-Security-SPP,16384,Successfully scheduled Software Protection service for re-start at 2126-06-12T01:46:28Z. Reason: RulesEngine.
+Information,06-07-2026 07:15:58,Microsoft-Windows-Security-SPP,16394,Offline downlevel migration succeeded.
+Information,06-07-2026 07:12:28,SecurityCenter,15,Updated Windows Defender status successfully to SECURITY_PRODUCT_STATE_ON.
+Information,06-07-2026 07:12:18,Microsoft-Windows-Security-SPP,16384,Successfully scheduled Software Protection service for re-start at 2126-06-12T01:42:18Z. Reason: RulesEngine.
+Information,06-07-2026 07:11:48,Microsoft-Windows-Security-SPP,16394,Offline downlevel migration succeeded.
+Information,06-07-2026 07:11:26,Microsoft-Windows-Security-SPP,16384,Successfully scheduled Software Protection service for re-start at 2126-06-12T01:41:26Z. Reason: RulesEngine.
+Information,06-07-2026 07:10:49,Microsoft-Windows-Security-SPP,16394,Offline downlevel migration succeeded.
+Information,06-07-2026 07:08:24,Microsoft-Windows-Security-SPP,16384,Successfully scheduled Software Protection service for re-start at 2126-06-12T01:38:24Z. Reason: RulesEngine.
+Information,06-07-2026 07:07:54,Microsoft-Windows-Security-SPP,16394,Offline downlevel migration succeeded.
+Information,06-07-2026 07:04:52,Microsoft-Windows-Security-SPP,16384,Successfully scheduled Software Protection service for re-start at 2126-06-12T01:34:52Z. Reason: RulesEngine.
+Information,06-07-2026 07:04:21,Microsoft-Windows-Security-SPP,16394,Offline downlevel migration succeeded.
+Information,06-07-2026 06:53:33,VSS,8224,The VSS service is shutting down due to idle timeout. 
+Information,06-07-2026 06:50:29,VSS,8231,"Volume Shadow Copy Service information: Snapshot creation initiated for Snapshot Set {f2c38fff-70fb-4d42-8aa3-96b0ccfe8b7f}.
+ Process command line: taskhostw.exe
+ Process Caller Stack:
+ Process[0]: taskhostw.exe
+ Process[1]: svchost.exe
+ Process[2]: services.exe
+"
+Information,06-07-2026 06:40:24,VSS,8224,The VSS service is shutting down due to idle timeout. 
+Information,06-07-2026 06:34:58,Microsoft-Windows-Security-SPP,16384,Successfully scheduled Software Protection service for re-start at 2126-06-12T01:04:58Z. Reason: RulesEngine.
+Information,06-07-2026 06:34:27,Microsoft-Windows-Security-SPP,16394,Offline downlevel migration succeeded.
+Information,06-07-2026 06:26:24,Microsoft-Windows-Security-SPP,16384,Successfully scheduled Software Protection service for re-start at 2126-06-12T00:56:24Z. Reason: RulesEngine.
+Information,06-07-2026 06:26:11,VSS,8224,The VSS service is shutting down due to idle timeout. 
+Information,06-07-2026 06:25:18,Microsoft-Windows-Security-SPP,16394,Offline downlevel migration succeeded.
+Information,06-07-2026 06:24:52,Microsoft-Windows-Security-SPP,16384,Successfully scheduled Software Protection service for re-start at 2126-06-12T00:54:52Z. Reason: RulesEngine.
+Information,06-07-2026 06:24:21,Microsoft-Windows-Security-SPP,16394,Offline downlevel migration succeeded.
+Information,06-07-2026 06:19:58,Chrome,256,Browser Events,[8296:15136:0706/061958.403:INFO:chrome\browser\extensions\extension_garbage_collector.cc:188] Garbage collection for extensions on file thread is complete.
+Information,06-07-2026 06:19:55,edgeupdate,0,Service stopped.
+Information,06-07-2026 06:19:27,SpotifyUpdateTask,1,Incorrect function. 
+Information,06-07-2026 06:19:27,SpotifyUpdateTask,1,Incorrect function. 
+Information,06-07-2026 06:19:20,Microsoft-Windows-Winlogon,6000,The winlogon notification subscriber <SessionEnv> was unavailable to handle a notification event.
+Information,06-07-2026 06:19:20,Microsoft-Windows-Winlogon,6003,The winlogon notification subscriber <SessionEnv> was unavailable to handle a critical notification event.
+Information,06-07-2026 06:19:18,IPF,19,ESIF(2.3.20303.5058) TYPE: INFO MODULE: IPF TIME 285778107 ms
+
+    DPTF Build Version:  9.1.10009.1745    DPTF Build Date:  Mar 11 2026 16:58:52    Message:  EPO Modes Status:DC Endurance Gaming(Status: Enabled);DC Better Battery(Status: Disabled);DC Balanced(Status: Enabled);AC Balanced(Status: Enabled);AC Quiet(Status: Disabled);AC Collaboration(Status: Enabled    Policy:  Energy Performance Optimizer Policy [2]        
+Information,06-07-2026 06:19:17,DellTechHub,0,PowerEvent handled successfully by the service.
+Information,06-07-2026 06:19:17,Dell SupportAssist Remediation,0,PowerEvent handled successfully by the service.
+Information,06-07-2026 06:19:17,DellTechHub,0,PowerEvent handled successfully by the service.
+Information,06-07-2026 06:19:17,Dell SupportAssist Remediation,0,PowerEvent handled successfully by the service.
+Information,06-07-2026 06:19:17,DellTechHub,0,PowerEvent handled successfully by the service.
+Information,06-07-2026 06:19:16,Dell SupportAssist Remediation,0,PowerEvent handled successfully by the service.
+Information,06-07-2026 00:28:34,DellTechHub,0,PowerEvent handled successfully by the service.
+Information,06-07-2026 00:28:34,Dell SupportAssist Remediation,0,PowerEvent handled successfully by the service.
+Information,06-07-2026 00:28:33,Microsoft-Windows-Winlogon,6000,The winlogon notification subscriber <SessionEnv> was unavailable to handle a notification event.
+Information,06-07-2026 00:28:33,Microsoft-Windows-Winlogon,6000,The winlogon notification subscriber <WSearch> was unavailable to handle a notification event.
+Information,05-07-2026 23:49:31,Chrome,256,Browser Events,[704:8680:0705/234931.192:INFO:chrome\browser\extensions\extension_garbage_collector.cc:188] Garbage collection for extensions on file thread is complete.
+Information,05-07-2026 23:47:03,Microsoft-Windows-AppXDeploymentServer/Operational,2562,"The description for Event ID 2562 from source Microsoft-Windows-AppXDeploymentServer/Operational cannot be found. Either the component that raises this event is not installed on your local computer or the installation is corrupted. You can install or repair the component on the local computer.
+
+If the event originated on another computer, the display information had to be saved with the event.
+
+The following information was included with the event: 
+
+MSIXDeployment
+windows.applicationData
+DeleteMachineFolder
+Package Microsoft.MicrosoftOfficeHub_19.2606.58031.0_neutral_split.scale-150_8wekyb3d8bbwe removed machine folder C:\ProgramData\Microsoft\Windows\AppRepository\Families\ApplicationData\Microsoft.MicrosoftOfficeHub_8wekyb3d8bbwe: The system cannot find the path specified.
+
+The message resource is present but the message was not found in the message table
+"
+Information,05-07-2026 23:47:03,Microsoft-Windows-AppXDeploymentServer/Operational,2562,"The description for Event ID 2562 from source Microsoft-Windows-AppXDeploymentServer/Operational cannot be found. Either the component that raises this event is not installed on your local computer or the installation is corrupted. You can install or repair the component on the local computer.
+
+If the event originated on another computer, the display information had to be saved with the event.
+
+The following information was included with the event: 
+
+MSIXDeployment
+windows.applicationData
+DeleteMachineFolder
+Package Microsoft.MicrosoftOfficeHub_19.2606.58031.0_neutral_split.scale-100_8wekyb3d8bbwe removed machine folder C:\ProgramData\Microsoft\Windows\AppRepository\Families\ApplicationData\Microsoft.MicrosoftOfficeHub_8wekyb3d8bbwe: The system cannot find the path specified.
+
+The message resource is present but the message was not found in the message table
+"
+Information,05-07-2026 23:47:03,Microsoft-Windows-AppXDeploymentServer/Operational,2562,"The description for Event ID 2562 from source Microsoft-Windows-AppXDeploymentServer/Operational cannot be found. Either the component that raises this event is not installed on your local computer or the installation is corrupted. You can install or repair the component on the local computer.
+
+If the event originated on another computer, the display information had to be saved with the event.
+
+The following information was included with the event: 
+
+MSIXDeployment
+windows.applicationData
+DeleteMachineFolder
+Package Microsoft.MicrosoftOfficeHub_19.2606.58031.0_x64__8wekyb3d8bbwe removed machine folder C:\ProgramData\Microsoft\Windows\AppRepository\Families\ApplicationData\Microsoft.MicrosoftOfficeHub_8wekyb3d8bbwe: The system cannot find the path specified.
+
+The message resource is present but the message was not found in the message table
+"
+Information,05-07-2026 23:45:30,Microsoft-Windows-Security-SPP,16384,Successfully scheduled Software Protection service for re-start at 2126-06-11T18:15:30Z. Reason: RulesEngine.
+Information,05-07-2026 23:44:59,Microsoft-Windows-Security-SPP,16394,Offline downlevel migration succeeded.
+Information,05-07-2026 23:35:03,Microsoft-Windows-Security-SPP,16384,Successfully scheduled Software Protection service for re-start at 2126-06-11T18:05:03Z. Reason: RulesEngine.
+Information,05-07-2026 23:34:32,Microsoft-Windows-Security-SPP,16394,Offline downlevel migration succeeded.
+Information,05-07-2026 23:26:53,Windows Error Reporting,1001,"Fault bucket 1789530862465679286, type 5
+Event Name: StoreAgentInstallFailure1
+Response: Not available
+Cab Id: 0
+
+Problem signature:
+P1: Update;MoUpdateOrchestratorUserScan-MoUsoCoreWorker-SearchForAllUpdatesWithUpdateOptionsAsync
+P2: 80073d02
+P3: 26200
+P4: 8737
+P5: Windows.Desktop
+P6: B
+P7: 
+P8: 
+P9: 
+P10: 
+
+Attached files:
+\\?\C:\Windows\Temp\FailureReportMetadata_25341.txt
+\\?\C:\ProgramData\Microsoft\Windows\WER\Temp\WER.297518d7-a09b-4cf5-84ca-7d2c43c9dc54.tmp.WERInternalMetadata.xml
+\\?\C:\ProgramData\Microsoft\Windows\WER\ReportQueue\NonCritical_Update;MoUpdateO_ab8b206aa2611c79d98253d4a9459d52b3217_00000000_cab_fd7df30d-bd8c-4548-a8e0-22760db5832e\WPR_initiated_DiagTrackMiniLogger_OneTrace_User_Logger_20260703_1_EC_0_inject.etl
+\\?\C:\ProgramData\Microsoft\Windows\WER\Temp\WER.1cf32637-71c7-428d-acf1-77b43ea961e9.tmp.etl
+\\?\C:\ProgramData\Microsoft\Windows\WER\ReportQueue\NonCritical_Update;MoUpdateO_ab8b206aa2611c79d98253d4a9459d52b3217_00000000_cab_fd7df30d-bd8c-4548-a8e0-22760db5832e\WPR_initiated_DiagTrackMiniLogger_WPR System Collector_inject.etl
+\\?\C:\ProgramData\Microsoft\Windows\WER\Temp\WER.10987436-800a-46e0-a0cd-e7669bf14e22.tmp.etl
+\\?\C:\ProgramData\Microsoft\Windows\WER\Temp\WER.3830feff-558a-4a2c-9ccd-d4befafa301c.tmp.csv
+\\?\C:\ProgramData\Microsoft\Windows\WER\Temp\WER.2e1349ce-f54a-4dc2-b74b-c01f0f2840c4.tmp.txt
+\\?\C:\ProgramData\Microsoft\Windows\WER\Temp\WER.3a3c2806-e643-4a8e-88e1-e0bbcf1961fc.tmp.xml
+
+These files may be available here:
+\\?\C:\ProgramData\Microsoft\Windows\WER\ReportArchive\NonCritical_Update;MoUpdateO_ab8b206aa2611c79d98253d4a9459d52b3217_00000000_fd7df30d-bd8c-4548-a8e0-22760db5832e
+
+Analysis symbol: 
+Rechecking for solution: 0
+Report Id: fd7df30d-bd8c-4548-a8e0-22760db5832e
+Report Status: 268435456
+Hashed bucket: 38616239058dbd4838d5b0d68bdd7fb6
+Cab Guid: 0"
+Information,05-07-2026 23:26:49,Windows Error Reporting,1001,"Fault bucket , type 0
+Event Name: StoreAgentInstallFailure1
+Response: Not available
+Cab Id: 0
+
+Problem signature:
+P1: Update;MoUpdateOrchestratorUserScan-MoUsoCoreWorker-SearchForAllUpdatesWithUpdateOptionsAsync
+P2: 80073d02
+P3: 26200
+P4: 8737
+P5: Windows.Desktop
+P6: B
+P7: 
+P8: 
+P9: 
+P10: 
+
+Attached files:
+\\?\C:\Windows\Temp\FailureReportMetadata_25341.txt
+\\?\C:\ProgramData\Microsoft\Windows\WER\Temp\WER.297518d7-a09b-4cf5-84ca-7d2c43c9dc54.tmp.WERInternalMetadata.xml
+\\?\C:\ProgramData\Microsoft\Windows\WER\ReportQueue\NonCritical_Update;MoUpdateO_ab8b206aa2611c79d98253d4a9459d52b3217_00000000_cab_fd7df30d-bd8c-4548-a8e0-22760db5832e\WPR_initiated_DiagTrackMiniLogger_OneTrace_User_Logger_20260703_1_EC_0_inject.etl
+\\?\C:\ProgramData\Microsoft\Windows\WER\Temp\WER.1cf32637-71c7-428d-acf1-77b43ea961e9.tmp.etl
+\\?\C:\ProgramData\Microsoft\Windows\WER\ReportQueue\NonCritical_Update;MoUpdateO_ab8b206aa2611c79d98253d4a9459d52b3217_00000000_cab_fd7df30d-bd8c-4548-a8e0-22760db5832e\WPR_initiated_DiagTrackMiniLogger_WPR System Collector_inject.etl
+\\?\C:\ProgramData\Microsoft\Windows\WER\Temp\WER.10987436-800a-46e0-a0cd-e7669bf14e22.tmp.etl
+\\?\C:\ProgramData\Microsoft\Windows\WER\Temp\WER.3830feff-558a-4a2c-9ccd-d4befafa301c.tmp.csv
+\\?\C:\ProgramData\Microsoft\Windows\WER\Temp\WER.2e1349ce-f54a-4dc2-b74b-c01f0f2840c4.tmp.txt
+\\?\C:\ProgramData\Microsoft\Windows\WER\Temp\WER.3a3c2806-e643-4a8e-88e1-e0bbcf1961fc.tmp.xml
+
+These files may be available here:
+\\?\C:\ProgramData\Microsoft\Windows\WER\ReportQueue\NonCritical_Update;MoUpdateO_ab8b206aa2611c79d98253d4a9459d52b3217_00000000_cab_fd7df30d-bd8c-4548-a8e0-22760db5832e
+
+Analysis symbol: 
+Rechecking for solution: 0
+Report Id: fd7df30d-bd8c-4548-a8e0-22760db5832e
+Report Status: 4
+Hashed bucket: 
+Cab Guid: 0"
+Information,05-07-2026 23:26:15,Microsoft-Windows-Security-SPP,16384,Successfully scheduled Software Protection service for re-start at 2126-06-11T17:56:15Z. Reason: RulesEngine.
+Information,05-07-2026 23:25:45,Microsoft-Windows-Security-SPP,16394,Offline downlevel migration succeeded.
+Information,05-07-2026 23:15:28,Microsoft-Windows-Security-SPP,16384,Successfully scheduled Software Protection service for re-start at 2126-06-11T17:45:28Z. Reason: RulesEngine.
+Information,05-07-2026 23:14:58,Microsoft-Windows-Security-SPP,16394,Offline downlevel migration succeeded.
+Information,05-07-2026 22:51:10,Microsoft-Windows-Security-SPP,16384,Successfully scheduled Software Protection service for re-start at 2126-06-11T17:21:10Z. Reason: RulesEngine.
+Information,05-07-2026 22:50:40,Microsoft-Windows-Security-SPP,16394,Offline downlevel migration succeeded.
+Information,05-07-2026 22:30:55,Microsoft-Windows-Security-SPP,16384,Successfully scheduled Software Protection service for re-start at 2126-06-11T17:00:55Z. Reason: RulesEngine.
+Information,05-07-2026 22:30:19,Microsoft-Windows-Security-SPP,16394,Offline downlevel migration succeeded.
+Information,05-07-2026 22:05:06,VSS,8224,The VSS service is shutting down due to idle timeout. 
+Information,05-07-2026 22:04:20,Microsoft-Windows-Security-SPP,16384,Successfully scheduled Software Protection service for re-start at 2126-06-11T16:34:20Z. Reason: RulesEngine.
+Information,05-07-2026 21:39:28,Microsoft-Windows-Security-SPP,16394,Offline downlevel migration succeeded.
+Information,05-07-2026 21:27:00,DellTechHub,0,PowerEvent handled successfully by the service.
+Information,05-07-2026 21:27:00,Dell SupportAssist Remediation,0,PowerEvent handled successfully by the service.
+Information,05-07-2026 20:48:31,Microsoft-Windows-Defrag,258,The storage optimizer successfully completed defragmentation on New Volume (E:)
+Information,05-07-2026 20:48:31,Microsoft-Windows-Defrag,258,The storage optimizer successfully completed retrim on New Volume (E:)
+Information,05-07-2026 20:47:37,Microsoft-Windows-Defrag,258,The storage optimizer successfully completed defragmentation on New Volume (D:)
+Information,05-07-2026 20:47:37,Microsoft-Windows-Defrag,258,The storage optimizer successfully completed retrim on New Volume (D:)
+Information,05-07-2026 20:47:23,Microsoft-Windows-Defrag,258,The storage optimizer successfully completed defragmentation on OS (C:)
+Information,05-07-2026 20:47:23,Microsoft-Windows-Defrag,258,The storage optimizer successfully completed retrim on OS (C:)
+Information,05-07-2026 20:42:38,Microsoft-Windows-Security-SPP,16384,Successfully scheduled Software Protection service for re-start at 2126-06-11T15:12:38Z. Reason: RulesEngine.
+Information,05-07-2026 20:42:08,Microsoft-Windows-Security-SPP,16394,Offline downlevel migration succeeded.
+Information,05-07-2026 20:28:43,Microsoft-Windows-Security-SPP,16384,Successfully scheduled Software Protection service for re-start at 2126-06-11T14:58:43Z. Reason: RulesEngine.
+Information,05-07-2026 20:28:16,DellTechHub,0,PowerEvent handled successfully by the service.
+Information,05-07-2026 20:28:16,Dell SupportAssist Remediation,0,PowerEvent handled successfully by the service.
+Information,05-07-2026 20:28:15,SecurityCenter,15,Updated Windows Defender status successfully to SECURITY_PRODUCT_STATE_ON.
+Information,05-07-2026 20:28:13,SecurityCenter,15,Updated Windows Defender status successfully to SECURITY_PRODUCT_STATE_ON.
+Information,05-07-2026 20:28:13,Microsoft-Windows-Security-SPP,16394,Offline downlevel migration succeeded.
+Information,05-07-2026 20:28:09,DellTechHub,0,PowerEvent handled successfully by the service.
+Information,05-07-2026 20:28:09,Dell SupportAssist Remediation,0,PowerEvent handled successfully by the service.
+Information,05-07-2026 19:41:04,Microsoft-Windows-Security-SPP,16384,Successfully scheduled Software Protection service for re-start at 2126-06-11T14:11:04Z. Reason: RulesEngine.
+Information,05-07-2026 19:40:34,Microsoft-Windows-Security-SPP,16394,Offline downlevel migration succeeded.
+Information,05-07-2026 19:03:28,Microsoft-Windows-Security-SPP,16384,Successfully scheduled Software Protection service for re-start at 2126-06-11T13:33:28Z. Reason: RulesEngine.
+Information,05-07-2026 19:03:23,SecurityCenter,15,Updated Windows Defender status successfully to SECURITY_PRODUCT_STATE_ON.
+Information,05-07-2026 19:02:58,Microsoft-Windows-Security-SPP,16394,Offline downlevel migration succeeded.
+Information,05-07-2026 19:02:51,Microsoft-Windows-Security-SPP,16384,Successfully scheduled Software Protection service for re-start at 2126-06-11T13:32:51Z. Reason: RulesEngine.
+Information,05-07-2026 19:02:15,Microsoft-Windows-Security-SPP,16394,Offline downlevel migration succeeded.
+Information,05-07-2026 18:55:05,VSS,8224,The VSS service is shutting down due to idle timeout. 
+Information,05-07-2026 18:54:18,Microsoft-Windows-Security-SPP,16384,Successfully scheduled Software Protection service for re-start at 2126-06-11T13:24:18Z. Reason: RulesEngine.
+Information,05-07-2026 18:53:03,Microsoft-Windows-Security-SPP,16394,Offline downlevel migration succeeded.
+Error,05-07-2026 18:52:04,VSS,8194,"Volume Shadow Copy Service error: Unexpected error querying for the IVssWriterCallback interface.  hr = 0x80070005, Access is denied.
+. This is often caused by incorrect security settings in either the writer or requestor process. 
+
+Operation:
+   Gathering Writer Data
+
+Context:
+   Writer Class Id: {e8132975-6f93-4464-a53e-1050253ae220}
+   Writer Name: System Writer
+   Writer Instance ID: {cc859194-dee9-49da-928a-dcc55a9cbbd4}"
+Error,05-07-2026 18:52:04,SDSSnapshotProcess,277,(4),"The description for Event ID 277 from source SDSSnapshotProcess cannot be found. Either the component that raises this event is not installed on your local computer or the installation is corrupted. You can install or repair the component on the local computer.
+
+If the event originated on another computer, the display information had to be saved with the event.
+
+The following information was included with the event: 
+
+2149318671 (801C000F)
+
+The system cannot find the file specified
+"
+Information,05-07-2026 18:48:01,Microsoft-Windows-Security-SPP,16384,Successfully scheduled Software Protection service for re-start at 2126-06-11T13:18:01Z. Reason: RulesEngine.
+Information,05-07-2026 18:47:58,Chrome,256,Browser Events,[4092:14672:0705/184758.325:INFO:chrome\browser\extensions\extension_garbage_collector.cc:188] Garbage collection for extensions on file thread is complete.
+Information,05-07-2026 18:47:38,edgeupdate,0,Service stopped.
+Information,05-07-2026 18:47:14,SpotifySessionConnectedTask,1,Incorrect function. 
+Information,05-07-2026 18:47:14,SpotifySessionConnectedTask,1,Incorrect function. 
+Information,05-07-2026 18:47:14,SpotifySessionConnectedTask,1,Incorrect function. 
+Information,05-07-2026 18:47:14,SpotifySessionConnectedTask,1,Incorrect function. 
+Information,05-07-2026 18:47:14,SpotifySessionConnectedTask,1,Incorrect function. 
+Information,05-07-2026 18:47:14,SpotifySessionConnectedTask,1,Incorrect function. 
+Information,05-07-2026 18:47:14,SpotifySessionConnectedTask,1,Incorrect function. 
+Information,05-07-2026 18:47:14,SpotifySessionConnectedTask,1,Incorrect function. 
+Information,05-07-2026 18:47:14,SpotifySessionConnectedTask,1,Incorrect function. 
+Information,05-07-2026 18:47:14,SpotifySessionConnectedTask,1,Incorrect function. 
+Information,05-07-2026 18:47:14,SpotifySessionConnectedTask,1,Incorrect function. 
+Information,05-07-2026 18:47:14,SpotifySessionConnectedTask,1,Incorrect function. 
+Information,05-07-2026 18:47:14,SpotifySessionConnectedTask,1,Incorrect function. 
+Information,05-07-2026 18:47:14,SpotifySessionConnectedTask,1,Incorrect function. 
+Information,05-07-2026 18:47:14,SpotifySessionConnectedTask,1,Incorrect function. 
+Information,05-07-2026 18:47:14,SpotifySessionConnectedTask,1,Incorrect function. 
+Information,05-07-2026 18:47:09,Microsoft-Windows-Winlogon,6000,The winlogon notification subscriber <SessionEnv> was unavailable to handle a notification event.
+Information,05-07-2026 18:47:09,Microsoft-Windows-Winlogon,6003,The winlogon notification subscriber <SessionEnv> was unavailable to handle a critical notification event.
+Information,05-07-2026 18:47:02,IPF,19,ESIF(2.3.20303.5058) TYPE: INFO MODULE: IPF TIME 244240763 ms
+
+    DPTF Build Version:  9.1.10009.1745    DPTF Build Date:  Mar 11 2026 16:58:52    Message:  EPO Modes Status:DC Endurance Gaming(Status: Enabled);DC Better Battery(Status: Disabled);DC Balanced(Status: Enabled);AC Balanced(Status: Enabled);AC Quiet(Status: Disabled);AC Collaboration(Status: Enabled    Policy:  Energy Performance Optimizer Policy [2]        
+Information,05-07-2026 18:47:02,Dell SupportAssist Remediation,0,PowerEvent handled successfully by the service.
+Information,05-07-2026 18:47:02,DellTechHub,0,PowerEvent handled successfully by the service.
+Information,05-07-2026 18:47:01,DellTechHub,0,PowerEvent handled successfully by the service.
+Information,05-07-2026 18:47:01,Dell SupportAssist Remediation,0,PowerEvent handled successfully by the service.
+Information,05-07-2026 00:55:20,DellTechHub,0,PowerEvent handled successfully by the service.
+Information,05-07-2026 00:55:20,Dell SupportAssist Remediation,0,PowerEvent handled successfully by the service.
+Information,05-07-2026 00:55:19,Microsoft-Windows-Winlogon,6000,The winlogon notification subscriber <SessionEnv> was unavailable to handle a notification event.
+Information,05-07-2026 00:55:19,Microsoft-Windows-Winlogon,6000,The winlogon notification subscriber <WSearch> was unavailable to handle a notification event.
+Information,05-07-2026 00:54:56,VSS,8231,"Volume Shadow Copy Service information: Snapshot creation initiated for Snapshot Set {97586808-99fa-4f9c-a6f3-35fc2bd27aa8}.
+ Process command line: taskhostw.exe
+ Process Caller Stack:
+ Process[0]: taskhostw.exe
+ Process[1]: svchost.exe
+ Process[2]: services.exe
+"
+Information,05-07-2026 00:54:52,Microsoft-Windows-Security-SPP,16394,Offline downlevel migration succeeded.
+Information,05-07-2026 00:34:02,Microsoft-Windows-Security-SPP,16384,Successfully scheduled Software Protection service for re-start at 2126-06-10T19:04:02Z. Reason: RulesEngine.
+Information,05-07-2026 00:33:31,Microsoft-Windows-Security-SPP,16394,Offline downlevel migration succeeded.
+Information,05-07-2026 00:12:03,Chrome,256,Browser Events,[13900:15804:0705/001203.211:INFO:chrome\browser\extensions\extension_garbage_collector.cc:188] Garbage collection for extensions on file thread is complete.
+Information,04-07-2026 23:57:35,edgeupdate,0,Service stopped.
+Information,04-07-2026 23:57:16,Microsoft-Windows-AppXDeploymentServer/Operational,2562,"The description for Event ID 2562 from source Microsoft-Windows-AppXDeploymentServer/Operational cannot be found. Either the component that raises this event is not installed on your local computer or the installation is corrupted. You can install or repair the component on the local computer.
+
+If the event originated on another computer, the display information had to be saved with the event.
+
+The following information was included with the event: 
+
+MSIXDeployment
+windows.applicationData
+DeleteMachineFolder
+Package Microsoft.MicrosoftEdge.Stable_149.0.4022.98_neutral__8wekyb3d8bbwe removed machine folder C:\ProgramData\Microsoft\Windows\AppRepository\Families\ApplicationData\Microsoft.MicrosoftEdge.Stable_8wekyb3d8bbwe: The system cannot find the path specified.
+
+The message resource is present but the message was not found in the message table
+"
+Information,04-07-2026 23:56:50,Microsoft-Windows-Security-SPP,16384,Successfully scheduled Software Protection service for re-start at 2126-06-10T18:26:50Z. Reason: RulesEngine.
+Information,04-07-2026 23:55:33,Microsoft-Windows-Security-SPP,16394,Offline downlevel migration succeeded.
+Information,04-07-2026 23:51:11,SecurityCenter,15,Updated Windows Defender status successfully to SECURITY_PRODUCT_STATE_ON.
+Information,04-07-2026 23:42:50,Microsoft-Windows-Security-SPP,16384,Successfully scheduled Software Protection service for re-start at 2126-06-10T18:12:50Z. Reason: RulesEngine.
+Information,04-07-2026 23:42:28,Chrome,256,Browser Events,[14876:19936:0704/234228.957:INFO:rlz\lib\rlz_lib.cc:451] Succeeded in sending RLZ ping
+Information,04-07-2026 23:42:27,Chrome,256,Browser Events,[14876:19936:0704/234227.488:INFO:rlz\lib\rlz_lib.cc:442] Attempting to send RLZ ping brand=CHBD
+Information,04-07-2026 23:42:19,Microsoft-Windows-Security-SPP,16394,Offline downlevel migration succeeded.
+Information,04-07-2026 23:42:12,Windows Error Reporting,1001,"Fault bucket 1450548301195742217, type 5
+Event Name: StoreAgentScanForUpdatesFailure0
+Response: Not available
+Cab Id: 0
+
+Problem signature:
+P1: Update;
+P2: 8024402c
+P3: 26200
+P4: 8737
+P5: Windows.Desktop
+P6: 
+P7: 
+P8: 
+P9: 
+P10: 
+
+Attached files:
+\\?\C:\ProgramData\Microsoft\Windows\WER\Temp\WER.5efee5d6-5dde-4a46-bdbd-b9c28b56cbef.tmp.WERInternalMetadata.xml
+\\?\C:\ProgramData\Microsoft\Windows\WER\ReportQueue\NonCritical_Update;_8e644caec23697d6cd7852a4dada238d7603bb0_00000000_cab_b8304d4d-60f0-4309-8af5-84184927f4a3\WPR_initiated_DiagTrackMiniLogger_OneTrace_User_Logger_20260703_1_EC_0_inject.etl
+\\?\C:\ProgramData\Microsoft\Windows\WER\Temp\WER.4e810d58-878a-4783-9569-90b974cb534b.tmp.etl
+\\?\C:\ProgramData\Microsoft\Windows\WER\ReportQueue\NonCritical_Update;_8e644caec23697d6cd7852a4dada238d7603bb0_00000000_cab_b8304d4d-60f0-4309-8af5-84184927f4a3\WPR_initiated_DiagTrackMiniLogger_WPR System Collector_inject.etl
+\\?\C:\ProgramData\Microsoft\Windows\WER\Temp\WER.b1ff8259-2a21-4ecc-86d6-afbb0963eb67.tmp.etl
+\\?\C:\ProgramData\Microsoft\Windows\WER\Temp\WER.107fbc1d-eefd-4361-879e-5819d0e114b4.tmp.csv
+\\?\C:\ProgramData\Microsoft\Windows\WER\Temp\WER.f639591a-bce4-451f-a28a-c80d51ee43e1.tmp.txt
+\\?\C:\ProgramData\Microsoft\Windows\WER\Temp\WER.3aec9148-f819-4c7f-a2e6-ae547699799d.tmp.xml
+
+These files may be available here:
+\\?\C:\ProgramData\Microsoft\Windows\WER\ReportArchive\NonCritical_Update;_8e644caec23697d6cd7852a4dada238d7603bb0_00000000_b8304d4d-60f0-4309-8af5-84184927f4a3
+
+Analysis symbol: 
+Rechecking for solution: 0
+Report Id: b8304d4d-60f0-4309-8af5-84184927f4a3
+Report Status: 268435462
+Hashed bucket: e6324369a2fda705642161fe9e518c09
+Cab Guid: 0"
+Information,04-07-2026 23:41:27,Chrome,256,Browser Events,[14876:5000:0704/234127.476:INFO:chrome\browser\extensions\extension_garbage_collector.cc:188] Garbage collection for extensions on file thread is complete.
+Information,04-07-2026 23:41:14,edgeupdate,0,Service stopped.
+Information,04-07-2026 23:41:09,Windows Error Reporting,1001,"Fault bucket , type 0
+Event Name: StoreAgentScanForUpdatesFailure0
+Response: Not available
+Cab Id: 0
+
+Problem signature:
+P1: Update;
+P2: 8024402c
+P3: 26200
+P4: 8737
+P5: Windows.Desktop
+P6: 
+P7: 
+P8: 
+P9: 
+P10: 
+
+Attached files:
+\\?\C:\ProgramData\Microsoft\Windows\WER\Temp\WER.5efee5d6-5dde-4a46-bdbd-b9c28b56cbef.tmp.WERInternalMetadata.xml
+\\?\C:\ProgramData\Microsoft\Windows\WER\ReportQueue\NonCritical_Update;_8e644caec23697d6cd7852a4dada238d7603bb0_00000000_cab_b8304d4d-60f0-4309-8af5-84184927f4a3\WPR_initiated_DiagTrackMiniLogger_OneTrace_User_Logger_20260703_1_EC_0_inject.etl
+\\?\C:\ProgramData\Microsoft\Windows\WER\Temp\WER.4e810d58-878a-4783-9569-90b974cb534b.tmp.etl
+\\?\C:\ProgramData\Microsoft\Windows\WER\ReportQueue\NonCritical_Update;_8e644caec23697d6cd7852a4dada238d7603bb0_00000000_cab_b8304d4d-60f0-4309-8af5-84184927f4a3\WPR_initiated_DiagTrackMiniLogger_WPR System Collector_inject.etl
+\\?\C:\ProgramData\Microsoft\Windows\WER\Temp\WER.b1ff8259-2a21-4ecc-86d6-afbb0963eb67.tmp.etl
+\\?\C:\ProgramData\Microsoft\Windows\WER\Temp\WER.107fbc1d-eefd-4361-879e-5819d0e114b4.tmp.csv
+\\?\C:\ProgramData\Microsoft\Windows\WER\Temp\WER.f639591a-bce4-451f-a28a-c80d51ee43e1.tmp.txt
+\\?\C:\ProgramData\Microsoft\Windows\WER\Temp\WER.3aec9148-f819-4c7f-a2e6-ae547699799d.tmp.xml
+
+These files may be available here:
+\\?\C:\ProgramData\Microsoft\Windows\WER\ReportQueue\NonCritical_Update;_8e644caec23697d6cd7852a4dada238d7603bb0_00000000_cab_b8304d4d-60f0-4309-8af5-84184927f4a3
+
+Analysis symbol: 
+Rechecking for solution: 0
+Report Id: b8304d4d-60f0-4309-8af5-84184927f4a3
+Report Status: 6
+Hashed bucket: 
+Cab Guid: 0"
+Information,04-07-2026 23:41:09,Windows Error Reporting,1001,"Fault bucket , type 0
+Event Name: StoreAgentScanForUpdatesFailure0
+Response: Not available
+Cab Id: 0
+
+Problem signature:
+P1: Update;
+P2: 8024402c
+P3: 26200
+P4: 8737
+P5: Windows.Desktop
+P6: 
+P7: 
+P8: 
+P9: 
+P10: 
+
+Attached files:
+\\?\C:\ProgramData\Microsoft\Windows\WER\Temp\WER.5efee5d6-5dde-4a46-bdbd-b9c28b56cbef.tmp.WERInternalMetadata.xml
+\\?\C:\ProgramData\Microsoft\Windows\WER\ReportQueue\NonCritical_Update;_8e644caec23697d6cd7852a4dada238d7603bb0_00000000_cab_b8304d4d-60f0-4309-8af5-84184927f4a3\WPR_initiated_DiagTrackMiniLogger_OneTrace_User_Logger_20260703_1_EC_0_inject.etl
+\\?\C:\ProgramData\Microsoft\Windows\WER\Temp\WER.4e810d58-878a-4783-9569-90b974cb534b.tmp.etl
+\\?\C:\ProgramData\Microsoft\Windows\WER\ReportQueue\NonCritical_Update;_8e644caec23697d6cd7852a4dada238d7603bb0_00000000_cab_b8304d4d-60f0-4309-8af5-84184927f4a3\WPR_initiated_DiagTrackMiniLogger_WPR System Collector_inject.etl
+\\?\C:\ProgramData\Microsoft\Windows\WER\Temp\WER.b1ff8259-2a21-4ecc-86d6-afbb0963eb67.tmp.etl
+\\?\C:\ProgramData\Microsoft\Windows\WER\Temp\WER.107fbc1d-eefd-4361-879e-5819d0e114b4.tmp.csv
+\\?\C:\ProgramData\Microsoft\Windows\WER\Temp\WER.f639591a-bce4-451f-a28a-c80d51ee43e1.tmp.txt
+\\?\C:\ProgramData\Microsoft\Windows\WER\Temp\WER.3aec9148-f819-4c7f-a2e6-ae547699799d.tmp.xml
+
+These files may be available here:
+\\?\C:\ProgramData\Microsoft\Windows\WER\ReportQueue\NonCritical_Update;_8e644caec23697d6cd7852a4dada238d7603bb0_00000000_cab_b8304d4d-60f0-4309-8af5-84184927f4a3
+
+Analysis symbol: 
+Rechecking for solution: 0
+Report Id: b8304d4d-60f0-4309-8af5-84184927f4a3
+Report Status: 4
+Hashed bucket: 
+Cab Guid: 0"
+Information,04-07-2026 23:41:08,Microsoft-Windows-Security-SPP,16384,Successfully scheduled Software Protection service for re-start at 2126-06-10T18:11:08Z. Reason: RulesEngine.
+Information,04-07-2026 23:40:34,SpotifySessionConnectedTask,1,Incorrect function. 
+Information,04-07-2026 23:40:34,SpotifySessionConnectedTask,1,Incorrect function. 
+Information,04-07-2026 23:40:34,SpotifySessionConnectedTask,1,Incorrect function. 
+Information,04-07-2026 23:40:34,SpotifySessionConnectedTask,1,Incorrect function. 
+Information,04-07-2026 23:40:34,SpotifySessionConnectedTask,1,Incorrect function. 
+Information,04-07-2026 23:40:34,SpotifySessionConnectedTask,1,Incorrect function. 
+Information,04-07-2026 23:40:34,SpotifySessionConnectedTask,1,Incorrect function. 
+Information,04-07-2026 23:40:34,SpotifySessionConnectedTask,1,Incorrect function. 
+Information,04-07-2026 23:40:34,SpotifySessionConnectedTask,1,Incorrect function. 
+Information,04-07-2026 23:40:34,SpotifySessionConnectedTask,1,Incorrect function. 
+Information,04-07-2026 23:40:34,SpotifySessionConnectedTask,1,Incorrect function. 
+Information,04-07-2026 23:40:34,SpotifySessionConnectedTask,1,Incorrect function. 
+Information,04-07-2026 23:40:33,SpotifySessionConnectedTask,1,Incorrect function. 
+Information,04-07-2026 23:40:33,SpotifySessionConnectedTask,1,Incorrect function. 
+Information,04-07-2026 23:40:33,SpotifySessionConnectedTask,1,Incorrect function. 
+Information,04-07-2026 23:40:33,SpotifySessionConnectedTask,1,Incorrect function. 
+Information,04-07-2026 23:40:26,Microsoft-Windows-Winlogon,6000,The winlogon notification subscriber <SessionEnv> was unavailable to handle a notification event.
+Information,04-07-2026 23:40:26,Microsoft-Windows-Winlogon,6003,The winlogon notification subscriber <SessionEnv> was unavailable to handle a critical notification event.
+Information,04-07-2026 23:40:23,Microsoft-Windows-Security-SPP,16394,Offline downlevel migration succeeded.
+Information,04-07-2026 23:40:23,IPF,19,ESIF(2.3.20303.5058) TYPE: INFO MODULE: IPF TIME 175438772 ms
+
+    DPTF Build Version:  9.1.10009.1745    DPTF Build Date:  Mar 11 2026 16:58:52    Message:  EPO Modes Status:DC Endurance Gaming(Status: Enabled);DC Better Battery(Status: Disabled);DC Balanced(Status: Enabled);AC Balanced(Status: Enabled);AC Quiet(Status: Disabled);AC Collaboration(Status: Enabled    Policy:  Energy Performance Optimizer Policy [2]        
+Information,04-07-2026 23:40:19,DellTechHub,0,PowerEvent handled successfully by the service.
+Information,04-07-2026 23:40:19,Dell SupportAssist Remediation,0,PowerEvent handled successfully by the service.
+Information,04-07-2026 23:40:18,DellTechHub,0,PowerEvent handled successfully by the service.
+Information,04-07-2026 23:40:18,Dell SupportAssist Remediation,0,PowerEvent handled successfully by the service.
+Information,04-07-2026 00:32:42,DellTechHub,0,PowerEvent handled successfully by the service.
+Information,04-07-2026 00:32:42,Dell SupportAssist Remediation,0,PowerEvent handled successfully by the service.
+Information,04-07-2026 00:32:41,Microsoft-Windows-Winlogon,6000,The winlogon notification subscriber <SessionEnv> was unavailable to handle a notification event.
+Information,04-07-2026 00:32:41,Microsoft-Windows-Winlogon,6000,The winlogon notification subscriber <WSearch> was unavailable to handle a notification event.
+Information,04-07-2026 00:22:09,Microsoft-Windows-Security-SPP,16384,Successfully scheduled Software Protection service for re-start at 2126-06-09T18:52:09Z. Reason: RulesEngine.
+Information,04-07-2026 00:21:29,Microsoft-Windows-Security-SPP,16394,Offline downlevel migration succeeded.
+Information,04-07-2026 00:21:29,VSS,8231,"Volume Shadow Copy Service information: Snapshot creation initiated for Snapshot Set {3621eea1-cc98-433e-b0bf-9dcfd614b1b2}.
+ Process command line: taskhostw.exe
+ Process Caller Stack:
+ Process[0]: taskhostw.exe
+ Process[1]: svchost.exe
+ Process[2]: services.exe
+"
+Information,03-07-2026 23:40:26,Chrome,256,Browser Events,[14920:20756:0703/234026.429:INFO:chrome\browser\extensions\extension_garbage_collector.cc:188] Garbage collection for extensions on file thread is complete.
+Information,03-07-2026 23:40:19,Microsoft-Windows-Security-SPP,16384,Successfully scheduled Software Protection service for re-start at 2126-06-09T18:10:19Z. Reason: RulesEngine.
+Information,03-07-2026 23:39:49,Microsoft-Windows-Security-SPP,16394,Offline downlevel migration succeeded.
+Information,03-07-2026 23:39:47,Dell SupportAssist Remediation,0,PowerEvent handled successfully by the service.
+Information,03-07-2026 23:39:47,DellTechHub,0,PowerEvent handled successfully by the service.
+Information,03-07-2026 23:25:14,Microsoft-Windows-Defrag,264,The storage optimizer couldn't complete defragmentation on OS (C:) because: The user cancelled the operation. (0x89000006)
+Information,03-07-2026 23:20:48,SDSSnapshotProcess,276,(4),"The description for Event ID 276 from source SDSSnapshotProcess cannot be found. Either the component that raises this event is not installed on your local computer or the installation is corrupted. You can install or repair the component on the local computer.
+
+If the event originated on another computer, the display information had to be saved with the event.
+
+The following information was included with the event: 
+
+
+The system cannot find the file specified
+"
+Information,03-07-2026 23:20:30,SDSSnapshotProcess,272,(3),"The description for Event ID 272 from source SDSSnapshotProcess cannot be found. Either the component that raises this event is not installed on your local computer or the installation is corrupted. You can install or repair the component on the local computer.
+
+If the event originated on another computer, the display information had to be saved with the event.
+
+The following information was included with the event: 
+
+
+The system cannot find the file specified
+"
+Information,03-07-2026 23:06:31,Microsoft-Windows-Defrag,264,The storage optimizer couldn't complete defragmentation on OS (C:) because: The user cancelled the operation. (0x89000006)
+Information,03-07-2026 23:03:30,Microsoft-Windows-Security-SPP,16384,Successfully scheduled Software Protection service for re-start at 2126-06-09T17:33:30Z. Reason: RulesEngine.
+Information,03-07-2026 23:03:00,Microsoft-Windows-Security-SPP,16394,Offline downlevel migration succeeded.
+Information,03-07-2026 23:01:39,DellTechHub,0,PowerEvent handled successfully by the service.
+Information,03-07-2026 23:01:39,Dell SupportAssist Remediation,0,PowerEvent handled successfully by the service.
+Information,03-07-2026 22:56:39,Microsoft-Windows-Security-SPP,16384,Successfully scheduled Software Protection service for re-start at 2126-06-09T17:26:39Z. Reason: RulesEngine.
+Information,03-07-2026 22:56:09,Microsoft-Windows-Security-SPP,16394,Offline downlevel migration succeeded.
+Information,03-07-2026 22:41:16,Microsoft-Windows-Security-SPP,16384,Successfully scheduled Software Protection service for re-start at 2126-06-09T17:11:16Z. Reason: RulesEngine.
+Information,03-07-2026 22:40:45,Microsoft-Windows-Security-SPP,16394,Offline downlevel migration succeeded.
+Information,03-07-2026 22:26:00,Microsoft-Windows-Defrag,264,The storage optimizer couldn't complete defragmentation on OS (C:) because: The user cancelled the operation. (0x89000006)
+Information,03-07-2026 22:15:18,Microsoft-Windows-Defrag,264,The storage optimizer couldn't complete defragmentation on OS (C:) because: The user cancelled the operation. (0x89000006)
+Information,03-07-2026 22:12:07,Microsoft-Windows-Defrag,264,The storage optimizer couldn't complete defragmentation on OS (C:) because: The user cancelled the operation. (0x89000006)
+Information,03-07-2026 21:55:47,Microsoft-Windows-Defrag,264,The storage optimizer couldn't complete defragmentation on OS (C:) because: The user cancelled the operation. (0x89000006)
+Information,03-07-2026 21:49:51,SDSSnapshotProcess,264,(2),"The description for Event ID 264 from source SDSSnapshotProcess cannot be found. Either the component that raises this event is not installed on your local computer or the installation is corrupted. You can install or repair the component on the local computer.
+
+If the event originated on another computer, the display information had to be saved with the event.
+
+The following information was included with the event: 
+
+
+The system cannot find the file specified
+"
+Information,03-07-2026 21:48:47,SDSSnapshotProcess,274,(4),"The description for Event ID 274 from source SDSSnapshotProcess cannot be found. Either the component that raises this event is not installed on your local computer or the installation is corrupted. You can install or repair the component on the local computer.
+
+If the event originated on another computer, the display information had to be saved with the event.
+
+The following information was included with the event: 
+
+
+The system cannot find the file specified
+"
+Information,03-07-2026 21:48:44,VSS,8231,"Volume Shadow Copy Service information: Snapshot creation initiated for Snapshot Set {4f72eb16-d51c-48ff-9e6f-794e589b2249}.
+ Process command line: ""C:\Program Files\Dell\SARemediation\agent\DellSupportAssistRemedationService.exe""
+ Process Caller Stack:
+ Process[0]: DellSupportAssistRemedationService.exe
+ Process[1]: services.exe
+ Process[2]: wininit.exe
+"
+Error,03-07-2026 21:48:44,VSS,8194,"Volume Shadow Copy Service error: Unexpected error querying for the IVssWriterCallback interface.  hr = 0x80070005, Access is denied.
+. This is often caused by incorrect security settings in either the writer or requestor process. 
+
+Operation:
+   Gathering Writer Data
+
+Context:
+   Writer Class Id: {e8132975-6f93-4464-a53e-1050253ae220}
+   Writer Name: System Writer
+   Writer Instance ID: {cc859194-dee9-49da-928a-dcc55a9cbbd4}"
+Information,03-07-2026 21:48:43,SDSSnapshotProcess,256,(1),"The description for Event ID 256 from source SDSSnapshotProcess cannot be found. Either the component that raises this event is not installed on your local computer or the installation is corrupted. You can install or repair the component on the local computer.
+
+If the event originated on another computer, the display information had to be saved with the event.
+
+The following information was included with the event: 
+
+
+The system cannot find the file specified
+"
+Information,03-07-2026 21:48:31,Microsoft-Windows-Defrag,264,The storage optimizer couldn't complete defragmentation on OS (C:) because: The user cancelled the operation. (0x89000006)
+Information,03-07-2026 21:47:27,SecurityCenter,15,Updated Windows Defender status successfully to SECURITY_PRODUCT_STATE_ON.
+Information,03-07-2026 21:45:15,SecurityCenter,15,Updated Windows Defender status successfully to SECURITY_PRODUCT_STATE_ON.
+Information,03-07-2026 21:45:13,ESENT,326,General,"svchost (22580,D,50,0) DS_Token_DB: The database engine attached a database (1, C:\WINDOWS\system32\config\systemprofile\AppData\Local\DataSharing\Storage\DSTokenDB2.dat). (Time=0 seconds) 
+ 
+Saved Cache: 1 0 
+Additional Data: lgposAttach = 0000000A:000B:0268,
+dbv = 1568.300.620 (9620) 
+ 
+Internal Timing Sequence: 
+[1] 0.000017 +J(0) +M(C:0K, Fs:1, WS:4K # 0K, PF:0K # 0K, P:0K)
+[2] 0.001635 -0.000153 (1) WT +J(0) +M(C:0K, Fs:17, WS:4K # 8K, PF:4K # 4K, P:4K)
+[3] 0.006073 -0.000484 (6) WT +J(CM:0, PgRf:0, Rd:0/0, Dy:0/0, Lg:3480/2) +M(C:0K, Fs:6, WS:20K # 0K, PF:20K # 0K, P:20K)
+[4] 0.002157 +J(0)
+[5] -
+[6] 0.000523 -0.000411 (2) CM -0.000303 (2) WT +J(CM:2, PgRf:2, Rd:0/2, Dy:0/0, Lg:0/0) +M(C:0K, Fs:2, WS:8K # 0K, PF:0K # 0K, P:0K)
+[7] 0.000004 +J(0)
+[8] 0.000442 -0.000168 (1) CM -0.000115 (1) WT +J(CM:1, PgRf:1, Rd:4/1, Dy:0/0, Lg:0/0) +M(C:16K, Fs:25, WS:100K # 64K, PF:208K # 168K, P:208K)
+[9] -
+[10] -
+[11] -
+[12] 0.000011 +J(CM:0, PgRf:0, Rd:0/0, Dy:0/0, Lg:54/1) +M(C:0K, Fs:1, WS:4K # 4K, PF:20K # 16K, P:20K)
+[13] 0.000597 -0.000320 (2) CM -0.000228 (2) WT +J(CM:2, PgRf:23, Rd:0/2, Dy:0/0, Lg:0/0) +M(C:-8K, Fs:20, WS:72K # 76K, PF:-4K # 4K, P:-4K)
+[14] 0.000623 -0.000376 (2) CM -0.000254 (2) WT +J(CM:2, PgRf:40, Rd:0/2, Dy:0/0, Lg:0/0) +M(C:0K, Fs:5, WS:20K # 16K, PF:68K # 60K, P:68K)
+[15] 0.000006 +J(CM:0, PgRf:1, Rd:0/0, Dy:0/0, Lg:0/0)
+[16] 0.000009 +J(CM:0, PgRf:1, Rd:0/0, Dy:0/0, Lg:0/0) +M(C:0K, Fs:1, WS:4K # 4K, PF:0K # 0K, P:0K)
+[17] 0.000056 +J(CM:0, PgRf:42, Rd:0/0, Dy:0/0, Lg:0/0) +M(C:0K, Fs:9, WS:36K # 36K, PF:0K # 0K, P:0K)
+[18] 0.0 +J(0)
+[19] 0.0 +J(0)
+[20] 0.000024 +J(CM:0, PgRf:3, Rd:0/0, Dy:0/0, Lg:0/0) +M(C:0K, Fs:3, WS:12K # 12K, PF:0K # 0K, P:0K)."
+Information,03-07-2026 21:45:13,ESENT,105,General,"svchost (22580,D,0,0) DS_Token_DB: The database engine started a new instance (0). (Time=0.057 seconds) 
+ 
+Additional Data:
+ lgposV2[] = 0000000A:0001:0000 - 0000000A:0008:0039 - 0000000A:0009:0000 - 0000000A:0009:0000 (00000000:0000:0000)
+cReInits = 2
+RBSOn = 0
+ 
+ 
+Internal Timing Sequence: 
+[1] 0.001340 +J(0) +M(C:0K, Fs:173, WS:668K # 668K, PF:3064K # 3064K, P:3064K)
+[2] 0.000724 +J(0) +M(C:8K, Fs:185, WS:732K # 732K, PF:1280K # 1280K, P:1280K)
+[3] 0.000027 +J(0) +M(C:0K, Fs:10, WS:32K # 32K, PF:72K # 72K, P:72K)
+[4] 0.000325 +J(0) +M(C:0K, Fs:109, WS:436K # 436K, PF:192K # 192K, P:192K)
+[5] 0.002261 +J(0) +M(C:0K, Fs:76, WS:304K # 304K, PF:20K # 20K, P:20K)
+[6] 0.003862 +J(0) +M(C:0K, Fs:48, WS:192K # 192K, PF:20K # 20K, P:20K)
+[7] 0.001408 -0.000281 (2) WT +J(0) +M(C:0K, Fs:39, WS:156K # 156K, PF:64K # 64K, P:64K)
+[8] 0.019165 -0.002425 (12) WT +J(CM:0, PgRf:0, Rd:0/0, Dy:0/0, Lg:32448/22) +M(C:0K, Fs:150, WS:372K # 372K, PF:248K # 252K, P:248K)
+[9] 0.000657 +J(0) +M(C:0K, Fs:17, WS:68K # 68K, PF:8K # 4K, P:8K)
+[10] 0.001210 -0.000144 (1) WT +J(0) +M(C:0K, Fs:2, WS:-52K # 8K, PF:-60K # 0K, P:-60K)
+[11] 0.000051 +J(CM:0, PgRf:0, Rd:0/0, Dy:0/0, Lg:49/1) +M(C:0K, Fs:4, WS:16K # 0K, PF:0K # 0K, P:0K)
+[12] 0.000475 +J(0)
+[13] 0.024318 -0.000395 (2) CM -0.002130 (17) WT +J(CM:2, PgRf:2, Rd:0/2, Dy:0/0, Lg:8759/5) +M(C:0K, Fs:75, WS:188K # 208K, PF:184K # 192K, P:184K)
+[14] 0.000037 +J(0) +M(C:0K, Fs:1, WS:4K # 0K, PF:4K # 0K, P:4K)
+[15] 0.000012 +J(0)
+[16] 0.001028 -0.000093 (1) WT +J(0) +M(C:0K, Fs:2, WS:0K # 0K, PF:0K # 0K, P:0K)."
+Information,03-07-2026 21:45:13,ESENT,302,Logging/Recovery,"svchost (22580,U,98,0) DS_Token_DB: The database engine has successfully completed recovery steps."
+Information,03-07-2026 21:45:13,ESENT,301,Logging/Recovery,"svchost (22580,R,98,0) DS_Token_DB: The database engine has finished replaying logfile C:\WINDOWS\system32\config\systemprofile\AppData\Local\DataSharing\Storage\DSS.log. 
+ 
+Processing Stats: 
+[1] 0.011129 -0.001375 (8) WT +J(CM:0, PgRf:0, Rd:0/0, Dy:0/0, Lg:32448/22) +M(C:0K, Fs:95, WS:228K # 164K, PF:168K # 104K, P:168K). 
+Log record of type 'AttachDB ' was seen most frequently (2 times)"
+Information,03-07-2026 21:45:13,ESENT,300,Logging/Recovery,"svchost (22580,R,98,0) DS_Token_DB: The database engine is initiating recovery steps."
+Information,03-07-2026 21:45:13,ESENT,102,General,"svchost (22580,P,98,0) DS_Token_DB: The database engine (10.00.26200.0000) is starting a new instance (0)."
+Information,03-07-2026 21:45:03,Microsoft-Windows-AppXDeploymentServer/Operational,2562,"The description for Event ID 2562 from source Microsoft-Windows-AppXDeploymentServer/Operational cannot be found. Either the component that raises this event is not installed on your local computer or the installation is corrupted. You can install or repair the component on the local computer.
+
+If the event originated on another computer, the display information had to be saved with the event.
+
+The following information was included with the event: 
+
+MSIXDeployment
+windows.applicationData
+DeleteMachineFolder
+Package Microsoft.WindowsNotepad_11.2604.5.0_neutral_split.scale-150_8wekyb3d8bbwe removed machine folder C:\ProgramData\Microsoft\Windows\AppRepository\Families\ApplicationData\Microsoft.WindowsNotepad_8wekyb3d8bbwe: The system cannot find the path specified.
+
+The message resource is present but the message was not found in the message table
+"
+Information,03-07-2026 21:45:03,Microsoft-Windows-AppXDeploymentServer/Operational,2562,"The description for Event ID 2562 from source Microsoft-Windows-AppXDeploymentServer/Operational cannot be found. Either the component that raises this event is not installed on your local computer or the installation is corrupted. You can install or repair the component on the local computer.
+
+If the event originated on another computer, the display information had to be saved with the event.
+
+The following information was included with the event: 
+
+MSIXDeployment
+windows.applicationData
+DeleteMachineFolder
+Package Microsoft.WindowsNotepad_11.2604.5.0_neutral_split.scale-100_8wekyb3d8bbwe removed machine folder C:\ProgramData\Microsoft\Windows\AppRepository\Families\ApplicationData\Microsoft.WindowsNotepad_8wekyb3d8bbwe: The system cannot find the path specified.
+
+The message resource is present but the message was not found in the message table
+"
+Information,03-07-2026 21:45:03,Microsoft-Windows-AppXDeploymentServer/Operational,2562,"The description for Event ID 2562 from source Microsoft-Windows-AppXDeploymentServer/Operational cannot be found. Either the component that raises this event is not installed on your local computer or the installation is corrupted. You can install or repair the component on the local computer.
+
+If the event originated on another computer, the display information had to be saved with the event.
+
+The following information was included with the event: 
+
+MSIXDeployment
+windows.applicationData
+DeleteMachineFolder
+Package Microsoft.WindowsNotepad_11.2604.5.0_x64__8wekyb3d8bbwe removed machine folder C:\ProgramData\Microsoft\Windows\AppRepository\Families\ApplicationData\Microsoft.WindowsNotepad_8wekyb3d8bbwe: The system cannot find the path specified.
+
+The message resource is present but the message was not found in the message table
+"
+Information,03-07-2026 21:45:01,Microsoft-Windows-Security-SPP,16384,Successfully scheduled Software Protection service for re-start at 2126-06-09T16:15:01Z. Reason: RulesEngine.
+Information,03-07-2026 21:44:31,Microsoft-Windows-Security-SPP,16394,Offline downlevel migration succeeded.
+Information,03-07-2026 21:44:23,Microsoft-Windows-AppXDeploymentServer/Operational,2562,"The description for Event ID 2562 from source Microsoft-Windows-AppXDeploymentServer/Operational cannot be found. Either the component that raises this event is not installed on your local computer or the installation is corrupted. You can install or repair the component on the local computer.
+
+If the event originated on another computer, the display information had to be saved with the event.
+
+The following information was included with the event: 
+
+MSIXDeployment
+windows.applicationData
+DeleteMachineFolder
+Package Microsoft.WindowsAlarms_11.2512.0.0_neutral_split.scale-100_8wekyb3d8bbwe removed machine folder C:\ProgramData\Microsoft\Windows\AppRepository\Families\ApplicationData\Microsoft.WindowsAlarms_8wekyb3d8bbwe: The system cannot find the path specified.
+
+The message resource is present but the message was not found in the message table
+"
+Information,03-07-2026 21:44:23,Microsoft-Windows-AppXDeploymentServer/Operational,2562,"The description for Event ID 2562 from source Microsoft-Windows-AppXDeploymentServer/Operational cannot be found. Either the component that raises this event is not installed on your local computer or the installation is corrupted. You can install or repair the component on the local computer.
+
+If the event originated on another computer, the display information had to be saved with the event.
+
+The following information was included with the event: 
+
+MSIXDeployment
+windows.applicationData
+DeleteMachineFolder
+Package Microsoft.WindowsAlarms_11.2512.0.0_neutral_split.scale-150_8wekyb3d8bbwe removed machine folder C:\ProgramData\Microsoft\Windows\AppRepository\Families\ApplicationData\Microsoft.WindowsAlarms_8wekyb3d8bbwe: The system cannot find the path specified.
+
+The message resource is present but the message was not found in the message table
+"
+Information,03-07-2026 21:44:23,Microsoft-Windows-AppXDeploymentServer/Operational,2562,"The description for Event ID 2562 from source Microsoft-Windows-AppXDeploymentServer/Operational cannot be found. Either the component that raises this event is not installed on your local computer or the installation is corrupted. You can install or repair the component on the local computer.
+
+If the event originated on another computer, the display information had to be saved with the event.
+
+The following information was included with the event: 
+
+MSIXDeployment
+windows.applicationData
+DeleteMachineFolder
+Package Microsoft.WindowsAlarms_11.2512.0.0_x64__8wekyb3d8bbwe removed machine folder C:\ProgramData\Microsoft\Windows\AppRepository\Families\ApplicationData\Microsoft.WindowsAlarms_8wekyb3d8bbwe: The system cannot find the path specified.
+
+The message resource is present but the message was not found in the message table
+"
+Information,03-07-2026 21:43:06,Microsoft-Windows-Security-SPP,16384,Successfully scheduled Software Protection service for re-start at 2126-06-09T16:13:06Z. Reason: RulesEngine.
+Information,03-07-2026 21:42:36,Microsoft-Windows-Security-SPP,16394,Offline downlevel migration succeeded.
+Information,03-07-2026 21:34:56,Microsoft-Windows-AppXDeploymentServer/Operational,2562,"The description for Event ID 2562 from source Microsoft-Windows-AppXDeploymentServer/Operational cannot be found. Either the component that raises this event is not installed on your local computer or the installation is corrupted. You can install or repair the component on the local computer.
+
+If the event originated on another computer, the display information had to be saved with the event.
+
+The following information was included with the event: 
+
+MSIXDeployment
+windows.applicationData
+DeleteMachineFolder
+Package Microsoft.VP9VideoExtensions_1.2.13.0_x64__8wekyb3d8bbwe removed machine folder C:\ProgramData\Microsoft\Windows\AppRepository\Families\ApplicationData\Microsoft.VP9VideoExtensions_8wekyb3d8bbwe: The system cannot find the path specified.
+
+The message resource is present but the message was not found in the message table
+"
+Information,03-07-2026 21:27:10,SecurityCenter,15,Updated Windows Defender status successfully to SECURITY_PRODUCT_STATE_ON.
+Information,03-07-2026 21:26:31,Microsoft-Windows-Security-SPP,16384,Successfully scheduled Software Protection service for re-start at 2126-06-09T15:56:31Z. Reason: RulesEngine.
+Information,03-07-2026 21:26:01,Microsoft-Windows-Security-SPP,16394,Offline downlevel migration succeeded.
+Information,03-07-2026 21:25:36,Microsoft-Windows-Security-SPP,16384,Successfully scheduled Software Protection service for re-start at 2126-06-09T15:55:36Z. Reason: RulesEngine.
+Information,03-07-2026 21:24:59,Microsoft-Windows-Security-SPP,16394,Offline downlevel migration succeeded.
+Information,03-07-2026 21:17:21,Microsoft-Windows-Security-SPP,16384,Successfully scheduled Software Protection service for re-start at 2126-06-09T15:47:21Z. Reason: RulesEngine.
+Information,03-07-2026 21:16:51,Microsoft-Windows-Security-SPP,16394,Offline downlevel migration succeeded.
+Information,03-07-2026 21:16:39,Microsoft-Windows-Security-SPP,16384,Successfully scheduled Software Protection service for re-start at 2126-06-09T15:46:39Z. Reason: RulesEngine.
+Information,03-07-2026 21:15:44,edgeupdate,0,Service stopped.
+Information,03-07-2026 21:15:34,Microsoft-Windows-Security-SPP,16394,Offline downlevel migration succeeded.
+Information,03-07-2026 21:15:09,VSS,8224,The VSS service is shutting down due to idle timeout. 
+Information,03-07-2026 21:12:07,Microsoft-Windows-Security-SPP,16384,Successfully scheduled Software Protection service for re-start at 2126-06-09T15:42:07Z. Reason: RulesEngine.
+Information,03-07-2026 21:11:43,Chrome,256,Browser Events,[14920:15924:0703/211143.705:INFO:rlz\lib\rlz_lib.cc:451] Succeeded in sending RLZ ping
+Information,03-07-2026 21:11:41,Chrome,256,Browser Events,[14920:15924:0703/211141.654:INFO:rlz\lib\rlz_lib.cc:442] Attempting to send RLZ ping brand=CHBD
+Information,03-07-2026 21:11:36,Microsoft-Windows-Security-SPP,16394,Offline downlevel migration succeeded.
+Information,03-07-2026 21:11:35,Windows Error Reporting,1001,"Fault bucket 1450548301195742217, type 5
+Event Name: StoreAgentScanForUpdatesFailure0
+Response: Not available
+Cab Id: 0
+
+Problem signature:
+P1: Update;
+P2: 8024402c
+P3: 26200
+P4: 8737
+P5: Windows.Desktop
+P6: 
+P7: 
+P8: 
+P9: 
+P10: 
+
+Attached files:
+\\?\C:\ProgramData\Microsoft\Windows\WER\Temp\WER.730a8ca1-6bbe-4e84-959d-a91d0284bbf1.tmp.WERInternalMetadata.xml
+\\?\C:\ProgramData\Microsoft\Windows\WER\ReportQueue\NonCritical_Update;_8e644caec23697d6cd7852a4dada238d7603bb0_00000000_cab_0a60e14c-d6eb-419a-8a2f-78812e7c501b\WPR_initiated_DiagTrackMiniLogger_OneTrace_User_Logger_20260630_1_EC_0_inject.etl
+\\?\C:\ProgramData\Microsoft\Windows\WER\Temp\WER.e46ac42e-aaae-454d-b16a-e2cf56d5f902.tmp.etl
+\\?\C:\ProgramData\Microsoft\Windows\WER\ReportQueue\NonCritical_Update;_8e644caec23697d6cd7852a4dada238d7603bb0_00000000_cab_0a60e14c-d6eb-419a-8a2f-78812e7c501b\WPR_initiated_DiagTrackMiniLogger_WPR System Collector_inject.etl
+\\?\C:\ProgramData\Microsoft\Windows\WER\Temp\WER.4cf8fed2-770c-410e-b1d4-04e0278a4459.tmp.etl
+\\?\C:\ProgramData\Microsoft\Windows\WER\Temp\WER.59ca42ea-f48d-499b-89db-81fddfa1240a.tmp.csv
+\\?\C:\ProgramData\Microsoft\Windows\WER\Temp\WER.85627755-cc03-4eb2-95fb-5774dbf00b00.tmp.txt
+\\?\C:\ProgramData\Microsoft\Windows\WER\Temp\WER.7a5b3c38-5d38-4bb0-99bd-8376a33bda45.tmp.xml
+
+These files may be available here:
+\\?\C:\ProgramData\Microsoft\Windows\WER\ReportArchive\NonCritical_Update;_8e644caec23697d6cd7852a4dada238d7603bb0_00000000_0a60e14c-d6eb-419a-8a2f-78812e7c501b
+
+Analysis symbol: 
+Rechecking for solution: 0
+Report Id: 0a60e14c-d6eb-419a-8a2f-78812e7c501b
+Report Status: 268435462
+Hashed bucket: e6324369a2fda705642161fe9e518c09
+Cab Guid: 0"
+Information,03-07-2026 21:10:41,Chrome,256,Browser Events,[14920:20756:0703/211041.649:INFO:chrome\browser\extensions\extension_garbage_collector.cc:188] Garbage collection for extensions on file thread is complete.
+Information,03-07-2026 21:10:23,DellTechHub,0,PowerEvent handled successfully by the service.
+Information,03-07-2026 21:10:23,Dell SupportAssist Remediation,0,PowerEvent handled successfully by the service.
+Information,03-07-2026 21:10:20,DellTechHub,0,PowerEvent handled successfully by the service.
+Information,03-07-2026 21:10:20,Dell SupportAssist Remediation,0,PowerEvent handled successfully by the service.
+Information,03-07-2026 21:10:17,Windows Error Reporting,1001,"Fault bucket , type 0
+Event Name: StoreAgentScanForUpdatesFailure0
+Response: Not available
+Cab Id: 0
+
+Problem signature:
+P1: Update;
+P2: 8024402c
+P3: 26200
+P4: 8737
+P5: Windows.Desktop
+P6: 
+P7: 
+P8: 
+P9: 
+P10: 
+
+Attached files:
+\\?\C:\ProgramData\Microsoft\Windows\WER\Temp\WER.730a8ca1-6bbe-4e84-959d-a91d0284bbf1.tmp.WERInternalMetadata.xml
+\\?\C:\ProgramData\Microsoft\Windows\WER\ReportQueue\NonCritical_Update;_8e644caec23697d6cd7852a4dada238d7603bb0_00000000_cab_0a60e14c-d6eb-419a-8a2f-78812e7c501b\WPR_initiated_DiagTrackMiniLogger_OneTrace_User_Logger_20260630_1_EC_0_inject.etl
+\\?\C:\ProgramData\Microsoft\Windows\WER\Temp\WER.e46ac42e-aaae-454d-b16a-e2cf56d5f902.tmp.etl
+\\?\C:\ProgramData\Microsoft\Windows\WER\ReportQueue\NonCritical_Update;_8e644caec23697d6cd7852a4dada238d7603bb0_00000000_cab_0a60e14c-d6eb-419a-8a2f-78812e7c501b\WPR_initiated_DiagTrackMiniLogger_WPR System Collector_inject.etl
+\\?\C:\ProgramData\Microsoft\Windows\WER\Temp\WER.4cf8fed2-770c-410e-b1d4-04e0278a4459.tmp.etl
+\\?\C:\ProgramData\Microsoft\Windows\WER\Temp\WER.59ca42ea-f48d-499b-89db-81fddfa1240a.tmp.csv
+\\?\C:\ProgramData\Microsoft\Windows\WER\Temp\WER.85627755-cc03-4eb2-95fb-5774dbf00b00.tmp.txt
+\\?\C:\ProgramData\Microsoft\Windows\WER\Temp\WER.7a5b3c38-5d38-4bb0-99bd-8376a33bda45.tmp.xml
+
+These files may be available here:
+\\?\C:\ProgramData\Microsoft\Windows\WER\ReportQueue\NonCritical_Update;_8e644caec23697d6cd7852a4dada238d7603bb0_00000000_cab_0a60e14c-d6eb-419a-8a2f-78812e7c501b
+
+Analysis symbol: 
+Rechecking for solution: 0
+Report Id: 0a60e14c-d6eb-419a-8a2f-78812e7c501b
+Report Status: 6
+Hashed bucket: 
+Cab Guid: 0"
+Information,03-07-2026 21:10:17,Windows Error Reporting,1001,"Fault bucket , type 0
+Event Name: StoreAgentScanForUpdatesFailure0
+Response: Not available
+Cab Id: 0
+
+Problem signature:
+P1: Update;
+P2: 8024402c
+P3: 26200
+P4: 8737
+P5: Windows.Desktop
+P6: 
+P7: 
+P8: 
+P9: 
+P10: 
+
+Attached files:
+\\?\C:\ProgramData\Microsoft\Windows\WER\Temp\WER.730a8ca1-6bbe-4e84-959d-a91d0284bbf1.tmp.WERInternalMetadata.xml
+\\?\C:\ProgramData\Microsoft\Windows\WER\ReportQueue\NonCritical_Update;_8e644caec23697d6cd7852a4dada238d7603bb0_00000000_cab_0a60e14c-d6eb-419a-8a2f-78812e7c501b\WPR_initiated_DiagTrackMiniLogger_OneTrace_User_Logger_20260630_1_EC_0_inject.etl
+\\?\C:\ProgramData\Microsoft\Windows\WER\Temp\WER.e46ac42e-aaae-454d-b16a-e2cf56d5f902.tmp.etl
+\\?\C:\ProgramData\Microsoft\Windows\WER\ReportQueue\NonCritical_Update;_8e644caec23697d6cd7852a4dada238d7603bb0_00000000_cab_0a60e14c-d6eb-419a-8a2f-78812e7c501b\WPR_initiated_DiagTrackMiniLogger_WPR System Collector_inject.etl
+\\?\C:\ProgramData\Microsoft\Windows\WER\Temp\WER.4cf8fed2-770c-410e-b1d4-04e0278a4459.tmp.etl
+\\?\C:\ProgramData\Microsoft\Windows\WER\Temp\WER.59ca42ea-f48d-499b-89db-81fddfa1240a.tmp.csv
+\\?\C:\ProgramData\Microsoft\Windows\WER\Temp\WER.85627755-cc03-4eb2-95fb-5774dbf00b00.tmp.txt
+\\?\C:\ProgramData\Microsoft\Windows\WER\Temp\WER.7a5b3c38-5d38-4bb0-99bd-8376a33bda45.tmp.xml
+
+These files may be available here:
+\\?\C:\ProgramData\Microsoft\Windows\WER\ReportQueue\NonCritical_Update;_8e644caec23697d6cd7852a4dada238d7603bb0_00000000_cab_0a60e14c-d6eb-419a-8a2f-78812e7c501b
+
+Analysis symbol: 
+Rechecking for solution: 0
+Report Id: 0a60e14c-d6eb-419a-8a2f-78812e7c501b
+Report Status: 4
+Hashed bucket: 
+Cab Guid: 0"
+Information,03-07-2026 21:10:15,edgeupdate,0,Service stopped.
+Information,03-07-2026 21:10:03,SpotifySessionConnectedTask,1,Incorrect function. 
+Information,03-07-2026 21:10:03,SpotifySessionConnectedTask,1,Incorrect function. 
+Information,03-07-2026 21:10:03,SpotifySessionConnectedTask,1,Incorrect function. 
+Information,03-07-2026 21:10:03,SpotifySessionConnectedTask,1,Incorrect function. 
+Information,03-07-2026 21:10:03,SpotifySessionConnectedTask,1,Incorrect function. 
+Information,03-07-2026 21:10:03,SpotifySessionConnectedTask,1,Incorrect function. 
+Information,03-07-2026 21:10:03,SpotifySessionConnectedTask,1,Incorrect function. 
+Information,03-07-2026 21:10:03,SpotifySessionConnectedTask,1,Incorrect function. 
+Information,03-07-2026 21:10:02,SpotifySessionConnectedTask,1,Incorrect function. 
+Information,03-07-2026 21:10:02,SpotifySessionConnectedTask,1,Incorrect function. 
+Information,03-07-2026 21:10:02,SpotifySessionConnectedTask,1,Incorrect function. 
+Information,03-07-2026 21:10:02,SpotifySessionConnectedTask,1,Incorrect function. 
+Information,03-07-2026 21:10:02,SpotifySessionConnectedTask,1,Incorrect function. 
+Information,03-07-2026 21:10:02,SpotifySessionConnectedTask,1,Incorrect function. 
+Information,03-07-2026 21:10:02,SpotifySessionConnectedTask,1,Incorrect function. 
+Information,03-07-2026 21:10:02,SpotifySessionConnectedTask,1,Incorrect function. 
+Information,03-07-2026 21:09:58,Microsoft-Windows-Winlogon,6000,The winlogon notification subscriber <SessionEnv> was unavailable to handle a notification event.
+Information,03-07-2026 21:09:58,Microsoft-Windows-Winlogon,6003,The winlogon notification subscriber <SessionEnv> was unavailable to handle a critical notification event.
+Information,03-07-2026 21:09:56,Microsoft-Windows-Security-SPP,16384,Successfully scheduled Software Protection service for re-start at 2126-06-09T15:39:56Z. Reason: RulesEngine.
+Information,03-07-2026 21:09:35,IPF,19,ESIF(2.3.20303.5058) TYPE: INFO MODULE: IPF TIME 79989166 ms
+
+    DPTF Build Version:  9.1.10009.1745    DPTF Build Date:  Mar 11 2026 16:58:52    Message:  EPO Modes Status:DC Endurance Gaming(Status: Enabled);DC Better Battery(Status: Disabled);DC Balanced(Status: Enabled);AC Balanced(Status: Enabled);AC Quiet(Status: Disabled);AC Collaboration(Status: Enabled    Policy:  Energy Performance Optimizer Policy [2]        
+Information,03-07-2026 21:09:33,DellTechHub,0,PowerEvent handled successfully by the service.
+Information,03-07-2026 21:09:33,Dell SupportAssist Remediation,0,PowerEvent handled successfully by the service.
+Information,03-07-2026 21:09:33,DellTechHub,0,PowerEvent handled successfully by the service.
+Information,03-07-2026 21:09:33,Dell SupportAssist Remediation,0,PowerEvent handled successfully by the service.
+Information,03-07-2026 00:28:55,DellTechHub,0,PowerEvent handled successfully by the service.
+Information,03-07-2026 00:28:55,Dell SupportAssist Remediation,0,PowerEvent handled successfully by the service.
+Information,03-07-2026 00:28:54,Microsoft-Windows-Winlogon,6000,The winlogon notification subscriber <SessionEnv> was unavailable to handle a notification event.
+Information,03-07-2026 00:28:54,Microsoft-Windows-Winlogon,6000,The winlogon notification subscriber <WSearch> was unavailable to handle a notification event.
+Information,03-07-2026 00:28:54,Microsoft-Windows-Security-SPP,16394,Offline downlevel migration succeeded.
+Information,03-07-2026 00:21:24,VSS,8224,The VSS service is shutting down due to idle timeout. 
+Information,03-07-2026 00:19:03,Microsoft-Windows-Security-SPP,16384,Successfully scheduled Software Protection service for re-start at 2126-06-08T18:49:03Z. Reason: RulesEngine.
+Information,03-07-2026 00:18:19,VSS,8231,"Volume Shadow Copy Service information: Snapshot creation initiated for Snapshot Set {561b943b-c76a-4904-bd16-217b77809186}.
+ Process command line: taskhostw.exe
+ Process Caller Stack:
+ Process[0]: taskhostw.exe
+ Process[1]: svchost.exe
+ Process[2]: services.exe
+"
+Information,03-07-2026 00:18:18,Microsoft-Windows-Security-SPP,16394,Offline downlevel migration succeeded.
+Information,02-07-2026 23:56:02,Microsoft-Windows-Security-SPP,16384,Successfully scheduled Software Protection service for re-start at 2126-06-08T18:26:02Z. Reason: RulesEngine.
+Information,02-07-2026 23:55:32,Microsoft-Windows-Security-SPP,16394,Offline downlevel migration succeeded.
+Information,02-07-2026 23:34:23,MsiInstaller,1035,Windows Installer reconfigured the product. Product Name: Microsoft .NET Host FX Resolver - 9.0.17 (x64). Product Version: 72.68.53536. Product Language: 1033. Manufacturer: Microsoft Corporation. Reconfiguration success or error status: 0.
+Information,02-07-2026 23:34:23,MsiInstaller,1035,Windows Installer reconfigured the product. Product Name: vcpp_crt.redist.clickonce. Product Version: 14.40.33810. Product Language: 1033. Manufacturer: Microsoft Corporation. Reconfiguration success or error status: 0.
+Information,02-07-2026 23:34:23,MsiInstaller,1035,Windows Installer reconfigured the product. Product Name: Windows SDK DirectX x64 Remote. Product Version: 10.1.22621.3233. Product Language: 1033. Manufacturer: Microsoft Corporation. Reconfiguration success or error status: 0.
+Information,02-07-2026 23:34:23,MsiInstaller,1035,Windows Installer reconfigured the product. Product Name: Microsoft ASP.NET Core 6.0.33 Targeting Pack (x86). Product Version: 6.0.33.24379. Product Language: 1033. Manufacturer: Microsoft Corporation. Reconfiguration success or error status: 0.
+Information,02-07-2026 23:34:22,MsiInstaller,1035,Windows Installer reconfigured the product. Product Name: Microsoft Visual C++ 2022 X86 Debug Runtime - 14.40.33810. Product Version: 14.40.33810. Product Language: 1033. Manufacturer: Microsoft Corporation. Reconfiguration success or error status: 0.
+Information,02-07-2026 23:34:22,MsiInstaller,1035,Windows Installer reconfigured the product. Product Name: Windows SDK Desktop Headers x86. Product Version: 10.1.22621.3233. Product Language: 1033. Manufacturer: Microsoft Corporation. Reconfiguration success or error status: 0.
+Information,02-07-2026 23:34:22,MsiInstaller,1035,Windows Installer reconfigured the product. Product Name: SDK ARM Redistributables. Product Version: 10.1.22621.3233. Product Language: 1033. Manufacturer: Microsoft Corporation. Reconfiguration success or error status: 0.
+Information,02-07-2026 23:34:22,MsiInstaller,1035,Windows Installer reconfigured the product. Product Name: Microsoft .NET Runtime - 6.0.33 (x86). Product Version: 48.132.18378. Product Language: 1033. Manufacturer: Microsoft Corporation. Reconfiguration success or error status: 0.
+Information,02-07-2026 23:34:22,MsiInstaller,1035,Windows Installer reconfigured the product. Product Name: Microsoft .NET Runtime - 9.0.17 (x64). Product Version: 72.68.53536. Product Language: 1033. Manufacturer: Microsoft Corporation. Reconfiguration success or error status: 0.
+Information,02-07-2026 23:34:22,MsiInstaller,1035,Windows Installer reconfigured the product. Product Name: Microsoft .NET Host FX Resolver - 8.0.28 (x64). Product Version: 64.112.53549. Product Language: 1033. Manufacturer: Microsoft Corporation. Reconfiguration success or error status: 0.
+Information,02-07-2026 23:34:21,MsiInstaller,1035,Windows Installer reconfigured the product. Product Name: Microsoft .NET Runtime - 6.0.36 (x64). Product Version: 48.144.23141. Product Language: 1033. Manufacturer: Microsoft Corporation. Reconfiguration success or error status: 0.
+Information,02-07-2026 23:34:21,MsiInstaller,1035,Windows Installer reconfigured the product. Product Name: Microsoft .NET Host - 9.0.17 (x64). Product Version: 72.68.53536. Product Language: 1033. Manufacturer: Microsoft Corporation. Reconfiguration success or error status: 0.
+Information,02-07-2026 23:34:21,MsiInstaller,1035,Windows Installer reconfigured the product. Product Name: MSI Development Tools. Product Version: 10.1.22621.3233. Product Language: 1033. Manufacturer: Microsoft Corporation. Reconfiguration success or error status: 0.
+Information,02-07-2026 23:34:21,MsiInstaller,1035,Windows Installer reconfigured the product. Product Name: Windows SDK Desktop Headers arm. Product Version: 10.1.22621.3233. Product Language: 1033. Manufacturer: Microsoft Corporation. Reconfiguration success or error status: 0.
+Information,02-07-2026 23:34:21,MsiInstaller,1035,Windows Installer reconfigured the product. Product Name: Universal CRT Headers Libraries and Sources. Product Version: 10.1.22621.3233. Product Language: 1033. Manufacturer: Microsoft Corporation. Reconfiguration success or error status: 0.
+Information,02-07-2026 23:34:21,MsiInstaller,1035,Windows Installer reconfigured the product. Product Name: vs_minshellsharedmsi. Product Version: 17.11.35102. Product Language: 1033. Manufacturer: Microsoft Corporation. Reconfiguration success or error status: 0.
+Information,02-07-2026 23:34:21,MsiInstaller,1035,Windows Installer reconfigured the product. Product Name: Microsoft Windows Desktop Runtime - 9.0.11 (x64). Product Version: 72.44.42433. Product Language: 1033. Manufacturer: Microsoft Corporation. Reconfiguration success or error status: 0.
+Information,02-07-2026 23:34:20,MsiInstaller,1035,Windows Installer reconfigured the product. Product Name: Universal CRT Redistributable. Product Version: 10.1.22621.3233. Product Language: 1033. Manufacturer: Microsoft Corporation. Reconfiguration success or error status: 0.
+Information,02-07-2026 23:34:20,MsiInstaller,1035,Windows Installer reconfigured the product. Product Name: Microsoft .NET AppHost Pack - 8.0.20 (x64_x86). Product Version: 64.80.39230. Product Language: 1033. Manufacturer: Microsoft Corporation. Reconfiguration success or error status: 0.
+Information,02-07-2026 23:34:20,MsiInstaller,1035,Windows Installer reconfigured the product. Product Name: Windows Team Extension SDK Contracts. Product Version: 10.1.22621.3233. Product Language: 1033. Manufacturer: Microsoft Corporation. Reconfiguration success or error status: 0.
+Information,02-07-2026 23:34:20,MsiInstaller,1035,Windows Installer reconfigured the product. Product Name: Microsoft Update Health Tools. Product Version: 5.72.0.0. Product Language: 0. Manufacturer: Microsoft Corporation. Reconfiguration success or error status: 0.
+Information,02-07-2026 23:34:20,MsiInstaller,1035,Windows Installer reconfigured the product. Product Name: vs_CoreEditorFonts. Product Version: 17.7.40001. Product Language: 1033. Manufacturer: Microsoft Corporation. Reconfiguration success or error status: 0.
+Information,02-07-2026 23:34:20,MsiInstaller,1035,Windows Installer reconfigured the product. Product Name: Microsoft MPI SDK (10.1.12498.52). Product Version: 10.1.12498.52. Product Language: 1033. Manufacturer: Microsoft Corporation. Reconfiguration success or error status: 0.
+Information,02-07-2026 23:34:20,MsiInstaller,1035,Windows Installer reconfigured the product. Product Name: Microsoft .NET Targeting Pack - 6.0.33 (x64). Product Version: 48.132.18378. Product Language: 1033. Manufacturer: Microsoft Corporation. Reconfiguration success or error status: 0.
+Information,02-07-2026 23:34:19,MsiInstaller,1035,Windows Installer reconfigured the product. Product Name: Microsoft Windows Desktop Runtime - 8.0.22 (x64). Product Version: 64.88.42561. Product Language: 1033. Manufacturer: Microsoft Corporation. Reconfiguration success or error status: 0.
+Information,02-07-2026 23:34:19,MsiInstaller,1035,Windows Installer reconfigured the product. Product Name: Microsoft Visual C++ 2012 x86 Minimum Runtime - 11.0.61030. Product Version: 11.0.61030. Product Language: 1033. Manufacturer: Microsoft Corporation. Reconfiguration success or error status: 0.
+Information,02-07-2026 23:34:19,MsiInstaller,1035,Windows Installer reconfigured the product. Product Name: Microsoft Windows Desktop Runtime - 6.0.33 (x86). Product Version: 48.132.18374. Product Language: 1033. Manufacturer: Microsoft Corporation. Reconfiguration success or error status: 0.
+Information,02-07-2026 23:34:19,MsiInstaller,1035,Windows Installer reconfigured the product. Product Name: Windows SDK ARM Desktop Tools. Product Version: 10.1.22621.3233. Product Language: 1033. Manufacturer: Microsoft Corporation. Reconfiguration success or error status: 0.
+Information,02-07-2026 23:34:19,MsiInstaller,1035,Windows Installer reconfigured the product. Product Name: Microsoft .NET Host FX Resolver - 9.0.11 (x64). Product Version: 72.44.42384. Product Language: 1033. Manufacturer: Microsoft Corporation. Reconfiguration success or error status: 0.
+Information,02-07-2026 23:34:19,MsiInstaller,1035,Windows Installer reconfigured the product. Product Name: Windows SDK. Product Version: 10.1.22621.3233. Product Language: 1033. Manufacturer: Microsoft Corporation. Reconfiguration success or error status: 0.
+Information,02-07-2026 23:34:19,MsiInstaller,1035,Windows Installer reconfigured the product. Product Name: CMake. Product Version: 4.3.3. Product Language: 1033. Manufacturer: Kitware. Reconfiguration success or error status: 0.
+Information,02-07-2026 23:34:18,MsiInstaller,1035,Windows Installer reconfigured the product. Product Name: Microsoft .NET Host FX Resolver - 8.0.20 (x64). Product Version: 64.80.39230. Product Language: 1033. Manufacturer: Microsoft Corporation. Reconfiguration success or error status: 0.
+Information,02-07-2026 23:34:17,MsiInstaller,1035,Windows Installer reconfigured the product. Product Name: Microsoft Visual C++ 2013 x86 Additional Runtime - 12.0.40664. Product Version: 12.0.40664. Product Language: 1033. Manufacturer: Microsoft Corporation. Reconfiguration success or error status: 0.
+Information,02-07-2026 23:34:17,MsiInstaller,1035,Windows Installer reconfigured the product. Product Name: vs_filehandler_amd64. Product Version: 17.11.35102. Product Language: 1033. Manufacturer: Microsoft Corporation. Reconfiguration success or error status: 0.
+Information,02-07-2026 23:34:17,MsiInstaller,1035,Windows Installer reconfigured the product. Product Name: Windows SDK for Windows Store Apps. Product Version: 10.1.22621.3233. Product Language: 1033. Manufacturer: Microsoft Corporation. Reconfiguration success or error status: 0.
+Information,02-07-2026 23:34:17,MsiInstaller,1035,Windows Installer reconfigured the product. Product Name: Intel(R) Connectivity Performance Suite for ExpressConnect. Product Version: 30.24.153. Product Language: 1033. Manufacturer: Intel Corporation. Reconfiguration success or error status: 0.
+Information,02-07-2026 23:34:17,MsiInstaller,1035,Windows Installer reconfigured the product. Product Name: Windows SDK Signing Tools. Product Version: 10.1.22621.3233. Product Language: 1033. Manufacturer: Microsoft Corporation. Reconfiguration success or error status: 0.
+Information,02-07-2026 23:34:17,MsiInstaller,1035,Windows Installer reconfigured the product. Product Name: Microsoft.NET.Workload.Mono.Toolchain.net7.Manifest (x64). Product Version: 64.80.39230. Product Language: 1033. Manufacturer: Microsoft Corporation. Reconfiguration success or error status: 0.
+Information,02-07-2026 23:34:17,MsiInstaller,1035,Windows Installer reconfigured the product. Product Name: Microsoft Windows Desktop Runtime - 8.0.28 (x64). Product Version: 64.112.53617. Product Language: 1033. Manufacturer: Microsoft Corporation. Reconfiguration success or error status: 0.
+Information,02-07-2026 23:34:17,MsiInstaller,1035,Windows Installer reconfigured the product. Product Name: Microsoft Windows Desktop Targeting Pack - 6.0.33 (x64). Product Version: 48.132.18374. Product Language: 1033. Manufacturer: Microsoft Corporation. Reconfiguration success or error status: 0.
+Information,02-07-2026 23:34:16,MsiInstaller,1035,Windows Installer reconfigured the product. Product Name: Microsoft Visual C++ 2012 x64 Minimum Runtime - 11.0.61030. Product Version: 11.0.61030. Product Language: 1033. Manufacturer: Microsoft Corporation. Reconfiguration success or error status: 0.
+Information,02-07-2026 23:34:16,MsiInstaller,1035,Windows Installer reconfigured the product. Product Name: Windows SDK Desktop Libs x64. Product Version: 10.1.22621.3233. Product Language: 1033. Manufacturer: Microsoft Corporation. Reconfiguration success or error status: 0.
+Information,02-07-2026 23:34:16,MsiInstaller,1035,Windows Installer reconfigured the product. Product Name: Windows IoT Extension SDK Contracts. Product Version: 10.1.22621.3233. Product Language: 1033. Manufacturer: Microsoft Corporation. Reconfiguration success or error status: 0.
+Information,02-07-2026 23:34:16,MsiInstaller,1035,Windows Installer reconfigured the product. Product Name: Microsoft Visual Studio Setup Configuration. Product Version: 3.11.2133.16870. Product Language: 1033. Manufacturer: Microsoft Corporation. Reconfiguration success or error status: 0.
+Information,02-07-2026 23:34:16,MsiInstaller,1035,Windows Installer reconfigured the product. Product Name: Microsoft Visual C++ 2012 x86 Additional Runtime - 11.0.61030. Product Version: 11.0.61030. Product Language: 1033. Manufacturer: Microsoft Corporation. Reconfiguration success or error status: 0.
+Information,02-07-2026 23:34:16,MsiInstaller,1035,Windows Installer reconfigured the product. Product Name: Microsoft .NET Standard Targeting Pack - 2.1.0 (x64). Product Version: 24.0.28113. Product Language: 1033. Manufacturer: Microsoft Corporation. Reconfiguration success or error status: 0.
+Information,02-07-2026 23:34:16,MsiInstaller,1035,Windows Installer reconfigured the product. Product Name: vs_minshellinteropmsi. Product Version: 17.11.35102. Product Language: 1033. Manufacturer: Microsoft Corporation. Reconfiguration success or error status: 0.
+Information,02-07-2026 23:34:16,MsiInstaller,1035,Windows Installer reconfigured the product. Product Name: Oracle VirtualBox 7.1.10. Product Version: 7.1.10. Product Language: 1033. Manufacturer: Oracle and/or its affiliates. Reconfiguration success or error status: 0.
+Information,02-07-2026 23:34:15,MsiInstaller,1035,Windows Installer reconfigured the product. Product Name: Windows SDK for Windows Store Apps Contracts. Product Version: 10.1.22621.3233. Product Language: 1033. Manufacturer: Microsoft Corporation. Reconfiguration success or error status: 0.
+Information,02-07-2026 23:34:15,MsiInstaller,1035,Windows Installer reconfigured the product. Product Name: Universal CRT Redistributable. Product Version: 10.0.26624. Product Language: 1033. Manufacturer: Microsoft Corporation. Reconfiguration success or error status: 0.
+Information,02-07-2026 23:34:15,MsiInstaller,1035,Windows Installer reconfigured the product. Product Name: Microsoft .NET Host - 8.0.28 (x64). Product Version: 64.112.53549. Product Language: 1033. Manufacturer: Microsoft Corporation. Reconfiguration success or error status: 0.
+Information,02-07-2026 23:34:15,MsiInstaller,1035,Windows Installer reconfigured the product. Product Name: vs_FileTracker_Singleton. Product Version: 17.11.35102. Product Language: 1033. Manufacturer: Microsoft Corporation. Reconfiguration success or error status: 0.
+Information,02-07-2026 23:34:15,MsiInstaller,1035,Windows Installer reconfigured the product. Product Name: Microsoft Windows Desktop Runtime - 6.0.36 (x64). Product Version: 48.144.23186. Product Language: 1033. Manufacturer: Microsoft Corporation. Reconfiguration success or error status: 0.
+Information,02-07-2026 23:34:15,MsiInstaller,1035,Windows Installer reconfigured the product. Product Name: Windows SDK Desktop Headers arm64. Product Version: 10.1.22621.3233. Product Language: 1033. Manufacturer: Microsoft Corporation. Reconfiguration success or error status: 0.
+Information,02-07-2026 23:34:15,MsiInstaller,1035,Windows Installer reconfigured the product. Product Name: Windows SDK Facade Windows WinMD Versioned. Product Version: 10.1.22621.3233. Product Language: 1033. Manufacturer: Microsoft Corporation. Reconfiguration success or error status: 0.
+Information,02-07-2026 23:34:15,MsiInstaller,1035,Windows Installer reconfigured the product. Product Name: Microsoft ASP.NET Core 6.0.33 Shared Framework (x86). Product Version: 6.0.33.24379. Product Language: 1033. Manufacturer: Microsoft Corporation. Reconfiguration success or error status: 0.
+Information,02-07-2026 23:34:14,MsiInstaller,1035,Windows Installer reconfigured the product. Product Name: Dell SupportAssist. Product Version: 5.1.1.3567. Product Language: 1033. Manufacturer: Dell Inc.. Reconfiguration success or error status: 0.
+Information,02-07-2026 23:34:14,MsiInstaller,1035,"Windows Installer reconfigured the product. Product Name: Dell Connected Service Delivery. Product Version: 1.1.1.0. Product Language: 1033. Manufacturer: Dell Technologies, Inc.. Reconfiguration success or error status: 0."
+Information,02-07-2026 23:34:14,MsiInstaller,1035,Windows Installer reconfigured the product. Product Name: Microsoft.NET.Workload.Mono.Toolchain.net6.Manifest (x64). Product Version: 64.80.39230. Product Language: 1033. Manufacturer: Microsoft Corporation. Reconfiguration success or error status: 0.
+Information,02-07-2026 23:34:13,MsiInstaller,1035,Windows Installer reconfigured the product. Product Name: Microsoft.NET.Sdk.MacCatalyst.Manifest-8.0.100 (x64). Product Version: 17.0.8478. Product Language: 1033. Manufacturer: Microsoft Corporation. Reconfiguration success or error status: 0.
+Information,02-07-2026 23:34:13,MsiInstaller,1035,Windows Installer reconfigured the product. Product Name: Windows SDK Desktop Tools x86. Product Version: 10.1.22621.3233. Product Language: 1033. Manufacturer: Microsoft Corporation. Reconfiguration success or error status: 0.
+Information,02-07-2026 23:34:13,MsiInstaller,1035,Windows Installer reconfigured the product. Product Name: SDK ARM Additions. Product Version: 10.1.22621.3233. Product Language: 1033. Manufacturer: Microsoft Corporation. Reconfiguration success or error status: 0.
+Information,02-07-2026 23:34:13,MsiInstaller,1035,Windows Installer reconfigured the product. Product Name: Microsoft Visual C++ 2013 x64 Additional Runtime - 12.0.40664. Product Version: 12.0.40664. Product Language: 1033. Manufacturer: Microsoft Corporation. Reconfiguration success or error status: 0.
+Information,02-07-2026 23:34:13,MsiInstaller,1035,Windows Installer reconfigured the product. Product Name: vs_minshellmsires. Product Version: 17.11.35102. Product Language: 1033. Manufacturer: Microsoft Corporation. Reconfiguration success or error status: 0.
+Information,02-07-2026 23:34:13,MsiInstaller,1035,"Windows Installer reconfigured the product. Product Name: MyDell Customer Connect. Product Version: 3.3.23.0. Product Language: 1033. Manufacturer: Dell Technologies, Inc.. Reconfiguration success or error status: 0."
+Information,02-07-2026 23:34:13,MsiInstaller,1035,Windows Installer reconfigured the product. Product Name: WinRT Intellisense PPI - Other Languages. Product Version: 10.1.22621.3233. Product Language: 1033. Manufacturer: Microsoft Corporation. Reconfiguration success or error status: 0.
+Information,02-07-2026 23:34:13,MsiInstaller,1035,Windows Installer reconfigured the product. Product Name: Windows Subsystem for Linux. Product Version: 2.7.10.0. Product Language: 1033. Manufacturer: Microsoft Corporation. Reconfiguration success or error status: 0.
+Information,02-07-2026 23:34:12,MsiInstaller,1035,"Windows Installer reconfigured the product. Product Name: MyDell Application Management. Product Version: 3.3.18.0. Product Language: 1033. Manufacturer: Dell Technologies, Inc.. Reconfiguration success or error status: 0."
+Information,02-07-2026 23:34:12,MsiInstaller,1035,Windows Installer reconfigured the product. Product Name: WinRT Intellisense UAP - en-us. Product Version: 10.1.22621.3233. Product Language: 1033. Manufacturer: Microsoft Corporation. Reconfiguration success or error status: 0.
+Information,02-07-2026 23:34:12,MsiInstaller,1035,Windows Installer reconfigured the product. Product Name: Node.js. Product Version: 22.14.0. Product Language: 1033. Manufacturer: Node.js Foundation. Reconfiguration success or error status: 0.
+Information,02-07-2026 23:34:12,MsiInstaller,1035,Windows Installer reconfigured the product. Product Name: WinRT Intellisense UAP - Other Languages. Product Version: 10.1.22621.3233. Product Language: 1033. Manufacturer: Microsoft Corporation. Reconfiguration success or error status: 0.
+Information,02-07-2026 23:34:12,MsiInstaller,1035,Windows Installer reconfigured the product. Product Name: Microsoft .NET Runtime - 8.0.28 (x64). Product Version: 64.112.53549. Product Language: 1033. Manufacturer: Microsoft Corporation. Reconfiguration success or error status: 0.
+Information,02-07-2026 23:34:11,MsiInstaller,1035,Windows Installer reconfigured the product. Product Name: WinRT Intellisense Mobile - en-us. Product Version: 10.1.22621.3233. Product Language: 1033. Manufacturer: Microsoft Corporation. Reconfiguration success or error status: 0.
+Information,02-07-2026 23:34:11,MsiInstaller,1035,Windows Installer reconfigured the product. Product Name: Microsoft ASP.NET Core 8.0.20 Targeting Pack (x64). Product Version: 8.0.20.25420. Product Language: 1033. Manufacturer: Microsoft Corporation. Reconfiguration success or error status: 0.
+Information,02-07-2026 23:34:11,MsiInstaller,1035,Windows Installer reconfigured the product. Product Name: Google Update Helper. Product Version: 1.3.33.5. Product Language: 1033. Manufacturer: Google Inc.. Reconfiguration success or error status: 0.
+Information,02-07-2026 23:34:11,MsiInstaller,1035,Windows Installer reconfigured the product. Product Name: Microsoft.NET.Sdk.Android.Manifest-8.0.100 (x64). Product Version: 34.0.43. Product Language: 1033. Manufacturer: Microsoft Corporation. Reconfiguration success or error status: 0.
+Information,02-07-2026 23:34:11,MsiInstaller,1035,Windows Installer reconfigured the product. Product Name: Windows SDK for Windows Store Apps Metadata. Product Version: 10.1.22621.3233. Product Language: 1033. Manufacturer: Microsoft Corporation. Reconfiguration success or error status: 0.
+Information,02-07-2026 23:34:11,MsiInstaller,1035,Windows Installer reconfigured the product. Product Name: Windows App Certification Kit x64 (OnecoreUAP). Product Version: 10.1.22621.3233. Product Language: 1033. Manufacturer: Microsoft Corporation. Reconfiguration success or error status: 0.
+Information,02-07-2026 23:34:11,MsiInstaller,1035,Windows Installer reconfigured the product. Product Name: WinRT Intellisense IoT - en-us. Product Version: 10.1.22621.3233. Product Language: 1033. Manufacturer: Microsoft Corporation. Reconfiguration success or error status: 0.
+Information,02-07-2026 23:34:11,MsiInstaller,1035,Windows Installer reconfigured the product. Product Name: Windows SDK DirectX x86 Remote. Product Version: 10.1.22621.3233. Product Language: 1033. Manufacturer: Microsoft Corporation. Reconfiguration success or error status: 0.
+Information,02-07-2026 23:34:11,MsiInstaller,1035,Windows Installer reconfigured the product. Product Name: Application Verifier x64 External Package (DesktopEditions). Product Version: 10.1.22621.3233. Product Language: 1033. Manufacturer: Microsoft. Reconfiguration success or error status: 0.
+Information,02-07-2026 23:34:10,MsiInstaller,1035,Windows Installer reconfigured the product. Product Name: Microsoft .NET Runtime - 8.0.22 (x64). Product Version: 64.88.42551. Product Language: 1033. Manufacturer: Microsoft Corporation. Reconfiguration success or error status: 0.
+Information,02-07-2026 23:34:10,MsiInstaller,1035,Windows Installer reconfigured the product. Product Name: Microsoft .NET AppHost Pack - 6.0.33 (x64_arm). Product Version: 48.132.18378. Product Language: 1033. Manufacturer: Microsoft Corporation. Reconfiguration success or error status: 0.
+Information,02-07-2026 23:34:10,MsiInstaller,1035,Windows Installer reconfigured the product. Product Name: WinAppDeploy. Product Version: 10.1.22621.3233. Product Language: 1033. Manufacturer: Microsoft Corporation. Reconfiguration success or error status: 0.
+Information,02-07-2026 23:34:10,MsiInstaller,1035,Windows Installer reconfigured the product. Product Name: Windows SDK for Windows Store Apps Headers. Product Version: 10.1.22621.3233. Product Language: 1033. Manufacturer: Microsoft Corporation. Reconfiguration success or error status: 0.
+Information,02-07-2026 23:34:10,MsiInstaller,1035,Windows Installer reconfigured the product. Product Name: Java(TM) SE Development Kit 23 (64-bit). Product Version: 23.0.0.0. Product Language: 1033. Manufacturer: Oracle Corporation. Reconfiguration success or error status: 0.
+Information,02-07-2026 23:34:10,MsiInstaller,1035,Windows Installer reconfigured the product. Product Name: Windows Team Extension SDK. Product Version: 10.1.22621.3233. Product Language: 1033. Manufacturer: Microsoft Corporation. Reconfiguration success or error status: 0.
+Information,02-07-2026 23:34:09,MsiInstaller,1035,Windows Installer reconfigured the product. Product Name: Microsoft.NET.Sdk.tvOS.Manifest-8.0.100 (x64). Product Version: 17.0.8478. Product Language: 1033. Manufacturer: Microsoft Corporation. Reconfiguration success or error status: 0.
+Information,02-07-2026 23:34:09,MsiInstaller,1035,Windows Installer reconfigured the product. Product Name: Windows SDK EULA. Product Version: 10.1.22621.3233. Product Language: 1033. Manufacturer: Microsoft Corporations. Reconfiguration success or error status: 0.
+Information,02-07-2026 23:34:09,MsiInstaller,1035,Windows Installer reconfigured the product. Product Name: Windows SDK AddOn. Product Version: 10.1.0.0. Product Language: 1033. Manufacturer: Microsoft Corporation. Reconfiguration success or error status: 0.
+Information,02-07-2026 23:34:09,MsiInstaller,1035,Windows Installer reconfigured the product. Product Name: Windows Desktop Extension SDK. Product Version: 10.1.22621.3233. Product Language: 1033. Manufacturer: Microsoft Corporation. Reconfiguration success or error status: 0.
+Information,02-07-2026 23:34:09,MsiInstaller,1035,Windows Installer reconfigured the product. Product Name: WinRT Intellisense PPI - en-us. Product Version: 10.1.22621.3233. Product Language: 1033. Manufacturer: Microsoft Corporation. Reconfiguration success or error status: 0.
+Information,02-07-2026 23:34:09,MsiInstaller,1035,Windows Installer reconfigured the product. Product Name: vs_vswebprotocolselectormsi. Product Version: 17.11.35102. Product Language: 1033. Manufacturer: Microsoft Corporation. Reconfiguration success or error status: 0.
+Information,02-07-2026 23:34:09,MsiInstaller,1035,Windows Installer reconfigured the product. Product Name: Microsoft .NET Host FX Resolver - 8.0.22 (x64). Product Version: 64.88.42551. Product Language: 1033. Manufacturer: Microsoft Corporation. Reconfiguration success or error status: 0.
