@@ -22,3 +22,8 @@ dependencies = [
     "torch>=2.13.0",
     "torchvision>=0.28.0",
 ]
+
+[tool.uv.workspace]
+members = [
+    "onboarding-OpenCV/Sudar",
+]
