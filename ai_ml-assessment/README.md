@@ -63,11 +63,12 @@ The project consist of various folder containing scripts related to various AI r
     This process lead to reduction in memory-footprint and  inference speed. The results are
     ![alt text](image.png)
 
-    - Yet to complete the presentation on the project
-    - Dataset used: [ai4privacy/pii-masking-200k](https://huggingface.co/datasets/ai4privacy/pii-masking-200k/blob/main/english_pii_43k.jsonl)
 
 10) Mini Project - "Redact Personally  Identifiable Information with AI":
     Build a Redacting AI for masking PII using multi-lingual BERT. Fine-tuned the mBERT model on AI4Privacy public dataset for english language.
+
+    - Yet to complete the presentation on the project
+    - Dataset used: [ai4privacy/pii-masking-200k](https://huggingface.co/datasets/ai4privacy/pii-masking-200k/blob/main/english_pii_43k.jsonl)
 
 11) onboarding-OpenCV - Contains scripts related to the week 2 OpenCV assessment.
 
