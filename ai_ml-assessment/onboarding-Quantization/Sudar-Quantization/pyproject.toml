@@ -5,18 +5,18 @@ description = "Add your description here"
 readme = "README.md"
 requires-python = ">=3.11"
 dependencies = [
+    "ai-edge-litert>=2.1.6",
     "jupyter>=1.1.1",
     "matplotlib>=3.11.1",
     "numpy>=2.4.6",
     "onnx>=1.22.0",
+    "onnx-graphsurgeon>=0.6.1",
     "onnxruntime>=1.27.0",
+    "onnxscript>=0.7.1",
     "pandas>=3.0.3",
+    "sng4onnx>=2.0.1",
     "tensorflow>=2.21.0",
+    "tf-keras>=2.21.0",
     "torch>=2.13.0",
     "torchvision>=0.28.0",
-]
-
-[tool.uv]
-override-dependencies = [
-    "ai-edge-litert; sys_platform == 'linux'"
 ]
