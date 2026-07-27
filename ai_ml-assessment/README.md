@@ -89,6 +89,8 @@ AI_ML-ASSESSMENT
 ├── mini-project/                       # PII Redaction using BERT
 ├── MNIST-digit-recognition/            # Handwritten Digit Recognition
 ├── onboarding-OpenCV/                  # OpenCV Assignments
+├── onboarding-Quantization/            # Quantization related script
+    ├── task_06_pytorch_to_int8_tflite # Pytorch -> ONNX -> TFlite conversion
 ├── spam-email-classification/          # Spam Email Detection
 ├── titanic_survival_prediction/        # Titanic Survival Prediction
 │
