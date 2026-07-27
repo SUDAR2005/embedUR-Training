@@ -1,0 +1,2611 @@
+2026-07-27 18:04:58,935 INFO: Phase 1 completed: Model Loaded and set to eval mode
+2026-07-27 18:04:58,963 INFO: Step 2 complete: 50/50 calibration samples validated.
+2026-07-27 18:05:00,694 DEBUG: An OpSchema was not provided for Op 'aten_abs' and there is not one found in opset 'pkg.torch.onnx'.
+2026-07-27 18:05:00,698 DEBUG: An OpSchema was not provided for Op 'aten_abs_complex' and there is not one found in opset 'pkg.torch.onnx'.
+2026-07-27 18:05:00,701 DEBUG: An OpSchema was not provided for Op 'aten_add' and there is not one found in opset 'pkg.torch.onnx'.
+2026-07-27 18:05:00,704 DEBUG: An OpSchema was not provided for Op 'aten_add_complex' and there is not one found in opset 'pkg.torch.onnx'.
+2026-07-27 18:05:00,716 DEBUG: An OpSchema was not provided for Op 'aten_gelu_opset20' and there is not one found in opset 'pkg.torch.onnx'.
+2026-07-27 18:05:00,718 DEBUG: An OpSchema was not provided for Op 'aten_group_norm' and there is not one found in opset 'pkg.torch.onnx'.
+2026-07-27 18:05:00,720 DEBUG: An OpSchema was not provided for Op 'aten_rms_norm' and there is not one found in opset 'pkg.torch.onnx'.
+2026-07-27 18:05:00,721 DEBUG: An OpSchema was not provided for Op 'aten_scaled_dot_product_attention_23' and there is not one found in opset 'pkg.torch.onnx'.
+2026-07-27 18:05:00,727 DEBUG: An OpSchema was not provided for Op 'sym_float' and there is not one found in opset 'pkg.torch.onnx'.
+2026-07-27 18:05:00,730 DEBUG: An OpSchema was not provided for Op 'sym_max' and there is not one found in opset 'pkg.torch.onnx'.
+2026-07-27 18:05:00,733 DEBUG: An OpSchema was not provided for Op 'sym_min' and there is not one found in opset 'pkg.torch.onnx'.
+2026-07-27 18:05:00,735 DEBUG: An OpSchema was not provided for Op 'sym_not' and there is not one found in opset 'pkg.torch.onnx'.
+2026-07-27 18:05:00,736 DEBUG: An OpSchema was not provided for Op 'sym_sum' and there is not one found in opset 'pkg.torch.onnx'.
+2026-07-27 18:05:00,738 DEBUG: An OpSchema was not provided for Op 'sym_ite' and there is not one found in opset 'pkg.torch.onnx'.
+2026-07-27 18:05:00,779 DEBUG: Converter:_translate_function_def_common:Rank
+2026-07-27 18:05:00,780 DEBUG: Converter:_bind:input
+2026-07-27 18:05:00,781 DEBUG: An OpSchema was not provided for Op 'Rank' and there is not one found in opset 'pkg.onnxscript.torch_lib.common'.
+2026-07-27 18:05:00,783 DEBUG: Converter:_translate_function_def_common:IsScalar
+2026-07-27 18:05:00,783 DEBUG: Converter:_bind:input
+2026-07-27 18:05:00,784 DEBUG: An OpSchema was not provided for Op 'IsScalar' and there is not one found in opset 'pkg.onnxscript.torch_lib.common'.
+2026-07-27 18:05:00,785 DEBUG: An OpSchema was not provided for Op 'aten__local_scalar_dense' and there is not one found in opset 'pkg.onnxscript.torch_lib'.
+2026-07-27 18:05:00,786 DEBUG: An OpSchema was not provided for Op 'aten__log_softmax' and there is not one found in opset 'pkg.onnxscript.torch_lib'.
+2026-07-27 18:05:00,786 DEBUG: An OpSchema was not provided for Op 'aten__softmax' and there is not one found in opset 'pkg.onnxscript.torch_lib'.
+2026-07-27 18:05:00,787 DEBUG: An OpSchema was not provided for Op 'aten_abs' and there is not one found in opset 'pkg.onnxscript.torch_lib'.
+2026-07-27 18:05:00,787 DEBUG: An OpSchema was not provided for Op 'aten_abs_complex' and there is not one found in opset 'pkg.onnxscript.torch_lib'.
+2026-07-27 18:05:00,788 DEBUG: An OpSchema was not provided for Op 'aten_acos' and there is not one found in opset 'pkg.onnxscript.torch_lib'.
+2026-07-27 18:05:00,788 DEBUG: An OpSchema was not provided for Op 'aten_acosh' and there is not one found in opset 'pkg.onnxscript.torch_lib'.
+2026-07-27 18:05:00,789 DEBUG: An OpSchema was not provided for Op 'aten_add' and there is not one found in opset 'pkg.onnxscript.torch_lib'.
+2026-07-27 18:05:00,789 DEBUG: An OpSchema was not provided for Op 'aten_add_scalar' and there is not one found in opset 'pkg.onnxscript.torch_lib'.
+2026-07-27 18:05:00,790 DEBUG: An OpSchema was not provided for Op 'operator_add' and there is not one found in opset 'pkg.onnxscript.torch_lib'.
+2026-07-27 18:05:00,791 DEBUG: An OpSchema was not provided for Op 'aten_add_complex' and there is not one found in opset 'pkg.onnxscript.torch_lib'.
+2026-07-27 18:05:00,799 DEBUG: Converter:_translate_function_def_common:aten_addbmm
+2026-07-27 18:05:00,800 DEBUG: Converter:_bind:self
+2026-07-27 18:05:00,800 DEBUG: Converter:_bind:batch1
+2026-07-27 18:05:00,801 DEBUG: Converter:_bind:batch2
+2026-07-27 18:05:00,802 DEBUG: Converter:_bind:beta
+2026-07-27 18:05:00,802 DEBUG: Converter:_bind:alpha
+2026-07-27 18:05:00,803 DEBUG: Converter:_bind:scaled_self
+2026-07-27 18:05:00,804 DEBUG: Converter:_bind:axes
+2026-07-27 18:05:00,804 DEBUG: Converter:_bind:reduced_batches
+2026-07-27 18:05:00,805 DEBUG: An OpSchema was not provided for Op 'aten_addbmm' and there is not one found in opset 'pkg.onnxscript.torch_lib'.
+2026-07-27 18:05:00,807 DEBUG: Converter:_translate_function_def_common:aten_addcdiv
+2026-07-27 18:05:00,807 DEBUG: Converter:_bind:self
+2026-07-27 18:05:00,808 DEBUG: Converter:_bind:tensor1
+2026-07-27 18:05:00,809 DEBUG: Converter:_bind:tensor2
+2026-07-27 18:05:00,810 DEBUG: Converter:_bind:value
+2026-07-27 18:05:00,813 DEBUG: An OpSchema was not provided for Op 'aten_addcdiv' and there is not one found in opset 'pkg.onnxscript.torch_lib'.
+2026-07-27 18:05:00,816 DEBUG: Converter:_translate_function_def_common:aten_addcmul
+2026-07-27 18:05:00,817 DEBUG: Converter:_bind:self
+2026-07-27 18:05:00,817 DEBUG: Converter:_bind:tensor1
+2026-07-27 18:05:00,818 DEBUG: Converter:_bind:tensor2
+2026-07-27 18:05:00,818 DEBUG: Converter:_bind:value
+2026-07-27 18:05:00,819 DEBUG: An OpSchema was not provided for Op 'aten_addcmul' and there is not one found in opset 'pkg.onnxscript.torch_lib'.
+2026-07-27 18:05:00,820 DEBUG: An OpSchema was not provided for Op 'aten_addmm' and there is not one found in opset 'pkg.onnxscript.torch_lib'.
+2026-07-27 18:05:00,821 DEBUG: Converter:_translate_function_def_common:aten_addmv
+2026-07-27 18:05:00,822 DEBUG: Converter:_bind:self
+2026-07-27 18:05:00,822 DEBUG: Converter:_bind:mat
+2026-07-27 18:05:00,823 DEBUG: Converter:_bind:vec
+2026-07-27 18:05:00,823 DEBUG: Converter:_bind:beta
+2026-07-27 18:05:00,823 DEBUG: Converter:_bind:alpha
+2026-07-27 18:05:00,826 DEBUG: An OpSchema was not provided for Op 'aten_addmv' and there is not one found in opset 'pkg.onnxscript.torch_lib'.
+2026-07-27 18:05:00,827 DEBUG: An OpSchema was not provided for Op 'aten_addr' and there is not one found in opset 'pkg.onnxscript.torch_lib'.
+2026-07-27 18:05:00,827 DEBUG: An OpSchema was not provided for Op 'aten_alias' and there is not one found in opset 'pkg.onnxscript.torch_lib'.
+2026-07-27 18:05:00,828 DEBUG: An OpSchema was not provided for Op 'aten_all' and there is not one found in opset 'pkg.onnxscript.torch_lib'.
+2026-07-27 18:05:00,829 DEBUG: An OpSchema was not provided for Op 'aten_all_dim' and there is not one found in opset 'pkg.onnxscript.torch_lib'.
+2026-07-27 18:05:00,830 DEBUG: An OpSchema was not provided for Op 'aten_all_dims' and there is not one found in opset 'pkg.onnxscript.torch_lib'.
+2026-07-27 18:05:00,832 DEBUG: Converter:_translate_function_def_common:aten_allclose
+2026-07-27 18:05:00,832 DEBUG: Converter:_bind:self
+2026-07-27 18:05:00,833 DEBUG: Converter:_bind:other
+2026-07-27 18:05:00,833 DEBUG: Converter:_bind:rtol
+2026-07-27 18:05:00,834 DEBUG: Converter:_bind:atol
+2026-07-27 18:05:00,834 DEBUG: Converter:_bind:equal_nan
+2026-07-27 18:05:00,835 DEBUG: Converter:_bind:left_part
+2026-07-27 18:05:00,836 DEBUG: Converter:_bind:right_part
+2026-07-27 18:05:00,836 DEBUG: Converter:_bind:is_close
+2026-07-27 18:05:00,837 DEBUG: Converter:_bind:is_close_int
+2026-07-27 18:05:00,837 DEBUG: An OpSchema was not provided for Op 'aten_allclose' and there is not one found in opset 'pkg.onnxscript.torch_lib'.
+2026-07-27 18:05:00,839 DEBUG: Converter:_translate_function_def_common:aten_amax
+2026-07-27 18:05:00,839 DEBUG: Converter:_bind:self
+2026-07-27 18:05:00,839 DEBUG: Converter:_bind:dim
+2026-07-27 18:05:00,840 DEBUG: Converter:_bind:keepdim
+2026-07-27 18:05:00,842 DEBUG: An OpSchema was not provided for Op 'aten_amax' and there is not one found in opset 'pkg.onnxscript.torch_lib'.
+2026-07-27 18:05:00,844 DEBUG: Converter:_translate_function_def_common:aten_amin
+2026-07-27 18:05:00,845 DEBUG: Converter:_bind:self
+2026-07-27 18:05:00,846 DEBUG: Converter:_bind:dim
+2026-07-27 18:05:00,846 DEBUG: Converter:_bind:keepdim
+2026-07-27 18:05:00,847 DEBUG: An OpSchema was not provided for Op 'aten_amin' and there is not one found in opset 'pkg.onnxscript.torch_lib'.
+2026-07-27 18:05:00,848 DEBUG: An OpSchema was not provided for Op 'aten_angle' and there is not one found in opset 'pkg.onnxscript.torch_lib'.
+2026-07-27 18:05:00,848 DEBUG: An OpSchema was not provided for Op 'aten_angle_complex' and there is not one found in opset 'pkg.onnxscript.torch_lib'.
+2026-07-27 18:05:00,849 DEBUG: An OpSchema was not provided for Op 'aten_any' and there is not one found in opset 'pkg.onnxscript.torch_lib'.
+2026-07-27 18:05:00,849 DEBUG: An OpSchema was not provided for Op 'aten_any_dim' and there is not one found in opset 'pkg.onnxscript.torch_lib'.
+2026-07-27 18:05:00,849 DEBUG: An OpSchema was not provided for Op 'aten_any_dims' and there is not one found in opset 'pkg.onnxscript.torch_lib'.
+2026-07-27 18:05:00,850 DEBUG: An OpSchema was not provided for Op 'aten_arange' and there is not one found in opset 'pkg.onnxscript.torch_lib'.
+2026-07-27 18:05:00,851 DEBUG: An OpSchema was not provided for Op 'aten_arange_start' and there is not one found in opset 'pkg.onnxscript.torch_lib'.
+2026-07-27 18:05:00,851 DEBUG: An OpSchema was not provided for Op 'aten_arange_start_step' and there is not one found in opset 'pkg.onnxscript.torch_lib'.
+2026-07-27 18:05:00,852 DEBUG: An OpSchema was not provided for Op 'aten_argmax' and there is not one found in opset 'pkg.onnxscript.torch_lib'.
+2026-07-27 18:05:00,853 DEBUG: An OpSchema was not provided for Op 'aten_argmin' and there is not one found in opset 'pkg.onnxscript.torch_lib'.
+2026-07-27 18:05:00,853 DEBUG: An OpSchema was not provided for Op 'aten_as_strided' and there is not one found in opset 'pkg.onnxscript.torch_lib'.
+2026-07-27 18:05:00,857 DEBUG: Converter:_translate_function_def_common:_aten_as_strided_onnx
+2026-07-27 18:05:00,858 DEBUG: Converter:_bind:self
+2026-07-27 18:05:00,859 DEBUG: Converter:_bind:size
+2026-07-27 18:05:00,859 DEBUG: Converter:_bind:stride
+2026-07-27 18:05:00,860 DEBUG: Converter:_bind:storage_offset
+2026-07-27 18:05:00,860 DEBUG: Converter:_bind:rank
+2026-07-27 18:05:00,861 DEBUG: Converter:_bind:neg_1
+2026-07-27 18:05:00,862 DEBUG: Converter:_bind:rank_tensor
+2026-07-27 18:05:00,862 DEBUG: Converter:_bind:indices
+2026-07-27 18:05:00,863 DEBUG: Converter:_bind:one_seq
+2026-07-27 18:05:00,863 DEBUG: Converter:_enter_scope:2:node:<class 'ast.For'>
+2026-07-27 18:05:00,863 DEBUG: Converter:_bind:i
+2026-07-27 18:05:00,864 DEBUG: Converter:_bind:one_seq
+2026-07-27 18:05:00,864 DEBUG: Converter:_bind:indices
+2026-07-27 18:05:00,865 DEBUG: Converter:_bind:j
+2026-07-27 18:05:00,866 DEBUG: Converter:_bind:j_tensor
+2026-07-27 18:05:00,866 DEBUG: Converter:_bind:size_dim_j
+2026-07-27 18:05:00,867 DEBUG: Converter:_bind:size_after_j
+2026-07-27 18:05:00,867 DEBUG: Converter:_bind:stride_dim_j
+2026-07-27 18:05:00,867 DEBUG: Converter:_bind:indices
+2026-07-27 18:05:00,868 DEBUG: Converter:_bind:add_value
+2026-07-27 18:05:00,869 DEBUG: Converter:_enter_scope:3:node:<class 'NoneType'>
+2026-07-27 18:05:00,869 DEBUG: Converter:_bind:shape
+2026-07-27 18:05:00,870 DEBUG: Converter:_exit_scope:3
+2026-07-27 18:05:00,870 DEBUG: Converter:_enter_scope:3:node:<class 'NoneType'>
+2026-07-27 18:05:00,871 DEBUG: Converter:_bind:ones
+2026-07-27 18:05:00,872 DEBUG: Converter:_bind:shape
+2026-07-27 18:05:00,872 DEBUG: Converter:_bind:shape
+2026-07-27 18:05:00,872 DEBUG: Converter:_exit_scope:3
+2026-07-27 18:05:00,873 DEBUG: Converter:_bind:shape
+2026-07-27 18:05:00,874 DEBUG: Converter:_bind:add_value
+2026-07-27 18:05:00,874 DEBUG: Converter:_bind:indices
+2026-07-27 18:05:00,875 DEBUG: Converter:_bind:one_seq
+2026-07-27 18:05:00,876 DEBUG: Converter:_exit_scope:2
+2026-07-27 18:05:00,876 DEBUG: Converter:_bind:one_seq
+2026-07-27 18:05:00,876 DEBUG: Converter:_bind:indices
+2026-07-27 18:05:00,879 DEBUG: Converter:_bind:self_flatten
+2026-07-27 18:05:00,880 DEBUG: Converter:_bind:indices
+2026-07-27 18:05:00,880 DEBUG: Converter:_bind:result
+2026-07-27 18:05:00,881 DEBUG: An OpSchema was not provided for Op '_aten_as_strided_onnx' and there is not one found in opset 'pkg.onnxscript.torch_lib'.
+2026-07-27 18:05:00,882 DEBUG: An OpSchema was not provided for Op 'aten_asin' and there is not one found in opset 'pkg.onnxscript.torch_lib'.
+2026-07-27 18:05:00,882 DEBUG: An OpSchema was not provided for Op 'aten_asinh' and there is not one found in opset 'pkg.onnxscript.torch_lib'.
+2026-07-27 18:05:00,883 DEBUG: An OpSchema was not provided for Op 'aten_atan' and there is not one found in opset 'pkg.onnxscript.torch_lib'.
+2026-07-27 18:05:00,883 DEBUG: An OpSchema was not provided for Op 'aten_atan2' and there is not one found in opset 'pkg.onnxscript.torch_lib'.
+2026-07-27 18:05:00,883 DEBUG: An OpSchema was not provided for Op 'aten_atanh' and there is not one found in opset 'pkg.onnxscript.torch_lib'.
+2026-07-27 18:05:00,884 DEBUG: An OpSchema was not provided for Op 'aten_atleast_1d' and there is not one found in opset 'pkg.onnxscript.torch_lib'.
+2026-07-27 18:05:00,885 DEBUG: Converter:_translate_function_def_common:aten_atleast_1d_sequence
+2026-07-27 18:05:00,886 DEBUG: Converter:_bind:self
+2026-07-27 18:05:00,886 DEBUG: Converter:_enter_scope:2:node:<class 'ast.FunctionDef'>
+2026-07-27 18:05:00,886 DEBUG: Converter:_translate_function_def_common:reshape_to_1d
+2026-07-27 18:05:00,887 DEBUG: Converter:_bind:tensor
+2026-07-27 18:05:00,887 DEBUG: Converter:_bind:shape
+2026-07-27 18:05:00,887 DEBUG: Converter:_bind:rank
+2026-07-27 18:05:00,888 DEBUG: Converter:_enter_scope:3:node:<class 'NoneType'>
+2026-07-27 18:05:00,890 DEBUG: Converter:_bind:tensor
+2026-07-27 18:05:00,890 DEBUG: Converter:_exit_scope:3
+2026-07-27 18:05:00,890 DEBUG: Converter:_enter_scope:3:node:<class 'NoneType'>
+2026-07-27 18:05:00,891 DEBUG: Converter:_exit_scope:3
+2026-07-27 18:05:00,891 DEBUG: Converter:_bind:tensor
+2026-07-27 18:05:00,891 DEBUG: Converter:_exit_scope:2
+2026-07-27 18:05:00,892 DEBUG: Converter:_bind:reshape_to_1d
+2026-07-27 18:05:00,893 DEBUG: An OpSchema was not provided for Op 'aten_atleast_1d_sequence' and there is not one found in opset 'pkg.onnxscript.torch_lib'.
+2026-07-27 18:05:00,894 DEBUG: An OpSchema was not provided for Op 'aten_atleast_2d' and there is not one found in opset 'pkg.onnxscript.torch_lib'.
+2026-07-27 18:05:00,897 DEBUG: Converter:_translate_function_def_common:aten_atleast_2d_sequence
+2026-07-27 18:05:00,898 DEBUG: Converter:_bind:self
+2026-07-27 18:05:00,898 DEBUG: Converter:_enter_scope:2:node:<class 'ast.FunctionDef'>
+2026-07-27 18:05:00,898 DEBUG: Converter:_translate_function_def_common:reshape_to_2d
+2026-07-27 18:05:00,898 DEBUG: Converter:_bind:tensor
+2026-07-27 18:05:00,899 DEBUG: Converter:_bind:shape
+2026-07-27 18:05:00,900 DEBUG: Converter:_bind:rank
+2026-07-27 18:05:00,900 DEBUG: Converter:_enter_scope:3:node:<class 'NoneType'>
+2026-07-27 18:05:00,901 DEBUG: Converter:_bind:tensor
+2026-07-27 18:05:00,902 DEBUG: Converter:_exit_scope:3
+2026-07-27 18:05:00,902 DEBUG: Converter:_enter_scope:3:node:<class 'NoneType'>
+2026-07-27 18:05:00,902 DEBUG: Converter:_exit_scope:3
+2026-07-27 18:05:00,903 DEBUG: Converter:_bind:tensor
+2026-07-27 18:05:00,903 DEBUG: Converter:_exit_scope:2
+2026-07-27 18:05:00,903 DEBUG: Converter:_bind:reshape_to_2d
+2026-07-27 18:05:00,904 DEBUG: An OpSchema was not provided for Op 'aten_atleast_2d_sequence' and there is not one found in opset 'pkg.onnxscript.torch_lib'.
+2026-07-27 18:05:00,905 DEBUG: An OpSchema was not provided for Op 'aten_atleast_3d' and there is not one found in opset 'pkg.onnxscript.torch_lib'.
+2026-07-27 18:05:00,907 DEBUG: Converter:_translate_function_def_common:aten_atleast_3d_sequence
+2026-07-27 18:05:00,907 DEBUG: Converter:_bind:self
+2026-07-27 18:05:00,908 DEBUG: Converter:_enter_scope:2:node:<class 'ast.FunctionDef'>
+2026-07-27 18:05:00,908 DEBUG: Converter:_translate_function_def_common:reshape_to_3d
+2026-07-27 18:05:00,908 DEBUG: Converter:_bind:tensor
+2026-07-27 18:05:00,910 DEBUG: Converter:_bind:shape
+2026-07-27 18:05:00,911 DEBUG: Converter:_bind:rank
+2026-07-27 18:05:00,913 DEBUG: Converter:_enter_scope:3:node:<class 'NoneType'>
+2026-07-27 18:05:00,914 DEBUG: Converter:_bind:tensor
+2026-07-27 18:05:00,914 DEBUG: Converter:_exit_scope:3
+2026-07-27 18:05:00,915 DEBUG: Converter:_enter_scope:3:node:<class 'NoneType'>
+2026-07-27 18:05:00,916 DEBUG: Converter:_enter_scope:4:node:<class 'NoneType'>
+2026-07-27 18:05:00,917 DEBUG: Converter:_bind:tensor
+2026-07-27 18:05:00,917 DEBUG: Converter:_exit_scope:4
+2026-07-27 18:05:00,917 DEBUG: Converter:_enter_scope:4:node:<class 'NoneType'>
+2026-07-27 18:05:00,917 DEBUG: Converter:_exit_scope:4
+2026-07-27 18:05:00,917 DEBUG: Converter:_bind:tensor
+2026-07-27 18:05:00,918 DEBUG: Converter:_exit_scope:3
+2026-07-27 18:05:00,918 DEBUG: Converter:_bind:tensor
+2026-07-27 18:05:00,918 DEBUG: Converter:_exit_scope:2
+2026-07-27 18:05:00,918 DEBUG: Converter:_bind:reshape_to_3d
+2026-07-27 18:05:00,919 DEBUG: An OpSchema was not provided for Op 'aten_atleast_3d_sequence' and there is not one found in opset 'pkg.onnxscript.torch_lib'.
+2026-07-27 18:05:00,920 DEBUG: An OpSchema was not provided for Op 'aten_baddbmm' and there is not one found in opset 'pkg.onnxscript.torch_lib'.
+2026-07-27 18:05:00,920 DEBUG: An OpSchema was not provided for Op 'aten_bernoulli' and there is not one found in opset 'pkg.onnxscript.torch_lib'.
+2026-07-27 18:05:00,922 DEBUG: Converter:_translate_function_def_common:aten_bernoulli_p
+2026-07-27 18:05:00,923 DEBUG: Converter:_bind:self
+2026-07-27 18:05:00,924 DEBUG: Converter:_bind:p
+2026-07-27 18:05:00,925 DEBUG: Converter:_bind:self_float
+2026-07-27 18:05:00,926 DEBUG: Converter:_bind:rands
+2026-07-27 18:05:00,927 DEBUG: Converter:_bind:sampled
+2026-07-27 18:05:00,928 DEBUG: An OpSchema was not provided for Op 'aten_bernoulli_p' and there is not one found in opset 'pkg.onnxscript.torch_lib'.
+2026-07-27 18:05:00,929 DEBUG: An OpSchema was not provided for Op 'aten_bilinear' and there is not one found in opset 'pkg.onnxscript.torch_lib'.
+2026-07-27 18:05:00,930 DEBUG: An OpSchema was not provided for Op 'aten_bitwise_and' and there is not one found in opset 'pkg.onnxscript.torch_lib'.
+2026-07-27 18:05:00,931 DEBUG: An OpSchema was not provided for Op 'aten_bitwise_and_scalar' and there is not one found in opset 'pkg.onnxscript.torch_lib'.
+2026-07-27 18:05:00,931 DEBUG: An OpSchema was not provided for Op 'aten_bitwise_and_scalar_tensor' and there is not one found in opset 'pkg.onnxscript.torch_lib'.
+2026-07-27 18:05:00,932 DEBUG: An OpSchema was not provided for Op 'aten_bitwise_left_shift' and there is not one found in opset 'pkg.onnxscript.torch_lib'.
+2026-07-27 18:05:00,933 DEBUG: An OpSchema was not provided for Op 'aten_bitwise_left_shift_tensor_scalar' and there is not one found in opset 'pkg.onnxscript.torch_lib'.
+2026-07-27 18:05:00,933 DEBUG: An OpSchema was not provided for Op 'aten_bitwise_left_shift_scalar_tensor' and there is not one found in opset 'pkg.onnxscript.torch_lib'.
+2026-07-27 18:05:00,935 DEBUG: An OpSchema was not provided for Op 'aten_bitwise_not' and there is not one found in opset 'pkg.onnxscript.torch_lib'.
+2026-07-27 18:05:00,935 DEBUG: An OpSchema was not provided for Op 'aten_bitwise_or' and there is not one found in opset 'pkg.onnxscript.torch_lib'.
+2026-07-27 18:05:00,937 DEBUG: An OpSchema was not provided for Op 'aten_bitwise_or_scalar' and there is not one found in opset 'pkg.onnxscript.torch_lib'.
+2026-07-27 18:05:00,937 DEBUG: An OpSchema was not provided for Op 'aten_bitwise_or_scalar_tensor' and there is not one found in opset 'pkg.onnxscript.torch_lib'.
+2026-07-27 18:05:00,938 DEBUG: An OpSchema was not provided for Op 'aten_bitwise_right_shift' and there is not one found in opset 'pkg.onnxscript.torch_lib'.
+2026-07-27 18:05:00,939 DEBUG: An OpSchema was not provided for Op 'aten_bitwise_right_shift_tensor_scalar' and there is not one found in opset 'pkg.onnxscript.torch_lib'.
+2026-07-27 18:05:00,940 DEBUG: An OpSchema was not provided for Op 'aten_bitwise_right_shift_scalar_tensor' and there is not one found in opset 'pkg.onnxscript.torch_lib'.
+2026-07-27 18:05:00,941 DEBUG: An OpSchema was not provided for Op 'aten_bitwise_xor' and there is not one found in opset 'pkg.onnxscript.torch_lib'.
+2026-07-27 18:05:00,941 DEBUG: An OpSchema was not provided for Op 'aten_bitwise_xor_scalar' and there is not one found in opset 'pkg.onnxscript.torch_lib'.
+2026-07-27 18:05:00,942 DEBUG: An OpSchema was not provided for Op 'aten_bitwise_xor_scalar_tensor' and there is not one found in opset 'pkg.onnxscript.torch_lib'.
+2026-07-27 18:05:00,943 DEBUG: An OpSchema was not provided for Op 'aten_blackman_window' and there is not one found in opset 'pkg.onnxscript.torch_lib'.
+2026-07-27 18:05:00,944 DEBUG: An OpSchema was not provided for Op 'aten_bmm' and there is not one found in opset 'pkg.onnxscript.torch_lib'.
+2026-07-27 18:05:00,950 DEBUG: An OpSchema was not provided for Op 'aten_broadcast_to' and there is not one found in opset 'pkg.onnxscript.torch_lib'.
+2026-07-27 18:05:00,951 DEBUG: An OpSchema was not provided for Op 'aten_cat_complex' and there is not one found in opset 'pkg.onnxscript.torch_lib'.
+2026-07-27 18:05:00,952 DEBUG: An OpSchema was not provided for Op 'aten_cat' and there is not one found in opset 'pkg.onnxscript.torch_lib'.
+2026-07-27 18:05:00,952 DEBUG: An OpSchema was not provided for Op 'aten_ceil' and there is not one found in opset 'pkg.onnxscript.torch_lib'.
+2026-07-27 18:05:00,953 DEBUG: An OpSchema was not provided for Op 'python_math_ceil' and there is not one found in opset 'pkg.onnxscript.torch_lib'.
+2026-07-27 18:05:00,954 DEBUG: An OpSchema was not provided for Op 'aten_chunk' and there is not one found in opset 'pkg.onnxscript.torch_lib'.
+2026-07-27 18:05:00,954 DEBUG: An OpSchema was not provided for Op 'aten_clamp' and there is not one found in opset 'pkg.onnxscript.torch_lib'.
+2026-07-27 18:05:00,955 DEBUG: An OpSchema was not provided for Op 'aten_clamp_tensor' and there is not one found in opset 'pkg.onnxscript.torch_lib'.
+2026-07-27 18:05:00,955 DEBUG: An OpSchema was not provided for Op 'aten_clamp_max' and there is not one found in opset 'pkg.onnxscript.torch_lib'.
+2026-07-27 18:05:00,956 DEBUG: An OpSchema was not provided for Op 'aten_clamp_max_tensor' and there is not one found in opset 'pkg.onnxscript.torch_lib'.
+2026-07-27 18:05:00,956 DEBUG: An OpSchema was not provided for Op 'aten_clamp_min' and there is not one found in opset 'pkg.onnxscript.torch_lib'.
+2026-07-27 18:05:00,957 DEBUG: An OpSchema was not provided for Op 'aten_clamp_min_tensor' and there is not one found in opset 'pkg.onnxscript.torch_lib'.
+2026-07-27 18:05:00,958 DEBUG: An OpSchema was not provided for Op 'aten_clone' and there is not one found in opset 'pkg.onnxscript.torch_lib'.
+2026-07-27 18:05:00,959 DEBUG: An OpSchema was not provided for Op 'aten_clone_complex' and there is not one found in opset 'pkg.onnxscript.torch_lib'.
+2026-07-27 18:05:00,960 DEBUG: An OpSchema was not provided for Op 'aten_complex' and there is not one found in opset 'pkg.onnxscript.torch_lib'.
+2026-07-27 18:05:00,960 DEBUG: An OpSchema was not provided for Op 'aten_conj' and there is not one found in opset 'pkg.onnxscript.torch_lib'.
+2026-07-27 18:05:00,961 DEBUG: An OpSchema was not provided for Op 'aten_conj_complex' and there is not one found in opset 'pkg.onnxscript.torch_lib'.
+2026-07-27 18:05:00,961 DEBUG: An OpSchema was not provided for Op 'aten_constant_pad_nd' and there is not one found in opset 'pkg.onnxscript.torch_lib'.
+2026-07-27 18:05:00,962 DEBUG: An OpSchema was not provided for Op 'aten_contiguous' and there is not one found in opset 'pkg.onnxscript.torch_lib'.
+2026-07-27 18:05:00,962 DEBUG: An OpSchema was not provided for Op 'aten_conv1d' and there is not one found in opset 'pkg.onnxscript.torch_lib'.
+2026-07-27 18:05:00,963 DEBUG: An OpSchema was not provided for Op 'aten_conv1d_complex' and there is not one found in opset 'pkg.onnxscript.torch_lib'.
+2026-07-27 18:05:00,964 DEBUG: An OpSchema was not provided for Op 'aten_conv2d' and there is not one found in opset 'pkg.onnxscript.torch_lib'.
+2026-07-27 18:05:00,964 DEBUG: An OpSchema was not provided for Op 'aten_conv2d_complex' and there is not one found in opset 'pkg.onnxscript.torch_lib'.
+2026-07-27 18:05:00,965 DEBUG: An OpSchema was not provided for Op 'aten_conv3d' and there is not one found in opset 'pkg.onnxscript.torch_lib'.
+2026-07-27 18:05:00,966 DEBUG: An OpSchema was not provided for Op 'aten_conv3d_complex' and there is not one found in opset 'pkg.onnxscript.torch_lib'.
+2026-07-27 18:05:00,966 DEBUG: An OpSchema was not provided for Op 'aten_convolution' and there is not one found in opset 'pkg.onnxscript.torch_lib'.
+2026-07-27 18:05:00,967 DEBUG: An OpSchema was not provided for Op 'aten_copy' and there is not one found in opset 'pkg.onnxscript.torch_lib'.
+2026-07-27 18:05:00,967 DEBUG: An OpSchema was not provided for Op 'aten__to_copy' and there is not one found in opset 'pkg.onnxscript.torch_lib'.
+2026-07-27 18:05:00,968 DEBUG: An OpSchema was not provided for Op 'aten_cos' and there is not one found in opset 'pkg.onnxscript.torch_lib'.
+2026-07-27 18:05:00,968 DEBUG: An OpSchema was not provided for Op 'aten_cosh' and there is not one found in opset 'pkg.onnxscript.torch_lib'.
+2026-07-27 18:05:00,970 DEBUG: Converter:_translate_function_def_common:aten_cross
+2026-07-27 18:05:00,970 DEBUG: Converter:_bind:self
+2026-07-27 18:05:00,971 DEBUG: Converter:_bind:other
+2026-07-27 18:05:00,971 DEBUG: Converter:_bind:dim
+2026-07-27 18:05:00,971 DEBUG: Converter:_bind:a1
+2026-07-27 18:05:00,972 DEBUG: Converter:_bind:a2
+2026-07-27 18:05:00,972 DEBUG: Converter:_bind:a3
+2026-07-27 18:05:00,972 DEBUG: Converter:_bind:b1
+2026-07-27 18:05:00,973 DEBUG: Converter:_bind:b2
+2026-07-27 18:05:00,973 DEBUG: Converter:_bind:b3
+2026-07-27 18:05:00,974 DEBUG: Converter:_bind:c1
+2026-07-27 18:05:00,975 DEBUG: Converter:_bind:c2
+2026-07-27 18:05:00,976 DEBUG: Converter:_bind:c3
+2026-07-27 18:05:00,977 DEBUG: An OpSchema was not provided for Op 'aten_cross' and there is not one found in opset 'pkg.onnxscript.torch_lib'.
+2026-07-27 18:05:00,978 DEBUG: An OpSchema was not provided for Op 'aten_cumsum' and there is not one found in opset 'pkg.onnxscript.torch_lib'.
+2026-07-27 18:05:00,978 DEBUG: An OpSchema was not provided for Op 'aten_deg2rad' and there is not one found in opset 'pkg.onnxscript.torch_lib'.
+2026-07-27 18:05:00,979 DEBUG: An OpSchema was not provided for Op 'aten_detach' and there is not one found in opset 'pkg.onnxscript.torch_lib'.
+2026-07-27 18:05:00,979 DEBUG: An OpSchema was not provided for Op 'aten_diagonal' and there is not one found in opset 'pkg.onnxscript.torch_lib'.
+2026-07-27 18:05:00,980 DEBUG: An OpSchema was not provided for Op 'aten_div' and there is not one found in opset 'pkg.onnxscript.torch_lib'.
+2026-07-27 18:05:00,980 DEBUG: An OpSchema was not provided for Op 'operator_truediv' and there is not one found in opset 'pkg.onnxscript.torch_lib'.
+2026-07-27 18:05:00,983 DEBUG: Converter:_translate_function_def_common:aten_div_complex
+2026-07-27 18:05:00,983 DEBUG: Converter:_bind:self
+2026-07-27 18:05:00,983 DEBUG: Converter:_bind:other
+2026-07-27 18:05:00,985 DEBUG: Converter:_bind:self_real
+2026-07-27 18:05:00,986 DEBUG: Converter:_bind:self_imag
+2026-07-27 18:05:00,987 DEBUG: Converter:_bind:other_real
+2026-07-27 18:05:00,988 DEBUG: Converter:_bind:other_imag
+2026-07-27 18:05:00,988 DEBUG: Converter:_bind:ac
+2026-07-27 18:05:00,989 DEBUG: Converter:_bind:bd
+2026-07-27 18:05:00,990 DEBUG: Converter:_bind:bc
+2026-07-27 18:05:00,990 DEBUG: Converter:_bind:ad
+2026-07-27 18:05:00,991 DEBUG: Converter:_bind:denominator
+2026-07-27 18:05:00,991 DEBUG: Converter:_bind:real
+2026-07-27 18:05:00,992 DEBUG: Converter:_bind:imag
+2026-07-27 18:05:00,993 DEBUG: An OpSchema was not provided for Op 'aten_div_complex' and there is not one found in opset 'pkg.onnxscript.torch_lib'.
+2026-07-27 18:05:00,994 DEBUG: An OpSchema was not provided for Op 'aten_div_mode' and there is not one found in opset 'pkg.onnxscript.torch_lib'.
+2026-07-27 18:05:00,995 DEBUG: An OpSchema was not provided for Op 'aten_dot' and there is not one found in opset 'pkg.onnxscript.torch_lib'.
+2026-07-27 18:05:00,995 DEBUG: An OpSchema was not provided for Op 'aten_dropout' and there is not one found in opset 'pkg.onnxscript.torch_lib'.
+2026-07-27 18:05:00,996 DEBUG: An OpSchema was not provided for Op 'aten_einsum' and there is not one found in opset 'pkg.onnxscript.torch_lib'.
+2026-07-27 18:05:00,997 DEBUG: An OpSchema was not provided for Op 'aten_embedding' and there is not one found in opset 'pkg.onnxscript.torch_lib'.
+2026-07-27 18:05:00,997 DEBUG: An OpSchema was not provided for Op 'aten_embedding_bag' and there is not one found in opset 'pkg.onnxscript.torch_lib'.
+2026-07-27 18:05:01,004 DEBUG: Converter:_translate_function_def_common:_aten_embedding_bag_onnx
+2026-07-27 18:05:01,004 DEBUG: Converter:_bind:weight
+2026-07-27 18:05:01,005 DEBUG: Converter:_bind:indices
+2026-07-27 18:05:01,005 DEBUG: Converter:_bind:offsets
+2026-07-27 18:05:01,005 DEBUG: Converter:_bind:mode
+2026-07-27 18:05:01,006 DEBUG: Converter:_bind:per_sample_weights
+2026-07-27 18:05:01,006 DEBUG: Converter:_bind:include_last_offset
+2026-07-27 18:05:01,007 DEBUG: Converter:_bind:neg_1
+2026-07-27 18:05:01,008 DEBUG: Converter:_bind:indices_1d
+2026-07-27 18:05:01,008 DEBUG: Converter:_bind:new_weight
+2026-07-27 18:05:01,010 DEBUG: Converter:_bind:new_weight
+2026-07-27 18:05:01,011 DEBUG: Converter:_bind:weight_dim_1
+2026-07-27 18:05:01,011 DEBUG: Converter:_bind:indices_size
+2026-07-27 18:05:01,012 DEBUG: Converter:_bind:num_bag
+2026-07-27 18:05:01,013 DEBUG: Converter:_enter_scope:2:node:<class 'NoneType'>
+2026-07-27 18:05:01,014 DEBUG: Converter:_bind:num_bag
+2026-07-27 18:05:01,014 DEBUG: Converter:_exit_scope:2
+2026-07-27 18:05:01,015 DEBUG: Converter:_enter_scope:2:node:<class 'NoneType'>
+2026-07-27 18:05:01,015 DEBUG: Converter:_bind:offsets
+2026-07-27 18:05:01,015 DEBUG: Converter:_exit_scope:2
+2026-07-27 18:05:01,016 DEBUG: Converter:_bind:offsets
+2026-07-27 18:05:01,016 DEBUG: Converter:_bind:num_bag
+2026-07-27 18:05:01,016 DEBUG: Converter:_bind:new_weight
+2026-07-27 18:05:01,017 DEBUG: Converter:_bind:result
+2026-07-27 18:05:01,017 DEBUG: Converter:_bind:index_tensor
+2026-07-27 18:05:01,018 DEBUG: Converter:_bind:cond
+2026-07-27 18:05:01,018 DEBUG: Converter:_enter_scope:2:node:<class 'ast.While'>
+2026-07-27 18:05:01,019 DEBUG: Converter:_bind:infinite_loop
+2026-07-27 18:05:01,019 DEBUG: Converter:_bind:result
+2026-07-27 18:05:01,019 DEBUG: Converter:_bind:index_tensor
+2026-07-27 18:05:01,019 DEBUG: Converter:_bind:slice_index
+2026-07-27 18:05:01,020 DEBUG: Converter:_bind:start
+2026-07-27 18:05:01,021 DEBUG: Converter:_bind:end
+2026-07-27 18:05:01,022 DEBUG: Converter:_enter_scope:3:node:<class 'NoneType'>
+2026-07-27 18:05:01,023 DEBUG: Converter:_bind:row_result
+2026-07-27 18:05:01,024 DEBUG: Converter:_exit_scope:3
+2026-07-27 18:05:01,024 DEBUG: Converter:_enter_scope:3:node:<class 'NoneType'>
+2026-07-27 18:05:01,026 DEBUG: Converter:_enter_scope:4:node:<class 'NoneType'>
+2026-07-27 18:05:01,027 DEBUG: Converter:_bind:weight_rows
+2026-07-27 18:05:01,028 DEBUG: Converter:_bind:row_result
+2026-07-27 18:05:01,029 DEBUG: Converter:_exit_scope:4
+2026-07-27 18:05:01,029 DEBUG: Converter:_enter_scope:4:node:<class 'NoneType'>
+2026-07-27 18:05:01,030 DEBUG: Converter:_enter_scope:5:node:<class 'NoneType'>
+2026-07-27 18:05:01,030 DEBUG: Converter:_bind:weight_rows
+2026-07-27 18:05:01,031 DEBUG: Converter:_enter_scope:6:node:<class 'NoneType'>
+2026-07-27 18:05:01,031 DEBUG: Converter:_bind:row_result
+2026-07-27 18:05:01,032 DEBUG: Converter:_bind:denominator
+2026-07-27 18:05:01,033 DEBUG: Converter:_enter_scope:7:node:<class 'NoneType'>
+2026-07-27 18:05:01,033 DEBUG: Converter:_bind:row_result
+2026-07-27 18:05:01,034 DEBUG: Converter:_exit_scope:7
+2026-07-27 18:05:01,034 DEBUG: Converter:_enter_scope:7:node:<class 'NoneType'>
+2026-07-27 18:05:01,034 DEBUG: Converter:_exit_scope:7
+2026-07-27 18:05:01,035 DEBUG: Converter:_bind:row_result
+2026-07-27 18:05:01,035 DEBUG: Converter:_exit_scope:6
+2026-07-27 18:05:01,035 DEBUG: Converter:_enter_scope:6:node:<class 'NoneType'>
+2026-07-27 18:05:01,036 DEBUG: Converter:_bind:row_result
+2026-07-27 18:05:01,036 DEBUG: Converter:_exit_scope:6
+2026-07-27 18:05:01,036 DEBUG: Converter:_bind:row_result
+2026-07-27 18:05:01,036 DEBUG: Converter:_exit_scope:5
+2026-07-27 18:05:01,037 DEBUG: Converter:_enter_scope:5:node:<class 'NoneType'>
+2026-07-27 18:05:01,037 DEBUG: Converter:_enter_scope:6:node:<class 'NoneType'>
+2026-07-27 18:05:01,038 DEBUG: Converter:_bind:weight_rows
+2026-07-27 18:05:01,038 DEBUG: Converter:_exit_scope:6
+2026-07-27 18:05:01,038 DEBUG: Converter:_enter_scope:6:node:<class 'NoneType'>
+2026-07-27 18:05:01,039 DEBUG: Converter:_bind:weight_rows
+2026-07-27 18:05:01,039 DEBUG: Converter:_exit_scope:6
+2026-07-27 18:05:01,040 DEBUG: Converter:_bind:weight_rows
+2026-07-27 18:05:01,041 DEBUG: Converter:_bind:row_result
+2026-07-27 18:05:01,041 DEBUG: Converter:_exit_scope:5
+2026-07-27 18:05:01,042 DEBUG: Converter:_bind:row_result
+2026-07-27 18:05:01,042 DEBUG: Converter:_exit_scope:4
+2026-07-27 18:05:01,042 DEBUG: Converter:_bind:row_result
+2026-07-27 18:05:01,043 DEBUG: Converter:_exit_scope:3
+2026-07-27 18:05:01,043 DEBUG: Converter:_bind:row_result
+2026-07-27 18:05:01,044 DEBUG: Converter:_bind:result
+2026-07-27 18:05:01,045 DEBUG: Converter:_bind:index_tensor
+2026-07-27 18:05:01,046 DEBUG: Converter:_bind:cond
+2026-07-27 18:05:01,046 DEBUG: Converter:_exit_scope:2
+2026-07-27 18:05:01,046 DEBUG: Converter:_bind:result
+2026-07-27 18:05:01,046 DEBUG: Converter:_bind:index_tensor
+2026-07-27 18:05:01,047 DEBUG: Converter:_bind:result
+2026-07-27 18:05:01,047 DEBUG: Converter:_bind:result
+2026-07-27 18:05:01,048 DEBUG: Converter:_enter_scope:2:node:<class 'NoneType'>
+2026-07-27 18:05:01,049 DEBUG: Converter:_bind:offset2bag
+2026-07-27 18:05:01,050 DEBUG: Converter:_enter_scope:3:node:<class 'NoneType'>
+2026-07-27 18:05:01,051 DEBUG: Converter:_bind:bag_size
+2026-07-27 18:05:01,053 DEBUG: Converter:_bind:max_indices
+2026-07-27 18:05:01,053 DEBUG: Converter:_exit_scope:3
+2026-07-27 18:05:01,053 DEBUG: Converter:_enter_scope:3:node:<class 'NoneType'>
+2026-07-27 18:05:01,054 DEBUG: Converter:_bind:bag_size
+2026-07-27 18:05:01,056 DEBUG: Converter:_bind:max_indices
+2026-07-27 18:05:01,057 DEBUG: Converter:_exit_scope:3
+2026-07-27 18:05:01,057 DEBUG: Converter:_bind:max_indices
+2026-07-27 18:05:01,057 DEBUG: Converter:_bind:bag_size
+2026-07-27 18:05:01,057 DEBUG: Converter:_exit_scope:2
+2026-07-27 18:05:01,058 DEBUG: Converter:_enter_scope:2:node:<class 'NoneType'>
+2026-07-27 18:05:01,059 DEBUG: Converter:_enter_scope:3:node:<class 'NoneType'>
+2026-07-27 18:05:01,060 DEBUG: Converter:_bind:offset2bag
+2026-07-27 18:05:01,062 DEBUG: Converter:_bind:bag_size
+2026-07-27 18:05:01,064 DEBUG: Converter:_bind:max_indices
+2026-07-27 18:05:01,064 DEBUG: Converter:_exit_scope:3
+2026-07-27 18:05:01,064 DEBUG: Converter:_enter_scope:3:node:<class 'NoneType'>
+2026-07-27 18:05:01,066 DEBUG: Converter:_bind:offset2bag
+2026-07-27 18:05:01,067 DEBUG: Converter:_bind:bag_size
+2026-07-27 18:05:01,068 DEBUG: Converter:_bind:dim_0
+2026-07-27 18:05:01,068 DEBUG: Converter:_bind:dim_1
+2026-07-27 18:05:01,069 DEBUG: Converter:_bind:max_indices
+2026-07-27 18:05:01,069 DEBUG: Converter:_exit_scope:3
+2026-07-27 18:05:01,070 DEBUG: Converter:_bind:max_indices
+2026-07-27 18:05:01,070 DEBUG: Converter:_bind:offset2bag
+2026-07-27 18:05:01,070 DEBUG: Converter:_bind:bag_size
+2026-07-27 18:05:01,070 DEBUG: Converter:_exit_scope:2
+2026-07-27 18:05:01,071 DEBUG: Converter:_bind:max_indices
+2026-07-27 18:05:01,071 DEBUG: Converter:_bind:offset2bag
+2026-07-27 18:05:01,071 DEBUG: Converter:_bind:bag_size
+2026-07-27 18:05:01,071 DEBUG: An OpSchema was not provided for Op '_aten_embedding_bag_onnx' and there is not one found in opset 'pkg.onnxscript.torch_lib'.
+2026-07-27 18:05:01,072 DEBUG: An OpSchema was not provided for Op 'aten_embedding_bag_padding_idx' and there is not one found in opset 'pkg.onnxscript.torch_lib'.
+2026-07-27 18:05:01,081 DEBUG: Converter:_translate_function_def_common:_aten_embedding_bag_1d_padding_idx_onnx
+2026-07-27 18:05:01,081 DEBUG: Converter:_bind:weight
+2026-07-27 18:05:01,082 DEBUG: Converter:_bind:indices
+2026-07-27 18:05:01,082 DEBUG: Converter:_bind:offsets
+2026-07-27 18:05:01,082 DEBUG: Converter:_bind:mode
+2026-07-27 18:05:01,083 DEBUG: Converter:_bind:per_sample_weights
+2026-07-27 18:05:01,083 DEBUG: Converter:_bind:include_last_offset
+2026-07-27 18:05:01,083 DEBUG: Converter:_bind:padding_idx
+2026-07-27 18:05:01,084 DEBUG: Converter:_bind:neg_1
+2026-07-27 18:05:01,084 DEBUG: Converter:_bind:num_embeddings
+2026-07-27 18:05:01,084 DEBUG: Converter:_bind:num_embeddings_scalar
+2026-07-27 18:05:01,085 DEBUG: Converter:_enter_scope:2:node:<class 'NoneType'>
+2026-07-27 18:05:01,086 DEBUG: Converter:_bind:padding_idx
+2026-07-27 18:05:01,086 DEBUG: Converter:_exit_scope:2
+2026-07-27 18:05:01,086 DEBUG: Converter:_enter_scope:2:node:<class 'NoneType'>
+2026-07-27 18:05:01,086 DEBUG: Converter:_exit_scope:2
+2026-07-27 18:05:01,086 DEBUG: Converter:_bind:padding_idx
+2026-07-27 18:05:01,087 DEBUG: Converter:_bind:indices_weight
+2026-07-27 18:05:01,088 DEBUG: Converter:_bind:indices_weight
+2026-07-27 18:05:01,088 DEBUG: Converter:_bind:indices_weight
+2026-07-27 18:05:01,089 DEBUG: Converter:_bind:result
+2026-07-27 18:05:01,089 DEBUG: Converter:_bind:num_bag
+2026-07-27 18:05:01,090 DEBUG: Converter:_bind:idx_size
+2026-07-27 18:05:01,091 DEBUG: Converter:_enter_scope:2:node:<class 'NoneType'>
+2026-07-27 18:05:01,093 DEBUG: Converter:_bind:num_bag
+2026-07-27 18:05:01,094 DEBUG: Converter:_bind:offsets
+2026-07-27 18:05:01,094 DEBUG: Converter:_exit_scope:2
+2026-07-27 18:05:01,095 DEBUG: Converter:_enter_scope:2:node:<class 'NoneType'>
+2026-07-27 18:05:01,095 DEBUG: Converter:_bind:offsets
+2026-07-27 18:05:01,096 DEBUG: Converter:_exit_scope:2
+2026-07-27 18:05:01,096 DEBUG: Converter:_bind:offsets
+2026-07-27 18:05:01,096 DEBUG: Converter:_bind:num_bag
+2026-07-27 18:05:01,096 DEBUG: Converter:_bind:i
+2026-07-27 18:05:01,097 DEBUG: Converter:_bind:cond_1
+2026-07-27 18:05:01,097 DEBUG: Converter:_enter_scope:2:node:<class 'ast.While'>
+2026-07-27 18:05:01,097 DEBUG: Converter:_bind:infinite_loop
+2026-07-27 18:05:01,097 DEBUG: Converter:_bind:result
+2026-07-27 18:05:01,098 DEBUG: Converter:_bind:i
+2026-07-27 18:05:01,098 DEBUG: Converter:_bind:start_pos
+2026-07-27 18:05:01,099 DEBUG: Converter:_bind:end_pos
+2026-07-27 18:05:01,100 DEBUG: Converter:_bind:curr_offsets
+2026-07-27 18:05:01,100 DEBUG: Converter:_bind:j
+2026-07-27 18:05:01,100 DEBUG: Converter:_bind:cond_2
+2026-07-27 18:05:01,101 DEBUG: Converter:_enter_scope:3:node:<class 'ast.While'>
+2026-07-27 18:05:01,101 DEBUG: Converter:_bind:infinite_loop
+2026-07-27 18:05:01,101 DEBUG: Converter:_bind:curr_offsets
+2026-07-27 18:05:01,101 DEBUG: Converter:_bind:j
+2026-07-27 18:05:01,102 DEBUG: Converter:_bind:index
+2026-07-27 18:05:01,102 DEBUG: Converter:_bind:normalized_index
+2026-07-27 18:05:01,102 DEBUG: Converter:_enter_scope:4:node:<class 'NoneType'>
+2026-07-27 18:05:01,103 DEBUG: Converter:_bind:normalized_index
+2026-07-27 18:05:01,103 DEBUG: Converter:_exit_scope:4
+2026-07-27 18:05:01,103 DEBUG: Converter:_enter_scope:4:node:<class 'NoneType'>
+2026-07-27 18:05:01,103 DEBUG: Converter:_exit_scope:4
+2026-07-27 18:05:01,104 DEBUG: Converter:_bind:normalized_index
+2026-07-27 18:05:01,104 DEBUG: Converter:_enter_scope:4:node:<class 'NoneType'>
+2026-07-27 18:05:01,105 DEBUG: Converter:_bind:curr_offsets
+2026-07-27 18:05:01,106 DEBUG: Converter:_exit_scope:4
+2026-07-27 18:05:01,106 DEBUG: Converter:_enter_scope:4:node:<class 'NoneType'>
+2026-07-27 18:05:01,106 DEBUG: Converter:_exit_scope:4
+2026-07-27 18:05:01,107 DEBUG: Converter:_bind:curr_offsets
+2026-07-27 18:05:01,108 DEBUG: Converter:_bind:j
+2026-07-27 18:05:01,108 DEBUG: Converter:_bind:cond_2
+2026-07-27 18:05:01,109 DEBUG: Converter:_exit_scope:3
+2026-07-27 18:05:01,109 DEBUG: Converter:_bind:curr_offsets
+2026-07-27 18:05:01,110 DEBUG: Converter:_bind:j
+2026-07-27 18:05:01,111 DEBUG: Converter:_enter_scope:3:node:<class 'NoneType'>
+2026-07-27 18:05:01,111 DEBUG: Converter:_bind:dim_1
+2026-07-27 18:05:01,112 DEBUG: Converter:_bind:expand_shape
+2026-07-27 18:05:01,113 DEBUG: Converter:_bind:row_result
+2026-07-27 18:05:01,113 DEBUG: Converter:_exit_scope:3
+2026-07-27 18:05:01,113 DEBUG: Converter:_enter_scope:3:node:<class 'NoneType'>
+2026-07-27 18:05:01,114 DEBUG: Converter:_bind:row_weight
+2026-07-27 18:05:01,115 DEBUG: Converter:_enter_scope:4:node:<class 'NoneType'>
+2026-07-27 18:05:01,116 DEBUG: Converter:_bind:row_result
+2026-07-27 18:05:01,116 DEBUG: Converter:_exit_scope:4
+2026-07-27 18:05:01,116 DEBUG: Converter:_enter_scope:4:node:<class 'NoneType'>
+2026-07-27 18:05:01,117 DEBUG: Converter:_enter_scope:5:node:<class 'NoneType'>
+2026-07-27 18:05:01,117 DEBUG: Converter:_bind:row_result
+2026-07-27 18:05:01,118 DEBUG: Converter:_exit_scope:5
+2026-07-27 18:05:01,118 DEBUG: Converter:_enter_scope:5:node:<class 'NoneType'>
+2026-07-27 18:05:01,119 DEBUG: Converter:_bind:row_result
+2026-07-27 18:05:01,119 DEBUG: Converter:_exit_scope:5
+2026-07-27 18:05:01,119 DEBUG: Converter:_bind:row_result
+2026-07-27 18:05:01,119 DEBUG: Converter:_exit_scope:4
+2026-07-27 18:05:01,120 DEBUG: Converter:_bind:row_result
+2026-07-27 18:05:01,120 DEBUG: Converter:_exit_scope:3
+2026-07-27 18:05:01,120 DEBUG: Converter:_bind:row_result
+2026-07-27 18:05:01,120 DEBUG: Converter:_bind:result
+2026-07-27 18:05:01,121 DEBUG: Converter:_bind:i
+2026-07-27 18:05:01,121 DEBUG: Converter:_bind:cond_1
+2026-07-27 18:05:01,122 DEBUG: Converter:_exit_scope:2
+2026-07-27 18:05:01,122 DEBUG: Converter:_bind:result
+2026-07-27 18:05:01,122 DEBUG: Converter:_bind:i
+2026-07-27 18:05:01,123 DEBUG: Converter:_bind:result
+2026-07-27 18:05:01,124 DEBUG: Converter:_bind:result
+2026-07-27 18:05:01,124 DEBUG: Converter:_enter_scope:2:node:<class 'NoneType'>
+2026-07-27 18:05:01,127 DEBUG: Converter:_bind:offset2bag
+2026-07-27 18:05:01,128 DEBUG: Converter:_enter_scope:3:node:<class 'NoneType'>
+2026-07-27 18:05:01,129 DEBUG: Converter:_bind:bag_size
+2026-07-27 18:05:01,130 DEBUG: Converter:_bind:max_indices
+2026-07-27 18:05:01,130 DEBUG: Converter:_exit_scope:3
+2026-07-27 18:05:01,130 DEBUG: Converter:_enter_scope:3:node:<class 'NoneType'>
+2026-07-27 18:05:01,132 DEBUG: Converter:_bind:bag_size
+2026-07-27 18:05:01,133 DEBUG: Converter:_bind:max_indices
+2026-07-27 18:05:01,133 DEBUG: Converter:_exit_scope:3
+2026-07-27 18:05:01,134 DEBUG: Converter:_bind:max_indices
+2026-07-27 18:05:01,134 DEBUG: Converter:_bind:bag_size
+2026-07-27 18:05:01,134 DEBUG: Converter:_exit_scope:2
+2026-07-27 18:05:01,135 DEBUG: Converter:_enter_scope:2:node:<class 'NoneType'>
+2026-07-27 18:05:01,135 DEBUG: Converter:_enter_scope:3:node:<class 'NoneType'>
+2026-07-27 18:05:01,136 DEBUG: Converter:_bind:offset2bag
+2026-07-27 18:05:01,138 DEBUG: Converter:_bind:bag_size
+2026-07-27 18:05:01,139 DEBUG: Converter:_bind:max_indices
+2026-07-27 18:05:01,140 DEBUG: Converter:_exit_scope:3
+2026-07-27 18:05:01,140 DEBUG: Converter:_enter_scope:3:node:<class 'NoneType'>
+2026-07-27 18:05:01,142 DEBUG: Converter:_bind:offset2bag
+2026-07-27 18:05:01,145 DEBUG: Converter:_bind:bag_size
+2026-07-27 18:05:01,146 DEBUG: Converter:_bind:dim_0
+2026-07-27 18:05:01,146 DEBUG: Converter:_bind:dim_1
+2026-07-27 18:05:01,148 DEBUG: Converter:_bind:max_indices
+2026-07-27 18:05:01,148 DEBUG: Converter:_exit_scope:3
+2026-07-27 18:05:01,148 DEBUG: Converter:_bind:max_indices
+2026-07-27 18:05:01,149 DEBUG: Converter:_bind:offset2bag
+2026-07-27 18:05:01,149 DEBUG: Converter:_bind:bag_size
+2026-07-27 18:05:01,149 DEBUG: Converter:_exit_scope:2
+2026-07-27 18:05:01,149 DEBUG: Converter:_bind:max_indices
+2026-07-27 18:05:01,150 DEBUG: Converter:_bind:offset2bag
+2026-07-27 18:05:01,150 DEBUG: Converter:_bind:bag_size
+2026-07-27 18:05:01,150 DEBUG: An OpSchema was not provided for Op '_aten_embedding_bag_1d_padding_idx_onnx' and there is not one found in opset 'pkg.onnxscript.torch_lib'.
+2026-07-27 18:05:01,151 DEBUG: An OpSchema was not provided for Op 'aten_embedding_renorm' and there is not one found in opset 'pkg.onnxscript.torch_lib'.
+2026-07-27 18:05:01,151 DEBUG: An OpSchema was not provided for Op 'aten_empty' and there is not one found in opset 'pkg.onnxscript.torch_lib'.
+2026-07-27 18:05:01,152 DEBUG: An OpSchema was not provided for Op 'aten_empty_like' and there is not one found in opset 'pkg.onnxscript.torch_lib'.
+2026-07-27 18:05:01,153 DEBUG: An OpSchema was not provided for Op 'aten_empty_strided' and there is not one found in opset 'pkg.onnxscript.torch_lib'.
+2026-07-27 18:05:01,153 DEBUG: An OpSchema was not provided for Op 'aten_eq' and there is not one found in opset 'pkg.onnxscript.torch_lib'.
+2026-07-27 18:05:01,154 DEBUG: An OpSchema was not provided for Op 'aten_equal' and there is not one found in opset 'pkg.onnxscript.torch_lib'.
+2026-07-27 18:05:01,154 DEBUG: An OpSchema was not provided for Op 'aten_exp' and there is not one found in opset 'pkg.onnxscript.torch_lib'.
+2026-07-27 18:05:01,155 DEBUG: An OpSchema was not provided for Op 'aten_exp2' and there is not one found in opset 'pkg.onnxscript.torch_lib'.
+2026-07-27 18:05:01,155 DEBUG: An OpSchema was not provided for Op 'aten_expand' and there is not one found in opset 'pkg.onnxscript.torch_lib'.
+2026-07-27 18:05:01,155 DEBUG: An OpSchema was not provided for Op 'aten_expand_as' and there is not one found in opset 'pkg.onnxscript.torch_lib'.
+2026-07-27 18:05:01,156 DEBUG: An OpSchema was not provided for Op 'aten_fake_quantize_per_channel_affine' and there is not one found in opset 'pkg.onnxscript.torch_lib'.
+2026-07-27 18:05:01,156 DEBUG: An OpSchema was not provided for Op 'aten_fake_quantize_per_tensor_affine' and there is not one found in opset 'pkg.onnxscript.torch_lib'.
+2026-07-27 18:05:01,157 DEBUG: An OpSchema was not provided for Op 'aten_fake_quantize_per_tensor_affine_tensor_qparams' and there is not one found in opset 'pkg.onnxscript.torch_lib'.
+2026-07-27 18:05:01,160 DEBUG: Converter:_translate_function_def_common:aten_fill
+2026-07-27 18:05:01,160 DEBUG: Converter:_bind:self
+2026-07-27 18:05:01,160 DEBUG: Converter:_bind:value
+2026-07-27 18:05:01,161 DEBUG: Converter:_bind:value
+2026-07-27 18:05:01,161 DEBUG: Converter:_bind:shape
+2026-07-27 18:05:01,162 DEBUG: An OpSchema was not provided for Op 'aten_fill' and there is not one found in opset 'pkg.onnxscript.torch_lib'.
+2026-07-27 18:05:01,163 DEBUG: An OpSchema was not provided for Op 'aten_flatten' and there is not one found in opset 'pkg.onnxscript.torch_lib'.
+2026-07-27 18:05:01,164 DEBUG: An OpSchema was not provided for Op 'aten_flip' and there is not one found in opset 'pkg.onnxscript.torch_lib'.
+2026-07-27 18:05:01,164 DEBUG: An OpSchema was not provided for Op 'aten_flip_complex' and there is not one found in opset 'pkg.onnxscript.torch_lib'.
+2026-07-27 18:05:01,165 DEBUG: An OpSchema was not provided for Op 'aten_floor' and there is not one found in opset 'pkg.onnxscript.torch_lib'.
+2026-07-27 18:05:01,165 DEBUG: An OpSchema was not provided for Op 'python_math_floor' and there is not one found in opset 'pkg.onnxscript.torch_lib'.
+2026-07-27 18:05:01,166 DEBUG: An OpSchema was not provided for Op 'aten_floor_divide' and there is not one found in opset 'pkg.onnxscript.torch_lib'.
+2026-07-27 18:05:01,166 DEBUG: An OpSchema was not provided for Op 'operator_floordiv' and there is not one found in opset 'pkg.onnxscript.torch_lib'.
+2026-07-27 18:05:01,166 DEBUG: An OpSchema was not provided for Op 'aten_fmod' and there is not one found in opset 'pkg.onnxscript.torch_lib'.
+2026-07-27 18:05:01,167 DEBUG: An OpSchema was not provided for Op 'aten_frac' and there is not one found in opset 'pkg.onnxscript.torch_lib'.
+2026-07-27 18:05:01,167 DEBUG: An OpSchema was not provided for Op 'aten_full' and there is not one found in opset 'pkg.onnxscript.torch_lib'.
+2026-07-27 18:05:01,168 DEBUG: An OpSchema was not provided for Op 'aten_full_like' and there is not one found in opset 'pkg.onnxscript.torch_lib'.
+2026-07-27 18:05:01,169 DEBUG: An OpSchema was not provided for Op 'aten_gather' and there is not one found in opset 'pkg.onnxscript.torch_lib'.
+2026-07-27 18:05:01,169 DEBUG: An OpSchema was not provided for Op 'aten_ge' and there is not one found in opset 'pkg.onnxscript.torch_lib'.
+2026-07-27 18:05:01,170 DEBUG: An OpSchema was not provided for Op 'operator_ge' and there is not one found in opset 'pkg.onnxscript.torch_lib'.
+2026-07-27 18:05:01,170 DEBUG: An OpSchema was not provided for Op 'aten_gru' and there is not one found in opset 'pkg.onnxscript.torch_lib'.
+2026-07-27 18:05:01,172 DEBUG: Converter:_translate_function_def_common:aten_getitem
+2026-07-27 18:05:01,172 DEBUG: Converter:_bind:self
+2026-07-27 18:05:01,172 DEBUG: Converter:_bind:i
+2026-07-27 18:05:01,174 DEBUG: An OpSchema was not provided for Op 'aten_getitem' and there is not one found in opset 'pkg.onnxscript.torch_lib'.
+2026-07-27 18:05:01,174 DEBUG: An OpSchema was not provided for Op 'aten_grid_sampler' and there is not one found in opset 'pkg.onnxscript.torch_lib'.
+2026-07-27 18:05:01,175 DEBUG: An OpSchema was not provided for Op 'aten_grid_sampler_2d' and there is not one found in opset 'pkg.onnxscript.torch_lib'.
+2026-07-27 18:05:01,176 DEBUG: An OpSchema was not provided for Op 'aten_gt' and there is not one found in opset 'pkg.onnxscript.torch_lib'.
+2026-07-27 18:05:01,177 DEBUG: An OpSchema was not provided for Op 'operator_gt' and there is not one found in opset 'pkg.onnxscript.torch_lib'.
+2026-07-27 18:05:01,178 DEBUG: An OpSchema was not provided for Op 'aten_hamming_window' and there is not one found in opset 'pkg.onnxscript.torch_lib'.
+2026-07-27 18:05:01,179 DEBUG: An OpSchema was not provided for Op 'aten_hann_window' and there is not one found in opset 'pkg.onnxscript.torch_lib'.
+2026-07-27 18:05:01,179 DEBUG: An OpSchema was not provided for Op 'aten_heaviside' and there is not one found in opset 'pkg.onnxscript.torch_lib'.
+2026-07-27 18:05:01,180 DEBUG: An OpSchema was not provided for Op 'aten_histc' and there is not one found in opset 'pkg.onnxscript.torch_lib'.
+2026-07-27 18:05:01,180 DEBUG: An OpSchema was not provided for Op 'aten_index' and there is not one found in opset 'pkg.onnxscript.torch_lib'.
+2026-07-27 18:05:01,181 DEBUG: An OpSchema was not provided for Op 'aten_index_put' and there is not one found in opset 'pkg.onnxscript.torch_lib'.
+2026-07-27 18:05:01,182 DEBUG: An OpSchema was not provided for Op 'aten_index_select' and there is not one found in opset 'pkg.onnxscript.torch_lib'.
+2026-07-27 18:05:01,182 DEBUG: An OpSchema was not provided for Op 'aten_instance_norm' and there is not one found in opset 'pkg.onnxscript.torch_lib'.
+2026-07-27 18:05:01,184 DEBUG: Converter:_translate_function_def_common:aten_is_nonzero
+2026-07-27 18:05:01,185 DEBUG: Converter:_bind:self
+2026-07-27 18:05:01,186 DEBUG: Converter:_bind:result
+2026-07-27 18:05:01,186 DEBUG: Converter:_enter_scope:2:node:<class 'NoneType'>
+2026-07-27 18:05:01,187 DEBUG: Converter:_bind:result
+2026-07-27 18:05:01,187 DEBUG: Converter:_exit_scope:2
+2026-07-27 18:05:01,187 DEBUG: Converter:_enter_scope:2:node:<class 'NoneType'>
+2026-07-27 18:05:01,187 DEBUG: Converter:_exit_scope:2
+2026-07-27 18:05:01,188 DEBUG: Converter:_bind:result
+2026-07-27 18:05:01,188 DEBUG: An OpSchema was not provided for Op 'aten_is_nonzero' and there is not one found in opset 'pkg.onnxscript.torch_lib'.
+2026-07-27 18:05:01,189 DEBUG: Converter:_translate_function_def_common:aten_isclose
+2026-07-27 18:05:01,190 DEBUG: Converter:_bind:self
+2026-07-27 18:05:01,190 DEBUG: Converter:_bind:other
+2026-07-27 18:05:01,191 DEBUG: Converter:_bind:rtol
+2026-07-27 18:05:01,191 DEBUG: Converter:_bind:atol
+2026-07-27 18:05:01,191 DEBUG: Converter:_bind:equal_nan
+2026-07-27 18:05:01,193 DEBUG: Converter:_bind:left_part
+2026-07-27 18:05:01,194 DEBUG: Converter:_bind:right_part
+2026-07-27 18:05:01,195 DEBUG: Converter:_bind:result
+2026-07-27 18:05:01,195 DEBUG: An OpSchema was not provided for Op 'aten_isclose' and there is not one found in opset 'pkg.onnxscript.torch_lib'.
+2026-07-27 18:05:01,197 DEBUG: Converter:_translate_function_def_common:aten_isfinite
+2026-07-27 18:05:01,197 DEBUG: Converter:_bind:self
+2026-07-27 18:05:01,197 DEBUG: Converter:_bind:not_inf
+2026-07-27 18:05:01,198 DEBUG: Converter:_bind:not_nan
+2026-07-27 18:05:01,198 DEBUG: An OpSchema was not provided for Op 'aten_isfinite' and there is not one found in opset 'pkg.onnxscript.torch_lib'.
+2026-07-27 18:05:01,200 DEBUG: Converter:_translate_function_def_common:aten_isinf
+2026-07-27 18:05:01,200 DEBUG: Converter:_bind:self
+2026-07-27 18:05:01,201 DEBUG: Converter:_bind:self
+2026-07-27 18:05:01,201 DEBUG: An OpSchema was not provided for Op 'aten_isinf' and there is not one found in opset 'pkg.onnxscript.torch_lib'.
+2026-07-27 18:05:01,202 DEBUG: Converter:_translate_function_def_common:aten_isnan
+2026-07-27 18:05:01,202 DEBUG: Converter:_bind:self
+2026-07-27 18:05:01,203 DEBUG: An OpSchema was not provided for Op 'aten_isnan' and there is not one found in opset 'pkg.onnxscript.torch_lib'.
+2026-07-27 18:05:01,205 DEBUG: Converter:_translate_function_def_common:aten_isneginf
+2026-07-27 18:05:01,205 DEBUG: Converter:_bind:self
+2026-07-27 18:05:01,206 DEBUG: Converter:_bind:self
+2026-07-27 18:05:01,207 DEBUG: An OpSchema was not provided for Op 'aten_isneginf' and there is not one found in opset 'pkg.onnxscript.torch_lib'.
+2026-07-27 18:05:01,208 DEBUG: Converter:_translate_function_def_common:aten_isposinf
+2026-07-27 18:05:01,209 DEBUG: Converter:_bind:self
+2026-07-27 18:05:01,209 DEBUG: Converter:_bind:self
+2026-07-27 18:05:01,211 DEBUG: An OpSchema was not provided for Op 'aten_isposinf' and there is not one found in opset 'pkg.onnxscript.torch_lib'.
+2026-07-27 18:05:01,212 DEBUG: An OpSchema was not provided for Op 'aten_layer_norm' and there is not one found in opset 'pkg.onnxscript.torch_lib'.
+2026-07-27 18:05:01,213 DEBUG: An OpSchema was not provided for Op 'aten_le' and there is not one found in opset 'pkg.onnxscript.torch_lib'.
+2026-07-27 18:05:01,214 DEBUG: An OpSchema was not provided for Op 'operator_le' and there is not one found in opset 'pkg.onnxscript.torch_lib'.
+2026-07-27 18:05:01,216 DEBUG: Converter:_translate_function_def_common:aten_lerp
+2026-07-27 18:05:01,216 DEBUG: Converter:_bind:self
+2026-07-27 18:05:01,216 DEBUG: Converter:_bind:end
+2026-07-27 18:05:01,217 DEBUG: Converter:_bind:weight
+2026-07-27 18:05:01,217 DEBUG: Converter:_bind:weight
+2026-07-27 18:05:01,218 DEBUG: Converter:_bind:diff
+2026-07-27 18:05:01,220 DEBUG: An OpSchema was not provided for Op 'aten_lerp' and there is not one found in opset 'pkg.onnxscript.torch_lib'.
+2026-07-27 18:05:01,220 DEBUG: An OpSchema was not provided for Op 'aten_lift_fresh_copy' and there is not one found in opset 'pkg.onnxscript.torch_lib'.
+2026-07-27 18:05:01,221 DEBUG: An OpSchema was not provided for Op 'aten_linspace' and there is not one found in opset 'pkg.onnxscript.torch_lib'.
+2026-07-27 18:05:01,222 DEBUG: An OpSchema was not provided for Op 'aten_log' and there is not one found in opset 'pkg.onnxscript.torch_lib'.
+2026-07-27 18:05:01,222 DEBUG: An OpSchema was not provided for Op 'aten_log10' and there is not one found in opset 'pkg.onnxscript.torch_lib'.
+2026-07-27 18:05:01,224 DEBUG: Converter:_translate_function_def_common:aten_log1p
+2026-07-27 18:05:01,224 DEBUG: Converter:_bind:self
+2026-07-27 18:05:01,225 DEBUG: An OpSchema was not provided for Op 'aten_log1p' and there is not one found in opset 'pkg.onnxscript.torch_lib'.
+2026-07-27 18:05:01,226 DEBUG: An OpSchema was not provided for Op 'aten_log2' and there is not one found in opset 'pkg.onnxscript.torch_lib'.
+2026-07-27 18:05:01,227 DEBUG: An OpSchema was not provided for Op 'aten_logaddexp' and there is not one found in opset 'pkg.onnxscript.torch_lib'.
+2026-07-27 18:05:01,227 DEBUG: An OpSchema was not provided for Op 'aten_logaddexp2' and there is not one found in opset 'pkg.onnxscript.torch_lib'.
+2026-07-27 18:05:01,228 DEBUG: An OpSchema was not provided for Op 'aten_logcumsumexp' and there is not one found in opset 'pkg.onnxscript.torch_lib'.
+2026-07-27 18:05:01,229 DEBUG: An OpSchema was not provided for Op 'aten_logdet' and there is not one found in opset 'pkg.onnxscript.torch_lib'.
+2026-07-27 18:05:01,229 DEBUG: An OpSchema was not provided for Op 'aten_logical_and' and there is not one found in opset 'pkg.onnxscript.torch_lib'.
+2026-07-27 18:05:01,230 DEBUG: An OpSchema was not provided for Op 'aten_logical_not' and there is not one found in opset 'pkg.onnxscript.torch_lib'.
+2026-07-27 18:05:01,230 DEBUG: An OpSchema was not provided for Op 'aten_logical_or' and there is not one found in opset 'pkg.onnxscript.torch_lib'.
+2026-07-27 18:05:01,230 DEBUG: An OpSchema was not provided for Op 'aten_logical_xor' and there is not one found in opset 'pkg.onnxscript.torch_lib'.
+2026-07-27 18:05:01,231 DEBUG: An OpSchema was not provided for Op 'aten_logit' and there is not one found in opset 'pkg.onnxscript.torch_lib'.
+2026-07-27 18:05:01,232 DEBUG: An OpSchema was not provided for Op 'aten_logsumexp' and there is not one found in opset 'pkg.onnxscript.torch_lib'.
+2026-07-27 18:05:01,232 DEBUG: An OpSchema was not provided for Op 'aten_lstm' and there is not one found in opset 'pkg.onnxscript.torch_lib'.
+2026-07-27 18:05:01,233 DEBUG: An OpSchema was not provided for Op 'aten_lt' and there is not one found in opset 'pkg.onnxscript.torch_lib'.
+2026-07-27 18:05:01,234 DEBUG: An OpSchema was not provided for Op 'operator_lt' and there is not one found in opset 'pkg.onnxscript.torch_lib'.
+2026-07-27 18:05:01,235 DEBUG: Converter:_translate_function_def_common:aten_mH
+2026-07-27 18:05:01,236 DEBUG: Converter:_bind:self
+2026-07-27 18:05:01,236 DEBUG: An OpSchema was not provided for Op 'aten_mH' and there is not one found in opset 'pkg.onnxscript.torch_lib'.
+2026-07-27 18:05:01,237 DEBUG: An OpSchema was not provided for Op 'aten_mH_complex' and there is not one found in opset 'pkg.onnxscript.torch_lib'.
+2026-07-27 18:05:01,239 DEBUG: Converter:_translate_function_def_common:aten_mT
+2026-07-27 18:05:01,239 DEBUG: Converter:_bind:self
+2026-07-27 18:05:01,240 DEBUG: An OpSchema was not provided for Op 'aten_mT' and there is not one found in opset 'pkg.onnxscript.torch_lib'.
+2026-07-27 18:05:01,242 DEBUG: Converter:_translate_function_def_common:aten_mT_complex
+2026-07-27 18:05:01,242 DEBUG: Converter:_bind:self
+2026-07-27 18:05:01,243 DEBUG: An OpSchema was not provided for Op 'aten_mT_complex' and there is not one found in opset 'pkg.onnxscript.torch_lib'.
+2026-07-27 18:05:01,244 DEBUG: An OpSchema was not provided for Op 'aten_masked_fill' and there is not one found in opset 'pkg.onnxscript.torch_lib'.
+2026-07-27 18:05:01,245 DEBUG: An OpSchema was not provided for Op 'aten_masked_scatter' and there is not one found in opset 'pkg.onnxscript.torch_lib'.
+2026-07-27 18:05:01,245 DEBUG: An OpSchema was not provided for Op 'aten_matmul' and there is not one found in opset 'pkg.onnxscript.torch_lib'.
+2026-07-27 18:05:01,246 DEBUG: An OpSchema was not provided for Op 'aten_matmul_complex' and there is not one found in opset 'pkg.onnxscript.torch_lib'.
+2026-07-27 18:05:01,247 DEBUG: An OpSchema was not provided for Op 'aten_max' and there is not one found in opset 'pkg.onnxscript.torch_lib'.
+2026-07-27 18:05:01,247 DEBUG: An OpSchema was not provided for Op 'aten_max_dim' and there is not one found in opset 'pkg.onnxscript.torch_lib'.
+2026-07-27 18:05:01,248 DEBUG: An OpSchema was not provided for Op 'aten_maximum' and there is not one found in opset 'pkg.onnxscript.torch_lib'.
+2026-07-27 18:05:01,249 DEBUG: Converter:_translate_function_def_common:aten_mean
+2026-07-27 18:05:01,249 DEBUG: Converter:_bind:self
+2026-07-27 18:05:01,250 DEBUG: Converter:_bind:result
+2026-07-27 18:05:01,250 DEBUG: An OpSchema was not provided for Op 'aten_mean' and there is not one found in opset 'pkg.onnxscript.torch_lib'.
+2026-07-27 18:05:01,251 DEBUG: An OpSchema was not provided for Op 'aten_mean_complex' and there is not one found in opset 'pkg.onnxscript.torch_lib'.
+2026-07-27 18:05:01,251 DEBUG: An OpSchema was not provided for Op 'aten_mean_dim' and there is not one found in opset 'pkg.onnxscript.torch_lib'.
+2026-07-27 18:05:01,252 DEBUG: An OpSchema was not provided for Op 'aten_mean_dim_complex' and there is not one found in opset 'pkg.onnxscript.torch_lib'.
+2026-07-27 18:05:01,253 DEBUG: An OpSchema was not provided for Op 'aten_min' and there is not one found in opset 'pkg.onnxscript.torch_lib'.
+2026-07-27 18:05:01,253 DEBUG: An OpSchema was not provided for Op 'aten_min_dim' and there is not one found in opset 'pkg.onnxscript.torch_lib'.
+2026-07-27 18:05:01,254 DEBUG: An OpSchema was not provided for Op 'aten_minimum' and there is not one found in opset 'pkg.onnxscript.torch_lib'.
+2026-07-27 18:05:01,254 DEBUG: An OpSchema was not provided for Op 'aten_mm' and there is not one found in opset 'pkg.onnxscript.torch_lib'.
+2026-07-27 18:05:01,255 DEBUG: An OpSchema was not provided for Op 'aten_mul' and there is not one found in opset 'pkg.onnxscript.torch_lib'.
+2026-07-27 18:05:01,255 DEBUG: An OpSchema was not provided for Op 'operator_mul' and there is not one found in opset 'pkg.onnxscript.torch_lib'.
+2026-07-27 18:05:01,256 DEBUG: An OpSchema was not provided for Op 'aten_mul_complex' and there is not one found in opset 'pkg.onnxscript.torch_lib'.
+2026-07-27 18:05:01,257 DEBUG: An OpSchema was not provided for Op 'aten_multinomial' and there is not one found in opset 'pkg.onnxscript.torch_lib'.
+2026-07-27 18:05:01,257 DEBUG: An OpSchema was not provided for Op 'aten_mv' and there is not one found in opset 'pkg.onnxscript.torch_lib'.
+2026-07-27 18:05:01,258 DEBUG: An OpSchema was not provided for Op 'aten_narrow' and there is not one found in opset 'pkg.onnxscript.torch_lib'.
+2026-07-27 18:05:01,259 DEBUG: An OpSchema was not provided for Op 'aten__native_batch_norm_no_training' and there is not one found in opset 'pkg.onnxscript.torch_lib'.
+2026-07-27 18:05:01,260 DEBUG: An OpSchema was not provided for Op 'aten__native_batch_norm_no_stats' and there is not one found in opset 'pkg.onnxscript.torch_lib'.
+2026-07-27 18:05:01,260 DEBUG: An OpSchema was not provided for Op 'aten_native_batch_norm' and there is not one found in opset 'pkg.onnxscript.torch_lib'.
+2026-07-27 18:05:01,262 DEBUG: An OpSchema was not provided for Op 'aten__native_batch_norm_legit_functional' and there is not one found in opset 'pkg.onnxscript.torch_lib'.
+2026-07-27 18:05:01,262 DEBUG: An OpSchema was not provided for Op 'aten_native_dropout' and there is not one found in opset 'pkg.onnxscript.torch_lib'.
+2026-07-27 18:05:01,263 DEBUG: An OpSchema was not provided for Op 'aten_native_group_norm' and there is not one found in opset 'pkg.onnxscript.torch_lib'.
+2026-07-27 18:05:01,264 DEBUG: An OpSchema was not provided for Op 'aten_native_layer_norm' and there is not one found in opset 'pkg.onnxscript.torch_lib'.
+2026-07-27 18:05:01,265 DEBUG: An OpSchema was not provided for Op 'aten_ne' and there is not one found in opset 'pkg.onnxscript.torch_lib'.
+2026-07-27 18:05:01,266 DEBUG: An OpSchema was not provided for Op 'aten_neg' and there is not one found in opset 'pkg.onnxscript.torch_lib'.
+2026-07-27 18:05:01,266 DEBUG: An OpSchema was not provided for Op 'aten_neg_complex' and there is not one found in opset 'pkg.onnxscript.torch_lib'.
+2026-07-27 18:05:01,266 DEBUG: An OpSchema was not provided for Op 'aten_new_empty' and there is not one found in opset 'pkg.onnxscript.torch_lib'.
+2026-07-27 18:05:01,267 DEBUG: An OpSchema was not provided for Op 'aten_new_empty_strided' and there is not one found in opset 'pkg.onnxscript.torch_lib'.
+2026-07-27 18:05:01,268 DEBUG: An OpSchema was not provided for Op 'aten_new_full' and there is not one found in opset 'pkg.onnxscript.torch_lib'.
+2026-07-27 18:05:01,268 DEBUG: An OpSchema was not provided for Op 'aten_new_ones' and there is not one found in opset 'pkg.onnxscript.torch_lib'.
+2026-07-27 18:05:01,269 DEBUG: An OpSchema was not provided for Op 'aten_new_zeros' and there is not one found in opset 'pkg.onnxscript.torch_lib'.
+2026-07-27 18:05:01,269 DEBUG: An OpSchema was not provided for Op 'aten_nonzero' and there is not one found in opset 'pkg.onnxscript.torch_lib'.
+2026-07-27 18:05:01,270 DEBUG: An OpSchema was not provided for Op 'aten_normal' and there is not one found in opset 'pkg.onnxscript.torch_lib'.
+2026-07-27 18:05:01,270 DEBUG: An OpSchema was not provided for Op 'aten_normal_float_float' and there is not one found in opset 'pkg.onnxscript.torch_lib'.
+2026-07-27 18:05:01,270 DEBUG: An OpSchema was not provided for Op 'aten_normal_float_tensor' and there is not one found in opset 'pkg.onnxscript.torch_lib'.
+2026-07-27 18:05:01,271 DEBUG: An OpSchema was not provided for Op 'aten_normal_tensor_float' and there is not one found in opset 'pkg.onnxscript.torch_lib'.
+2026-07-27 18:05:01,271 DEBUG: An OpSchema was not provided for Op 'aten_normal_tensor_tensor' and there is not one found in opset 'pkg.onnxscript.torch_lib'.
+2026-07-27 18:05:01,272 DEBUG: An OpSchema was not provided for Op 'aten_ones' and there is not one found in opset 'pkg.onnxscript.torch_lib'.
+2026-07-27 18:05:01,273 DEBUG: An OpSchema was not provided for Op 'aten_ones_like' and there is not one found in opset 'pkg.onnxscript.torch_lib'.
+2026-07-27 18:05:01,273 DEBUG: An OpSchema was not provided for Op 'aten_permute' and there is not one found in opset 'pkg.onnxscript.torch_lib'.
+2026-07-27 18:05:01,274 DEBUG: An OpSchema was not provided for Op 'aten_permute_complex' and there is not one found in opset 'pkg.onnxscript.torch_lib'.
+2026-07-27 18:05:01,275 DEBUG: An OpSchema was not provided for Op 'aten_pixel_shuffle' and there is not one found in opset 'pkg.onnxscript.torch_lib'.
+2026-07-27 18:05:01,276 DEBUG: An OpSchema was not provided for Op 'aten_pixel_unshuffle' and there is not one found in opset 'pkg.onnxscript.torch_lib'.
+2026-07-27 18:05:01,278 DEBUG: Converter:_translate_function_def_common:aten_polar
+2026-07-27 18:05:01,278 DEBUG: Converter:_bind:abs
+2026-07-27 18:05:01,279 DEBUG: Converter:_bind:angle
+2026-07-27 18:05:01,280 DEBUG: Converter:_bind:real
+2026-07-27 18:05:01,281 DEBUG: Converter:_bind:imag
+2026-07-27 18:05:01,281 DEBUG: An OpSchema was not provided for Op 'aten_polar' and there is not one found in opset 'pkg.onnxscript.torch_lib'.
+2026-07-27 18:05:01,282 DEBUG: An OpSchema was not provided for Op 'aten_pow' and there is not one found in opset 'pkg.onnxscript.torch_lib'.
+2026-07-27 18:05:01,282 DEBUG: An OpSchema was not provided for Op 'aten_pow_tensor_scalar' and there is not one found in opset 'pkg.onnxscript.torch_lib'.
+2026-07-27 18:05:01,283 DEBUG: An OpSchema was not provided for Op 'aten_pow_scalar' and there is not one found in opset 'pkg.onnxscript.torch_lib'.
+2026-07-27 18:05:01,283 DEBUG: An OpSchema was not provided for Op 'aten_prelu' and there is not one found in opset 'pkg.onnxscript.torch_lib'.
+2026-07-27 18:05:01,284 DEBUG: An OpSchema was not provided for Op 'aten_prod' and there is not one found in opset 'pkg.onnxscript.torch_lib'.
+2026-07-27 18:05:01,284 DEBUG: An OpSchema was not provided for Op 'aten_prod_dim_int' and there is not one found in opset 'pkg.onnxscript.torch_lib'.
+2026-07-27 18:05:01,285 DEBUG: An OpSchema was not provided for Op 'aten_rad2deg' and there is not one found in opset 'pkg.onnxscript.torch_lib'.
+2026-07-27 18:05:01,286 DEBUG: An OpSchema was not provided for Op 'aten_rand' and there is not one found in opset 'pkg.onnxscript.torch_lib'.
+2026-07-27 18:05:01,286 DEBUG: An OpSchema was not provided for Op 'aten_rand_like' and there is not one found in opset 'pkg.onnxscript.torch_lib'.
+2026-07-27 18:05:01,287 DEBUG: An OpSchema was not provided for Op 'aten_randint' and there is not one found in opset 'pkg.onnxscript.torch_lib'.
+2026-07-27 18:05:01,288 DEBUG: An OpSchema was not provided for Op 'aten_randint_low' and there is not one found in opset 'pkg.onnxscript.torch_lib'.
+2026-07-27 18:05:01,289 DEBUG: An OpSchema was not provided for Op 'aten_randint_like' and there is not one found in opset 'pkg.onnxscript.torch_lib'.
+2026-07-27 18:05:01,290 DEBUG: An OpSchema was not provided for Op 'aten_randint_like_low_dtype' and there is not one found in opset 'pkg.onnxscript.torch_lib'.
+2026-07-27 18:05:01,291 DEBUG: An OpSchema was not provided for Op 'aten_randn' and there is not one found in opset 'pkg.onnxscript.torch_lib'.
+2026-07-27 18:05:01,292 DEBUG: An OpSchema was not provided for Op 'aten_randn_like' and there is not one found in opset 'pkg.onnxscript.torch_lib'.
+2026-07-27 18:05:01,293 DEBUG: An OpSchema was not provided for Op 'aten_reciprocal' and there is not one found in opset 'pkg.onnxscript.torch_lib'.
+2026-07-27 18:05:01,293 DEBUG: An OpSchema was not provided for Op 'aten_reciprocal_complex' and there is not one found in opset 'pkg.onnxscript.torch_lib'.
+2026-07-27 18:05:01,294 DEBUG: An OpSchema was not provided for Op 'aten_remainder' and there is not one found in opset 'pkg.onnxscript.torch_lib'.
+2026-07-27 18:05:01,294 DEBUG: An OpSchema was not provided for Op 'aten_remainder_scalar' and there is not one found in opset 'pkg.onnxscript.torch_lib'.
+2026-07-27 18:05:01,295 DEBUG: An OpSchema was not provided for Op 'aten_remainder_scalar_tensor' and there is not one found in opset 'pkg.onnxscript.torch_lib'.
+2026-07-27 18:05:01,296 DEBUG: An OpSchema was not provided for Op 'operator_mod' and there is not one found in opset 'pkg.onnxscript.torch_lib'.
+2026-07-27 18:05:01,296 DEBUG: An OpSchema was not provided for Op 'aten_repeat' and there is not one found in opset 'pkg.onnxscript.torch_lib'.
+2026-07-27 18:05:01,297 DEBUG: An OpSchema was not provided for Op 'aten_repeat_interleave_self_int' and there is not one found in opset 'pkg.onnxscript.torch_lib'.
+2026-07-27 18:05:01,298 DEBUG: An OpSchema was not provided for Op 'aten_repeat_interleave_Tensor' and there is not one found in opset 'pkg.onnxscript.torch_lib'.
+2026-07-27 18:05:01,298 DEBUG: An OpSchema was not provided for Op 'aten_reshape' and there is not one found in opset 'pkg.onnxscript.torch_lib'.
+2026-07-27 18:05:01,299 DEBUG: An OpSchema was not provided for Op 'aten_resolve_conj' and there is not one found in opset 'pkg.onnxscript.torch_lib'.
+2026-07-27 18:05:01,299 DEBUG: An OpSchema was not provided for Op 'aten_resolve_neg' and there is not one found in opset 'pkg.onnxscript.torch_lib'.
+2026-07-27 18:05:01,300 DEBUG: An OpSchema was not provided for Op 'aten_roll' and there is not one found in opset 'pkg.onnxscript.torch_lib'.
+2026-07-27 18:05:01,301 DEBUG: An OpSchema was not provided for Op 'aten_roll_complex' and there is not one found in opset 'pkg.onnxscript.torch_lib'.
+2026-07-27 18:05:01,301 DEBUG: An OpSchema was not provided for Op 'aten_round' and there is not one found in opset 'pkg.onnxscript.torch_lib'.
+2026-07-27 18:05:01,303 DEBUG: Converter:_translate_function_def_common:aten_round_decimals
+2026-07-27 18:05:01,303 DEBUG: Converter:_bind:self
+2026-07-27 18:05:01,303 DEBUG: Converter:_bind:decimals
+2026-07-27 18:05:01,304 DEBUG: Converter:_bind:ten
+2026-07-27 18:05:01,304 DEBUG: Converter:_bind:scale
+2026-07-27 18:05:01,305 DEBUG: Converter:_bind:self_scaled
+2026-07-27 18:05:01,305 DEBUG: Converter:_bind:rounded
+2026-07-27 18:05:01,306 DEBUG: An OpSchema was not provided for Op 'aten_round_decimals' and there is not one found in opset 'pkg.onnxscript.torch_lib'.
+2026-07-27 18:05:01,307 DEBUG: An OpSchema was not provided for Op 'aten_rsqrt' and there is not one found in opset 'pkg.onnxscript.torch_lib'.
+2026-07-27 18:05:01,307 DEBUG: An OpSchema was not provided for Op 'aten_scalar_tensor' and there is not one found in opset 'pkg.onnxscript.torch_lib'.
+2026-07-27 18:05:01,308 DEBUG: An OpSchema was not provided for Op 'aten_scalar_tensor_complex' and there is not one found in opset 'pkg.onnxscript.torch_lib'.
+2026-07-27 18:05:01,310 DEBUG: An OpSchema was not provided for Op 'aten_scatter_src' and there is not one found in opset 'pkg.onnxscript.torch_lib'.
+2026-07-27 18:05:01,311 DEBUG: An OpSchema was not provided for Op 'aten_scatter_value' and there is not one found in opset 'pkg.onnxscript.torch_lib'.
+2026-07-27 18:05:01,312 DEBUG: An OpSchema was not provided for Op 'aten_scatter_add' and there is not one found in opset 'pkg.onnxscript.torch_lib'.
+2026-07-27 18:05:01,312 DEBUG: An OpSchema was not provided for Op 'aten_scatter_reduce' and there is not one found in opset 'pkg.onnxscript.torch_lib'.
+2026-07-27 18:05:01,313 DEBUG: An OpSchema was not provided for Op 'aten_select' and there is not one found in opset 'pkg.onnxscript.torch_lib'.
+2026-07-27 18:05:01,313 DEBUG: An OpSchema was not provided for Op 'aten_select_scatter' and there is not one found in opset 'pkg.onnxscript.torch_lib'.
+2026-07-27 18:05:01,315 DEBUG: Converter:_translate_function_def_common:aten_selu
+2026-07-27 18:05:01,315 DEBUG: Converter:_bind:self
+2026-07-27 18:05:01,315 DEBUG: An OpSchema was not provided for Op 'aten_selu' and there is not one found in opset 'pkg.onnxscript.torch_lib'.
+2026-07-27 18:05:01,316 DEBUG: An OpSchema was not provided for Op 'aten_sigmoid' and there is not one found in opset 'pkg.onnxscript.torch_lib'.
+2026-07-27 18:05:01,316 DEBUG: An OpSchema was not provided for Op 'aten_sign' and there is not one found in opset 'pkg.onnxscript.torch_lib'.
+2026-07-27 18:05:01,317 DEBUG: An OpSchema was not provided for Op 'aten_signbit' and there is not one found in opset 'pkg.onnxscript.torch_lib'.
+2026-07-27 18:05:01,318 DEBUG: An OpSchema was not provided for Op 'aten_sin' and there is not one found in opset 'pkg.onnxscript.torch_lib'.
+2026-07-27 18:05:01,318 DEBUG: An OpSchema was not provided for Op 'aten_sinh' and there is not one found in opset 'pkg.onnxscript.torch_lib'.
+2026-07-27 18:05:01,318 DEBUG: An OpSchema was not provided for Op 'aten_slice_complex' and there is not one found in opset 'pkg.onnxscript.torch_lib'.
+2026-07-27 18:05:01,319 DEBUG: An OpSchema was not provided for Op 'aten_slice' and there is not one found in opset 'pkg.onnxscript.torch_lib'.
+2026-07-27 18:05:01,319 DEBUG: An OpSchema was not provided for Op 'aten_slice_scatter' and there is not one found in opset 'pkg.onnxscript.torch_lib'.
+2026-07-27 18:05:01,320 DEBUG: An OpSchema was not provided for Op 'aten_softmax' and there is not one found in opset 'pkg.onnxscript.torch_lib'.
+2026-07-27 18:05:01,320 DEBUG: An OpSchema was not provided for Op 'aten_sort' and there is not one found in opset 'pkg.onnxscript.torch_lib'.
+2026-07-27 18:05:01,321 DEBUG: An OpSchema was not provided for Op 'aten_split' and there is not one found in opset 'pkg.onnxscript.torch_lib'.
+2026-07-27 18:05:01,322 DEBUG: An OpSchema was not provided for Op 'aten_split_with_sizes' and there is not one found in opset 'pkg.onnxscript.torch_lib'.
+2026-07-27 18:05:01,322 DEBUG: An OpSchema was not provided for Op 'aten_sqrt' and there is not one found in opset 'pkg.onnxscript.torch_lib'.
+2026-07-27 18:05:01,323 DEBUG: An OpSchema was not provided for Op 'aten_squeeze' and there is not one found in opset 'pkg.onnxscript.torch_lib'.
+2026-07-27 18:05:01,323 DEBUG: An OpSchema was not provided for Op 'aten_squeeze_dim' and there is not one found in opset 'pkg.onnxscript.torch_lib'.
+2026-07-27 18:05:01,324 DEBUG: An OpSchema was not provided for Op 'aten_squeeze_dim_complex' and there is not one found in opset 'pkg.onnxscript.torch_lib'.
+2026-07-27 18:05:01,324 DEBUG: An OpSchema was not provided for Op 'aten_stack_complex' and there is not one found in opset 'pkg.onnxscript.torch_lib'.
+2026-07-27 18:05:01,325 DEBUG: An OpSchema was not provided for Op 'aten_stack' and there is not one found in opset 'pkg.onnxscript.torch_lib'.
+2026-07-27 18:05:01,327 DEBUG: An OpSchema was not provided for Op 'aten_stft' and there is not one found in opset 'pkg.onnxscript.torch_lib'.
+2026-07-27 18:05:01,328 DEBUG: An OpSchema was not provided for Op 'aten_sub' and there is not one found in opset 'pkg.onnxscript.torch_lib'.
+2026-07-27 18:05:01,329 DEBUG: An OpSchema was not provided for Op 'aten_sub_scalar' and there is not one found in opset 'pkg.onnxscript.torch_lib'.
+2026-07-27 18:05:01,329 DEBUG: An OpSchema was not provided for Op 'aten_sub_complex' and there is not one found in opset 'pkg.onnxscript.torch_lib'.
+2026-07-27 18:05:01,330 DEBUG: An OpSchema was not provided for Op 'aten_sum' and there is not one found in opset 'pkg.onnxscript.torch_lib'.
+2026-07-27 18:05:01,330 DEBUG: An OpSchema was not provided for Op 'aten_sum_complex' and there is not one found in opset 'pkg.onnxscript.torch_lib'.
+2026-07-27 18:05:01,330 DEBUG: An OpSchema was not provided for Op 'aten_sum_dim_IntList' and there is not one found in opset 'pkg.onnxscript.torch_lib'.
+2026-07-27 18:05:01,331 DEBUG: An OpSchema was not provided for Op 'aten_sum_dim_IntList_complex' and there is not one found in opset 'pkg.onnxscript.torch_lib'.
+2026-07-27 18:05:01,331 DEBUG: An OpSchema was not provided for Op 'aten_sym_size' and there is not one found in opset 'pkg.onnxscript.torch_lib'.
+2026-07-27 18:05:01,332 DEBUG: An OpSchema was not provided for Op 'aten_sym_storage_offset' and there is not one found in opset 'pkg.onnxscript.torch_lib'.
+2026-07-27 18:05:01,332 DEBUG: An OpSchema was not provided for Op 'aten_t' and there is not one found in opset 'pkg.onnxscript.torch_lib'.
+2026-07-27 18:05:01,332 DEBUG: An OpSchema was not provided for Op 'aten_t_complex' and there is not one found in opset 'pkg.onnxscript.torch_lib'.
+2026-07-27 18:05:01,333 DEBUG: An OpSchema was not provided for Op 'aten_tan' and there is not one found in opset 'pkg.onnxscript.torch_lib'.
+2026-07-27 18:05:01,334 DEBUG: An OpSchema was not provided for Op 'aten_tanh' and there is not one found in opset 'pkg.onnxscript.torch_lib'.
+2026-07-27 18:05:01,334 DEBUG: An OpSchema was not provided for Op 'aten_tensor_bool' and there is not one found in opset 'pkg.onnxscript.torch_lib'.
+2026-07-27 18:05:01,335 DEBUG: An OpSchema was not provided for Op 'aten_tensor_float' and there is not one found in opset 'pkg.onnxscript.torch_lib'.
+2026-07-27 18:05:01,335 DEBUG: An OpSchema was not provided for Op 'aten_tensor_int' and there is not one found in opset 'pkg.onnxscript.torch_lib'.
+2026-07-27 18:05:01,335 DEBUG: An OpSchema was not provided for Op 'aten_tile' and there is not one found in opset 'pkg.onnxscript.torch_lib'.
+2026-07-27 18:05:01,336 DEBUG: An OpSchema was not provided for Op 'aten_topk' and there is not one found in opset 'pkg.onnxscript.torch_lib'.
+2026-07-27 18:05:01,336 DEBUG: An OpSchema was not provided for Op 'aten_transpose' and there is not one found in opset 'pkg.onnxscript.torch_lib'.
+2026-07-27 18:05:01,336 DEBUG: An OpSchema was not provided for Op 'aten_transpose_complex' and there is not one found in opset 'pkg.onnxscript.torch_lib'.
+2026-07-27 18:05:01,337 DEBUG: An OpSchema was not provided for Op 'aten_tril' and there is not one found in opset 'pkg.onnxscript.torch_lib'.
+2026-07-27 18:05:01,337 DEBUG: An OpSchema was not provided for Op 'aten_triu' and there is not one found in opset 'pkg.onnxscript.torch_lib'.
+2026-07-27 18:05:01,338 DEBUG: An OpSchema was not provided for Op 'aten_trunc' and there is not one found in opset 'pkg.onnxscript.torch_lib'.
+2026-07-27 18:05:01,338 DEBUG: An OpSchema was not provided for Op 'python_math_trunc' and there is not one found in opset 'pkg.onnxscript.torch_lib'.
+2026-07-27 18:05:01,339 DEBUG: An OpSchema was not provided for Op 'aten_type_as' and there is not one found in opset 'pkg.onnxscript.torch_lib'.
+2026-07-27 18:05:01,339 DEBUG: An OpSchema was not provided for Op 'aten_unbind' and there is not one found in opset 'pkg.onnxscript.torch_lib'.
+2026-07-27 18:05:01,340 DEBUG: An OpSchema was not provided for Op 'aten_unflatten' and there is not one found in opset 'pkg.onnxscript.torch_lib'.
+2026-07-27 18:05:01,340 DEBUG: An OpSchema was not provided for Op 'aten_unfold' and there is not one found in opset 'pkg.onnxscript.torch_lib'.
+2026-07-27 18:05:01,341 DEBUG: An OpSchema was not provided for Op 'aten_unique_consecutive' and there is not one found in opset 'pkg.onnxscript.torch_lib'.
+2026-07-27 18:05:01,343 DEBUG: An OpSchema was not provided for Op 'aten__unique' and there is not one found in opset 'pkg.onnxscript.torch_lib'.
+2026-07-27 18:05:01,344 DEBUG: An OpSchema was not provided for Op 'aten__unique2' and there is not one found in opset 'pkg.onnxscript.torch_lib'.
+2026-07-27 18:05:01,345 DEBUG: An OpSchema was not provided for Op 'aten_unique_dim' and there is not one found in opset 'pkg.onnxscript.torch_lib'.
+2026-07-27 18:05:01,346 DEBUG: An OpSchema was not provided for Op 'aten_unsafe_split' and there is not one found in opset 'pkg.onnxscript.torch_lib'.
+2026-07-27 18:05:01,346 DEBUG: An OpSchema was not provided for Op 'aten_unsqueeze' and there is not one found in opset 'pkg.onnxscript.torch_lib'.
+2026-07-27 18:05:01,347 DEBUG: An OpSchema was not provided for Op 'aten_view' and there is not one found in opset 'pkg.onnxscript.torch_lib'.
+2026-07-27 18:05:01,347 DEBUG: An OpSchema was not provided for Op 'aten_view_complex' and there is not one found in opset 'pkg.onnxscript.torch_lib'.
+2026-07-27 18:05:01,348 DEBUG: An OpSchema was not provided for Op 'aten_view_as' and there is not one found in opset 'pkg.onnxscript.torch_lib'.
+2026-07-27 18:05:01,348 DEBUG: An OpSchema was not provided for Op 'aten_view_as_complex' and there is not one found in opset 'pkg.onnxscript.torch_lib'.
+2026-07-27 18:05:01,348 DEBUG: An OpSchema was not provided for Op 'aten_view_as_complex_copy' and there is not one found in opset 'pkg.onnxscript.torch_lib'.
+2026-07-27 18:05:01,349 DEBUG: An OpSchema was not provided for Op 'aten_view_as_real' and there is not one found in opset 'pkg.onnxscript.torch_lib'.
+2026-07-27 18:05:01,349 DEBUG: An OpSchema was not provided for Op 'aten_view_as_real_copy' and there is not one found in opset 'pkg.onnxscript.torch_lib'.
+2026-07-27 18:05:01,350 DEBUG: An OpSchema was not provided for Op 'aten_view_copy' and there is not one found in opset 'pkg.onnxscript.torch_lib'.
+2026-07-27 18:05:01,350 DEBUG: An OpSchema was not provided for Op 'aten_where' and there is not one found in opset 'pkg.onnxscript.torch_lib'.
+2026-07-27 18:05:01,351 DEBUG: An OpSchema was not provided for Op 'aten_zeros' and there is not one found in opset 'pkg.onnxscript.torch_lib'.
+2026-07-27 18:05:01,352 DEBUG: An OpSchema was not provided for Op 'aten_zeros_like' and there is not one found in opset 'pkg.onnxscript.torch_lib'.
+2026-07-27 18:05:01,354 DEBUG: An OpSchema was not provided for Op 'aten__fft_c2c' and there is not one found in opset 'pkg.onnxscript.torch_lib'.
+2026-07-27 18:05:01,354 DEBUG: An OpSchema was not provided for Op 'aten__fft_c2r' and there is not one found in opset 'pkg.onnxscript.torch_lib'.
+2026-07-27 18:05:01,355 DEBUG: An OpSchema was not provided for Op 'aten__fft_r2c' and there is not one found in opset 'pkg.onnxscript.torch_lib'.
+2026-07-27 18:05:01,360 DEBUG: Converter:_translate_function_def_common:aten_linalg_det
+2026-07-27 18:05:01,360 DEBUG: Converter:_bind:A
+2026-07-27 18:05:01,361 DEBUG: An OpSchema was not provided for Op 'aten_linalg_det' and there is not one found in opset 'pkg.onnxscript.torch_lib'.
+2026-07-27 18:05:01,361 DEBUG: An OpSchema was not provided for Op 'aten_linalg_vector_norm' and there is not one found in opset 'pkg.onnxscript.torch_lib'.
+2026-07-27 18:05:01,366 DEBUG: An OpSchema was not provided for Op 'aten_avg_pool1d' and there is not one found in opset 'pkg.onnxscript.torch_lib'.
+2026-07-27 18:05:01,366 DEBUG: An OpSchema was not provided for Op 'aten_avg_pool2d' and there is not one found in opset 'pkg.onnxscript.torch_lib'.
+2026-07-27 18:05:01,367 DEBUG: An OpSchema was not provided for Op 'aten_avg_pool3d' and there is not one found in opset 'pkg.onnxscript.torch_lib'.
+2026-07-27 18:05:01,368 DEBUG: An OpSchema was not provided for Op 'aten_celu' and there is not one found in opset 'pkg.onnxscript.torch_lib'.
+2026-07-27 18:05:01,369 DEBUG: An OpSchema was not provided for Op 'aten_col2im' and there is not one found in opset 'pkg.onnxscript.torch_lib'.
+2026-07-27 18:05:01,369 DEBUG: An OpSchema was not provided for Op 'aten_cross_entropy_loss' and there is not one found in opset 'pkg.onnxscript.torch_lib'.
+2026-07-27 18:05:01,370 DEBUG: An OpSchema was not provided for Op 'aten_elu' and there is not one found in opset 'pkg.onnxscript.torch_lib'.
+2026-07-27 18:05:01,370 DEBUG: An OpSchema was not provided for Op 'aten_gelu' and there is not one found in opset 'pkg.onnxscript.torch_lib'.
+2026-07-27 18:05:01,373 DEBUG: Converter:_translate_function_def_common:aten_glu
+2026-07-27 18:05:01,373 DEBUG: Converter:_bind:self
+2026-07-27 18:05:01,374 DEBUG: Converter:_bind:dim
+2026-07-27 18:05:01,375 DEBUG: Converter:_bind:first
+2026-07-27 18:05:01,375 DEBUG: Converter:_bind:second
+2026-07-27 18:05:01,376 DEBUG: Converter:_bind:result
+2026-07-27 18:05:01,376 DEBUG: An OpSchema was not provided for Op 'aten_glu' and there is not one found in opset 'pkg.onnxscript.torch_lib'.
+2026-07-27 18:05:01,377 DEBUG: An OpSchema was not provided for Op 'aten_group_norm' and there is not one found in opset 'pkg.onnxscript.torch_lib'.
+2026-07-27 18:05:01,378 DEBUG: An OpSchema was not provided for Op 'aten_hardsigmoid' and there is not one found in opset 'pkg.onnxscript.torch_lib'.
+2026-07-27 18:05:01,379 DEBUG: Converter:_translate_function_def_common:aten_hardswish
+2026-07-27 18:05:01,379 DEBUG: Converter:_bind:self
+2026-07-27 18:05:01,380 DEBUG: An OpSchema was not provided for Op 'aten_hardswish' and there is not one found in opset 'pkg.onnxscript.torch_lib'.
+2026-07-27 18:05:01,381 DEBUG: Converter:_translate_function_def_common:aten_hardtanh
+2026-07-27 18:05:01,381 DEBUG: Converter:_bind:self
+2026-07-27 18:05:01,382 DEBUG: Converter:_bind:min_val
+2026-07-27 18:05:01,382 DEBUG: Converter:_bind:max_val
+2026-07-27 18:05:01,383 DEBUG: An OpSchema was not provided for Op 'aten_hardtanh' and there is not one found in opset 'pkg.onnxscript.torch_lib'.
+2026-07-27 18:05:01,383 DEBUG: An OpSchema was not provided for Op 'aten_hardtanh_backward' and there is not one found in opset 'pkg.onnxscript.torch_lib'.
+2026-07-27 18:05:01,384 DEBUG: An OpSchema was not provided for Op 'aten_im2col' and there is not one found in opset 'pkg.onnxscript.torch_lib'.
+2026-07-27 18:05:01,385 DEBUG: An OpSchema was not provided for Op 'aten_leaky_relu' and there is not one found in opset 'pkg.onnxscript.torch_lib'.
+2026-07-27 18:05:01,385 DEBUG: An OpSchema was not provided for Op 'aten_linear' and there is not one found in opset 'pkg.onnxscript.torch_lib'.
+2026-07-27 18:05:01,386 DEBUG: Converter:_translate_function_def_common:aten_log_sigmoid
+2026-07-27 18:05:01,386 DEBUG: Converter:_bind:self
+2026-07-27 18:05:01,387 DEBUG: An OpSchema was not provided for Op 'aten_log_sigmoid' and there is not one found in opset 'pkg.onnxscript.torch_lib'.
+2026-07-27 18:05:01,387 DEBUG: An OpSchema was not provided for Op 'aten_max_pool1d' and there is not one found in opset 'pkg.onnxscript.torch_lib'.
+2026-07-27 18:05:01,388 DEBUG: An OpSchema was not provided for Op 'aten_max_pool1d_with_indices' and there is not one found in opset 'pkg.onnxscript.torch_lib'.
+2026-07-27 18:05:01,388 DEBUG: An OpSchema was not provided for Op 'aten_max_pool2d' and there is not one found in opset 'pkg.onnxscript.torch_lib'.
+2026-07-27 18:05:01,390 DEBUG: An OpSchema was not provided for Op 'aten_max_pool3d' and there is not one found in opset 'pkg.onnxscript.torch_lib'.
+2026-07-27 18:05:01,391 DEBUG: An OpSchema was not provided for Op 'aten_max_pool2d_with_indices' and there is not one found in opset 'pkg.onnxscript.torch_lib'.
+2026-07-27 18:05:01,391 DEBUG: An OpSchema was not provided for Op 'aten_max_pool3d_with_indices' and there is not one found in opset 'pkg.onnxscript.torch_lib'.
+2026-07-27 18:05:01,393 DEBUG: Converter:_translate_function_def_common:aten_mish
+2026-07-27 18:05:01,394 DEBUG: Converter:_bind:self
+2026-07-27 18:05:01,394 DEBUG: An OpSchema was not provided for Op 'aten_mish' and there is not one found in opset 'pkg.onnxscript.torch_lib'.
+2026-07-27 18:05:01,395 DEBUG: An OpSchema was not provided for Op 'aten_mse_loss' and there is not one found in opset 'pkg.onnxscript.torch_lib'.
+2026-07-27 18:05:01,395 DEBUG: An OpSchema was not provided for Op 'aten_nll_loss' and there is not one found in opset 'pkg.onnxscript.torch_lib'.
+2026-07-27 18:05:01,396 DEBUG: An OpSchema was not provided for Op 'aten_nll_loss_forward' and there is not one found in opset 'pkg.onnxscript.torch_lib'.
+2026-07-27 18:05:01,397 DEBUG: An OpSchema was not provided for Op 'aten_pad' and there is not one found in opset 'pkg.onnxscript.torch_lib'.
+2026-07-27 18:05:01,398 DEBUG: An OpSchema was not provided for Op 'aten_reflection_pad1d' and there is not one found in opset 'pkg.onnxscript.torch_lib'.
+2026-07-27 18:05:01,398 DEBUG: An OpSchema was not provided for Op 'aten_reflection_pad2d' and there is not one found in opset 'pkg.onnxscript.torch_lib'.
+2026-07-27 18:05:01,399 DEBUG: An OpSchema was not provided for Op 'aten_reflection_pad3d' and there is not one found in opset 'pkg.onnxscript.torch_lib'.
+2026-07-27 18:05:01,399 DEBUG: An OpSchema was not provided for Op 'aten_relu' and there is not one found in opset 'pkg.onnxscript.torch_lib'.
+2026-07-27 18:05:01,400 DEBUG: An OpSchema was not provided for Op 'aten_relu6' and there is not one found in opset 'pkg.onnxscript.torch_lib'.
+2026-07-27 18:05:01,400 DEBUG: An OpSchema was not provided for Op 'aten_replication_pad1d' and there is not one found in opset 'pkg.onnxscript.torch_lib'.
+2026-07-27 18:05:01,402 DEBUG: An OpSchema was not provided for Op 'aten_replication_pad2d' and there is not one found in opset 'pkg.onnxscript.torch_lib'.
+2026-07-27 18:05:01,402 DEBUG: An OpSchema was not provided for Op 'aten_replication_pad3d' and there is not one found in opset 'pkg.onnxscript.torch_lib'.
+2026-07-27 18:05:01,403 DEBUG: An OpSchema was not provided for Op 'aten_scaled_dot_product_attention' and there is not one found in opset 'pkg.onnxscript.torch_lib'.
+2026-07-27 18:05:01,404 DEBUG: An OpSchema was not provided for Op 'aten__scaled_dot_product_flash_attention' and there is not one found in opset 'pkg.onnxscript.torch_lib'.
+2026-07-27 18:05:01,405 DEBUG: An OpSchema was not provided for Op 'aten__scaled_dot_product_flash_attention_for_cpu' and there is not one found in opset 'pkg.onnxscript.torch_lib'.
+2026-07-27 18:05:01,406 DEBUG: An OpSchema was not provided for Op 'aten__scaled_dot_product_efficient_attention' and there is not one found in opset 'pkg.onnxscript.torch_lib'.
+2026-07-27 18:05:01,407 DEBUG: An OpSchema was not provided for Op 'aten_silu' and there is not one found in opset 'pkg.onnxscript.torch_lib'.
+2026-07-27 18:05:01,410 DEBUG: Converter:_translate_function_def_common:aten_softplus
+2026-07-27 18:05:01,411 DEBUG: Converter:_bind:self
+2026-07-27 18:05:01,411 DEBUG: Converter:_bind:beta
+2026-07-27 18:05:01,412 DEBUG: Converter:_bind:threshold
+2026-07-27 18:05:01,413 DEBUG: Converter:_bind:self_scaled
+2026-07-27 18:05:01,413 DEBUG: Converter:_bind:softplus
+2026-07-27 18:05:01,415 DEBUG: An OpSchema was not provided for Op 'aten_softplus' and there is not one found in opset 'pkg.onnxscript.torch_lib'.
+2026-07-27 18:05:01,417 DEBUG: An OpSchema was not provided for Op 'aten_upsample_bicubic2d' and there is not one found in opset 'pkg.onnxscript.torch_lib'.
+2026-07-27 18:05:01,418 DEBUG: An OpSchema was not provided for Op 'aten__upsample_bicubic2d_aa' and there is not one found in opset 'pkg.onnxscript.torch_lib'.
+2026-07-27 18:05:01,418 DEBUG: An OpSchema was not provided for Op 'aten_upsample_bicubic2d_vec' and there is not one found in opset 'pkg.onnxscript.torch_lib'.
+2026-07-27 18:05:01,419 DEBUG: An OpSchema was not provided for Op 'aten_upsample_bilinear2d' and there is not one found in opset 'pkg.onnxscript.torch_lib'.
+2026-07-27 18:05:01,420 DEBUG: An OpSchema was not provided for Op 'aten__upsample_bilinear2d_aa' and there is not one found in opset 'pkg.onnxscript.torch_lib'.
+2026-07-27 18:05:01,422 DEBUG: An OpSchema was not provided for Op 'aten_upsample_bilinear2d_vec' and there is not one found in opset 'pkg.onnxscript.torch_lib'.
+2026-07-27 18:05:01,423 DEBUG: An OpSchema was not provided for Op 'aten_upsample_linear1d' and there is not one found in opset 'pkg.onnxscript.torch_lib'.
+2026-07-27 18:05:01,424 DEBUG: An OpSchema was not provided for Op 'aten_upsample_nearest1d' and there is not one found in opset 'pkg.onnxscript.torch_lib'.
+2026-07-27 18:05:01,425 DEBUG: An OpSchema was not provided for Op 'aten_upsample_nearestnd_vec' and there is not one found in opset 'pkg.onnxscript.torch_lib'.
+2026-07-27 18:05:01,427 DEBUG: An OpSchema was not provided for Op 'aten_upsample_nearest2d' and there is not one found in opset 'pkg.onnxscript.torch_lib'.
+2026-07-27 18:05:01,428 DEBUG: An OpSchema was not provided for Op 'aten_upsample_nearest3d' and there is not one found in opset 'pkg.onnxscript.torch_lib'.
+2026-07-27 18:05:01,429 DEBUG: An OpSchema was not provided for Op 'aten_upsample_trilinear3d' and there is not one found in opset 'pkg.onnxscript.torch_lib'.
+2026-07-27 18:05:01,430 DEBUG: An OpSchema was not provided for Op 'aten_upsample_trilinear3d_vec' and there is not one found in opset 'pkg.onnxscript.torch_lib'.
+2026-07-27 18:05:01,434 DEBUG: An OpSchema was not provided for Op 'prims_abs' and there is not one found in opset 'pkg.onnxscript.torch_lib'.
+2026-07-27 18:05:01,435 DEBUG: An OpSchema was not provided for Op 'prims_acos' and there is not one found in opset 'pkg.onnxscript.torch_lib'.
+2026-07-27 18:05:01,436 DEBUG: An OpSchema was not provided for Op 'prims_acosh' and there is not one found in opset 'pkg.onnxscript.torch_lib'.
+2026-07-27 18:05:01,436 DEBUG: An OpSchema was not provided for Op 'prims_add' and there is not one found in opset 'pkg.onnxscript.torch_lib'.
+2026-07-27 18:05:01,437 DEBUG: An OpSchema was not provided for Op 'prims_asin' and there is not one found in opset 'pkg.onnxscript.torch_lib'.
+2026-07-27 18:05:01,437 DEBUG: An OpSchema was not provided for Op 'prims_asinh' and there is not one found in opset 'pkg.onnxscript.torch_lib'.
+2026-07-27 18:05:01,438 DEBUG: An OpSchema was not provided for Op 'prims_atan' and there is not one found in opset 'pkg.onnxscript.torch_lib'.
+2026-07-27 18:05:01,438 DEBUG: An OpSchema was not provided for Op 'prims_atanh' and there is not one found in opset 'pkg.onnxscript.torch_lib'.
+2026-07-27 18:05:01,438 DEBUG: An OpSchema was not provided for Op 'prims_broadcast_in_dim' and there is not one found in opset 'pkg.onnxscript.torch_lib'.
+2026-07-27 18:05:01,439 DEBUG: An OpSchema was not provided for Op 'prims_ceil' and there is not one found in opset 'pkg.onnxscript.torch_lib'.
+2026-07-27 18:05:01,439 DEBUG: An OpSchema was not provided for Op 'prims_convert_element_type' and there is not one found in opset 'pkg.onnxscript.torch_lib'.
+2026-07-27 18:05:01,440 DEBUG: An OpSchema was not provided for Op 'prims_cos' and there is not one found in opset 'pkg.onnxscript.torch_lib'.
+2026-07-27 18:05:01,440 DEBUG: An OpSchema was not provided for Op 'prims_cosh' and there is not one found in opset 'pkg.onnxscript.torch_lib'.
+2026-07-27 18:05:01,443 DEBUG: Converter:_translate_function_def_common:prims_device_put
+2026-07-27 18:05:01,444 DEBUG: Converter:_bind:a
+2026-07-27 18:05:01,444 DEBUG: Converter:_bind:device
+2026-07-27 18:05:01,445 DEBUG: An OpSchema was not provided for Op 'prims_device_put' and there is not one found in opset 'pkg.onnxscript.torch_lib'.
+2026-07-27 18:05:01,446 DEBUG: An OpSchema was not provided for Op 'prims_div' and there is not one found in opset 'pkg.onnxscript.torch_lib'.
+2026-07-27 18:05:01,446 DEBUG: An OpSchema was not provided for Op 'prims_eq' and there is not one found in opset 'pkg.onnxscript.torch_lib'.
+2026-07-27 18:05:01,447 DEBUG: An OpSchema was not provided for Op 'prims_erf' and there is not one found in opset 'pkg.onnxscript.torch_lib'.
+2026-07-27 18:05:01,447 DEBUG: An OpSchema was not provided for Op 'prims_exp' and there is not one found in opset 'pkg.onnxscript.torch_lib'.
+2026-07-27 18:05:01,447 DEBUG: An OpSchema was not provided for Op 'prims_floor' and there is not one found in opset 'pkg.onnxscript.torch_lib'.
+2026-07-27 18:05:01,448 DEBUG: An OpSchema was not provided for Op 'prims_ge' and there is not one found in opset 'pkg.onnxscript.torch_lib'.
+2026-07-27 18:05:01,448 DEBUG: An OpSchema was not provided for Op 'prims_gt' and there is not one found in opset 'pkg.onnxscript.torch_lib'.
+2026-07-27 18:05:01,449 DEBUG: An OpSchema was not provided for Op 'prims_le' and there is not one found in opset 'pkg.onnxscript.torch_lib'.
+2026-07-27 18:05:01,449 DEBUG: An OpSchema was not provided for Op 'prims_log' and there is not one found in opset 'pkg.onnxscript.torch_lib'.
+2026-07-27 18:05:01,449 DEBUG: An OpSchema was not provided for Op 'prims_lt' and there is not one found in opset 'pkg.onnxscript.torch_lib'.
+2026-07-27 18:05:01,450 DEBUG: An OpSchema was not provided for Op 'prims_mul' and there is not one found in opset 'pkg.onnxscript.torch_lib'.
+2026-07-27 18:05:01,450 DEBUG: An OpSchema was not provided for Op 'prims_ne' and there is not one found in opset 'pkg.onnxscript.torch_lib'.
+2026-07-27 18:05:01,451 DEBUG: An OpSchema was not provided for Op 'prims_neg' and there is not one found in opset 'pkg.onnxscript.torch_lib'.
+2026-07-27 18:05:01,451 DEBUG: An OpSchema was not provided for Op 'prims_pow' and there is not one found in opset 'pkg.onnxscript.torch_lib'.
+2026-07-27 18:05:01,452 DEBUG: An OpSchema was not provided for Op 'prims_reshape' and there is not one found in opset 'pkg.onnxscript.torch_lib'.
+2026-07-27 18:05:01,453 DEBUG: An OpSchema was not provided for Op 'prims_resize' and there is not one found in opset 'pkg.onnxscript.torch_lib'.
+2026-07-27 18:05:01,453 DEBUG: An OpSchema was not provided for Op 'prims_round' and there is not one found in opset 'pkg.onnxscript.torch_lib'.
+2026-07-27 18:05:01,454 DEBUG: An OpSchema was not provided for Op 'prims_sin' and there is not one found in opset 'pkg.onnxscript.torch_lib'.
+2026-07-27 18:05:01,454 DEBUG: An OpSchema was not provided for Op 'prims_sinh' and there is not one found in opset 'pkg.onnxscript.torch_lib'.
+2026-07-27 18:05:01,455 DEBUG: An OpSchema was not provided for Op 'prims_sqrt' and there is not one found in opset 'pkg.onnxscript.torch_lib'.
+2026-07-27 18:05:01,455 DEBUG: An OpSchema was not provided for Op 'prims_squeeze' and there is not one found in opset 'pkg.onnxscript.torch_lib'.
+2026-07-27 18:05:01,456 DEBUG: An OpSchema was not provided for Op 'prims_sub' and there is not one found in opset 'pkg.onnxscript.torch_lib'.
+2026-07-27 18:05:01,457 DEBUG: An OpSchema was not provided for Op 'prims_sum' and there is not one found in opset 'pkg.onnxscript.torch_lib'.
+2026-07-27 18:05:01,458 DEBUG: An OpSchema was not provided for Op 'prims_tan' and there is not one found in opset 'pkg.onnxscript.torch_lib'.
+2026-07-27 18:05:01,458 DEBUG: An OpSchema was not provided for Op 'prims_tanh' and there is not one found in opset 'pkg.onnxscript.torch_lib'.
+2026-07-27 18:05:01,459 DEBUG: An OpSchema was not provided for Op 'prims_transpose' and there is not one found in opset 'pkg.onnxscript.torch_lib'.
+2026-07-27 18:05:01,460 DEBUG: An OpSchema was not provided for Op 'prims_var' and there is not one found in opset 'pkg.onnxscript.torch_lib'.
+2026-07-27 18:05:01,461 DEBUG: An OpSchema was not provided for Op 'prims_where' and there is not one found in opset 'pkg.onnxscript.torch_lib'.
+2026-07-27 18:05:01,464 DEBUG: An OpSchema was not provided for Op 'quantized_decomposed_quantize_per_tensor' and there is not one found in opset 'pkg.onnxscript.torch_lib'.
+2026-07-27 18:05:01,465 DEBUG: An OpSchema was not provided for Op 'quantized_decomposed_dequantize_per_tensor' and there is not one found in opset 'pkg.onnxscript.torch_lib'.
+2026-07-27 18:05:01,466 DEBUG: An OpSchema was not provided for Op 'quantized_decomposed_quantize_per_channel' and there is not one found in opset 'pkg.onnxscript.torch_lib'.
+2026-07-27 18:05:01,467 DEBUG: An OpSchema was not provided for Op 'quantized_decomposed_dequantize_per_channel' and there is not one found in opset 'pkg.onnxscript.torch_lib'.
+2026-07-27 18:05:01,473 DEBUG: Converter:_translate_function_def_common:aten_special_erf
+2026-07-27 18:05:01,474 DEBUG: Converter:_bind:self
+2026-07-27 18:05:01,474 DEBUG: An OpSchema was not provided for Op 'aten_special_erf' and there is not one found in opset 'pkg.onnxscript.torch_lib'.
+2026-07-27 18:05:01,476 DEBUG: Converter:_translate_function_def_common:aten_special_erfc
+2026-07-27 18:05:01,476 DEBUG: Converter:_bind:self
+2026-07-27 18:05:01,477 DEBUG: An OpSchema was not provided for Op 'aten_special_erfc' and there is not one found in opset 'pkg.onnxscript.torch_lib'.
+2026-07-27 18:05:01,479 DEBUG: Converter:_translate_function_def_common:aten_special_erfcx
+2026-07-27 18:05:01,479 DEBUG: Converter:_bind:self
+2026-07-27 18:05:01,481 DEBUG: An OpSchema was not provided for Op 'aten_special_erfcx' and there is not one found in opset 'pkg.onnxscript.torch_lib'.
+2026-07-27 18:05:01,483 DEBUG: Converter:_translate_function_def_common:aten_special_expm1
+2026-07-27 18:05:01,483 DEBUG: Converter:_bind:self
+2026-07-27 18:05:01,484 DEBUG: An OpSchema was not provided for Op 'aten_special_expm1' and there is not one found in opset 'pkg.onnxscript.torch_lib'.
+2026-07-27 18:05:01,485 DEBUG: An OpSchema was not provided for Op 'aten_special_log_softmax' and there is not one found in opset 'pkg.onnxscript.torch_lib'.
+2026-07-27 18:05:01,487 DEBUG: Converter:_translate_function_def_common:aten_special_sinc
+2026-07-27 18:05:01,487 DEBUG: Converter:_bind:self
+2026-07-27 18:05:01,488 DEBUG: Converter:_bind:pi_self
+2026-07-27 18:05:01,489 DEBUG: An OpSchema was not provided for Op 'aten_special_sinc' and there is not one found in opset 'pkg.onnxscript.torch_lib'.
+2026-07-27 18:05:01,491 DEBUG: Converter:_translate_function_def_common:aten_special_xlogy
+2026-07-27 18:05:01,492 DEBUG: Converter:_bind:self
+2026-07-27 18:05:01,492 DEBUG: Converter:_bind:other
+2026-07-27 18:05:01,493 DEBUG: Converter:_bind:nans
+2026-07-27 18:05:01,494 DEBUG: Converter:_bind:zeros
+2026-07-27 18:05:01,495 DEBUG: Converter:_bind:xlogy
+2026-07-27 18:05:01,496 DEBUG: Converter:_bind:xlogy_with_nans
+2026-07-27 18:05:01,496 DEBUG: An OpSchema was not provided for Op 'aten_special_xlogy' and there is not one found in opset 'pkg.onnxscript.torch_lib'.
+2026-07-27 18:05:01,500 DEBUG: An OpSchema was not provided for Op 'torchvision_nms' and there is not one found in opset 'pkg.onnxscript.torch_lib'.
+2026-07-27 18:05:01,500 DEBUG: An OpSchema was not provided for Op 'torchvision_roi_align' and there is not one found in opset 'pkg.onnxscript.torch_lib'.
+2026-07-27 18:05:01,501 DEBUG: Missing annotation for parameter 'input' from (input, rois, spatial_scale: 'float', pooled_height: 'int', pooled_width: 'int', sampling_ratio: 'int' = -1, aligned: 'bool' = False). Treating as an Input.
+2026-07-27 18:05:01,501 DEBUG: Missing annotation for parameter 'rois' from (input, rois, spatial_scale: 'float', pooled_height: 'int', pooled_width: 'int', sampling_ratio: 'int' = -1, aligned: 'bool' = False). Treating as an Input.
+2026-07-27 18:05:01,502 DEBUG: An OpSchema was not provided for Op 'torchvision_roi_pool' and there is not one found in opset 'pkg.onnxscript.torch_lib'.
+2026-07-27 18:05:01,502 DEBUG: Missing annotation for parameter 'input' from (input, boxes, output_size: 'Sequence[int]', spatial_scale: 'float' = 1.0). Treating as an Input.
+2026-07-27 18:05:01,503 DEBUG: Missing annotation for parameter 'boxes' from (input, boxes, output_size: 'Sequence[int]', spatial_scale: 'float' = 1.0). Treating as an Input.
+2026-07-27 18:05:01,503 DEBUG: An OpSchema was not provided for Op 'torchvision_deform_conv2d' and there is not one found in opset 'pkg.onnxscript.torch_lib'.
+2026-07-27 18:05:01,505 DEBUG: Converter:_bind:self
+2026-07-27 18:05:01,507 DEBUG: Converter:_bind:self
+2026-07-27 18:05:01,507 DEBUG: Converter:_bind:dim
+2026-07-27 18:05:01,508 DEBUG: Converter:_bind:half_to_float
+2026-07-27 18:05:01,510 DEBUG: Converter:_bind:self
+2026-07-27 18:05:01,510 DEBUG: Converter:_bind:dim
+2026-07-27 18:05:01,511 DEBUG: Converter:_bind:half_to_float
+2026-07-27 18:05:01,513 DEBUG: Converter:_bind:self
+2026-07-27 18:05:01,515 DEBUG: Converter:_bind:self
+2026-07-27 18:05:01,517 DEBUG: Converter:_bind:self
+2026-07-27 18:05:01,518 DEBUG: Converter:_bind:self
+2026-07-27 18:05:01,519 DEBUG: Converter:_bind:self
+2026-07-27 18:05:01,521 DEBUG: Converter:_bind:self
+2026-07-27 18:05:01,521 DEBUG: Converter:_bind:other
+2026-07-27 18:05:01,521 DEBUG: Converter:_bind:alpha
+2026-07-27 18:05:01,522 DEBUG: Converter:_bind:self
+2026-07-27 18:05:01,523 DEBUG: Converter:_bind:other
+2026-07-27 18:05:01,523 DEBUG: Converter:_bind:alpha
+2026-07-27 18:05:01,524 DEBUG: Converter:_bind:self
+2026-07-27 18:05:01,525 DEBUG: Converter:_bind:other
+2026-07-27 18:05:01,525 DEBUG: Converter:_bind:alpha
+2026-07-27 18:05:01,527 DEBUG: Converter:_bind:self
+2026-07-27 18:05:01,528 DEBUG: Converter:_bind:other
+2026-07-27 18:05:01,528 DEBUG: Converter:_bind:alpha
+2026-07-27 18:05:01,532 DEBUG: Converter:_bind:self
+2026-07-27 18:05:01,533 DEBUG: Converter:_bind:other
+2026-07-27 18:05:01,537 DEBUG: Converter:_bind:self
+2026-07-27 18:05:01,537 DEBUG: Converter:_bind:mat1
+2026-07-27 18:05:01,538 DEBUG: Converter:_bind:mat2
+2026-07-27 18:05:01,538 DEBUG: Converter:_bind:beta
+2026-07-27 18:05:01,538 DEBUG: Converter:_bind:alpha
+2026-07-27 18:05:01,540 DEBUG: Converter:_bind:self
+2026-07-27 18:05:01,541 DEBUG: Converter:_bind:vec1
+2026-07-27 18:05:01,541 DEBUG: Converter:_bind:vec2
+2026-07-27 18:05:01,542 DEBUG: Converter:_bind:beta
+2026-07-27 18:05:01,545 DEBUG: Converter:_bind:alpha
+2026-07-27 18:05:01,547 DEBUG: Converter:_bind:self
+2026-07-27 18:05:01,550 DEBUG: Converter:_bind:self
+2026-07-27 18:05:01,553 DEBUG: Converter:_bind:self
+2026-07-27 18:05:01,553 DEBUG: Converter:_bind:dim
+2026-07-27 18:05:01,554 DEBUG: Converter:_bind:keepdim
+2026-07-27 18:05:01,555 DEBUG: Converter:_bind:self
+2026-07-27 18:05:01,556 DEBUG: Converter:_bind:dim
+2026-07-27 18:05:01,556 DEBUG: Converter:_bind:keepdim
+2026-07-27 18:05:01,558 DEBUG: Converter:_bind:self
+2026-07-27 18:05:01,562 DEBUG: Converter:_bind:self
+2026-07-27 18:05:01,564 DEBUG: Converter:_bind:self
+2026-07-27 18:05:01,567 DEBUG: Converter:_bind:self
+2026-07-27 18:05:01,567 DEBUG: Converter:_bind:dim
+2026-07-27 18:05:01,568 DEBUG: Converter:_bind:keepdim
+2026-07-27 18:05:01,570 DEBUG: Converter:_bind:self
+2026-07-27 18:05:01,570 DEBUG: Converter:_bind:dim
+2026-07-27 18:05:01,570 DEBUG: Converter:_bind:keepdim
+2026-07-27 18:05:01,575 DEBUG: Converter:_bind:end
+2026-07-27 18:05:01,576 DEBUG: Converter:_bind:dtype
+2026-07-27 18:05:01,577 DEBUG: Converter:_bind:layout
+2026-07-27 18:05:01,578 DEBUG: Converter:_bind:device
+2026-07-27 18:05:01,579 DEBUG: Converter:_bind:pin_memory
+2026-07-27 18:05:01,583 DEBUG: Converter:_bind:start
+2026-07-27 18:05:01,583 DEBUG: Converter:_bind:end
+2026-07-27 18:05:01,584 DEBUG: Converter:_bind:dtype
+2026-07-27 18:05:01,584 DEBUG: Converter:_bind:layout
+2026-07-27 18:05:01,585 DEBUG: Converter:_bind:device
+2026-07-27 18:05:01,585 DEBUG: Converter:_bind:pin_memory
+2026-07-27 18:05:01,590 DEBUG: Converter:_bind:start
+2026-07-27 18:05:01,591 DEBUG: Converter:_bind:end
+2026-07-27 18:05:01,591 DEBUG: Converter:_bind:step
+2026-07-27 18:05:01,593 DEBUG: Converter:_bind:dtype
+2026-07-27 18:05:01,595 DEBUG: Converter:_bind:layout
+2026-07-27 18:05:01,595 DEBUG: Converter:_bind:device
+2026-07-27 18:05:01,596 DEBUG: Converter:_bind:pin_memory
+2026-07-27 18:05:01,600 DEBUG: Converter:_bind:self
+2026-07-27 18:05:01,601 DEBUG: Converter:_bind:dim
+2026-07-27 18:05:01,601 DEBUG: Converter:_bind:keepdim
+2026-07-27 18:05:01,604 DEBUG: Converter:_bind:self
+2026-07-27 18:05:01,605 DEBUG: Converter:_bind:dim
+2026-07-27 18:05:01,605 DEBUG: Converter:_bind:keepdim
+2026-07-27 18:05:01,608 DEBUG: Converter:_bind:self
+2026-07-27 18:05:01,609 DEBUG: Converter:_bind:size
+2026-07-27 18:05:01,609 DEBUG: Converter:_bind:stride
+2026-07-27 18:05:01,610 DEBUG: Converter:_bind:storage_offset
+2026-07-27 18:05:01,613 DEBUG: Converter:_bind:self
+2026-07-27 18:05:01,614 DEBUG: Converter:_bind:self
+2026-07-27 18:05:01,615 DEBUG: Converter:_bind:self
+2026-07-27 18:05:01,616 DEBUG: Converter:_bind:self
+2026-07-27 18:05:01,616 DEBUG: Converter:_bind:other
+2026-07-27 18:05:01,618 DEBUG: Converter:_bind:self
+2026-07-27 18:05:01,619 DEBUG: Converter:_bind:self
+2026-07-27 18:05:01,621 DEBUG: Converter:_bind:self
+2026-07-27 18:05:01,625 DEBUG: Converter:_bind:self
+2026-07-27 18:05:01,627 DEBUG: Converter:_bind:self
+2026-07-27 18:05:01,628 DEBUG: Converter:_bind:batch1
+2026-07-27 18:05:01,629 DEBUG: Converter:_bind:batch2
+2026-07-27 18:05:01,630 DEBUG: Converter:_bind:beta
+2026-07-27 18:05:01,631 DEBUG: Converter:_bind:alpha
+2026-07-27 18:05:01,633 DEBUG: Converter:_bind:self
+2026-07-27 18:05:01,635 DEBUG: Converter:_bind:input1
+2026-07-27 18:05:01,635 DEBUG: Converter:_bind:input2
+2026-07-27 18:05:01,636 DEBUG: Converter:_bind:weight
+2026-07-27 18:05:01,636 DEBUG: Converter:_bind:bias
+2026-07-27 18:05:01,638 DEBUG: Converter:_bind:self
+2026-07-27 18:05:01,639 DEBUG: Converter:_bind:other
+2026-07-27 18:05:01,640 DEBUG: Converter:_bind:self
+2026-07-27 18:05:01,641 DEBUG: Converter:_bind:other
+2026-07-27 18:05:01,643 DEBUG: Converter:_bind:self
+2026-07-27 18:05:01,643 DEBUG: Converter:_bind:other
+2026-07-27 18:05:01,645 DEBUG: Converter:_bind:self
+2026-07-27 18:05:01,645 DEBUG: Converter:_bind:other
+2026-07-27 18:05:01,648 DEBUG: Converter:_bind:self
+2026-07-27 18:05:01,648 DEBUG: Converter:_bind:other
+2026-07-27 18:05:01,650 DEBUG: Converter:_bind:self
+2026-07-27 18:05:01,651 DEBUG: Converter:_bind:other
+2026-07-27 18:05:01,652 DEBUG: Converter:_bind:self
+2026-07-27 18:05:01,652 DEBUG: Converter:_bind:other
+2026-07-27 18:05:01,654 DEBUG: Converter:_bind:self
+2026-07-27 18:05:01,654 DEBUG: Converter:_bind:other
+2026-07-27 18:05:01,655 DEBUG: Converter:_bind:self
+2026-07-27 18:05:01,655 DEBUG: Converter:_bind:other
+2026-07-27 18:05:01,656 DEBUG: Converter:_bind:self
+2026-07-27 18:05:01,658 DEBUG: Converter:_bind:self
+2026-07-27 18:05:01,658 DEBUG: Converter:_bind:other
+2026-07-27 18:05:01,660 DEBUG: Converter:_bind:self
+2026-07-27 18:05:01,661 DEBUG: Converter:_bind:other
+2026-07-27 18:05:01,663 DEBUG: Converter:_bind:self
+2026-07-27 18:05:01,663 DEBUG: Converter:_bind:other
+2026-07-27 18:05:01,664 DEBUG: Converter:_bind:self
+2026-07-27 18:05:01,665 DEBUG: Converter:_bind:other
+2026-07-27 18:05:01,669 DEBUG: Converter:_bind:self
+2026-07-27 18:05:01,669 DEBUG: Converter:_bind:other
+2026-07-27 18:05:01,673 DEBUG: Converter:_bind:self
+2026-07-27 18:05:01,673 DEBUG: Converter:_bind:other
+2026-07-27 18:05:01,675 DEBUG: Converter:_bind:self
+2026-07-27 18:05:01,675 DEBUG: Converter:_bind:other
+2026-07-27 18:05:01,677 DEBUG: Converter:_bind:self
+2026-07-27 18:05:01,678 DEBUG: Converter:_bind:other
+2026-07-27 18:05:01,679 DEBUG: Converter:_bind:self
+2026-07-27 18:05:01,680 DEBUG: Converter:_bind:other
+2026-07-27 18:05:01,681 DEBUG: Converter:_bind:self
+2026-07-27 18:05:01,682 DEBUG: Converter:_bind:other
+2026-07-27 18:05:01,683 DEBUG: Converter:_bind:self
+2026-07-27 18:05:01,684 DEBUG: Converter:_bind:other
+2026-07-27 18:05:01,686 DEBUG: Converter:_bind:self
+2026-07-27 18:05:01,686 DEBUG: Converter:_bind:other
+2026-07-27 18:05:01,687 DEBUG: Converter:_bind:window_length
+2026-07-27 18:05:01,688 DEBUG: Converter:_bind:dtype
+2026-07-27 18:05:01,688 DEBUG: Converter:_bind:layout
+2026-07-27 18:05:01,689 DEBUG: Converter:_bind:device
+2026-07-27 18:05:01,689 DEBUG: Converter:_bind:pin_memory
+2026-07-27 18:05:01,691 DEBUG: Converter:_bind:self
+2026-07-27 18:05:01,691 DEBUG: Converter:_bind:mat2
+2026-07-27 18:05:01,692 DEBUG: Converter:_bind:self
+2026-07-27 18:05:01,693 DEBUG: Converter:_bind:size
+2026-07-27 18:05:01,695 DEBUG: Converter:_bind:tensors
+2026-07-27 18:05:01,695 DEBUG: Converter:_bind:dim
+2026-07-27 18:05:01,697 DEBUG: Converter:_bind:tensors
+2026-07-27 18:05:01,698 DEBUG: Converter:_bind:dim
+2026-07-27 18:05:01,699 DEBUG: Converter:_bind:tensors
+2026-07-27 18:05:01,700 DEBUG: Converter:_bind:dim
+2026-07-27 18:05:01,702 DEBUG: Converter:_bind:tensors
+2026-07-27 18:05:01,702 DEBUG: Converter:_bind:dim
+2026-07-27 18:05:01,704 DEBUG: Converter:_bind:tensors
+2026-07-27 18:05:01,704 DEBUG: Converter:_bind:dim
+2026-07-27 18:05:01,706 DEBUG: Converter:_bind:tensors
+2026-07-27 18:05:01,707 DEBUG: Converter:_bind:dim
+2026-07-27 18:05:01,708 DEBUG: Converter:_bind:self
+2026-07-27 18:05:01,710 DEBUG: Converter:_bind:self
+2026-07-27 18:05:01,712 DEBUG: Converter:_bind:self
+2026-07-27 18:05:01,713 DEBUG: Converter:_bind:chunks
+2026-07-27 18:05:01,713 DEBUG: Converter:_bind:dim
+2026-07-27 18:05:01,715 DEBUG: Converter:_bind:self
+2026-07-27 18:05:01,715 DEBUG: Converter:_bind:min
+2026-07-27 18:05:01,715 DEBUG: Converter:_bind:max
+2026-07-27 18:05:01,717 DEBUG: Converter:_bind:self
+2026-07-27 18:05:01,717 DEBUG: Converter:_bind:min
+2026-07-27 18:05:01,717 DEBUG: Converter:_bind:max
+2026-07-27 18:05:01,718 DEBUG: Converter:_bind:self
+2026-07-27 18:05:01,718 DEBUG: Converter:_bind:max_
+2026-07-27 18:05:01,720 DEBUG: Converter:_bind:self
+2026-07-27 18:05:01,721 DEBUG: Converter:_bind:max_
+2026-07-27 18:05:01,722 DEBUG: Converter:_bind:self
+2026-07-27 18:05:01,722 DEBUG: Converter:_bind:min_
+2026-07-27 18:05:01,723 DEBUG: Converter:_bind:self
+2026-07-27 18:05:01,724 DEBUG: Converter:_bind:min_
+2026-07-27 18:05:01,725 DEBUG: Converter:_bind:self
+2026-07-27 18:05:01,726 DEBUG: Converter:_bind:memory_format
+2026-07-27 18:05:01,728 DEBUG: Converter:_bind:self
+2026-07-27 18:05:01,728 DEBUG: Converter:_bind:memory_format
+2026-07-27 18:05:01,730 DEBUG: Converter:_bind:real
+2026-07-27 18:05:01,730 DEBUG: Converter:_bind:imag
+2026-07-27 18:05:01,731 DEBUG: Converter:_bind:self
+2026-07-27 18:05:01,733 DEBUG: Converter:_bind:self
+2026-07-27 18:05:01,734 DEBUG: Converter:_bind:self
+2026-07-27 18:05:01,735 DEBUG: Converter:_bind:self
+2026-07-27 18:05:01,736 DEBUG: Converter:_bind:self
+2026-07-27 18:05:01,736 DEBUG: Converter:_bind:pad
+2026-07-27 18:05:01,736 DEBUG: Converter:_bind:value
+2026-07-27 18:05:01,737 DEBUG: Converter:_bind:self
+2026-07-27 18:05:01,738 DEBUG: Converter:_bind:memory_format
+2026-07-27 18:05:01,740 DEBUG: Converter:_bind:input
+2026-07-27 18:05:01,740 DEBUG: Converter:_bind:weight
+2026-07-27 18:05:01,741 DEBUG: Converter:_bind:bias
+2026-07-27 18:05:01,741 DEBUG: Converter:_bind:stride
+2026-07-27 18:05:01,741 DEBUG: Converter:_bind:padding
+2026-07-27 18:05:01,742 DEBUG: Converter:_bind:dilation
+2026-07-27 18:05:01,742 DEBUG: Converter:_bind:groups
+2026-07-27 18:05:01,746 DEBUG: Converter:_bind:input
+2026-07-27 18:05:01,746 DEBUG: Converter:_bind:weight
+2026-07-27 18:05:01,746 DEBUG: Converter:_bind:bias
+2026-07-27 18:05:01,747 DEBUG: Converter:_bind:stride
+2026-07-27 18:05:01,747 DEBUG: Converter:_bind:padding
+2026-07-27 18:05:01,747 DEBUG: Converter:_bind:dilation
+2026-07-27 18:05:01,748 DEBUG: Converter:_bind:groups
+2026-07-27 18:05:01,750 DEBUG: Converter:_bind:input
+2026-07-27 18:05:01,751 DEBUG: Converter:_bind:weight
+2026-07-27 18:05:01,751 DEBUG: Converter:_bind:bias
+2026-07-27 18:05:01,751 DEBUG: Converter:_bind:stride
+2026-07-27 18:05:01,752 DEBUG: Converter:_bind:padding
+2026-07-27 18:05:01,752 DEBUG: Converter:_bind:dilation
+2026-07-27 18:05:01,752 DEBUG: Converter:_bind:groups
+2026-07-27 18:05:01,754 DEBUG: Converter:_bind:input
+2026-07-27 18:05:01,755 DEBUG: Converter:_bind:weight
+2026-07-27 18:05:01,755 DEBUG: Converter:_bind:bias
+2026-07-27 18:05:01,755 DEBUG: Converter:_bind:stride
+2026-07-27 18:05:01,756 DEBUG: Converter:_bind:padding
+2026-07-27 18:05:01,756 DEBUG: Converter:_bind:dilation
+2026-07-27 18:05:01,756 DEBUG: Converter:_bind:groups
+2026-07-27 18:05:01,762 DEBUG: Converter:_bind:input
+2026-07-27 18:05:01,763 DEBUG: Converter:_bind:weight
+2026-07-27 18:05:01,764 DEBUG: Converter:_bind:bias
+2026-07-27 18:05:01,765 DEBUG: Converter:_bind:stride
+2026-07-27 18:05:01,765 DEBUG: Converter:_bind:padding
+2026-07-27 18:05:01,765 DEBUG: Converter:_bind:dilation
+2026-07-27 18:05:01,766 DEBUG: Converter:_bind:groups
+2026-07-27 18:05:01,769 DEBUG: Converter:_bind:input
+2026-07-27 18:05:01,769 DEBUG: Converter:_bind:weight
+2026-07-27 18:05:01,769 DEBUG: Converter:_bind:bias
+2026-07-27 18:05:01,770 DEBUG: Converter:_bind:stride
+2026-07-27 18:05:01,770 DEBUG: Converter:_bind:padding
+2026-07-27 18:05:01,771 DEBUG: Converter:_bind:dilation
+2026-07-27 18:05:01,771 DEBUG: Converter:_bind:groups
+2026-07-27 18:05:01,774 DEBUG: Converter:_bind:input
+2026-07-27 18:05:01,774 DEBUG: Converter:_bind:weight
+2026-07-27 18:05:01,774 DEBUG: Converter:_bind:bias
+2026-07-27 18:05:01,775 DEBUG: Converter:_bind:stride
+2026-07-27 18:05:01,776 DEBUG: Converter:_bind:padding
+2026-07-27 18:05:01,776 DEBUG: Converter:_bind:dilation
+2026-07-27 18:05:01,777 DEBUG: Converter:_bind:transposed
+2026-07-27 18:05:01,777 DEBUG: Converter:_bind:output_padding
+2026-07-27 18:05:01,777 DEBUG: Converter:_bind:groups
+2026-07-27 18:05:01,779 DEBUG: Converter:_bind:self
+2026-07-27 18:05:01,779 DEBUG: Converter:_bind:src
+2026-07-27 18:05:01,779 DEBUG: Converter:_bind:non_blocking
+2026-07-27 18:05:01,781 DEBUG: Converter:_bind:self
+2026-07-27 18:05:01,781 DEBUG: Converter:_bind:dtype
+2026-07-27 18:05:01,781 DEBUG: Converter:_bind:layout
+2026-07-27 18:05:01,781 DEBUG: Converter:_bind:device
+2026-07-27 18:05:01,781 DEBUG: Converter:_bind:pin_memory
+2026-07-27 18:05:01,782 DEBUG: Converter:_bind:non_blocking
+2026-07-27 18:05:01,782 DEBUG: Converter:_bind:memory_format
+2026-07-27 18:05:01,783 DEBUG: Converter:_bind:self
+2026-07-27 18:05:01,784 DEBUG: Converter:_bind:self
+2026-07-27 18:05:01,785 DEBUG: Converter:_bind:self
+2026-07-27 18:05:01,786 DEBUG: Converter:_bind:dim
+2026-07-27 18:05:01,786 DEBUG: Converter:_bind:dtype
+2026-07-27 18:05:01,787 DEBUG: Converter:_bind:self
+2026-07-27 18:05:01,788 DEBUG: Converter:_bind:self
+2026-07-27 18:05:01,791 DEBUG: Converter:_bind:self
+2026-07-27 18:05:01,791 DEBUG: Converter:_bind:offset
+2026-07-27 18:05:01,791 DEBUG: Converter:_bind:dim1
+2026-07-27 18:05:01,791 DEBUG: Converter:_bind:dim2
+2026-07-27 18:05:01,795 DEBUG: Converter:_bind:self
+2026-07-27 18:05:01,796 DEBUG: Converter:_bind:offset
+2026-07-27 18:05:01,796 DEBUG: Converter:_bind:dim1
+2026-07-27 18:05:01,797 DEBUG: Converter:_bind:dim2
+2026-07-27 18:05:01,798 DEBUG: Converter:_bind:self
+2026-07-27 18:05:01,798 DEBUG: Converter:_bind:other
+2026-07-27 18:05:01,799 DEBUG: Converter:_bind:self
+2026-07-27 18:05:01,799 DEBUG: Converter:_bind:other
+2026-07-27 18:05:01,800 DEBUG: Converter:_bind:self
+2026-07-27 18:05:01,800 DEBUG: Converter:_bind:other
+2026-07-27 18:05:01,801 DEBUG: Converter:_bind:self
+2026-07-27 18:05:01,802 DEBUG: Converter:_bind:other
+2026-07-27 18:05:01,803 DEBUG: Converter:_bind:self
+2026-07-27 18:05:01,803 DEBUG: Converter:_bind:other
+2026-07-27 18:05:01,804 DEBUG: Converter:_bind:self
+2026-07-27 18:05:01,804 DEBUG: Converter:_bind:other
+2026-07-27 18:05:01,805 DEBUG: Converter:_bind:self
+2026-07-27 18:05:01,806 DEBUG: Converter:_bind:other
+2026-07-27 18:05:01,807 DEBUG: Converter:_bind:self
+2026-07-27 18:05:01,808 DEBUG: Converter:_bind:other
+2026-07-27 18:05:01,808 DEBUG: Converter:_bind:rounding_mode
+2026-07-27 18:05:01,810 DEBUG: Converter:_bind:self
+2026-07-27 18:05:01,810 DEBUG: Converter:_bind:other
+2026-07-27 18:05:01,811 DEBUG: Converter:_bind:rounding_mode
+2026-07-27 18:05:01,813 DEBUG: Converter:_bind:self
+2026-07-27 18:05:01,813 DEBUG: Converter:_bind:tensor
+2026-07-27 18:05:01,814 DEBUG: Converter:_bind:input
+2026-07-27 18:05:01,815 DEBUG: Converter:_bind:p
+2026-07-27 18:05:01,815 DEBUG: Converter:_bind:train
+2026-07-27 18:05:01,816 DEBUG: Converter:_bind:equation
+2026-07-27 18:05:01,816 DEBUG: Converter:_bind:tensors
+2026-07-27 18:05:01,816 DEBUG: Converter:_bind:path
+2026-07-27 18:05:01,818 DEBUG: Converter:_bind:weight
+2026-07-27 18:05:01,818 DEBUG: Converter:_bind:indices
+2026-07-27 18:05:01,818 DEBUG: Converter:_bind:padding_idx
+2026-07-27 18:05:01,818 DEBUG: Converter:_bind:scale_grad_by_freq
+2026-07-27 18:05:01,819 DEBUG: Converter:_bind:sparse
+2026-07-27 18:05:01,820 DEBUG: Converter:_bind:weight
+2026-07-27 18:05:01,820 DEBUG: Converter:_bind:indices
+2026-07-27 18:05:01,821 DEBUG: Converter:_bind:offsets
+2026-07-27 18:05:01,821 DEBUG: Converter:_bind:scale_grad_by_freq
+2026-07-27 18:05:01,821 DEBUG: Converter:_bind:mode
+2026-07-27 18:05:01,821 DEBUG: Converter:_bind:sparse
+2026-07-27 18:05:01,821 DEBUG: Converter:_bind:per_sample_weights
+2026-07-27 18:05:01,821 DEBUG: Converter:_bind:include_last_offset
+2026-07-27 18:05:01,822 DEBUG: Converter:_bind:padding_idx
+2026-07-27 18:05:01,824 DEBUG: Converter:_bind:weight
+2026-07-27 18:05:01,824 DEBUG: Converter:_bind:indices
+2026-07-27 18:05:01,825 DEBUG: Converter:_bind:offsets
+2026-07-27 18:05:01,825 DEBUG: Converter:_bind:scale_grad_by_freq
+2026-07-27 18:05:01,825 DEBUG: Converter:_bind:mode
+2026-07-27 18:05:01,825 DEBUG: Converter:_bind:sparse
+2026-07-27 18:05:01,826 DEBUG: Converter:_bind:per_sample_weights
+2026-07-27 18:05:01,826 DEBUG: Converter:_bind:include_last_offset
+2026-07-27 18:05:01,827 DEBUG: Converter:_bind:padding_idx
+2026-07-27 18:05:01,830 DEBUG: Converter:_bind:weight
+2026-07-27 18:05:01,830 DEBUG: Converter:_bind:indices
+2026-07-27 18:05:01,831 DEBUG: Converter:_bind:offsets
+2026-07-27 18:05:01,831 DEBUG: Converter:_bind:scale_grad_by_freq
+2026-07-27 18:05:01,831 DEBUG: Converter:_bind:mode
+2026-07-27 18:05:01,832 DEBUG: Converter:_bind:sparse
+2026-07-27 18:05:01,832 DEBUG: Converter:_bind:per_sample_weights
+2026-07-27 18:05:01,832 DEBUG: Converter:_bind:include_last_offset
+2026-07-27 18:05:01,833 DEBUG: Converter:_bind:padding_idx
+2026-07-27 18:05:01,835 DEBUG: Converter:_bind:weight
+2026-07-27 18:05:01,835 DEBUG: Converter:_bind:indices
+2026-07-27 18:05:01,836 DEBUG: Converter:_bind:offsets
+2026-07-27 18:05:01,836 DEBUG: Converter:_bind:scale_grad_by_freq
+2026-07-27 18:05:01,836 DEBUG: Converter:_bind:mode
+2026-07-27 18:05:01,837 DEBUG: Converter:_bind:sparse
+2026-07-27 18:05:01,837 DEBUG: Converter:_bind:per_sample_weights
+2026-07-27 18:05:01,837 DEBUG: Converter:_bind:include_last_offset
+2026-07-27 18:05:01,838 DEBUG: Converter:_bind:padding_idx
+2026-07-27 18:05:01,840 DEBUG: Converter:_bind:weight
+2026-07-27 18:05:01,840 DEBUG: Converter:_bind:indices
+2026-07-27 18:05:01,840 DEBUG: Converter:_bind:max_norm
+2026-07-27 18:05:01,841 DEBUG: Converter:_bind:norm_type
+2026-07-27 18:05:01,842 DEBUG: Converter:_bind:size
+2026-07-27 18:05:01,843 DEBUG: Converter:_bind:dtype
+2026-07-27 18:05:01,843 DEBUG: Converter:_bind:layout
+2026-07-27 18:05:01,843 DEBUG: Converter:_bind:device
+2026-07-27 18:05:01,844 DEBUG: Converter:_bind:pin_memory
+2026-07-27 18:05:01,845 DEBUG: Converter:_bind:memory_format
+2026-07-27 18:05:01,846 DEBUG: Converter:_bind:self
+2026-07-27 18:05:01,847 DEBUG: Converter:_bind:dtype
+2026-07-27 18:05:01,847 DEBUG: Converter:_bind:layout
+2026-07-27 18:05:01,847 DEBUG: Converter:_bind:device
+2026-07-27 18:05:01,847 DEBUG: Converter:_bind:pin_memory
+2026-07-27 18:05:01,848 DEBUG: Converter:_bind:memory_format
+2026-07-27 18:05:01,849 DEBUG: Converter:_bind:size
+2026-07-27 18:05:01,849 DEBUG: Converter:_bind:stride
+2026-07-27 18:05:01,850 DEBUG: Converter:_bind:layout
+2026-07-27 18:05:01,850 DEBUG: Converter:_bind:dtype
+2026-07-27 18:05:01,850 DEBUG: Converter:_bind:device
+2026-07-27 18:05:01,850 DEBUG: Converter:_bind:pin_memory
+2026-07-27 18:05:01,851 DEBUG: Converter:_bind:self
+2026-07-27 18:05:01,851 DEBUG: Converter:_bind:other
+2026-07-27 18:05:01,852 DEBUG: Converter:_bind:self
+2026-07-27 18:05:01,853 DEBUG: Converter:_bind:other
+2026-07-27 18:05:01,854 DEBUG: Converter:_bind:self
+2026-07-27 18:05:01,854 DEBUG: Converter:_bind:other
+2026-07-27 18:05:01,856 DEBUG: Converter:_bind:self
+2026-07-27 18:05:01,856 DEBUG: Converter:_bind:other
+2026-07-27 18:05:01,858 DEBUG: Converter:_bind:self
+2026-07-27 18:05:01,858 DEBUG: Converter:_bind:other
+2026-07-27 18:05:01,860 DEBUG: Converter:_bind:self
+2026-07-27 18:05:01,862 DEBUG: Converter:_bind:self
+2026-07-27 18:05:01,863 DEBUG: Converter:_bind:self
+2026-07-27 18:05:01,864 DEBUG: Converter:_bind:size
+2026-07-27 18:05:01,864 DEBUG: Converter:_bind:implicit
+2026-07-27 18:05:01,865 DEBUG: Converter:_bind:self
+2026-07-27 18:05:01,865 DEBUG: Converter:_bind:other
+2026-07-27 18:05:01,867 DEBUG: Converter:_bind:self
+2026-07-27 18:05:01,868 DEBUG: Converter:_bind:scale
+2026-07-27 18:05:01,868 DEBUG: Converter:_bind:zero_point
+2026-07-27 18:05:01,868 DEBUG: Converter:_bind:axis
+2026-07-27 18:05:01,868 DEBUG: Converter:_bind:quant_min
+2026-07-27 18:05:01,868 DEBUG: Converter:_bind:quant_max
+2026-07-27 18:05:01,870 DEBUG: Converter:_bind:self
+2026-07-27 18:05:01,870 DEBUG: Converter:_bind:scale
+2026-07-27 18:05:01,870 DEBUG: Converter:_bind:zero_point
+2026-07-27 18:05:01,870 DEBUG: Converter:_bind:quant_min
+2026-07-27 18:05:01,870 DEBUG: Converter:_bind:quant_max
+2026-07-27 18:05:01,871 DEBUG: Converter:_bind:self
+2026-07-27 18:05:01,872 DEBUG: Converter:_bind:scale
+2026-07-27 18:05:01,872 DEBUG: Converter:_bind:zero_point
+2026-07-27 18:05:01,872 DEBUG: Converter:_bind:quant_min
+2026-07-27 18:05:01,872 DEBUG: Converter:_bind:quant_max
+2026-07-27 18:05:01,874 DEBUG: Converter:_bind:self
+2026-07-27 18:05:01,874 DEBUG: Converter:_bind:start_dim
+2026-07-27 18:05:01,875 DEBUG: Converter:_bind:end_dim
+2026-07-27 18:05:01,878 DEBUG: Converter:_bind:self
+2026-07-27 18:05:01,878 DEBUG: Converter:_bind:dims
+2026-07-27 18:05:01,879 DEBUG: Converter:_bind:self
+2026-07-27 18:05:01,880 DEBUG: Converter:_bind:dims
+2026-07-27 18:05:01,881 DEBUG: Converter:_bind:self
+2026-07-27 18:05:01,881 DEBUG: Converter:_bind:self
+2026-07-27 18:05:01,883 DEBUG: Converter:_bind:self
+2026-07-27 18:05:01,883 DEBUG: Converter:_bind:other
+2026-07-27 18:05:01,884 DEBUG: Converter:_bind:self
+2026-07-27 18:05:01,885 DEBUG: Converter:_bind:other
+2026-07-27 18:05:01,886 DEBUG: Converter:_bind:self
+2026-07-27 18:05:01,886 DEBUG: Converter:_bind:other
+2026-07-27 18:05:01,887 DEBUG: Converter:_bind:self
+2026-07-27 18:05:01,887 DEBUG: Converter:_bind:other
+2026-07-27 18:05:01,888 DEBUG: Converter:_bind:self
+2026-07-27 18:05:01,889 DEBUG: Converter:_bind:size
+2026-07-27 18:05:01,890 DEBUG: Converter:_bind:fill_value
+2026-07-27 18:05:01,890 DEBUG: Converter:_bind:dtype
+2026-07-27 18:05:01,890 DEBUG: Converter:_bind:layout
+2026-07-27 18:05:01,890 DEBUG: Converter:_bind:device
+2026-07-27 18:05:01,891 DEBUG: Converter:_bind:pin_memory
+2026-07-27 18:05:01,892 DEBUG: Converter:_bind:self
+2026-07-27 18:05:01,893 DEBUG: Converter:_bind:fill_value
+2026-07-27 18:05:01,893 DEBUG: Converter:_bind:dtype
+2026-07-27 18:05:01,893 DEBUG: Converter:_bind:layout
+2026-07-27 18:05:01,894 DEBUG: Converter:_bind:device
+2026-07-27 18:05:01,894 DEBUG: Converter:_bind:pin_memory
+2026-07-27 18:05:01,896 DEBUG: Converter:_bind:self
+2026-07-27 18:05:01,896 DEBUG: Converter:_bind:dim
+2026-07-27 18:05:01,896 DEBUG: Converter:_bind:index
+2026-07-27 18:05:01,897 DEBUG: Converter:_bind:sparse_grad
+2026-07-27 18:05:01,898 DEBUG: Converter:_bind:self
+2026-07-27 18:05:01,898 DEBUG: Converter:_bind:other
+2026-07-27 18:05:01,900 DEBUG: Converter:_bind:self
+2026-07-27 18:05:01,900 DEBUG: Converter:_bind:other
+2026-07-27 18:05:01,901 DEBUG: Converter:_bind:self
+2026-07-27 18:05:01,901 DEBUG: Converter:_bind:other
+2026-07-27 18:05:01,902 DEBUG: Converter:_bind:self
+2026-07-27 18:05:01,902 DEBUG: Converter:_bind:other
+2026-07-27 18:05:01,909 DEBUG: Converter:_bind:input
+2026-07-27 18:05:01,910 DEBUG: Converter:_bind:hx
+2026-07-27 18:05:01,910 DEBUG: Converter:_bind:params
+2026-07-27 18:05:01,911 DEBUG: Converter:_bind:has_biases
+2026-07-27 18:05:01,911 DEBUG: Converter:_bind:num_layers
+2026-07-27 18:05:01,912 DEBUG: Converter:_bind:dropout
+2026-07-27 18:05:01,912 DEBUG: Converter:_bind:train
+2026-07-27 18:05:01,912 DEBUG: Converter:_bind:bidirectional
+2026-07-27 18:05:01,912 DEBUG: Converter:_bind:batch_first
+2026-07-27 18:05:01,914 DEBUG: Converter:_bind:input
+2026-07-27 18:05:01,914 DEBUG: Converter:_bind:grid
+2026-07-27 18:05:01,914 DEBUG: Converter:_bind:interpolation_mode
+2026-07-27 18:05:01,915 DEBUG: Converter:_bind:padding_mode
+2026-07-27 18:05:01,915 DEBUG: Converter:_bind:align_corners
+2026-07-27 18:05:01,916 DEBUG: Converter:_bind:input
+2026-07-27 18:05:01,916 DEBUG: Converter:_bind:grid
+2026-07-27 18:05:01,916 DEBUG: Converter:_bind:interpolation_mode
+2026-07-27 18:05:01,916 DEBUG: Converter:_bind:padding_mode
+2026-07-27 18:05:01,917 DEBUG: Converter:_bind:align_corners
+2026-07-27 18:05:01,918 DEBUG: Converter:_bind:self
+2026-07-27 18:05:01,919 DEBUG: Converter:_bind:other
+2026-07-27 18:05:01,920 DEBUG: Converter:_bind:self
+2026-07-27 18:05:01,921 DEBUG: Converter:_bind:other
+2026-07-27 18:05:01,922 DEBUG: Converter:_bind:self
+2026-07-27 18:05:01,922 DEBUG: Converter:_bind:other
+2026-07-27 18:05:01,924 DEBUG: Converter:_bind:self
+2026-07-27 18:05:01,924 DEBUG: Converter:_bind:other
+2026-07-27 18:05:01,926 DEBUG: Converter:_bind:window_length
+2026-07-27 18:05:01,926 DEBUG: Converter:_bind:dtype
+2026-07-27 18:05:01,927 DEBUG: Converter:_bind:layout
+2026-07-27 18:05:01,927 DEBUG: Converter:_bind:device
+2026-07-27 18:05:01,927 DEBUG: Converter:_bind:pin_memory
+2026-07-27 18:05:01,928 DEBUG: Converter:_bind:window_length
+2026-07-27 18:05:01,929 DEBUG: Converter:_bind:dtype
+2026-07-27 18:05:01,929 DEBUG: Converter:_bind:layout
+2026-07-27 18:05:01,929 DEBUG: Converter:_bind:device
+2026-07-27 18:05:01,930 DEBUG: Converter:_bind:pin_memory
+2026-07-27 18:05:01,931 DEBUG: Converter:_bind:self
+2026-07-27 18:05:01,931 DEBUG: Converter:_bind:values
+2026-07-27 18:05:01,934 DEBUG: Converter:_bind:self
+2026-07-27 18:05:01,934 DEBUG: Converter:_bind:bins
+2026-07-27 18:05:01,934 DEBUG: Converter:_bind:min
+2026-07-27 18:05:01,934 DEBUG: Converter:_bind:max
+2026-07-27 18:05:01,936 DEBUG: Converter:_bind:self
+2026-07-27 18:05:01,936 DEBUG: Converter:_bind:indices
+2026-07-27 18:05:01,938 DEBUG: Converter:_bind:self
+2026-07-27 18:05:01,938 DEBUG: Converter:_bind:indices
+2026-07-27 18:05:01,945 DEBUG: Converter:_bind:self
+2026-07-27 18:05:01,946 DEBUG: Converter:_bind:indices
+2026-07-27 18:05:01,946 DEBUG: Converter:_bind:values
+2026-07-27 18:05:01,947 DEBUG: Converter:_bind:accumulate
+2026-07-27 18:05:01,952 DEBUG: Converter:_bind:self
+2026-07-27 18:05:01,952 DEBUG: Converter:_bind:indices
+2026-07-27 18:05:01,952 DEBUG: Converter:_bind:values
+2026-07-27 18:05:01,952 DEBUG: Converter:_bind:accumulate
+2026-07-27 18:05:01,954 DEBUG: Converter:_bind:self
+2026-07-27 18:05:01,955 DEBUG: Converter:_bind:dim
+2026-07-27 18:05:01,955 DEBUG: Converter:_bind:index
+2026-07-27 18:05:01,958 DEBUG: Converter:_bind:input
+2026-07-27 18:05:01,958 DEBUG: Converter:_bind:weight
+2026-07-27 18:05:01,958 DEBUG: Converter:_bind:bias
+2026-07-27 18:05:01,959 DEBUG: Converter:_bind:running_mean
+2026-07-27 18:05:01,959 DEBUG: Converter:_bind:running_var
+2026-07-27 18:05:01,960 DEBUG: Converter:_bind:use_input_stats
+2026-07-27 18:05:01,960 DEBUG: Converter:_bind:momentum
+2026-07-27 18:05:01,960 DEBUG: Converter:_bind:eps
+2026-07-27 18:05:01,961 DEBUG: Converter:_bind:cudnn_enabled
+2026-07-27 18:05:01,963 DEBUG: Converter:_bind:input
+2026-07-27 18:05:01,963 DEBUG: Converter:_bind:normalized_shape
+2026-07-27 18:05:01,963 DEBUG: Converter:_bind:weight
+2026-07-27 18:05:01,964 DEBUG: Converter:_bind:bias
+2026-07-27 18:05:01,964 DEBUG: Converter:_bind:eps
+2026-07-27 18:05:01,964 DEBUG: Converter:_bind:cudnn_enable
+2026-07-27 18:05:01,965 DEBUG: Converter:_bind:self
+2026-07-27 18:05:01,966 DEBUG: Converter:_bind:other
+2026-07-27 18:05:01,967 DEBUG: Converter:_bind:self
+2026-07-27 18:05:01,967 DEBUG: Converter:_bind:other
+2026-07-27 18:05:01,968 DEBUG: Converter:_bind:self
+2026-07-27 18:05:01,969 DEBUG: Converter:_bind:other
+2026-07-27 18:05:01,970 DEBUG: Converter:_bind:self
+2026-07-27 18:05:01,970 DEBUG: Converter:_bind:other
+2026-07-27 18:05:01,971 DEBUG: Converter:_bind:self
+2026-07-27 18:05:01,974 DEBUG: Converter:_bind:start
+2026-07-27 18:05:01,974 DEBUG: Converter:_bind:end
+2026-07-27 18:05:01,974 DEBUG: Converter:_bind:steps
+2026-07-27 18:05:01,974 DEBUG: Converter:_bind:dtype
+2026-07-27 18:05:01,975 DEBUG: Converter:_bind:layout
+2026-07-27 18:05:01,975 DEBUG: Converter:_bind:device
+2026-07-27 18:05:01,976 DEBUG: Converter:_bind:pin_memory
+2026-07-27 18:05:01,977 DEBUG: Converter:_bind:self
+2026-07-27 18:05:01,978 DEBUG: Converter:_bind:self
+2026-07-27 18:05:01,979 DEBUG: Converter:_bind:self
+2026-07-27 18:05:01,980 DEBUG: Converter:_bind:self
+2026-07-27 18:05:01,981 DEBUG: Converter:_bind:other
+2026-07-27 18:05:01,982 DEBUG: Converter:_bind:self
+2026-07-27 18:05:01,982 DEBUG: Converter:_bind:other
+2026-07-27 18:05:01,984 DEBUG: Converter:_bind:self
+2026-07-27 18:05:01,984 DEBUG: Converter:_bind:dim
+2026-07-27 18:05:01,985 DEBUG: Converter:_bind:self
+2026-07-27 18:05:01,986 DEBUG: Converter:_bind:self
+2026-07-27 18:05:01,986 DEBUG: Converter:_bind:other
+2026-07-27 18:05:01,987 DEBUG: Converter:_bind:self
+2026-07-27 18:05:01,988 DEBUG: Converter:_bind:self
+2026-07-27 18:05:01,989 DEBUG: Converter:_bind:other
+2026-07-27 18:05:01,989 DEBUG: Converter:_bind:self
+2026-07-27 18:05:01,990 DEBUG: Converter:_bind:other
+2026-07-27 18:05:01,991 DEBUG: Converter:_bind:self
+2026-07-27 18:05:01,991 DEBUG: Converter:_bind:eps
+2026-07-27 18:05:01,993 DEBUG: Converter:_bind:self
+2026-07-27 18:05:01,994 DEBUG: Converter:_bind:dim
+2026-07-27 18:05:01,994 DEBUG: Converter:_bind:keepdim
+2026-07-27 18:05:02,002 DEBUG: Converter:_bind:input
+2026-07-27 18:05:02,002 DEBUG: Converter:_bind:hx
+2026-07-27 18:05:02,003 DEBUG: Converter:_bind:params
+2026-07-27 18:05:02,003 DEBUG: Converter:_bind:has_biases
+2026-07-27 18:05:02,003 DEBUG: Converter:_bind:num_layers
+2026-07-27 18:05:02,003 DEBUG: Converter:_bind:dropout
+2026-07-27 18:05:02,003 DEBUG: Converter:_bind:train
+2026-07-27 18:05:02,004 DEBUG: Converter:_bind:bidirectional
+2026-07-27 18:05:02,004 DEBUG: Converter:_bind:batch_first
+2026-07-27 18:05:02,005 DEBUG: Converter:_bind:self
+2026-07-27 18:05:02,005 DEBUG: Converter:_bind:other
+2026-07-27 18:05:02,007 DEBUG: Converter:_bind:self
+2026-07-27 18:05:02,007 DEBUG: Converter:_bind:other
+2026-07-27 18:05:02,008 DEBUG: Converter:_bind:self
+2026-07-27 18:05:02,009 DEBUG: Converter:_bind:other
+2026-07-27 18:05:02,011 DEBUG: Converter:_bind:self
+2026-07-27 18:05:02,011 DEBUG: Converter:_bind:other
+2026-07-27 18:05:02,012 DEBUG: Converter:_bind:self
+2026-07-27 18:05:02,014 DEBUG: Converter:_bind:self
+2026-07-27 18:05:02,014 DEBUG: Converter:_bind:mask
+2026-07-27 18:05:02,014 DEBUG: Converter:_bind:value
+2026-07-27 18:05:02,015 DEBUG: Converter:_bind:self
+2026-07-27 18:05:02,015 DEBUG: Converter:_bind:mask
+2026-07-27 18:05:02,016 DEBUG: Converter:_bind:value
+2026-07-27 18:05:02,018 DEBUG: Converter:_bind:self
+2026-07-27 18:05:02,019 DEBUG: Converter:_bind:mask
+2026-07-27 18:05:02,019 DEBUG: Converter:_bind:source
+2026-07-27 18:05:02,020 DEBUG: Converter:_bind:self
+2026-07-27 18:05:02,020 DEBUG: Converter:_bind:other
+2026-07-27 18:05:02,022 DEBUG: Converter:_bind:self
+2026-07-27 18:05:02,022 DEBUG: Converter:_bind:other
+2026-07-27 18:05:02,023 DEBUG: Converter:_bind:self
+2026-07-27 18:05:02,025 DEBUG: Converter:_bind:self
+2026-07-27 18:05:02,026 DEBUG: Converter:_bind:dim
+2026-07-27 18:05:02,027 DEBUG: Converter:_bind:keepdim
+2026-07-27 18:05:02,028 DEBUG: Converter:_bind:self
+2026-07-27 18:05:02,029 DEBUG: Converter:_bind:other
+2026-07-27 18:05:02,030 DEBUG: Converter:_bind:self
+2026-07-27 18:05:02,031 DEBUG: Converter:_bind:self
+2026-07-27 18:05:02,032 DEBUG: Converter:_bind:dim
+2026-07-27 18:05:02,032 DEBUG: Converter:_bind:keepdim
+2026-07-27 18:05:02,032 DEBUG: Converter:_bind:dtype
+2026-07-27 18:05:02,034 DEBUG: Converter:_bind:self
+2026-07-27 18:05:02,034 DEBUG: Converter:_bind:dim
+2026-07-27 18:05:02,035 DEBUG: Converter:_bind:keepdim
+2026-07-27 18:05:02,035 DEBUG: Converter:_bind:dtype
+2026-07-27 18:05:02,036 DEBUG: Converter:_bind:self
+2026-07-27 18:05:02,037 DEBUG: Converter:_bind:self
+2026-07-27 18:05:02,037 DEBUG: Converter:_bind:dim
+2026-07-27 18:05:02,037 DEBUG: Converter:_bind:keepdim
+2026-07-27 18:05:02,039 DEBUG: Converter:_bind:self
+2026-07-27 18:05:02,039 DEBUG: Converter:_bind:other
+2026-07-27 18:05:02,040 DEBUG: Converter:_bind:self
+2026-07-27 18:05:02,041 DEBUG: Converter:_bind:mat2
+2026-07-27 18:05:02,042 DEBUG: Converter:_bind:self
+2026-07-27 18:05:02,042 DEBUG: Converter:_bind:other
+2026-07-27 18:05:02,045 DEBUG: Converter:_bind:self
+2026-07-27 18:05:02,045 DEBUG: Converter:_bind:other
+2026-07-27 18:05:02,046 DEBUG: Converter:_bind:self
+2026-07-27 18:05:02,047 DEBUG: Converter:_bind:other
+2026-07-27 18:05:02,049 DEBUG: Converter:_bind:self
+2026-07-27 18:05:02,049 DEBUG: Converter:_bind:other
+2026-07-27 18:05:02,051 DEBUG: Converter:_bind:self
+2026-07-27 18:05:02,051 DEBUG: Converter:_bind:other
+2026-07-27 18:05:02,053 DEBUG: Converter:_bind:self
+2026-07-27 18:05:02,053 DEBUG: Converter:_bind:other
+2026-07-27 18:05:02,054 DEBUG: Converter:_bind:self
+2026-07-27 18:05:02,054 DEBUG: Converter:_bind:other
+2026-07-27 18:05:02,055 DEBUG: Converter:_bind:self
+2026-07-27 18:05:02,055 DEBUG: Converter:_bind:num_samples
+2026-07-27 18:05:02,055 DEBUG: Converter:_bind:replacement
+2026-07-27 18:05:02,057 DEBUG: Converter:_bind:self
+2026-07-27 18:05:02,058 DEBUG: Converter:_bind:vec
+2026-07-27 18:05:02,061 DEBUG: Converter:_bind:self
+2026-07-27 18:05:02,061 DEBUG: Converter:_bind:dim
+2026-07-27 18:05:02,062 DEBUG: Converter:_bind:start
+2026-07-27 18:05:02,062 DEBUG: Converter:_bind:length
+2026-07-27 18:05:02,064 DEBUG: Converter:_bind:input
+2026-07-27 18:05:02,064 DEBUG: Converter:_bind:weight
+2026-07-27 18:05:02,065 DEBUG: Converter:_bind:bias
+2026-07-27 18:05:02,065 DEBUG: Converter:_bind:running_mean
+2026-07-27 18:05:02,065 DEBUG: Converter:_bind:running_var
+2026-07-27 18:05:02,065 DEBUG: Converter:_bind:momentum
+2026-07-27 18:05:02,065 DEBUG: Converter:_bind:eps
+2026-07-27 18:05:02,067 DEBUG: Converter:_bind:input
+2026-07-27 18:05:02,067 DEBUG: Converter:_bind:weight
+2026-07-27 18:05:02,067 DEBUG: Converter:_bind:bias
+2026-07-27 18:05:02,068 DEBUG: Converter:_bind:training
+2026-07-27 18:05:02,068 DEBUG: Converter:_bind:momentum
+2026-07-27 18:05:02,068 DEBUG: Converter:_bind:eps
+2026-07-27 18:05:02,071 DEBUG: Converter:_bind:input
+2026-07-27 18:05:02,071 DEBUG: Converter:_bind:weight
+2026-07-27 18:05:02,071 DEBUG: Converter:_bind:bias
+2026-07-27 18:05:02,072 DEBUG: Converter:_bind:running_mean
+2026-07-27 18:05:02,072 DEBUG: Converter:_bind:running_var
+2026-07-27 18:05:02,072 DEBUG: Converter:_bind:training
+2026-07-27 18:05:02,072 DEBUG: Converter:_bind:momentum
+2026-07-27 18:05:02,073 DEBUG: Converter:_bind:eps
+2026-07-27 18:05:02,076 DEBUG: Converter:_bind:input
+2026-07-27 18:05:02,076 DEBUG: Converter:_bind:weight
+2026-07-27 18:05:02,077 DEBUG: Converter:_bind:bias
+2026-07-27 18:05:02,077 DEBUG: Converter:_bind:running_mean
+2026-07-27 18:05:02,078 DEBUG: Converter:_bind:running_var
+2026-07-27 18:05:02,078 DEBUG: Converter:_bind:training
+2026-07-27 18:05:02,078 DEBUG: Converter:_bind:momentum
+2026-07-27 18:05:02,078 DEBUG: Converter:_bind:eps
+2026-07-27 18:05:02,081 DEBUG: Converter:_bind:input
+2026-07-27 18:05:02,081 DEBUG: Converter:_bind:weight
+2026-07-27 18:05:02,082 DEBUG: Converter:_bind:bias
+2026-07-27 18:05:02,082 DEBUG: Converter:_bind:running_mean
+2026-07-27 18:05:02,083 DEBUG: Converter:_bind:running_var
+2026-07-27 18:05:02,083 DEBUG: Converter:_bind:training
+2026-07-27 18:05:02,083 DEBUG: Converter:_bind:momentum
+2026-07-27 18:05:02,083 DEBUG: Converter:_bind:eps
+2026-07-27 18:05:02,084 DEBUG: Converter:_bind:input
+2026-07-27 18:05:02,084 DEBUG: Converter:_bind:p
+2026-07-27 18:05:02,085 DEBUG: Converter:_bind:train
+2026-07-27 18:05:02,088 DEBUG: Converter:_bind:input
+2026-07-27 18:05:02,088 DEBUG: Converter:_bind:weight
+2026-07-27 18:05:02,089 DEBUG: Converter:_bind:bias
+2026-07-27 18:05:02,089 DEBUG: Converter:_bind:N
+2026-07-27 18:05:02,089 DEBUG: Converter:_bind:C
+2026-07-27 18:05:02,089 DEBUG: Converter:_bind:HxW
+2026-07-27 18:05:02,090 DEBUG: Converter:_bind:group
+2026-07-27 18:05:02,090 DEBUG: Converter:_bind:eps
+2026-07-27 18:05:02,092 DEBUG: Converter:_bind:input
+2026-07-27 18:05:02,092 DEBUG: Converter:_bind:normalized_shape
+2026-07-27 18:05:02,093 DEBUG: Converter:_bind:weight
+2026-07-27 18:05:02,093 DEBUG: Converter:_bind:bias
+2026-07-27 18:05:02,093 DEBUG: Converter:_bind:eps
+2026-07-27 18:05:02,095 DEBUG: Converter:_bind:self
+2026-07-27 18:05:02,095 DEBUG: Converter:_bind:other
+2026-07-27 18:05:02,097 DEBUG: Converter:_bind:self
+2026-07-27 18:05:02,097 DEBUG: Converter:_bind:other
+2026-07-27 18:05:02,098 DEBUG: Converter:_bind:self
+2026-07-27 18:05:02,098 DEBUG: Converter:_bind:other
+2026-07-27 18:05:02,099 DEBUG: Converter:_bind:self
+2026-07-27 18:05:02,099 DEBUG: Converter:_bind:other
+2026-07-27 18:05:02,100 DEBUG: Converter:_bind:self
+2026-07-27 18:05:02,100 DEBUG: Converter:_bind:self
+2026-07-27 18:05:02,101 DEBUG: Converter:_bind:self
+2026-07-27 18:05:02,102 DEBUG: Converter:_bind:self
+2026-07-27 18:05:02,103 DEBUG: Converter:_bind:self
+2026-07-27 18:05:02,103 DEBUG: Converter:_bind:size
+2026-07-27 18:05:02,103 DEBUG: Converter:_bind:dtype
+2026-07-27 18:05:02,103 DEBUG: Converter:_bind:layout
+2026-07-27 18:05:02,104 DEBUG: Converter:_bind:device
+2026-07-27 18:05:02,104 DEBUG: Converter:_bind:pin_memory
+2026-07-27 18:05:02,105 DEBUG: Converter:_bind:self
+2026-07-27 18:05:02,105 DEBUG: Converter:_bind:size
+2026-07-27 18:05:02,105 DEBUG: Converter:_bind:stride
+2026-07-27 18:05:02,105 DEBUG: Converter:_bind:dtype
+2026-07-27 18:05:02,106 DEBUG: Converter:_bind:layout
+2026-07-27 18:05:02,106 DEBUG: Converter:_bind:device
+2026-07-27 18:05:02,106 DEBUG: Converter:_bind:pin_memory
+2026-07-27 18:05:02,108 DEBUG: Converter:_bind:self
+2026-07-27 18:05:02,108 DEBUG: Converter:_bind:size
+2026-07-27 18:05:02,108 DEBUG: Converter:_bind:fill_value
+2026-07-27 18:05:02,109 DEBUG: Converter:_bind:dtype
+2026-07-27 18:05:02,109 DEBUG: Converter:_bind:layout
+2026-07-27 18:05:02,110 DEBUG: Converter:_bind:device
+2026-07-27 18:05:02,110 DEBUG: Converter:_bind:pin_memory
+2026-07-27 18:05:02,111 DEBUG: Converter:_bind:self
+2026-07-27 18:05:02,112 DEBUG: Converter:_bind:size
+2026-07-27 18:05:02,113 DEBUG: Converter:_bind:dtype
+2026-07-27 18:05:02,113 DEBUG: Converter:_bind:layout
+2026-07-27 18:05:02,113 DEBUG: Converter:_bind:device
+2026-07-27 18:05:02,113 DEBUG: Converter:_bind:pin_memory
+2026-07-27 18:05:02,115 DEBUG: Converter:_bind:self
+2026-07-27 18:05:02,115 DEBUG: Converter:_bind:size
+2026-07-27 18:05:02,115 DEBUG: Converter:_bind:dtype
+2026-07-27 18:05:02,115 DEBUG: Converter:_bind:layout
+2026-07-27 18:05:02,115 DEBUG: Converter:_bind:device
+2026-07-27 18:05:02,116 DEBUG: Converter:_bind:pin_memory
+2026-07-27 18:05:02,116 DEBUG: Converter:_bind:self
+2026-07-27 18:05:02,118 DEBUG: Converter:_bind:self
+2026-07-27 18:05:02,118 DEBUG: Converter:_bind:mean
+2026-07-27 18:05:02,118 DEBUG: Converter:_bind:std
+2026-07-27 18:05:02,119 DEBUG: Converter:_bind:mean
+2026-07-27 18:05:02,120 DEBUG: Converter:_bind:std
+2026-07-27 18:05:02,120 DEBUG: Converter:_bind:size
+2026-07-27 18:05:02,121 DEBUG: Converter:_bind:dtype
+2026-07-27 18:05:02,121 DEBUG: Converter:_bind:layout
+2026-07-27 18:05:02,121 DEBUG: Converter:_bind:device
+2026-07-27 18:05:02,121 DEBUG: Converter:_bind:pin_memory
+2026-07-27 18:05:02,122 DEBUG: Converter:_bind:mean
+2026-07-27 18:05:02,122 DEBUG: Converter:_bind:std
+2026-07-27 18:05:02,124 DEBUG: Converter:_bind:mean
+2026-07-27 18:05:02,124 DEBUG: Converter:_bind:std
+2026-07-27 18:05:02,126 DEBUG: Converter:_bind:mean
+2026-07-27 18:05:02,126 DEBUG: Converter:_bind:std
+2026-07-27 18:05:02,128 DEBUG: Converter:_bind:size
+2026-07-27 18:05:02,128 DEBUG: Converter:_bind:dtype
+2026-07-27 18:05:02,129 DEBUG: Converter:_bind:layout
+2026-07-27 18:05:02,129 DEBUG: Converter:_bind:device
+2026-07-27 18:05:02,129 DEBUG: Converter:_bind:pin_memory
+2026-07-27 18:05:02,131 DEBUG: Converter:_bind:self
+2026-07-27 18:05:02,131 DEBUG: Converter:_bind:dtype
+2026-07-27 18:05:02,131 DEBUG: Converter:_bind:layout
+2026-07-27 18:05:02,132 DEBUG: Converter:_bind:device
+2026-07-27 18:05:02,132 DEBUG: Converter:_bind:pin_memory
+2026-07-27 18:05:02,132 DEBUG: Converter:_bind:memory_format
+2026-07-27 18:05:02,133 DEBUG: Converter:_bind:self
+2026-07-27 18:05:02,134 DEBUG: Converter:_bind:dims
+2026-07-27 18:05:02,135 DEBUG: Converter:_bind:self
+2026-07-27 18:05:02,135 DEBUG: Converter:_bind:dims
+2026-07-27 18:05:02,136 DEBUG: Converter:_bind:self
+2026-07-27 18:05:02,137 DEBUG: Converter:_bind:upscale_factor
+2026-07-27 18:05:02,139 DEBUG: Converter:_bind:self
+2026-07-27 18:05:02,139 DEBUG: Converter:_bind:downscale_factor
+2026-07-27 18:05:02,141 DEBUG: Converter:_bind:self
+2026-07-27 18:05:02,141 DEBUG: Converter:_bind:exponent
+2026-07-27 18:05:02,143 DEBUG: Converter:_bind:self
+2026-07-27 18:05:02,143 DEBUG: Converter:_bind:exponent
+2026-07-27 18:05:02,145 DEBUG: Converter:_bind:self
+2026-07-27 18:05:02,145 DEBUG: Converter:_bind:exponent
+2026-07-27 18:05:02,146 DEBUG: Converter:_bind:self
+2026-07-27 18:05:02,147 DEBUG: Converter:_bind:exponent
+2026-07-27 18:05:02,148 DEBUG: Converter:_bind:self
+2026-07-27 18:05:02,148 DEBUG: Converter:_bind:weight
+2026-07-27 18:05:02,150 DEBUG: Converter:_bind:self
+2026-07-27 18:05:02,150 DEBUG: Converter:_bind:weight
+2026-07-27 18:05:02,151 DEBUG: Converter:_bind:self
+2026-07-27 18:05:02,151 DEBUG: Converter:_bind:dtype
+2026-07-27 18:05:02,152 DEBUG: Converter:_bind:self
+2026-07-27 18:05:02,153 DEBUG: Converter:_bind:dim
+2026-07-27 18:05:02,153 DEBUG: Converter:_bind:keepdim
+2026-07-27 18:05:02,153 DEBUG: Converter:_bind:dtype
+2026-07-27 18:05:02,154 DEBUG: Converter:_bind:self
+2026-07-27 18:05:02,155 DEBUG: Converter:_bind:size
+2026-07-27 18:05:02,155 DEBUG: Converter:_bind:dtype
+2026-07-27 18:05:02,155 DEBUG: Converter:_bind:layout
+2026-07-27 18:05:02,155 DEBUG: Converter:_bind:device
+2026-07-27 18:05:02,155 DEBUG: Converter:_bind:pin_memory
+2026-07-27 18:05:02,156 DEBUG: Converter:_bind:self
+2026-07-27 18:05:02,157 DEBUG: Converter:_bind:dtype
+2026-07-27 18:05:02,157 DEBUG: Converter:_bind:layout
+2026-07-27 18:05:02,157 DEBUG: Converter:_bind:device
+2026-07-27 18:05:02,158 DEBUG: Converter:_bind:pin_memory
+2026-07-27 18:05:02,160 DEBUG: Converter:_bind:high
+2026-07-27 18:05:02,160 DEBUG: Converter:_bind:size
+2026-07-27 18:05:02,161 DEBUG: Converter:_bind:dtype
+2026-07-27 18:05:02,161 DEBUG: Converter:_bind:layout
+2026-07-27 18:05:02,161 DEBUG: Converter:_bind:device
+2026-07-27 18:05:02,161 DEBUG: Converter:_bind:pin_memory
+2026-07-27 18:05:02,163 DEBUG: Converter:_bind:low
+2026-07-27 18:05:02,163 DEBUG: Converter:_bind:high
+2026-07-27 18:05:02,163 DEBUG: Converter:_bind:size
+2026-07-27 18:05:02,164 DEBUG: Converter:_bind:dtype
+2026-07-27 18:05:02,164 DEBUG: Converter:_bind:layout
+2026-07-27 18:05:02,164 DEBUG: Converter:_bind:device
+2026-07-27 18:05:02,164 DEBUG: Converter:_bind:pin_memory
+2026-07-27 18:05:02,166 DEBUG: Converter:_bind:self
+2026-07-27 18:05:02,167 DEBUG: Converter:_bind:high
+2026-07-27 18:05:02,167 DEBUG: Converter:_bind:dtype
+2026-07-27 18:05:02,167 DEBUG: Converter:_bind:layout
+2026-07-27 18:05:02,167 DEBUG: Converter:_bind:device
+2026-07-27 18:05:02,167 DEBUG: Converter:_bind:pin_memory
+2026-07-27 18:05:02,169 DEBUG: Converter:_bind:self
+2026-07-27 18:05:02,169 DEBUG: Converter:_bind:low
+2026-07-27 18:05:02,170 DEBUG: Converter:_bind:high
+2026-07-27 18:05:02,170 DEBUG: Converter:_bind:dtype
+2026-07-27 18:05:02,170 DEBUG: Converter:_bind:layout
+2026-07-27 18:05:02,170 DEBUG: Converter:_bind:device
+2026-07-27 18:05:02,171 DEBUG: Converter:_bind:pin_memory
+2026-07-27 18:05:02,172 DEBUG: Converter:_bind:size
+2026-07-27 18:05:02,172 DEBUG: Converter:_bind:dtype
+2026-07-27 18:05:02,173 DEBUG: Converter:_bind:layout
+2026-07-27 18:05:02,173 DEBUG: Converter:_bind:device
+2026-07-27 18:05:02,173 DEBUG: Converter:_bind:pin_memory
+2026-07-27 18:05:02,174 DEBUG: Converter:_bind:self
+2026-07-27 18:05:02,174 DEBUG: Converter:_bind:dtype
+2026-07-27 18:05:02,175 DEBUG: Converter:_bind:layout
+2026-07-27 18:05:02,176 DEBUG: Converter:_bind:device
+2026-07-27 18:05:02,176 DEBUG: Converter:_bind:pin_memory
+2026-07-27 18:05:02,178 DEBUG: Converter:_bind:self
+2026-07-27 18:05:02,180 DEBUG: Converter:_bind:self
+2026-07-27 18:05:02,181 DEBUG: Converter:_bind:self
+2026-07-27 18:05:02,181 DEBUG: Converter:_bind:other
+2026-07-27 18:05:02,183 DEBUG: Converter:_bind:self
+2026-07-27 18:05:02,183 DEBUG: Converter:_bind:other
+2026-07-27 18:05:02,184 DEBUG: Converter:_bind:self
+2026-07-27 18:05:02,184 DEBUG: Converter:_bind:other
+2026-07-27 18:05:02,185 DEBUG: Converter:_bind:self
+2026-07-27 18:05:02,186 DEBUG: Converter:_bind:other
+2026-07-27 18:05:02,187 DEBUG: Converter:_bind:self
+2026-07-27 18:05:02,187 DEBUG: Converter:_bind:repeats
+2026-07-27 18:05:02,190 DEBUG: Converter:_bind:self
+2026-07-27 18:05:02,190 DEBUG: Converter:_bind:repeats
+2026-07-27 18:05:02,191 DEBUG: Converter:_bind:dim
+2026-07-27 18:05:02,191 DEBUG: Converter:_bind:output_size
+2026-07-27 18:05:02,194 DEBUG: Converter:_bind:self
+2026-07-27 18:05:02,195 DEBUG: Converter:_bind:repeats
+2026-07-27 18:05:02,196 DEBUG: Converter:_bind:dim
+2026-07-27 18:05:02,197 DEBUG: Converter:_bind:self
+2026-07-27 18:05:02,197 DEBUG: Converter:_bind:shape
+2026-07-27 18:05:02,199 DEBUG: Converter:_bind:self
+2026-07-27 18:05:02,200 DEBUG: Converter:_bind:self
+2026-07-27 18:05:02,201 DEBUG: Converter:_bind:self
+2026-07-27 18:05:02,202 DEBUG: Converter:_bind:shifts
+2026-07-27 18:05:02,202 DEBUG: Converter:_bind:dims
+2026-07-27 18:05:02,205 DEBUG: Converter:_bind:self
+2026-07-27 18:05:02,205 DEBUG: Converter:_bind:shifts
+2026-07-27 18:05:02,205 DEBUG: Converter:_bind:dims
+2026-07-27 18:05:02,206 DEBUG: Converter:_bind:self
+2026-07-27 18:05:02,207 DEBUG: Converter:_bind:self
+2026-07-27 18:05:02,210 DEBUG: Converter:_bind:s
+2026-07-27 18:05:02,210 DEBUG: Converter:_bind:dtype
+2026-07-27 18:05:02,210 DEBUG: Converter:_bind:layout
+2026-07-27 18:05:02,211 DEBUG: Converter:_bind:device
+2026-07-27 18:05:02,211 DEBUG: Converter:_bind:pin_memory
+2026-07-27 18:05:02,213 DEBUG: Converter:_bind:s
+2026-07-27 18:05:02,213 DEBUG: Converter:_bind:dtype
+2026-07-27 18:05:02,214 DEBUG: Converter:_bind:layout
+2026-07-27 18:05:02,214 DEBUG: Converter:_bind:device
+2026-07-27 18:05:02,214 DEBUG: Converter:_bind:pin_memory
+2026-07-27 18:05:02,215 DEBUG: Converter:_bind:self
+2026-07-27 18:05:02,216 DEBUG: Converter:_bind:dim
+2026-07-27 18:05:02,216 DEBUG: Converter:_bind:index
+2026-07-27 18:05:02,216 DEBUG: Converter:_bind:src
+2026-07-27 18:05:02,219 DEBUG: Converter:_bind:self
+2026-07-27 18:05:02,220 DEBUG: Converter:_bind:dim
+2026-07-27 18:05:02,221 DEBUG: Converter:_bind:index
+2026-07-27 18:05:02,223 DEBUG: Converter:_bind:value
+2026-07-27 18:05:02,229 DEBUG: Converter:_bind:self
+2026-07-27 18:05:02,230 DEBUG: Converter:_bind:dim
+2026-07-27 18:05:02,231 DEBUG: Converter:_bind:index
+2026-07-27 18:05:02,231 DEBUG: Converter:_bind:src
+2026-07-27 18:05:02,238 DEBUG: Converter:_bind:self
+2026-07-27 18:05:02,238 DEBUG: Converter:_bind:dim
+2026-07-27 18:05:02,239 DEBUG: Converter:_bind:index
+2026-07-27 18:05:02,239 DEBUG: Converter:_bind:src
+2026-07-27 18:05:02,239 DEBUG: Converter:_bind:reduce
+2026-07-27 18:05:02,239 DEBUG: Converter:_bind:include_self
+2026-07-27 18:05:02,240 DEBUG: Converter:_bind:self
+2026-07-27 18:05:02,240 DEBUG: Converter:_bind:dim
+2026-07-27 18:05:02,241 DEBUG: Converter:_bind:index
+2026-07-27 18:05:02,242 DEBUG: Converter:_bind:self
+2026-07-27 18:05:02,242 DEBUG: Converter:_bind:src
+2026-07-27 18:05:02,243 DEBUG: Converter:_bind:dim
+2026-07-27 18:05:02,243 DEBUG: Converter:_bind:index
+2026-07-27 18:05:02,244 DEBUG: Converter:_bind:self
+2026-07-27 18:05:02,246 DEBUG: Converter:_bind:self
+2026-07-27 18:05:02,247 DEBUG: Converter:_bind:self
+2026-07-27 18:05:02,248 DEBUG: Converter:_bind:self
+2026-07-27 18:05:02,249 DEBUG: Converter:_bind:self
+2026-07-27 18:05:02,250 DEBUG: Converter:_bind:self
+2026-07-27 18:05:02,251 DEBUG: Converter:_bind:dim
+2026-07-27 18:05:02,251 DEBUG: Converter:_bind:start
+2026-07-27 18:05:02,251 DEBUG: Converter:_bind:end
+2026-07-27 18:05:02,252 DEBUG: Converter:_bind:step
+2026-07-27 18:05:02,253 DEBUG: Converter:_bind:self
+2026-07-27 18:05:02,254 DEBUG: Converter:_bind:dim
+2026-07-27 18:05:02,254 DEBUG: Converter:_bind:start
+2026-07-27 18:05:02,254 DEBUG: Converter:_bind:end
+2026-07-27 18:05:02,254 DEBUG: Converter:_bind:step
+2026-07-27 18:05:02,257 DEBUG: Converter:_bind:self
+2026-07-27 18:05:02,257 DEBUG: Converter:_bind:src
+2026-07-27 18:05:02,257 DEBUG: Converter:_bind:dim
+2026-07-27 18:05:02,258 DEBUG: Converter:_bind:start
+2026-07-27 18:05:02,258 DEBUG: Converter:_bind:end
+2026-07-27 18:05:02,259 DEBUG: Converter:_bind:step
+2026-07-27 18:05:02,261 DEBUG: Converter:_bind:self
+2026-07-27 18:05:02,262 DEBUG: Converter:_bind:dim
+2026-07-27 18:05:02,262 DEBUG: Converter:_bind:dtype
+2026-07-27 18:05:02,263 DEBUG: Converter:_bind:self
+2026-07-27 18:05:02,263 DEBUG: Converter:_bind:dim
+2026-07-27 18:05:02,264 DEBUG: Converter:_bind:dtype
+2026-07-27 18:05:02,265 DEBUG: Converter:_bind:self
+2026-07-27 18:05:02,265 DEBUG: Converter:_bind:dim
+2026-07-27 18:05:02,265 DEBUG: Converter:_bind:descending
+2026-07-27 18:05:02,266 DEBUG: Converter:_bind:stable
+2026-07-27 18:05:02,267 DEBUG: Converter:_bind:self
+2026-07-27 18:05:02,267 DEBUG: Converter:_bind:split_size
+2026-07-27 18:05:02,267 DEBUG: Converter:_bind:dim
+2026-07-27 18:05:02,268 DEBUG: Converter:_bind:self
+2026-07-27 18:05:02,269 DEBUG: Converter:_bind:split_size
+2026-07-27 18:05:02,269 DEBUG: Converter:_bind:dim
+2026-07-27 18:05:02,270 DEBUG: Converter:_bind:self
+2026-07-27 18:05:02,270 DEBUG: Converter:_bind:split_sizes
+2026-07-27 18:05:02,271 DEBUG: Converter:_bind:dim
+2026-07-27 18:05:02,271 DEBUG: Converter:_bind:self
+2026-07-27 18:05:02,272 DEBUG: Converter:_bind:self
+2026-07-27 18:05:02,273 DEBUG: Converter:_bind:self
+2026-07-27 18:05:02,273 DEBUG: Converter:_bind:dim
+2026-07-27 18:05:02,274 DEBUG: Converter:_bind:self
+2026-07-27 18:05:02,275 DEBUG: Converter:_bind:dim
+2026-07-27 18:05:02,277 DEBUG: Converter:_bind:tensors
+2026-07-27 18:05:02,277 DEBUG: Converter:_bind:dim
+2026-07-27 18:05:02,278 DEBUG: Converter:_bind:tensors
+2026-07-27 18:05:02,279 DEBUG: Converter:_bind:dim
+2026-07-27 18:05:02,282 DEBUG: Converter:_bind:self
+2026-07-27 18:05:02,282 DEBUG: Converter:_bind:n_fft
+2026-07-27 18:05:02,282 DEBUG: Converter:_bind:hop_length
+2026-07-27 18:05:02,283 DEBUG: Converter:_bind:win_length
+2026-07-27 18:05:02,283 DEBUG: Converter:_bind:window
+2026-07-27 18:05:02,283 DEBUG: Converter:_bind:normalized
+2026-07-27 18:05:02,283 DEBUG: Converter:_bind:onesided
+2026-07-27 18:05:02,283 DEBUG: Converter:_bind:return_complex
+2026-07-27 18:05:02,284 DEBUG: Converter:_bind:self
+2026-07-27 18:05:02,284 DEBUG: Converter:_bind:other
+2026-07-27 18:05:02,285 DEBUG: Converter:_bind:alpha
+2026-07-27 18:05:02,286 DEBUG: Converter:_bind:self
+2026-07-27 18:05:02,286 DEBUG: Converter:_bind:other
+2026-07-27 18:05:02,286 DEBUG: Converter:_bind:alpha
+2026-07-27 18:05:02,287 DEBUG: Converter:_bind:self
+2026-07-27 18:05:02,287 DEBUG: Converter:_bind:other
+2026-07-27 18:05:02,288 DEBUG: Converter:_bind:alpha
+2026-07-27 18:05:02,288 DEBUG: Converter:_bind:self
+2026-07-27 18:05:02,289 DEBUG: Converter:_bind:other
+2026-07-27 18:05:02,289 DEBUG: Converter:_bind:alpha
+2026-07-27 18:05:02,290 DEBUG: Converter:_bind:self
+2026-07-27 18:05:02,290 DEBUG: Converter:_bind:other
+2026-07-27 18:05:02,290 DEBUG: Converter:_bind:alpha
+2026-07-27 18:05:02,291 DEBUG: Converter:_bind:self
+2026-07-27 18:05:02,292 DEBUG: Converter:_bind:other
+2026-07-27 18:05:02,292 DEBUG: Converter:_bind:alpha
+2026-07-27 18:05:02,294 DEBUG: Converter:_bind:self
+2026-07-27 18:05:02,294 DEBUG: Converter:_bind:other
+2026-07-27 18:05:02,294 DEBUG: Converter:_bind:alpha
+2026-07-27 18:05:02,295 DEBUG: Converter:_bind:self
+2026-07-27 18:05:02,296 DEBUG: Converter:_bind:other
+2026-07-27 18:05:02,296 DEBUG: Converter:_bind:alpha
+2026-07-27 18:05:02,297 DEBUG: Converter:_bind:self
+2026-07-27 18:05:02,297 DEBUG: Converter:_bind:other
+2026-07-27 18:05:02,298 DEBUG: Converter:_bind:alpha
+2026-07-27 18:05:02,299 DEBUG: Converter:_bind:self
+2026-07-27 18:05:02,299 DEBUG: Converter:_bind:dtype
+2026-07-27 18:05:02,300 DEBUG: Converter:_bind:self
+2026-07-27 18:05:02,300 DEBUG: Converter:_bind:dtype
+2026-07-27 18:05:02,302 DEBUG: Converter:_bind:self
+2026-07-27 18:05:02,302 DEBUG: Converter:_bind:dim
+2026-07-27 18:05:02,302 DEBUG: Converter:_bind:keepdim
+2026-07-27 18:05:02,303 DEBUG: Converter:_bind:dtype
+2026-07-27 18:05:02,304 DEBUG: Converter:_bind:self
+2026-07-27 18:05:02,305 DEBUG: Converter:_bind:dim
+2026-07-27 18:05:02,305 DEBUG: Converter:_bind:keepdim
+2026-07-27 18:05:02,305 DEBUG: Converter:_bind:dtype
+2026-07-27 18:05:02,306 DEBUG: Converter:_bind:self
+2026-07-27 18:05:02,306 DEBUG: Converter:_bind:dim
+2026-07-27 18:05:02,307 DEBUG: Converter:_bind:self
+2026-07-27 18:05:02,307 DEBUG: Converter:_bind:dim
+2026-07-27 18:05:02,308 DEBUG: Converter:_bind:self
+2026-07-27 18:05:02,310 DEBUG: Converter:_bind:self
+2026-07-27 18:05:02,311 DEBUG: Converter:_bind:self
+2026-07-27 18:05:02,312 DEBUG: Converter:_bind:self
+2026-07-27 18:05:02,313 DEBUG: Converter:_bind:self
+2026-07-27 18:05:02,313 DEBUG: Converter:_bind:dtype
+2026-07-27 18:05:02,314 DEBUG: Converter:_bind:self
+2026-07-27 18:05:02,315 DEBUG: Converter:_bind:dtype
+2026-07-27 18:05:02,315 DEBUG: Converter:_bind:self
+2026-07-27 18:05:02,316 DEBUG: Converter:_bind:dtype
+2026-07-27 18:05:02,317 DEBUG: Converter:_bind:self
+2026-07-27 18:05:02,317 DEBUG: Converter:_bind:dims
+2026-07-27 18:05:02,318 DEBUG: Converter:_bind:self
+2026-07-27 18:05:02,318 DEBUG: Converter:_bind:k
+2026-07-27 18:05:02,319 DEBUG: Converter:_bind:dim
+2026-07-27 18:05:02,319 DEBUG: Converter:_bind:largest
+2026-07-27 18:05:02,319 DEBUG: Converter:_bind:sorted
+2026-07-27 18:05:02,320 DEBUG: Converter:_bind:self
+2026-07-27 18:05:02,321 DEBUG: Converter:_bind:dim0
+2026-07-27 18:05:02,321 DEBUG: Converter:_bind:dim1
+2026-07-27 18:05:02,322 DEBUG: Converter:_bind:self
+2026-07-27 18:05:02,322 DEBUG: Converter:_bind:dim0
+2026-07-27 18:05:02,322 DEBUG: Converter:_bind:dim1
+2026-07-27 18:05:02,323 DEBUG: Converter:_bind:self
+2026-07-27 18:05:02,323 DEBUG: Converter:_bind:diagonal
+2026-07-27 18:05:02,325 DEBUG: Converter:_bind:self
+2026-07-27 18:05:02,325 DEBUG: Converter:_bind:diagonal
+2026-07-27 18:05:02,327 DEBUG: Converter:_bind:self
+2026-07-27 18:05:02,328 DEBUG: Converter:_bind:self
+2026-07-27 18:05:02,329 DEBUG: Converter:_bind:self
+2026-07-27 18:05:02,329 DEBUG: Converter:_bind:other
+2026-07-27 18:05:02,331 DEBUG: Converter:_bind:self
+2026-07-27 18:05:02,331 DEBUG: Converter:_bind:dim
+2026-07-27 18:05:02,333 DEBUG: Converter:_bind:self
+2026-07-27 18:05:02,334 DEBUG: Converter:_bind:dim
+2026-07-27 18:05:02,334 DEBUG: Converter:_bind:sizes
+2026-07-27 18:05:02,335 DEBUG: Converter:_bind:self
+2026-07-27 18:05:02,336 DEBUG: Converter:_bind:dimension
+2026-07-27 18:05:02,336 DEBUG: Converter:_bind:size
+2026-07-27 18:05:02,336 DEBUG: Converter:_bind:step
+2026-07-27 18:05:02,339 DEBUG: Converter:_bind:x
+2026-07-27 18:05:02,339 DEBUG: Converter:_bind:return_inverse
+2026-07-27 18:05:02,340 DEBUG: Converter:_bind:return_counts
+2026-07-27 18:05:02,340 DEBUG: Converter:_bind:dim
+2026-07-27 18:05:02,341 DEBUG: Converter:_bind:self
+2026-07-27 18:05:02,342 DEBUG: Converter:_bind:sorted
+2026-07-27 18:05:02,342 DEBUG: Converter:_bind:return_inverse
+2026-07-27 18:05:02,345 DEBUG: Converter:_bind:self
+2026-07-27 18:05:02,345 DEBUG: Converter:_bind:sorted
+2026-07-27 18:05:02,346 DEBUG: Converter:_bind:return_inverse
+2026-07-27 18:05:02,346 DEBUG: Converter:_bind:return_counts
+2026-07-27 18:05:02,348 DEBUG: Converter:_bind:self
+2026-07-27 18:05:02,348 DEBUG: Converter:_bind:dim
+2026-07-27 18:05:02,348 DEBUG: Converter:_bind:sorted
+2026-07-27 18:05:02,349 DEBUG: Converter:_bind:return_inverse
+2026-07-27 18:05:02,349 DEBUG: Converter:_bind:return_counts
+2026-07-27 18:05:02,351 DEBUG: Converter:_bind:self
+2026-07-27 18:05:02,351 DEBUG: Converter:_bind:split_size
+2026-07-27 18:05:02,351 DEBUG: Converter:_bind:dim
+2026-07-27 18:05:02,352 DEBUG: Converter:_bind:self
+2026-07-27 18:05:02,352 DEBUG: Converter:_bind:dim
+2026-07-27 18:05:02,353 DEBUG: Converter:_bind:self
+2026-07-27 18:05:02,353 DEBUG: Converter:_bind:size
+2026-07-27 18:05:02,354 DEBUG: Converter:_bind:self
+2026-07-27 18:05:02,355 DEBUG: Converter:_bind:size
+2026-07-27 18:05:02,356 DEBUG: Converter:_bind:self
+2026-07-27 18:05:02,356 DEBUG: Converter:_bind:size
+2026-07-27 18:05:02,357 DEBUG: Converter:_bind:self
+2026-07-27 18:05:02,357 DEBUG: Converter:_bind:size
+2026-07-27 18:05:02,358 DEBUG: Converter:_bind:self
+2026-07-27 18:05:02,359 DEBUG: Converter:_bind:other
+2026-07-27 18:05:02,360 DEBUG: Converter:_bind:self
+2026-07-27 18:05:02,361 DEBUG: Converter:_bind:self
+2026-07-27 18:05:02,362 DEBUG: Converter:_bind:self
+2026-07-27 18:05:02,363 DEBUG: Converter:_bind:self
+2026-07-27 18:05:02,364 DEBUG: Converter:_bind:self
+2026-07-27 18:05:02,364 DEBUG: Converter:_bind:size
+2026-07-27 18:05:02,365 DEBUG: Converter:_bind:condition
+2026-07-27 18:05:02,365 DEBUG: Converter:_bind:self
+2026-07-27 18:05:02,366 DEBUG: Converter:_bind:other
+2026-07-27 18:05:02,367 DEBUG: Converter:_bind:condition
+2026-07-27 18:05:02,368 DEBUG: Converter:_bind:self
+2026-07-27 18:05:02,368 DEBUG: Converter:_bind:other
+2026-07-27 18:05:02,369 DEBUG: Converter:_bind:condition
+2026-07-27 18:05:02,369 DEBUG: Converter:_bind:self
+2026-07-27 18:05:02,369 DEBUG: Converter:_bind:other
+2026-07-27 18:05:02,370 DEBUG: Converter:_bind:condition
+2026-07-27 18:05:02,370 DEBUG: Converter:_bind:self
+2026-07-27 18:05:02,371 DEBUG: Converter:_bind:other
+2026-07-27 18:05:02,372 DEBUG: Converter:_bind:size
+2026-07-27 18:05:02,372 DEBUG: Converter:_bind:dtype
+2026-07-27 18:05:02,373 DEBUG: Converter:_bind:layout
+2026-07-27 18:05:02,373 DEBUG: Converter:_bind:device
+2026-07-27 18:05:02,373 DEBUG: Converter:_bind:pin_memory
+2026-07-27 18:05:02,375 DEBUG: Converter:_bind:self
+2026-07-27 18:05:02,375 DEBUG: Converter:_bind:dtype
+2026-07-27 18:05:02,375 DEBUG: Converter:_bind:layout
+2026-07-27 18:05:02,376 DEBUG: Converter:_bind:device
+2026-07-27 18:05:02,376 DEBUG: Converter:_bind:pin_memory
+2026-07-27 18:05:02,377 DEBUG: Converter:_bind:memory_format
+2026-07-27 18:05:02,383 DEBUG: Converter:_bind:self
+2026-07-27 18:05:02,390 DEBUG: Converter:_bind:dim
+2026-07-27 18:05:02,391 DEBUG: Converter:_bind:normalization
+2026-07-27 18:05:02,391 DEBUG: Converter:_bind:forward
+2026-07-27 18:05:02,395 DEBUG: Converter:_bind:self
+2026-07-27 18:05:02,396 DEBUG: Converter:_bind:dim
+2026-07-27 18:05:02,397 DEBUG: Converter:_bind:normalization
+2026-07-27 18:05:02,397 DEBUG: Converter:_bind:last_dim_size
+2026-07-27 18:05:02,401 DEBUG: Converter:_bind:self
+2026-07-27 18:05:02,402 DEBUG: Converter:_bind:dim
+2026-07-27 18:05:02,402 DEBUG: Converter:_bind:normalization
+2026-07-27 18:05:02,403 DEBUG: Converter:_bind:onesided
+2026-07-27 18:05:02,411 DEBUG: Converter:_bind:self
+2026-07-27 18:05:02,413 DEBUG: Converter:_bind:ord
+2026-07-27 18:05:02,418 DEBUG: Converter:_bind:dim
+2026-07-27 18:05:02,419 DEBUG: Converter:_bind:keepdim
+2026-07-27 18:05:02,420 DEBUG: Converter:_bind:dtype
+2026-07-27 18:05:02,425 DEBUG: Converter:_bind:self
+2026-07-27 18:05:02,426 DEBUG: Converter:_bind:kernel_size
+2026-07-27 18:05:02,429 DEBUG: Converter:_bind:stride
+2026-07-27 18:05:02,431 DEBUG: Converter:_bind:padding
+2026-07-27 18:05:02,432 DEBUG: Converter:_bind:ceil_mode
+2026-07-27 18:05:02,433 DEBUG: Converter:_bind:count_include_pad
+2026-07-27 18:05:02,438 DEBUG: Converter:_bind:self
+2026-07-27 18:05:02,439 DEBUG: Converter:_bind:kernel_size
+2026-07-27 18:05:02,441 DEBUG: Converter:_bind:stride
+2026-07-27 18:05:02,443 DEBUG: Converter:_bind:padding
+2026-07-27 18:05:02,444 DEBUG: Converter:_bind:ceil_mode
+2026-07-27 18:05:02,445 DEBUG: Converter:_bind:count_include_pad
+2026-07-27 18:05:02,447 DEBUG: Converter:_bind:divisor_override
+2026-07-27 18:05:02,454 DEBUG: Converter:_bind:self
+2026-07-27 18:05:02,455 DEBUG: Converter:_bind:kernel_size
+2026-07-27 18:05:02,457 DEBUG: Converter:_bind:stride
+2026-07-27 18:05:02,458 DEBUG: Converter:_bind:padding
+2026-07-27 18:05:02,459 DEBUG: Converter:_bind:ceil_mode
+2026-07-27 18:05:02,460 DEBUG: Converter:_bind:count_include_pad
+2026-07-27 18:05:02,461 DEBUG: Converter:_bind:divisor_override
+2026-07-27 18:05:02,467 DEBUG: Converter:_bind:self
+2026-07-27 18:05:02,468 DEBUG: Converter:_bind:alpha
+2026-07-27 18:05:02,474 DEBUG: Converter:_bind:self
+2026-07-27 18:05:02,476 DEBUG: Converter:_bind:output_size
+2026-07-27 18:05:02,478 DEBUG: Converter:_bind:kernel_size
+2026-07-27 18:05:02,479 DEBUG: Converter:_bind:dilation
+2026-07-27 18:05:02,480 DEBUG: Converter:_bind:padding
+2026-07-27 18:05:02,483 DEBUG: Converter:_bind:stride
+2026-07-27 18:05:02,490 DEBUG: Converter:_bind:self
+2026-07-27 18:05:02,491 DEBUG: Converter:_bind:target
+2026-07-27 18:05:02,492 DEBUG: Converter:_bind:weight
+2026-07-27 18:05:02,494 DEBUG: Converter:_bind:reduction
+2026-07-27 18:05:02,495 DEBUG: Converter:_bind:ignore_index
+2026-07-27 18:05:02,496 DEBUG: Converter:_bind:label_smoothing
+2026-07-27 18:05:02,501 DEBUG: Converter:_bind:self
+2026-07-27 18:05:02,503 DEBUG: Converter:_bind:alpha
+2026-07-27 18:05:02,504 DEBUG: Converter:_bind:scale
+2026-07-27 18:05:02,505 DEBUG: Converter:_bind:input_scale
+2026-07-27 18:05:02,509 DEBUG: Converter:_bind:self
+2026-07-27 18:05:02,511 DEBUG: Converter:_bind:approximate
+2026-07-27 18:05:02,521 DEBUG: Converter:_bind:input
+2026-07-27 18:05:02,525 DEBUG: Converter:_bind:num_groups
+2026-07-27 18:05:02,526 DEBUG: Converter:_bind:weight
+2026-07-27 18:05:02,527 DEBUG: Converter:_bind:bias
+2026-07-27 18:05:02,528 DEBUG: Converter:_bind:eps
+2026-07-27 18:05:02,530 DEBUG: Converter:_bind:cudnn_enabled
+2026-07-27 18:05:02,535 DEBUG: Converter:_bind:self
+2026-07-27 18:05:02,540 DEBUG: Converter:_bind:grad_output
+2026-07-27 18:05:02,541 DEBUG: Converter:_bind:self
+2026-07-27 18:05:02,542 DEBUG: Converter:_bind:min_val
+2026-07-27 18:05:02,543 DEBUG: Converter:_bind:max_val
+2026-07-27 18:05:02,551 DEBUG: Converter:_bind:self
+2026-07-27 18:05:02,552 DEBUG: Converter:_bind:kernel_size
+2026-07-27 18:05:02,552 DEBUG: Converter:_bind:dilation
+2026-07-27 18:05:02,553 DEBUG: Converter:_bind:padding
+2026-07-27 18:05:02,553 DEBUG: Converter:_bind:stride
+2026-07-27 18:05:02,555 DEBUG: Converter:_bind:self
+2026-07-27 18:05:02,556 DEBUG: Converter:_bind:negative_slope
+2026-07-27 18:05:02,559 DEBUG: Converter:_bind:input
+2026-07-27 18:05:02,559 DEBUG: Converter:_bind:weight
+2026-07-27 18:05:02,561 DEBUG: Converter:_bind:bias
+2026-07-27 18:05:02,563 DEBUG: Converter:_bind:self
+2026-07-27 18:05:02,564 DEBUG: Converter:_bind:kernel_size
+2026-07-27 18:05:02,565 DEBUG: Converter:_bind:stride
+2026-07-27 18:05:02,566 DEBUG: Converter:_bind:padding
+2026-07-27 18:05:02,566 DEBUG: Converter:_bind:dilation
+2026-07-27 18:05:02,567 DEBUG: Converter:_bind:ceil_mode
+2026-07-27 18:05:02,568 DEBUG: Converter:_bind:self
+2026-07-27 18:05:02,569 DEBUG: Converter:_bind:kernel_size
+2026-07-27 18:05:02,569 DEBUG: Converter:_bind:stride
+2026-07-27 18:05:02,569 DEBUG: Converter:_bind:padding
+2026-07-27 18:05:02,570 DEBUG: Converter:_bind:dilation
+2026-07-27 18:05:02,570 DEBUG: Converter:_bind:ceil_mode
+2026-07-27 18:05:02,573 DEBUG: Converter:_bind:self
+2026-07-27 18:05:02,573 DEBUG: Converter:_bind:kernel_size
+2026-07-27 18:05:02,574 DEBUG: Converter:_bind:stride
+2026-07-27 18:05:02,574 DEBUG: Converter:_bind:padding
+2026-07-27 18:05:02,574 DEBUG: Converter:_bind:dilation
+2026-07-27 18:05:02,575 DEBUG: Converter:_bind:ceil_mode
+2026-07-27 18:05:02,576 DEBUG: Converter:_bind:self
+2026-07-27 18:05:02,577 DEBUG: Converter:_bind:kernel_size
+2026-07-27 18:05:02,577 DEBUG: Converter:_bind:stride
+2026-07-27 18:05:02,578 DEBUG: Converter:_bind:padding
+2026-07-27 18:05:02,578 DEBUG: Converter:_bind:dilation
+2026-07-27 18:05:02,578 DEBUG: Converter:_bind:ceil_mode
+2026-07-27 18:05:02,582 DEBUG: Converter:_bind:self
+2026-07-27 18:05:02,583 DEBUG: Converter:_bind:kernel_size
+2026-07-27 18:05:02,584 DEBUG: Converter:_bind:stride
+2026-07-27 18:05:02,586 DEBUG: Converter:_bind:padding
+2026-07-27 18:05:02,587 DEBUG: Converter:_bind:dilation
+2026-07-27 18:05:02,588 DEBUG: Converter:_bind:ceil_mode
+2026-07-27 18:05:02,595 DEBUG: Converter:_bind:self
+2026-07-27 18:05:02,596 DEBUG: Converter:_bind:kernel_size
+2026-07-27 18:05:02,597 DEBUG: Converter:_bind:stride
+2026-07-27 18:05:02,598 DEBUG: Converter:_bind:padding
+2026-07-27 18:05:02,599 DEBUG: Converter:_bind:dilation
+2026-07-27 18:05:02,600 DEBUG: Converter:_bind:ceil_mode
+2026-07-27 18:05:02,606 DEBUG: Converter:_bind:self
+2026-07-27 18:05:02,607 DEBUG: Converter:_bind:target
+2026-07-27 18:05:02,609 DEBUG: Converter:_bind:reduction
+2026-07-27 18:05:02,616 DEBUG: Converter:_bind:self
+2026-07-27 18:05:02,618 DEBUG: Converter:_bind:target
+2026-07-27 18:05:02,620 DEBUG: Converter:_bind:weight
+2026-07-27 18:05:02,621 DEBUG: Converter:_bind:reduction
+2026-07-27 18:05:02,622 DEBUG: Converter:_bind:ignore_index
+2026-07-27 18:05:02,627 DEBUG: Converter:_bind:self
+2026-07-27 18:05:02,628 DEBUG: Converter:_bind:target
+2026-07-27 18:05:02,629 DEBUG: Converter:_bind:weight
+2026-07-27 18:05:02,629 DEBUG: Converter:_bind:reduction
+2026-07-27 18:05:02,630 DEBUG: Converter:_bind:ignore_index
+2026-07-27 18:05:02,632 DEBUG: Converter:_bind:self
+2026-07-27 18:05:02,633 DEBUG: Converter:_bind:pad
+2026-07-27 18:05:02,633 DEBUG: Converter:_bind:mode
+2026-07-27 18:05:02,633 DEBUG: Converter:_bind:value
+2026-07-27 18:05:02,636 DEBUG: Converter:_bind:self
+2026-07-27 18:05:02,636 DEBUG: Converter:_bind:padding
+2026-07-27 18:05:02,637 DEBUG: Converter:_bind:self
+2026-07-27 18:05:02,638 DEBUG: Converter:_bind:padding
+2026-07-27 18:05:02,639 DEBUG: Converter:_bind:self
+2026-07-27 18:05:02,640 DEBUG: Converter:_bind:padding
+2026-07-27 18:05:02,642 DEBUG: Converter:_bind:self
+2026-07-27 18:05:02,644 DEBUG: Converter:_bind:self
+2026-07-27 18:05:02,645 DEBUG: Converter:_bind:self
+2026-07-27 18:05:02,645 DEBUG: Converter:_bind:padding
+2026-07-27 18:05:02,647 DEBUG: Converter:_bind:self
+2026-07-27 18:05:02,647 DEBUG: Converter:_bind:padding
+2026-07-27 18:05:02,649 DEBUG: Converter:_bind:self
+2026-07-27 18:05:02,649 DEBUG: Converter:_bind:padding
+2026-07-27 18:05:02,651 DEBUG: Converter:_bind:query
+2026-07-27 18:05:02,652 DEBUG: Converter:_bind:key
+2026-07-27 18:05:02,652 DEBUG: Converter:_bind:value
+2026-07-27 18:05:02,653 DEBUG: Converter:_bind:attn_mask
+2026-07-27 18:05:02,653 DEBUG: Converter:_bind:dropout_p
+2026-07-27 18:05:02,653 DEBUG: Converter:_bind:is_causal
+2026-07-27 18:05:02,653 DEBUG: Converter:_bind:scale
+2026-07-27 18:05:02,654 DEBUG: Converter:_bind:enable_gqa
+2026-07-27 18:05:02,655 DEBUG: Converter:_bind:query
+2026-07-27 18:05:02,656 DEBUG: Converter:_bind:key
+2026-07-27 18:05:02,656 DEBUG: Converter:_bind:value
+2026-07-27 18:05:02,656 DEBUG: Converter:_bind:dropout_p
+2026-07-27 18:05:02,657 DEBUG: Converter:_bind:is_causal
+2026-07-27 18:05:02,657 DEBUG: Converter:_bind:return_debug_mask
+2026-07-27 18:05:02,658 DEBUG: Converter:_bind:scale
+2026-07-27 18:05:02,662 DEBUG: Converter:_bind:query
+2026-07-27 18:05:02,663 DEBUG: Converter:_bind:key
+2026-07-27 18:05:02,663 DEBUG: Converter:_bind:value
+2026-07-27 18:05:02,664 DEBUG: Converter:_bind:dropout_p
+2026-07-27 18:05:02,664 DEBUG: Converter:_bind:is_causal
+2026-07-27 18:05:02,664 DEBUG: Converter:_bind:attn_mask
+2026-07-27 18:05:02,665 DEBUG: Converter:_bind:scale
+2026-07-27 18:05:02,666 DEBUG: Converter:_bind:query
+2026-07-27 18:05:02,667 DEBUG: Converter:_bind:key
+2026-07-27 18:05:02,667 DEBUG: Converter:_bind:value
+2026-07-27 18:05:02,667 DEBUG: Converter:_bind:attn_bias
+2026-07-27 18:05:02,667 DEBUG: Converter:_bind:compute_log_sumexp
+2026-07-27 18:05:02,668 DEBUG: Converter:_bind:dropout_p
+2026-07-27 18:05:02,668 DEBUG: Converter:_bind:is_causal
+2026-07-27 18:05:02,668 DEBUG: Converter:_bind:scale
+2026-07-27 18:05:02,669 DEBUG: Converter:_bind:self
+2026-07-27 18:05:02,670 DEBUG: Converter:_bind:self
+2026-07-27 18:05:02,670 DEBUG: Converter:_bind:output_size
+2026-07-27 18:05:02,671 DEBUG: Converter:_bind:align_corners
+2026-07-27 18:05:02,671 DEBUG: Converter:_bind:scales_h
+2026-07-27 18:05:02,671 DEBUG: Converter:_bind:scales_w
+2026-07-27 18:05:02,673 DEBUG: Converter:_bind:self
+2026-07-27 18:05:02,673 DEBUG: Converter:_bind:output_size
+2026-07-27 18:05:02,673 DEBUG: Converter:_bind:align_corners
+2026-07-27 18:05:02,674 DEBUG: Converter:_bind:scales_h
+2026-07-27 18:05:02,674 DEBUG: Converter:_bind:scales_w
+2026-07-27 18:05:02,677 DEBUG: Converter:_bind:self
+2026-07-27 18:05:02,678 DEBUG: Converter:_bind:output_size
+2026-07-27 18:05:02,678 DEBUG: Converter:_bind:align_corners
+2026-07-27 18:05:02,679 DEBUG: Converter:_bind:scale_factors
+2026-07-27 18:05:02,681 DEBUG: Converter:_bind:self
+2026-07-27 18:05:02,681 DEBUG: Converter:_bind:output_size
+2026-07-27 18:05:02,682 DEBUG: Converter:_bind:align_corners
+2026-07-27 18:05:02,682 DEBUG: Converter:_bind:scales_h
+2026-07-27 18:05:02,682 DEBUG: Converter:_bind:scales_w
+2026-07-27 18:05:02,684 DEBUG: Converter:_bind:self
+2026-07-27 18:05:02,685 DEBUG: Converter:_bind:output_size
+2026-07-27 18:05:02,685 DEBUG: Converter:_bind:align_corners
+2026-07-27 18:05:02,685 DEBUG: Converter:_bind:scales_h
+2026-07-27 18:05:02,685 DEBUG: Converter:_bind:scales_w
+2026-07-27 18:05:02,686 DEBUG: Converter:_bind:self
+2026-07-27 18:05:02,687 DEBUG: Converter:_bind:output_size
+2026-07-27 18:05:02,687 DEBUG: Converter:_bind:align_corners
+2026-07-27 18:05:02,687 DEBUG: Converter:_bind:scale_factors
+2026-07-27 18:05:02,689 DEBUG: Converter:_bind:self
+2026-07-27 18:05:02,689 DEBUG: Converter:_bind:output_size
+2026-07-27 18:05:02,689 DEBUG: Converter:_bind:align_corners
+2026-07-27 18:05:02,690 DEBUG: Converter:_bind:scales
+2026-07-27 18:05:02,692 DEBUG: Converter:_bind:self
+2026-07-27 18:05:02,692 DEBUG: Converter:_bind:output_size
+2026-07-27 18:05:02,693 DEBUG: Converter:_bind:scales
+2026-07-27 18:05:02,695 DEBUG: Converter:_bind:input
+2026-07-27 18:05:02,696 DEBUG: Converter:_bind:output_size
+2026-07-27 18:05:02,696 DEBUG: Converter:_bind:scale_factors
+2026-07-27 18:05:02,699 DEBUG: Converter:_bind:input
+2026-07-27 18:05:02,700 DEBUG: Converter:_bind:output_size
+2026-07-27 18:05:02,700 DEBUG: Converter:_bind:scale_factors
+2026-07-27 18:05:02,702 DEBUG: Converter:_bind:input
+2026-07-27 18:05:02,702 DEBUG: Converter:_bind:output_size
+2026-07-27 18:05:02,702 DEBUG: Converter:_bind:scale_factors
+2026-07-27 18:05:02,704 DEBUG: Converter:_bind:self
+2026-07-27 18:05:02,705 DEBUG: Converter:_bind:output_size
+2026-07-27 18:05:02,705 DEBUG: Converter:_bind:scales_h
+2026-07-27 18:05:02,706 DEBUG: Converter:_bind:scales_w
+2026-07-27 18:05:02,708 DEBUG: Converter:_bind:self
+2026-07-27 18:05:02,712 DEBUG: Converter:_bind:output_size
+2026-07-27 18:05:02,713 DEBUG: Converter:_bind:scales_d
+2026-07-27 18:05:02,714 DEBUG: Converter:_bind:scales_h
+2026-07-27 18:05:02,715 DEBUG: Converter:_bind:scales_w
+2026-07-27 18:05:02,717 DEBUG: Converter:_bind:self
+2026-07-27 18:05:02,717 DEBUG: Converter:_bind:output_size
+2026-07-27 18:05:02,717 DEBUG: Converter:_bind:align_corners
+2026-07-27 18:05:02,718 DEBUG: Converter:_bind:scales_d
+2026-07-27 18:05:02,718 DEBUG: Converter:_bind:scales_h
+2026-07-27 18:05:02,718 DEBUG: Converter:_bind:scales_w
+2026-07-27 18:05:02,719 DEBUG: Converter:_bind:self
+2026-07-27 18:05:02,720 DEBUG: Converter:_bind:output_size
+2026-07-27 18:05:02,720 DEBUG: Converter:_bind:align_corners
+2026-07-27 18:05:02,720 DEBUG: Converter:_bind:scale_factors
+2026-07-27 18:05:02,721 DEBUG: Converter:_bind:self
+2026-07-27 18:05:02,722 DEBUG: Converter:_bind:self
+2026-07-27 18:05:02,723 DEBUG: Converter:_bind:self
+2026-07-27 18:05:02,725 DEBUG: Converter:_bind:self
+2026-07-27 18:05:02,726 DEBUG: Converter:_bind:other
+2026-07-27 18:05:02,728 DEBUG: Converter:_bind:self
+2026-07-27 18:05:02,732 DEBUG: Converter:_bind:self
+2026-07-27 18:05:02,734 DEBUG: Converter:_bind:self
+2026-07-27 18:05:02,735 DEBUG: Converter:_bind:self
+2026-07-27 18:05:02,737 DEBUG: Converter:_bind:a
+2026-07-27 18:05:02,737 DEBUG: Converter:_bind:shape
+2026-07-27 18:05:02,738 DEBUG: Converter:_bind:broadcast_dimensions
+2026-07-27 18:05:02,739 DEBUG: Converter:_bind:self
+2026-07-27 18:05:02,740 DEBUG: Converter:_bind:a
+2026-07-27 18:05:02,740 DEBUG: Converter:_bind:dtype
+2026-07-27 18:05:02,742 DEBUG: Converter:_bind:self
+2026-07-27 18:05:02,745 DEBUG: Converter:_bind:self
+2026-07-27 18:05:02,748 DEBUG: Converter:_bind:self
+2026-07-27 18:05:02,749 DEBUG: Converter:_bind:other
+2026-07-27 18:05:02,750 DEBUG: Converter:_bind:self
+2026-07-27 18:05:02,751 DEBUG: Converter:_bind:other
+2026-07-27 18:05:02,751 DEBUG: Converter:_bind:self
+2026-07-27 18:05:02,752 DEBUG: Converter:_bind:self
+2026-07-27 18:05:02,753 DEBUG: Converter:_bind:self
+2026-07-27 18:05:02,754 DEBUG: Converter:_bind:self
+2026-07-27 18:05:02,755 DEBUG: Converter:_bind:other
+2026-07-27 18:05:02,756 DEBUG: Converter:_bind:self
+2026-07-27 18:05:02,756 DEBUG: Converter:_bind:other
+2026-07-27 18:05:02,757 DEBUG: Converter:_bind:self
+2026-07-27 18:05:02,757 DEBUG: Converter:_bind:other
+2026-07-27 18:05:02,759 DEBUG: Converter:_bind:self
+2026-07-27 18:05:02,762 DEBUG: Converter:_bind:self
+2026-07-27 18:05:02,762 DEBUG: Converter:_bind:other
+2026-07-27 18:05:02,765 DEBUG: Converter:_bind:self
+2026-07-27 18:05:02,765 DEBUG: Converter:_bind:other
+2026-07-27 18:05:02,766 DEBUG: Converter:_bind:self
+2026-07-27 18:05:02,766 DEBUG: Converter:_bind:other
+2026-07-27 18:05:02,767 DEBUG: Converter:_bind:self
+2026-07-27 18:05:02,768 DEBUG: Converter:_bind:self
+2026-07-27 18:05:02,769 DEBUG: Converter:_bind:other
+2026-07-27 18:05:02,769 DEBUG: Converter:_bind:a
+2026-07-27 18:05:02,770 DEBUG: Converter:_bind:shape
+2026-07-27 18:05:02,770 DEBUG: Converter:_bind:a
+2026-07-27 18:05:02,771 DEBUG: Converter:_bind:shape
+2026-07-27 18:05:02,772 DEBUG: Converter:_bind:self
+2026-07-27 18:05:02,773 DEBUG: Converter:_bind:self
+2026-07-27 18:05:02,775 DEBUG: Converter:_bind:self
+2026-07-27 18:05:02,777 DEBUG: Converter:_bind:self
+2026-07-27 18:05:02,780 DEBUG: Converter:_bind:a
+2026-07-27 18:05:02,781 DEBUG: Converter:_bind:dimensions
+2026-07-27 18:05:02,782 DEBUG: Converter:_bind:self
+2026-07-27 18:05:02,782 DEBUG: Converter:_bind:other
+2026-07-27 18:05:02,784 DEBUG: Converter:_bind:inp
+2026-07-27 18:05:02,784 DEBUG: Converter:_bind:dims
+2026-07-27 18:05:02,785 DEBUG: Converter:_bind:output_dtype
+2026-07-27 18:05:02,786 DEBUG: Converter:_bind:self
+2026-07-27 18:05:02,787 DEBUG: Converter:_bind:self
+2026-07-27 18:05:02,787 DEBUG: Converter:_bind:a
+2026-07-27 18:05:02,788 DEBUG: Converter:_bind:permutation
+2026-07-27 18:05:02,789 DEBUG: Converter:_bind:inp
+2026-07-27 18:05:02,790 DEBUG: Converter:_bind:dims
+2026-07-27 18:05:02,790 DEBUG: Converter:_bind:correction
+2026-07-27 18:05:02,790 DEBUG: Converter:_bind:output_dtype
+2026-07-27 18:05:02,792 DEBUG: Converter:_bind:pred
+2026-07-27 18:05:02,792 DEBUG: Converter:_bind:a
+2026-07-27 18:05:02,793 DEBUG: Converter:_bind:b
+2026-07-27 18:05:02,798 DEBUG: Converter:_bind:input
+2026-07-27 18:05:02,799 DEBUG: Converter:_bind:scale
+2026-07-27 18:05:02,799 DEBUG: Converter:_bind:zero_point
+2026-07-27 18:05:02,799 DEBUG: Converter:_bind:quant_min
+2026-07-27 18:05:02,800 DEBUG: Converter:_bind:quant_max
+2026-07-27 18:05:02,800 DEBUG: Converter:_bind:dtype
+2026-07-27 18:05:02,801 DEBUG: Converter:_bind:input
+2026-07-27 18:05:02,801 DEBUG: Converter:_bind:scale
+2026-07-27 18:05:02,801 DEBUG: Converter:_bind:zero_point
+2026-07-27 18:05:02,801 DEBUG: Converter:_bind:quant_min
+2026-07-27 18:05:02,802 DEBUG: Converter:_bind:quant_max
+2026-07-27 18:05:02,802 DEBUG: Converter:_bind:dtype
+2026-07-27 18:05:02,802 DEBUG: Converter:_bind:input
+2026-07-27 18:05:02,803 DEBUG: Converter:_bind:scale
+2026-07-27 18:05:02,803 DEBUG: Converter:_bind:zero_point
+2026-07-27 18:05:02,803 DEBUG: Converter:_bind:quant_min
+2026-07-27 18:05:02,804 DEBUG: Converter:_bind:quant_max
+2026-07-27 18:05:02,804 DEBUG: Converter:_bind:dtype
+2026-07-27 18:05:02,805 DEBUG: Converter:_bind:input
+2026-07-27 18:05:02,805 DEBUG: Converter:_bind:scale
+2026-07-27 18:05:02,805 DEBUG: Converter:_bind:zero_point
+2026-07-27 18:05:02,806 DEBUG: Converter:_bind:quant_min
+2026-07-27 18:05:02,806 DEBUG: Converter:_bind:quant_max
+2026-07-27 18:05:02,806 DEBUG: Converter:_bind:dtype
+2026-07-27 18:05:02,806 DEBUG: Converter:_bind:out_dtype
+2026-07-27 18:05:02,810 DEBUG: Converter:_bind:input
+2026-07-27 18:05:02,811 DEBUG: Converter:_bind:scale
+2026-07-27 18:05:02,811 DEBUG: Converter:_bind:zero_point
+2026-07-27 18:05:02,812 DEBUG: Converter:_bind:quant_min
+2026-07-27 18:05:02,812 DEBUG: Converter:_bind:quant_max
+2026-07-27 18:05:02,812 DEBUG: Converter:_bind:dtype
+2026-07-27 18:05:02,813 DEBUG: Converter:_bind:out_dtype
+2026-07-27 18:05:02,814 DEBUG: Converter:_bind:input
+2026-07-27 18:05:02,814 DEBUG: Converter:_bind:scale
+2026-07-27 18:05:02,814 DEBUG: Converter:_bind:zero_point
+2026-07-27 18:05:02,815 DEBUG: Converter:_bind:quant_min
+2026-07-27 18:05:02,815 DEBUG: Converter:_bind:quant_max
+2026-07-27 18:05:02,815 DEBUG: Converter:_bind:dtype
+2026-07-27 18:05:02,815 DEBUG: Converter:_bind:out_dtype
+2026-07-27 18:05:02,816 DEBUG: Converter:_bind:input
+2026-07-27 18:05:02,817 DEBUG: Converter:_bind:scales
+2026-07-27 18:05:02,817 DEBUG: Converter:_bind:zero_points
+2026-07-27 18:05:02,817 DEBUG: Converter:_bind:axis
+2026-07-27 18:05:02,818 DEBUG: Converter:_bind:quant_min
+2026-07-27 18:05:02,818 DEBUG: Converter:_bind:quant_max
+2026-07-27 18:05:02,818 DEBUG: Converter:_bind:dtype
+2026-07-27 18:05:02,820 DEBUG: Converter:_bind:input
+2026-07-27 18:05:02,821 DEBUG: Converter:_bind:scales
+2026-07-27 18:05:02,821 DEBUG: Converter:_bind:zero_points
+2026-07-27 18:05:02,821 DEBUG: Converter:_bind:axis
+2026-07-27 18:05:02,821 DEBUG: Converter:_bind:quant_min
+2026-07-27 18:05:02,821 DEBUG: Converter:_bind:quant_max
+2026-07-27 18:05:02,821 DEBUG: Converter:_bind:dtype
+2026-07-27 18:05:02,822 DEBUG: Converter:_bind:input
+2026-07-27 18:05:02,823 DEBUG: Converter:_bind:scales
+2026-07-27 18:05:02,823 DEBUG: Converter:_bind:zero_points
+2026-07-27 18:05:02,824 DEBUG: Converter:_bind:axis
+2026-07-27 18:05:02,824 DEBUG: Converter:_bind:quant_min
+2026-07-27 18:05:02,824 DEBUG: Converter:_bind:quant_max
+2026-07-27 18:05:02,825 DEBUG: Converter:_bind:dtype
+2026-07-27 18:05:02,827 DEBUG: Converter:_bind:input
+2026-07-27 18:05:02,828 DEBUG: Converter:_bind:scales
+2026-07-27 18:05:02,828 DEBUG: Converter:_bind:zero_points
+2026-07-27 18:05:02,828 DEBUG: Converter:_bind:axis
+2026-07-27 18:05:02,829 DEBUG: Converter:_bind:quant_min
+2026-07-27 18:05:02,829 DEBUG: Converter:_bind:quant_max
+2026-07-27 18:05:02,829 DEBUG: Converter:_bind:dtype
+2026-07-27 18:05:02,829 DEBUG: Converter:_bind:out_dtype
+2026-07-27 18:05:02,831 DEBUG: Converter:_bind:input
+2026-07-27 18:05:02,831 DEBUG: Converter:_bind:scales
+2026-07-27 18:05:02,832 DEBUG: Converter:_bind:zero_points
+2026-07-27 18:05:02,832 DEBUG: Converter:_bind:axis
+2026-07-27 18:05:02,833 DEBUG: Converter:_bind:quant_min
+2026-07-27 18:05:02,833 DEBUG: Converter:_bind:quant_max
+2026-07-27 18:05:02,834 DEBUG: Converter:_bind:dtype
+2026-07-27 18:05:02,835 DEBUG: Converter:_bind:out_dtype
+2026-07-27 18:05:02,837 DEBUG: Converter:_bind:input
+2026-07-27 18:05:02,838 DEBUG: Converter:_bind:scales
+2026-07-27 18:05:02,838 DEBUG: Converter:_bind:zero_points
+2026-07-27 18:05:02,838 DEBUG: Converter:_bind:axis
+2026-07-27 18:05:02,839 DEBUG: Converter:_bind:quant_min
+2026-07-27 18:05:02,839 DEBUG: Converter:_bind:quant_max
+2026-07-27 18:05:02,839 DEBUG: Converter:_bind:dtype
+2026-07-27 18:05:02,839 DEBUG: Converter:_bind:out_dtype
+2026-07-27 18:05:02,841 DEBUG: Converter:_bind:self
+2026-07-27 18:05:02,842 DEBUG: Converter:_bind:dim
+2026-07-27 18:05:02,842 DEBUG: Converter:_bind:dtype
+2026-07-27 18:05:02,845 DEBUG: Converter:_bind:self
+2026-07-27 18:05:02,845 DEBUG: Converter:_bind:dim
+2026-07-27 18:05:02,846 DEBUG: Converter:_bind:dtype
+2026-07-27 18:05:02,849 DEBUG: Converter:_bind:boxes
+2026-07-27 18:05:02,849 DEBUG: Converter:_bind:scores
+2026-07-27 18:05:02,849 DEBUG: Converter:_bind:iou_threshold
+2026-07-27 18:05:02,851 DEBUG: Converter:_bind:input
+2026-07-27 18:05:02,851 DEBUG: Converter:_bind:rois
+2026-07-27 18:05:02,851 DEBUG: Converter:_bind:spatial_scale
+2026-07-27 18:05:02,852 DEBUG: Converter:_bind:pooled_height
+2026-07-27 18:05:02,852 DEBUG: Converter:_bind:pooled_width
+2026-07-27 18:05:02,852 DEBUG: Converter:_bind:sampling_ratio
+2026-07-27 18:05:02,852 DEBUG: Converter:_bind:aligned
+2026-07-27 18:05:02,853 DEBUG: Converter:_bind:input
+2026-07-27 18:05:02,853 DEBUG: Converter:_bind:boxes
+2026-07-27 18:05:02,854 DEBUG: Converter:_bind:output_size
+2026-07-27 18:05:02,854 DEBUG: Converter:_bind:spatial_scale
+2026-07-27 18:05:02,855 DEBUG: Converter:_bind:input
+2026-07-27 18:05:02,856 DEBUG: Converter:_bind:weight
+2026-07-27 18:05:02,856 DEBUG: Converter:_bind:offset
+2026-07-27 18:05:02,856 DEBUG: Converter:_bind:mask
+2026-07-27 18:05:02,857 DEBUG: Converter:_bind:bias
+2026-07-27 18:05:02,857 DEBUG: Converter:_bind:stride_h
+2026-07-27 18:05:02,858 DEBUG: Converter:_bind:stride_w
+2026-07-27 18:05:02,859 DEBUG: Converter:_bind:pad_h
+2026-07-27 18:05:02,859 DEBUG: Converter:_bind:pad_w
+2026-07-27 18:05:02,860 DEBUG: Converter:_bind:dilation_h
+2026-07-27 18:05:02,861 DEBUG: Converter:_bind:dilation_w
+2026-07-27 18:05:02,861 DEBUG: Converter:_bind:groups
+2026-07-27 18:05:02,862 DEBUG: Converter:_bind:offset_groups
+2026-07-27 18:05:02,862 DEBUG: Converter:_bind:use_mask
+2026-07-27 18:05:06,267 DEBUG: Running the 0-th pass '<onnx_ir.passes.common.inliner.InlinePass object at 0x00000221E366F6D0>'
+2026-07-27 18:05:06,268 DEBUG: Running the 1-th pass '<onnx_ir.passes.common.unused_removal.RemoveUnusedFunctionsPass object at 0x00000221E34C7510>'
+2026-07-27 18:05:06,268 INFO: No unused functions to remove
+2026-07-27 18:05:06,268 DEBUG: Running the 2-th pass '<onnx_ir.passes.common.unused_removal.RemoveUnusedOpsetsPass object at 0x00000221E3767150>'
+2026-07-27 18:05:06,269 WARNING: The model version conversion is not supported by the onnxscript version converter and fallback is enabled. The model will be converted using the onnx C API (target version: 13).
+2026-07-27 18:05:06,303 WARNING: Failed to convert the model to the target version 13 using the ONNX C API. The model was not modified
+Traceback (most recent call last):
+  File "D:\embedUR - Training\embedUR - assignments\ai_ml-assessment\onboarding-Quantization\Sudar-Quantization\.venv\Lib\site-packages\onnxscript\version_converter\__init__.py", line 137, in call
+    converted_proto = _c_api_utils.call_onnx_api(
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\embedUR - Training\embedUR - assignments\ai_ml-assessment\onboarding-Quantization\Sudar-Quantization\.venv\Lib\site-packages\onnxscript\version_converter\_c_api_utils.py", line 65, in call_onnx_api
+    result = func(proto)
+             ^^^^^^^^^^^
+  File "D:\embedUR - Training\embedUR - assignments\ai_ml-assessment\onboarding-Quantization\Sudar-Quantization\.venv\Lib\site-packages\onnxscript\version_converter\__init__.py", line 132, in _partial_convert_version
+    return onnx.version_converter.convert_version(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\embedUR - Training\embedUR - assignments\ai_ml-assessment\onboarding-Quantization\Sudar-Quantization\.venv\Lib\site-packages\onnx\version_converter.py", line 39, in convert_version
+    converted_model_str = C.convert_version(model_str, target_version)
+                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+RuntimeError: D:\a\onnx\onnx\onnx/version_converter/BaseConverter.h:67: adapter_lookup: Assertion `false` failed: No Adapter From Version $14 for Relu
+2026-07-27 18:05:06,306 DEBUG: Running the 0-th pass '<onnx_ir.passes.common.unused_removal.RemoveUnusedNodesPass object at 0x00000221E35F12D0>'
+2026-07-27 18:05:06,308 INFO: Removed 1 unused nodes
+2026-07-27 18:05:06,308 DEBUG: Running the 1-th pass '<onnx_ir.passes.common.unused_removal.RemoveUnusedFunctionsPass object at 0x00000221E3696210>'
+2026-07-27 18:05:06,309 INFO: No unused functions to remove
+2026-07-27 18:05:06,309 DEBUG: Running the 2-th pass '<onnx_ir.passes.common.unused_removal.RemoveUnusedOpsetsPass object at 0x00000221E36940D0>'
+2026-07-27 18:05:06,310 DEBUG: Running the 0-th pass '<onnx_ir.passes.common.inliner.InlinePass object at 0x00000221E3767450>'
+2026-07-27 18:05:06,311 DEBUG: Running the 1-th pass '<onnx_ir.passes.PassManager object at 0x00000221E373C750>'
+2026-07-27 18:05:06,311 DEBUG: Running the 0-th pass '<onnxscript.optimizer._constant_folding.FoldConstantsPass object at 0x00000221E372F490>'
+2026-07-27 18:05:06,312 INFO: Skipping constant folding for node 'node_conv2d' because it is graph input to preserve graph signature
+2026-07-27 18:05:06,314 DEBUG: Skipping constant folding for Constant node 'node_Constant_1'
+2026-07-27 18:05:06,314 DEBUG: Skipping constant folding for Constant node 'node_Constant_2'
+2026-07-27 18:05:06,315 DEBUG: Evaluating ::Concat
+2026-07-27 18:05:06,318 DEBUG: New Initializer for value val_5 dtype: int64 shape: (2,)
+2026-07-27 18:05:06,318 DEBUG: Replacing node: ::Concat node_Concat_3
+2026-07-27 18:05:06,320 DEBUG: Running the 1-th pass '<onnxscript.rewriter.RewritePass object at 0x00000221E363DC10>'
+2026-07-27 18:05:06,327 INFO: Removed 2 unused nodes
+2026-07-27 18:05:06,327 DEBUG: Running the 2-th pass '<onnx_ir.passes.common.unused_removal.RemoveUnusedNodesPass object at 0x00000221E372DA50>'
+2026-07-27 18:05:06,328 DEBUG: Running the 3-th pass '<onnx_ir.passes.common.unused_removal.RemoveUnusedFunctionsPass object at 0x00000221E35F12D0>'
+2026-07-27 18:05:06,329 INFO: No unused functions to remove
+2026-07-27 18:05:06,329 DEBUG: Running the 4-th pass '<onnx_ir.passes.common.unused_removal.RemoveUnusedOpsetsPass object at 0x00000221E366F6D0>'
+2026-07-27 18:05:06,329 DEBUG: Running the 0-th pass '<onnxscript.optimizer._constant_folding.FoldConstantsPass object at 0x00000221E372F490>'
+2026-07-27 18:05:06,330 INFO: Skipping constant folding for node 'node_conv2d' because it is graph input to preserve graph signature
+2026-07-27 18:05:06,332 DEBUG: Running the 1-th pass '<onnxscript.rewriter.RewritePass object at 0x00000221E363DC10>'
+2026-07-27 18:05:06,336 DEBUG: Running the 2-th pass '<onnx_ir.passes.common.unused_removal.RemoveUnusedNodesPass object at 0x00000221E372DA50>'
+2026-07-27 18:05:06,336 DEBUG: Running the 3-th pass '<onnx_ir.passes.common.unused_removal.RemoveUnusedFunctionsPass object at 0x00000221E35F12D0>'
+2026-07-27 18:05:06,337 INFO: No unused functions to remove
+2026-07-27 18:05:06,337 DEBUG: Running the 4-th pass '<onnx_ir.passes.common.unused_removal.RemoveUnusedOpsetsPass object at 0x00000221E366F6D0>'
+2026-07-27 18:05:06,337 INFO: PassManager: No more graph changes detected after step 1
+2026-07-27 18:05:06,337 DEBUG: Running the 2-th pass '<onnx_ir.passes.common.unused_removal.RemoveUnusedNodesPass object at 0x00000221E367CDD0>'
+2026-07-27 18:05:06,337 DEBUG: Running the 3-th pass '<onnx_ir.passes.common.constant_manipulation.LiftConstantsToInitializersPass object at 0x00000221E38ADBD0>'
+2026-07-27 18:05:06,338 DEBUG: Running the 4-th pass '<onnx_ir.passes.common.constant_manipulation.LiftSubgraphInitializersToMainGraphPass object at 0x00000221E373FE50>'
+2026-07-27 18:05:06,338 DEBUG: Running the 5-th pass '<onnx_ir.passes.common.initializer_deduplication.DeduplicateInitializersPass object at 0x00000221E38ADA90>'
+2026-07-27 18:05:06,338 DEBUG: Skipped initializer 'features.3.weight' as it exceeds the size limit of 1024 elements
+2026-07-27 18:05:06,339 DEBUG: Skipped initializer 'classifier.1.weight' as it exceeds the size limit of 1024 elements
+2026-07-27 18:05:06,339 DEBUG: Running the 6-th pass '<onnx_ir.passes.common.common_subexpression_elimination.CommonSubexpressionEliminationPass object at 0x00000221E38AEC10>'
+2026-07-27 18:05:06,339 DEBUG: Running the 7-th pass '<onnx_ir.passes.common.output_fix.OutputFixPass object at 0x00000221E3765850>'
+2026-07-27 18:05:06,339 DEBUG: Running the 8-th pass '<onnx_ir.passes.common.naming.NameFixPass object at 0x00000221E3766750>'
+2026-07-27 18:05:06,476 INFO: Step 3 complete: exported and validated './model.onnx'.
+2026-07-27 18:05:09,635 DEBUG: matplotlib data path: D:\embedUR - Training\embedUR - assignments\ai_ml-assessment\onboarding-Quantization\Sudar-Quantization\.venv\Lib\site-packages\matplotlib\mpl-data
+2026-07-27 18:05:09,647 DEBUG: CONFIGDIR=C:\Users\Mystery Chap\.matplotlib
+2026-07-27 18:05:09,651 DEBUG: interactive is False
+2026-07-27 18:05:09,651 DEBUG: platform is win32
+2026-07-27 18:05:09,739 DEBUG: CACHEDIR=C:\Users\Mystery Chap\.matplotlib
+2026-07-27 18:05:09,747 DEBUG: Using fontManager instance from C:\Users\Mystery Chap\.matplotlib\fontlist-v3.11.0.json
+2026-07-27 18:05:14,501 INFO: Step 4 complete: SavedModel written to 'saved_model/'.
+2026-07-27 18:05:15,245 INFO: Step 5 complete: INT8 TFLite model saved to 'model_int8.tflite'.
+2026-07-27 18:05:15,323 INFO: Input dtype: <class 'numpy.int8'>
+2026-07-27 18:05:15,323 INFO: Output dtype: <class 'numpy.int8'>
+2026-07-27 18:05:15,324 INFO: Input scale/zero_point: 0.012728233821690083 / -95
+2026-07-27 18:05:15,324 INFO: Output scale/zero_point: 0.19181209802627563 / 13
+2026-07-27 18:05:15,325 INFO: Confirmed: model is fully INT8 (input and output).
+2026-07-27 18:05:15,325 INFO: Model file size: 110.49 KiB
+2026-07-27 18:05:15,328 INFO: Test inference raw INT8 output: [[-78   4 -45  -1 -29 -51 -62  76 -14  -6]]
+2026-07-27 18:05:15,331 INFO: Test inference dequantized output: [[-17.4549     -1.7263088 -11.125102   -2.6853695  -8.056108  -12.275974
+  -14.385907   12.084162   -5.1789265  -3.64443  ]]
+2026-07-27 18:05:15,331 INFO: Predicted class: 7
+2026-07-27 18:05:15,333 INFO: Step 6 complete: verification finished.
+2026-07-27 18:05:15,334 INFO: Excecution Completed
