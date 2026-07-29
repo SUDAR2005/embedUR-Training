@@ -71,6 +71,7 @@ The project consist of various folder containing scripts related to various AI r
     - Dataset used: [ai4privacy/pii-masking-200k](https://huggingface.co/datasets/ai4privacy/pii-masking-200k/blob/main/english_pii_43k.jsonl)
 
 11) onboarding-OpenCV - Contains scripts related to the week 2 OpenCV assessment.
+12) onboarding-Quantization - Contains scripts related to the week 3 Model Quntization assessment.
 
 ## Repository Structure
 
