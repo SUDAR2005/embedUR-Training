@@ -1,0 +1,14 @@
+[project]
+name = "onboarding-audio-processing"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "ipywidgets>=8.1.8",
+    "librosa>=0.11.0",
+    "matplotlib>=3.11.1",
+    "noisereduce>=3.0.3",
+    "numpy>=2.4.6",
+    "soundfile>=0.14.0",
+]
